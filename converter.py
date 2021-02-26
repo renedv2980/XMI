@@ -2832,9 +2832,9 @@ def converttoxmiSDBOMSeparateFile():
 
 
 
-def main():
+def main(arg):
     print('Converting Excel to CSV...')
-    getExcel()
+    getExcel(arg)
     print('Completed')
     time.sleep(0.5)
     print('Converting BIAN BOM CSV to XMI...')
