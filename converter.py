@@ -14,12 +14,13 @@ from xlrd import open_workbook
 
 def getExcel():
     global read_file
-    try:
-        path = glob(os.path.join(os.getcwd(), "*.xlsx"))[0]
-    except IndexError:
-        raise IOError("No .xlsx files found in %r" % os.getcwd())
-        return
-    excel_file = path
+#        path = glob(os.path.join(os.getcwd(), "*.xlsx"))[0]
+#   except IndexError:
+#        raise IOError("No .xlsx files found in %r" % os.getcwd())
+#        return
+#   excel_file = path
+    excel_file = arg
+
     read_file = pd.read_excel(excel_file, sheet_name=None)
     if not os.path.exists("All CSV Files"):
         folder = os.path.join(os.getcwd(), 'All CSV Files')
