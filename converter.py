@@ -12,7 +12,8 @@ from xlrd import open_workbook
 
 
 
-def getExcel():
+#def getExcel():
+def getExcel(arg):
     global read_file
 #        path = glob(os.path.join(os.getcwd(), "*.xlsx"))[0]
 #   except IndexError:
