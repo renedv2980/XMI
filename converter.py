@@ -2861,6 +2861,6 @@ def main():
 
 if __name__ == "__main__":
 
-   myarg1= sys.argv[1]
+    myarg1= sys.argv[1]
 
     main(myarg1)
