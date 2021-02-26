@@ -502,7 +502,7 @@ def converttoxmiBIANBOMSubSuperTypeRelations():
     uml.set('xmlns:uml','http://www.eclipse.org/uml2/3.0.0/UML')
     uml.set('xmi:id','BianID')
     uml.set('name','Bian')
-    
+
     eAnnotations = ET.SubElement(uml, 'eAnnotations')
     eAnnotations.set('xmi:id','AnnotationID')
     eAnnotations.set('source','Objing')
@@ -2859,9 +2859,8 @@ def main():
    
 
 
+if __name__ == "__main__":
 
-#if __name__ == "__main__":
+   myarg1= sys.argv[1]
 
-    #myarg1= sys.argv[1]
-
-main()
+    main(myarg1)
