@@ -175,7 +175,7 @@ def converttoxmiBIANBOM():
                     body.text=row[5]
             elif row[0]=='Enumeration literal':
                 ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
-                ownedAttribute.set('xmi:id',row[1])
+                ownedAttribute.set('xmi:id',row[3])
                 ownedAttribute.set('name',row[4])
                 ownedcomment=ET.SubElement(ownedAttribute,'ownedComment')
                 ownedcomment.set('xmi:id','commentid')
