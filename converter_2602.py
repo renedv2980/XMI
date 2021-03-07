@@ -73,29 +73,29 @@ def converttoxmiBIANBOM():
                 packageElement.set('xmi:type','uml:Class')
                 packageElement.set('xmi:id',row[1])
                 packageElement.set('name',row[2])
-                if row[10]== 'Visibility=public':
+                if row[6]== 'Visibility=public':
                     packageElement.set('visibility','public')
-                elif row[10]== 'Visibility=private':
+                elif row[6]== 'Visibility=private':
                     packageElement.set('visibility','private')
-                if row[11]== 'isSpecification=false':
+                if row[7]== 'isSpecification=false':
                     packageElement.set('isSpecification','false')
-                elif row[11]== 'isSpecification=true':
+                elif row[7]== 'isSpecification=true':
                     packageElement.set('isSpecification','true')
-                if row[12]== 'isRoot=false':
+                if row[8]== 'isRoot=false':
                     packageElement.set('isRoot','false')
-                elif row[12]== 'isRoot=true':
+                elif row[8]== 'isRoot=true':
                     packageElement.set('isRoot','true')
-                if row[13]== 'isLeaf=false':
+                if row[9]== 'isLeaf=false':
                     packageElement.set('isLeaf','false')
-                elif row[13]== 'isLeaf=true':
+                elif row[9]== 'isLeaf=true':
                     packageElement.set('isLeaf','true')
-                if row[14]== 'isActive=false':
+                if row[11]== 'isActive=false':
                     packageElement.set('isActive','false')
-                elif row[14]== 'isActive=true':
+                elif row[11]== 'isActive=true':
                     packageElement.set('isActive','true')
-                if row[15]== 'isAbstract=false':
+                if row[12]== 'isAbstract=false':
                     packageElement.set('isAbstract','false')
-                elif row[15]== 'isAbstract=true':
+                elif row[12]== 'isAbstract=true':
                     packageElement.set('isAbstract','true')
                 ownedcomment=ET.SubElement(packageElement,'ownedComment')
                 ownedcomment.set('xmi:id','commentid')
@@ -103,48 +103,48 @@ def converttoxmiBIANBOM():
                 body.text=row[5]
             elif row[0]=='Attribute':
                 ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
-                ownedAttribute.set('xmi:id',row[3])
+                ownedAttribute.set('xmi:id',row[1])
                 ownedAttribute.set('name',row[4])
-                if row[10]== 'Visibility=public':
+                if row[6]== 'Visibility=public':
                         ownedAttribute.set('visibility','public')
-                elif row[10]== 'Visibility=private':
+                elif row[6]== 'Visibility=private':
                         ownedAttribute.set('visibility','private')
-                if row[11]== 'Multivalued=true':
+                if row[7]== 'Multivalued=true':
                         ownedAttribute.set('Multivalued','true')
-                elif row[11]== 'Multivalued=false':
+                elif row[7]== 'Multivalued=false':
                         ownedAttribute.set('Multivalued','false')
-                if row[12]== 'Mandatory=true':
+                if row[8]== 'Mandatory=true':
                         ownedAttribute.set('Mandatory','true')
-                elif row[12]== 'Mandatory=false':
+                elif row[8]== 'Mandatory=false':
                         ownedAttribute.set('Mandatory','false')
-                if row[14]== 'isDerived=true':
+                if row[10]== 'isDerived=true':
                         ownedAttribute.set('isDerived','true')
-                elif row[14]== 'isDerived=false':
+                elif row[10]== 'isDerived=false':
                         ownedAttribute.set('isDerived','false')
-                if row[15]== 'isReadOnly=true':
+                if row[11]== 'isReadOnly=true':
                         ownedAttribute.set('isReadOnly','true')
-                elif row[15]== 'isReadOnly=false':
+                elif row[11]== 'isReadOnly=false':
                         ownedAttribute.set('isReadOnly','false')
-                if row[16]== 'MultiplicityElement.isOrdered=true':
+                if row[14]== 'MultiplicityElement.isOrdered=true':
                         ownedAttribute.set('isOrdered','true')
-                elif row[16]== 'MultiplicityElement.isOrdered=false':
+                elif row[14]== 'MultiplicityElement.isOrdered=false':
                         ownedAttribute.set('isOrdered','false')
-                if row[17]== 'MultiplicityElement.isUnique=true':
+                if row[15]== 'MultiplicityElement.isUnique=true':
                         ownedAttribute.set('isUnique','true')
-                elif row[17]== 'MultiplicityElement.isUnique=false':
+                elif row[15]== 'MultiplicityElement.isUnique=false':
                         ownedAttribute.set('isUnique','false')
                 ownedcomment=ET.SubElement(ownedAttribute,'ownedComment')
                 ownedcomment.set('xmi:id','commentid')
                 body=ET.SubElement(ownedcomment,'body')
                 body.text=row[5]
-                if not row[6]:
+                if not row[13]:
                     types=ET.SubElement(ownedAttribute,'type')
                     types.set('xmi:type','uml:PrimitiveType')
                     types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
                 else:
-                    #my_string = row[13]
-                    #my_list = my_string.split("=")[1]
-                    ownedAttribute.set('type',row[6])
+                    my_string = row[13]
+                    my_list = my_string.split("=")[1]
+                    ownedAttribute.set('type',my_list)
 
             elif row[0]=='Enumeration':
                 if not row[1] in EnumDuplicateCheck:
@@ -153,33 +153,29 @@ def converttoxmiBIANBOM():
                     packageElement.set('xmi:type','uml:Enumeration')
                     packageElement.set('xmi:id',row[1])
                     packageElement.set('name',row[2])
-                    if row[10]== 'Visibility=public':
+                    if row[6]== 'Visibility=public':
                         packageElement.set('visibility','public')
-                    elif row[10]== 'Visibility=private':
+                    elif row[6]== 'Visibility=private':
                         packageElement.set('visibility','private')
-                    if row[14]== 'isAbstract=false':
+                    if row[7]== 'isAbstract=false':
                         packageElement.set('isAbstract','false')
-                    elif row[14]== 'isAbstract=true':
+                    elif row[7]== 'isAbstract=true':
                         packageElement.set('isAbstract','true')
-                    if row[12]== 'isRoot=false':
+                    if row[8]== 'isRoot=false':
                         packageElement.set('isRoot','false')
-                    elif row[12]== 'isRoot=true':
+                    elif row[8]== 'isRoot=true':
                         packageElement.set('isRoot','true')
-                    if row[13]== 'isLeaf=false':
+                    if row[9]== 'isLeaf=false':
                         packageElement.set('isLeaf','false')
-                    elif row[13]== 'isLeaf=true':
+                    elif row[9]== 'isLeaf=true':
                         packageElement.set('isLeaf','true')
-                    if row[11]== 'isSpecification=false':
-                        packageElement.set('isSpecification','false')
-                    elif row[11]== 'isSpecification=true':
-                        packageElement.set('isSpecification','true')
                     ownedcomment=ET.SubElement(packageElement,'ownedComment')
                     ownedcomment.set('xmi:id','commentid')
                     body=ET.SubElement(ownedcomment,'body')
                     body.text=row[5]
             elif row[0]=='Enumeration literal':
                 ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
-                ownedAttribute.set('xmi:id',row[3])
+                ownedAttribute.set('xmi:id',row[1])
                 ownedAttribute.set('name',row[4])
                 ownedcomment=ET.SubElement(ownedAttribute,'ownedComment')
                 ownedcomment.set('xmi:id','commentid')
@@ -193,26 +189,22 @@ def converttoxmiBIANBOM():
                 packageElement.set('xmi:type','uml:PrimitiveType')
                 packageElement.set('xmi:id',row[1])
                 packageElement.set('name',row[2])
-                if row[10]== 'Visibility=public':
+                if row[6]== 'Visibility=public':
                         packageElement.set('visibility','public')
-                elif row[10]== 'Visibility=private':
+                elif row[6]== 'Visibility=private':
                     packageElement.set('visibility','private')
-                if row[14]== 'isAbstract=false':
+                if row[7]== 'isAbstract=false':
                     packageElement.set('isAbstract','false')
-                elif row[14]== 'isAbstract=true':
+                elif row[7]== 'isAbstract=true':
                     packageElement.set('isAbstract','true')
-                if row[12]== 'isRoot=false':
+                if row[8]== 'isRoot=false':
                     packageElement.set('isRoot','false')
-                elif row[12]== 'isRoot=true':
+                elif row[8]== 'isRoot=true':
                     packageElement.set('isRoot','true')
-                if row[13]== 'isLeaf=false':
+                if row[9]== 'isLeaf=false':
                     packageElement.set('isLeaf','false')
-                elif row[13]== 'isLeaf=true':
+                elif row[9]== 'isLeaf=true':
                     packageElement.set('isLeaf','true')
-                if row[11]== 'isSpecification=false':
-                    packageElement.set('isSpecification','false')
-                elif row[11]== 'isSpecification=true':
-                    packageElement.set('isSpecification','true')
                 ownedcomment=ET.SubElement(packageElement,'ownedComment')
                 ownedcomment.set('xmi:id','commentid')
                 body=ET.SubElement(ownedcomment,'body')
@@ -222,41 +214,37 @@ def converttoxmiBIANBOM():
                 packageElement.set('xmi:type','uml:PrimitiveType')
                 packageElement.set('xmi:id',row[1])
                 packageElement.set('name',row[2])
-                if row[10]== 'Visibility=public':
+                if row[6]== 'Visibility=public':
                     packageElement.set('visibility','public')
-                elif row[10]== 'Visibility=private':
+                elif row[6]== 'Visibility=private':
                     packageElement.set('visibility','private')
-                if row[14]== 'isAbstract=false':
+                if row[7]== 'isAbstract=false':
                     packageElement.set('isAbstract','false')
-                elif row[14]== 'isAbstract=true':
+                elif row[7]== 'isAbstract=true':
                     packageElement.set('isAbstract','true')
-                if row[12]== 'isRoot=false':
+                if row[8]== 'isRoot=false':
                     packageElement.set('isRoot','false')
-                elif row[12]== 'isRoot=true':
+                elif row[8]== 'isRoot=true':
                     packageElement.set('isRoot','true')
-                if row[13]== 'isLeaf=false':
+                if row[9]== 'isLeaf=false':
                     packageElement.set('isLeaf','false')
-                elif row[13]== 'isLeaf=true':
+                elif row[9]== 'isLeaf=true':
                     packageElement.set('isLeaf','true')
-                if row[11]== 'isSpecification=false':
-                    packageElement.set('isSpecification','false')
-                elif row[11]== 'isSpecification=true':
-                    packageElement.set('isSpecification','true')
                 ownedcomment=ET.SubElement(packageElement,'ownedComment')
                 ownedcomment.set('xmi:id','commentid')
                 body=ET.SubElement(ownedcomment,'body')
                 body.text=row[5]
-                #with open('All CSV Files\BIAN UML Elements.csv', 'r',encoding="utf-8") as read_obj:
-                #    # pass the file object to reader() to get the reader object
-                #    csv_reader2 = csv.reader(read_obj)
-                #    for row2 in csv_reader2:
-                #        if row[1]== row2[3]:
-                #            ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
-                #            ownedAttribute.set('xmi:id',row2[0])
-                #            ownedAttribute.set('name',row2[2])
-                #            types=ET.SubElement(ownedAttribute,'type')
-                #            types.set('xmi:type','uml:PrimitiveType')
-                #            types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
+                with open('All CSV Files\BIAN UML Elements.csv', 'r',encoding="utf-8") as read_obj:
+                    # pass the file object to reader() to get the reader object
+                    csv_reader2 = csv.reader(read_obj)
+                    for row2 in csv_reader2:
+                        if row[1]== row2[3]:
+                            ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
+                            ownedAttribute.set('xmi:id',row2[0])
+                            ownedAttribute.set('name',row2[2])
+                            types=ET.SubElement(ownedAttribute,'type')
+                            types.set('xmi:type','uml:PrimitiveType')
+                            types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
     # create a new XML file with the results
     mydata = ET.tostring(uml)
     x = mydata
@@ -311,29 +299,29 @@ def converttoxmiBIANBOMSubSuperType():
                 packageElement.set('xmi:type','uml:Class')
                 packageElement.set('xmi:id',row[1])
                 packageElement.set('name',row[2])
-                if row[10]== 'Visibility=public':
+                if row[6]== 'Visibility=public':
                     packageElement.set('visibility','public')
-                elif row[10]== 'Visibility=private':
+                elif row[6]== 'Visibility=private':
                     packageElement.set('visibility','private')
-                if row[11]== 'isSpecification=false':
+                if row[7]== 'isSpecification=false':
                     packageElement.set('isSpecification','false')
-                elif row[11]== 'isSpecification=true':
+                elif row[7]== 'isSpecification=true':
                     packageElement.set('isSpecification','true')
-                if row[12]== 'isRoot=false':
+                if row[8]== 'isRoot=false':
                     packageElement.set('isRoot','false')
-                elif row[12]== 'isRoot=true':
+                elif row[8]== 'isRoot=true':
                     packageElement.set('isRoot','true')
-                if row[13]== 'isLeaf=false':
+                if row[9]== 'isLeaf=false':
                     packageElement.set('isLeaf','false')
-                elif row[13]== 'isLeaf=true':
+                elif row[9]== 'isLeaf=true':
                     packageElement.set('isLeaf','true')
-                if row[14]== 'isActive=false':
+                if row[11]== 'isActive=false':
                     packageElement.set('isActive','false')
-                elif row[14]== 'isActive=true':
+                elif row[11]== 'isActive=true':
                     packageElement.set('isActive','true')
-                if row[15]== 'isAbstract=false':
+                if row[12]== 'isAbstract=false':
                     packageElement.set('isAbstract','false')
-                elif row[15]== 'isAbstract=true':
+                elif row[12]== 'isAbstract=true':
                     packageElement.set('isAbstract','true')
                 for y in range(2,len(SpecializationClasses)):
                         if row[1] == SpecializationClasses[y]:
@@ -349,46 +337,46 @@ def converttoxmiBIANBOMSubSuperType():
                 ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
                 ownedAttribute.set('xmi:id',row[3])
                 ownedAttribute.set('name',row[4])
-                if row[10]== 'Visibility=public':
+                if row[6]== 'Visibility=public':
                         ownedAttribute.set('visibility','public')
-                elif row[10]== 'Visibility=private':
+                elif row[6]== 'Visibility=private':
                         ownedAttribute.set('visibility','private')
-                if row[11]== 'Multivalued=true':
+                if row[7]== 'Multivalued=true':
                         ownedAttribute.set('Multivalued','true')
-                elif row[11]== 'Multivalued=false':
+                elif row[7]== 'Multivalued=false':
                         ownedAttribute.set('Multivalued','false')
-                if row[12]== 'Mandatory=true':
+                if row[8]== 'Mandatory=true':
                         ownedAttribute.set('Mandatory','true')
-                elif row[12]== 'Mandatory=false':
+                elif row[8]== 'Mandatory=false':
                         ownedAttribute.set('Mandatory','false')
-                if row[14]== 'isDerived=true':
+                if row[10]== 'isDerived=true':
                         ownedAttribute.set('isDerived','true')
-                elif row[14]== 'isDerived=false':
+                elif row[10]== 'isDerived=false':
                         ownedAttribute.set('isDerived','false')
-                if row[15]== 'isReadOnly=true':
+                if row[11]== 'isReadOnly=true':
                         ownedAttribute.set('isReadOnly','true')
-                elif row[15]== 'isReadOnly=false':
+                elif row[11]== 'isReadOnly=false':
                         ownedAttribute.set('isReadOnly','false')
-                if row[16]== 'MultiplicityElement.isOrdered=true':
+                if row[14]== 'MultiplicityElement.isOrdered=true':
                         ownedAttribute.set('isOrdered','true')
-                elif row[16]== 'MultiplicityElement.isOrdered=false':
+                elif row[14]== 'MultiplicityElement.isOrdered=false':
                         ownedAttribute.set('isOrdered','false')
-                if row[17]== 'MultiplicityElement.isUnique=true':
+                if row[15]== 'MultiplicityElement.isUnique=true':
                         ownedAttribute.set('isUnique','true')
-                elif row[17]== 'MultiplicityElement.isUnique=false':
+                elif row[15]== 'MultiplicityElement.isUnique=false':
                         ownedAttribute.set('isUnique','false')
                 ownedcomment=ET.SubElement(ownedAttribute,'ownedComment')
                 ownedcomment.set('xmi:id','commentid')
                 body=ET.SubElement(ownedcomment,'body')
                 body.text=row[5]
-                if not row[6]:
+                if not row[13]:
                     types=ET.SubElement(ownedAttribute,'type')
                     types.set('xmi:type','uml:PrimitiveType')
                     types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
                 else:
-                    #my_string = row[13]
-                    #my_list = my_string.split("=")[1]
-                    ownedAttribute.set('type',row[6])
+                    my_string = row[13]
+                    my_list = my_string.split("=")[1]
+                    ownedAttribute.set('type',my_list)
 
             elif row[0]=='Enumeration':
                 if not row[1] in EnumDuplicateCheck:
@@ -397,26 +385,22 @@ def converttoxmiBIANBOMSubSuperType():
                     packageElement.set('xmi:type','uml:Enumeration')
                     packageElement.set('xmi:id',row[1])
                     packageElement.set('name',row[2])
-                    if row[10]== 'Visibility=public':
+                    if row[6]== 'Visibility=public':
                         packageElement.set('visibility','public')
-                    elif row[10]== 'Visibility=private':
+                    elif row[6]== 'Visibility=private':
                         packageElement.set('visibility','private')
-                    if row[14]== 'isAbstract=false':
+                    if row[7]== 'isAbstract=false':
                         packageElement.set('isAbstract','false')
-                    elif row[14]== 'isAbstract=true':
+                    elif row[7]== 'isAbstract=true':
                         packageElement.set('isAbstract','true')
-                    if row[12]== 'isRoot=false':
+                    if row[8]== 'isRoot=false':
                         packageElement.set('isRoot','false')
-                    elif row[12]== 'isRoot=true':
+                    elif row[8]== 'isRoot=true':
                         packageElement.set('isRoot','true')
-                    if row[13]== 'isLeaf=false':
+                    if row[9]== 'isLeaf=false':
                         packageElement.set('isLeaf','false')
-                    elif row[13]== 'isLeaf=true':
+                    elif row[9]== 'isLeaf=true':
                         packageElement.set('isLeaf','true')
-                    if row[11]== 'isSpecification=false':
-                        packageElement.set('isSpecification','false')
-                    elif row[11]== 'isSpecification=true':
-                        packageElement.set('isSpecification','true')
                     ownedcomment=ET.SubElement(packageElement,'ownedComment')
                     ownedcomment.set('xmi:id','commentid')
                     body=ET.SubElement(ownedcomment,'body')
@@ -437,26 +421,22 @@ def converttoxmiBIANBOMSubSuperType():
                 packageElement.set('xmi:type','uml:PrimitiveType')
                 packageElement.set('xmi:id',row[1])
                 packageElement.set('name',row[2])
-                if row[10]== 'Visibility=public':
+                if row[6]== 'Visibility=public':
                         packageElement.set('visibility','public')
-                elif row[10]== 'Visibility=private':
+                elif row[6]== 'Visibility=private':
                     packageElement.set('visibility','private')
-                if row[14]== 'isAbstract=false':
+                if row[7]== 'isAbstract=false':
                     packageElement.set('isAbstract','false')
-                elif row[14]== 'isAbstract=true':
+                elif row[7]== 'isAbstract=true':
                     packageElement.set('isAbstract','true')
-                if row[12]== 'isRoot=false':
+                if row[8]== 'isRoot=false':
                     packageElement.set('isRoot','false')
-                elif row[12]== 'isRoot=true':
+                elif row[8]== 'isRoot=true':
                     packageElement.set('isRoot','true')
-                if row[13]== 'isLeaf=false':
+                if row[9]== 'isLeaf=false':
                     packageElement.set('isLeaf','false')
-                elif row[13]== 'isLeaf=true':
+                elif row[9]== 'isLeaf=true':
                     packageElement.set('isLeaf','true')
-                if row[11]== 'isSpecification=false':
-                    packageElement.set('isSpecification','false')
-                elif row[11]== 'isSpecification=true':
-                    packageElement.set('isSpecification','true')
                 ownedcomment=ET.SubElement(packageElement,'ownedComment')
                 ownedcomment.set('xmi:id','commentid')
                 body=ET.SubElement(ownedcomment,'body')
@@ -466,41 +446,37 @@ def converttoxmiBIANBOMSubSuperType():
                 packageElement.set('xmi:type','uml:PrimitiveType')
                 packageElement.set('xmi:id',row[1])
                 packageElement.set('name',row[2])
-                if row[10]== 'Visibility=public':
+                if row[6]== 'Visibility=public':
                     packageElement.set('visibility','public')
-                elif row[10]== 'Visibility=private':
+                elif row[6]== 'Visibility=private':
                     packageElement.set('visibility','private')
-                if row[14]== 'isAbstract=false':
+                if row[7]== 'isAbstract=false':
                     packageElement.set('isAbstract','false')
-                elif row[14]== 'isAbstract=true':
+                elif row[7]== 'isAbstract=true':
                     packageElement.set('isAbstract','true')
-                if row[12]== 'isRoot=false':
+                if row[8]== 'isRoot=false':
                     packageElement.set('isRoot','false')
-                elif row[12]== 'isRoot=true':
+                elif row[8]== 'isRoot=true':
                     packageElement.set('isRoot','true')
-                if row[13]== 'isLeaf=false':
+                if row[9]== 'isLeaf=false':
                     packageElement.set('isLeaf','false')
-                elif row[13]== 'isLeaf=true':
+                elif row[9]== 'isLeaf=true':
                     packageElement.set('isLeaf','true')
-                if row[11]== 'isSpecification=false':
-                    packageElement.set('isSpecification','false')
-                elif row[11]== 'isSpecification=true':
-                    packageElement.set('isSpecification','true')
                 ownedcomment=ET.SubElement(packageElement,'ownedComment')
                 ownedcomment.set('xmi:id','commentid')
                 body=ET.SubElement(ownedcomment,'body')
                 body.text=row[5]
-                #with open('All CSV Files\BIAN UML Elements.csv', 'r',encoding="utf-8") as read_obj:
-                #    # pass the file object to reader() to get the reader object
-                #    csv_reader2 = csv.reader(read_obj)
-                #    for row2 in csv_reader2:
-                #        if row[1]== row2[3]:
-                #            ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
-                #            ownedAttribute.set('xmi:id',row2[0])
-                #            ownedAttribute.set('name',row2[2])
-                #            types=ET.SubElement(ownedAttribute,'type')
-                #            types.set('xmi:type','uml:PrimitiveType')
-                #            types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
+                with open('All CSV Files\BIAN UML Elements.csv', 'r',encoding="utf-8") as read_obj:
+                    # pass the file object to reader() to get the reader object
+                    csv_reader2 = csv.reader(read_obj)
+                    for row2 in csv_reader2:
+                        if row[1]== row2[3]:
+                            ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
+                            ownedAttribute.set('xmi:id',row2[0])
+                            ownedAttribute.set('name',row2[2])
+                            types=ET.SubElement(ownedAttribute,'type')
+                            types.set('xmi:type','uml:PrimitiveType')
+                            types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
     # create a new XML file with the results
     mydata = ET.tostring(uml)
     x = mydata
@@ -556,29 +532,29 @@ def converttoxmiBIANBOMSubSuperTypeRelations():
                 packageElement.set('xmi:type','uml:Class')
                 packageElement.set('xmi:id',row[1])
                 packageElement.set('name',row[2])
-                if row[10]== 'Visibility=public':
+                if row[6]== 'Visibility=public':
                     packageElement.set('visibility','public')
-                elif row[10]== 'Visibility=private':
+                elif row[6]== 'Visibility=private':
                     packageElement.set('visibility','private')
-                if row[11]== 'isSpecification=false':
+                if row[7]== 'isSpecification=false':
                     packageElement.set('isSpecification','false')
-                elif row[11]== 'isSpecification=true':
+                elif row[7]== 'isSpecification=true':
                     packageElement.set('isSpecification','true')
-                if row[12]== 'isRoot=false':
+                if row[8]== 'isRoot=false':
                     packageElement.set('isRoot','false')
-                elif row[12]== 'isRoot=true':
+                elif row[8]== 'isRoot=true':
                     packageElement.set('isRoot','true')
-                if row[13]== 'isLeaf=false':
+                if row[9]== 'isLeaf=false':
                     packageElement.set('isLeaf','false')
-                elif row[13]== 'isLeaf=true':
+                elif row[9]== 'isLeaf=true':
                     packageElement.set('isLeaf','true')
-                if row[14]== 'isActive=false':
+                if row[11]== 'isActive=false':
                     packageElement.set('isActive','false')
-                elif row[14]== 'isActive=true':
+                elif row[11]== 'isActive=true':
                     packageElement.set('isActive','true')
-                if row[15]== 'isAbstract=false':
+                if row[12]== 'isAbstract=false':
                     packageElement.set('isAbstract','false')
-                elif row[15]== 'isAbstract=true':
+                elif row[12]== 'isAbstract=true':
                     packageElement.set('isAbstract','true')
                 for y in range(2,len(SpecializationClasses)):
                         if row[1] == SpecializationClasses[y]:
@@ -594,46 +570,46 @@ def converttoxmiBIANBOMSubSuperTypeRelations():
                 ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
                 ownedAttribute.set('xmi:id',row[3])
                 ownedAttribute.set('name',row[4])
-                if row[10]== 'Visibility=public':
+                if row[6]== 'Visibility=public':
                         ownedAttribute.set('visibility','public')
-                elif row[10]== 'Visibility=private':
+                elif row[6]== 'Visibility=private':
                         ownedAttribute.set('visibility','private')
-                if row[11]== 'Multivalued=true':
+                if row[7]== 'Multivalued=true':
                         ownedAttribute.set('Multivalued','true')
-                elif row[11]== 'Multivalued=false':
+                elif row[7]== 'Multivalued=false':
                         ownedAttribute.set('Multivalued','false')
-                if row[12]== 'Mandatory=true':
+                if row[8]== 'Mandatory=true':
                         ownedAttribute.set('Mandatory','true')
-                elif row[12]== 'Mandatory=false':
+                elif row[8]== 'Mandatory=false':
                         ownedAttribute.set('Mandatory','false')
-                if row[14]== 'isDerived=true':
+                if row[10]== 'isDerived=true':
                         ownedAttribute.set('isDerived','true')
-                elif row[14]== 'isDerived=false':
+                elif row[10]== 'isDerived=false':
                         ownedAttribute.set('isDerived','false')
-                if row[15]== 'isReadOnly=true':
+                if row[11]== 'isReadOnly=true':
                         ownedAttribute.set('isReadOnly','true')
-                elif row[15]== 'isReadOnly=false':
+                elif row[11]== 'isReadOnly=false':
                         ownedAttribute.set('isReadOnly','false')
-                if row[16]== 'MultiplicityElement.isOrdered=true':
+                if row[14]== 'MultiplicityElement.isOrdered=true':
                         ownedAttribute.set('isOrdered','true')
-                elif row[16]== 'MultiplicityElement.isOrdered=false':
+                elif row[14]== 'MultiplicityElement.isOrdered=false':
                         ownedAttribute.set('isOrdered','false')
-                if row[17]== 'MultiplicityElement.isUnique=true':
+                if row[15]== 'MultiplicityElement.isUnique=true':
                         ownedAttribute.set('isUnique','true')
-                elif row[17]== 'MultiplicityElement.isUnique=false':
+                elif row[15]== 'MultiplicityElement.isUnique=false':
                         ownedAttribute.set('isUnique','false')
                 ownedcomment=ET.SubElement(ownedAttribute,'ownedComment')
                 ownedcomment.set('xmi:id','commentid')
                 body=ET.SubElement(ownedcomment,'body')
                 body.text=row[5]
-                if not row[6]:
+                if not row[13]:
                     types=ET.SubElement(ownedAttribute,'type')
                     types.set('xmi:type','uml:PrimitiveType')
                     types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
                 else:
-                    #my_string = row[13]
-                    #my_list = my_string.split("=")[1]
-                    ownedAttribute.set('type',row[6])
+                    my_string = row[13]
+                    my_list = my_string.split("=")[1]
+                    ownedAttribute.set('type',my_list)
 
             elif row[0]=='Enumeration':
                 if not row[1] in EnumDuplicateCheck:
@@ -642,26 +618,22 @@ def converttoxmiBIANBOMSubSuperTypeRelations():
                     packageElement.set('xmi:type','uml:Enumeration')
                     packageElement.set('xmi:id',row[1])
                     packageElement.set('name',row[2])
-                    if row[10]== 'Visibility=public':
+                    if row[6]== 'Visibility=public':
                         packageElement.set('visibility','public')
-                    elif row[10]== 'Visibility=private':
+                    elif row[6]== 'Visibility=private':
                         packageElement.set('visibility','private')
-                    if row[14]== 'isAbstract=false':
+                    if row[7]== 'isAbstract=false':
                         packageElement.set('isAbstract','false')
-                    elif row[14]== 'isAbstract=true':
+                    elif row[7]== 'isAbstract=true':
                         packageElement.set('isAbstract','true')
-                    if row[12]== 'isRoot=false':
+                    if row[8]== 'isRoot=false':
                         packageElement.set('isRoot','false')
-                    elif row[12]== 'isRoot=true':
+                    elif row[8]== 'isRoot=true':
                         packageElement.set('isRoot','true')
-                    if row[13]== 'isLeaf=false':
+                    if row[9]== 'isLeaf=false':
                         packageElement.set('isLeaf','false')
-                    elif row[13]== 'isLeaf=true':
+                    elif row[9]== 'isLeaf=true':
                         packageElement.set('isLeaf','true')
-                    if row[11]== 'isSpecification=false':
-                        packageElement.set('isSpecification','false')
-                    elif row[11]== 'isSpecification=true':
-                        packageElement.set('isSpecification','true')
                     ownedcomment=ET.SubElement(packageElement,'ownedComment')
                     ownedcomment.set('xmi:id','commentid')
                     body=ET.SubElement(ownedcomment,'body')
@@ -682,26 +654,22 @@ def converttoxmiBIANBOMSubSuperTypeRelations():
                 packageElement.set('xmi:type','uml:PrimitiveType')
                 packageElement.set('xmi:id',row[1])
                 packageElement.set('name',row[2])
-                if row[10]== 'Visibility=public':
+                if row[6]== 'Visibility=public':
                         packageElement.set('visibility','public')
-                elif row[10]== 'Visibility=private':
+                elif row[6]== 'Visibility=private':
                     packageElement.set('visibility','private')
-                if row[14]== 'isAbstract=false':
+                if row[7]== 'isAbstract=false':
                     packageElement.set('isAbstract','false')
-                elif row[14]== 'isAbstract=true':
+                elif row[7]== 'isAbstract=true':
                     packageElement.set('isAbstract','true')
-                if row[12]== 'isRoot=false':
+                if row[8]== 'isRoot=false':
                     packageElement.set('isRoot','false')
-                elif row[12]== 'isRoot=true':
+                elif row[8]== 'isRoot=true':
                     packageElement.set('isRoot','true')
-                if row[13]== 'isLeaf=false':
+                if row[9]== 'isLeaf=false':
                     packageElement.set('isLeaf','false')
-                elif row[13]== 'isLeaf=true':
+                elif row[9]== 'isLeaf=true':
                     packageElement.set('isLeaf','true')
-                if row[11]== 'isSpecification=false':
-                    packageElement.set('isSpecification','false')
-                elif row[11]== 'isSpecification=true':
-                    packageElement.set('isSpecification','true')
                 ownedcomment=ET.SubElement(packageElement,'ownedComment')
                 ownedcomment.set('xmi:id','commentid')
                 body=ET.SubElement(ownedcomment,'body')
@@ -711,41 +679,37 @@ def converttoxmiBIANBOMSubSuperTypeRelations():
                 packageElement.set('xmi:type','uml:PrimitiveType')
                 packageElement.set('xmi:id',row[1])
                 packageElement.set('name',row[2])
-                if row[10]== 'Visibility=public':
+                if row[6]== 'Visibility=public':
                     packageElement.set('visibility','public')
-                elif row[10]== 'Visibility=private':
+                elif row[6]== 'Visibility=private':
                     packageElement.set('visibility','private')
-                if row[14]== 'isAbstract=false':
+                if row[7]== 'isAbstract=false':
                     packageElement.set('isAbstract','false')
-                elif row[14]== 'isAbstract=true':
+                elif row[7]== 'isAbstract=true':
                     packageElement.set('isAbstract','true')
-                if row[12]== 'isRoot=false':
+                if row[8]== 'isRoot=false':
                     packageElement.set('isRoot','false')
-                elif row[12]== 'isRoot=true':
+                elif row[8]== 'isRoot=true':
                     packageElement.set('isRoot','true')
-                if row[13]== 'isLeaf=false':
+                if row[9]== 'isLeaf=false':
                     packageElement.set('isLeaf','false')
-                elif row[13]== 'isLeaf=true':
+                elif row[9]== 'isLeaf=true':
                     packageElement.set('isLeaf','true')
-                if row[11]== 'isSpecification=false':
-                    packageElement.set('isSpecification','false')
-                elif row[11]== 'isSpecification=true':
-                    packageElement.set('isSpecification','true')
                 ownedcomment=ET.SubElement(packageElement,'ownedComment')
                 ownedcomment.set('xmi:id','commentid')
                 body=ET.SubElement(ownedcomment,'body')
                 body.text=row[5]
-                #with open('All CSV Files\BIAN UML Elements.csv', 'r',encoding="utf-8") as read_obj:
-                #    # pass the file object to reader() to get the reader object
-                #    csv_reader2 = csv.reader(read_obj)
-                #    for row2 in csv_reader2:
-                #        if row[1]== row2[3]:
-                #            ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
-                #            ownedAttribute.set('xmi:id',row2[0])
-                #            ownedAttribute.set('name',row2[2])
-                #            types=ET.SubElement(ownedAttribute,'type')
-                #            types.set('xmi:type','uml:PrimitiveType')
-                #            types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
+                with open('All CSV Files\BIAN UML Elements.csv', 'r',encoding="utf-8") as read_obj:
+                    # pass the file object to reader() to get the reader object
+                    csv_reader2 = csv.reader(read_obj)
+                    for row2 in csv_reader2:
+                        if row[1]== row2[3]:
+                            ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
+                            ownedAttribute.set('xmi:id',row2[0])
+                            ownedAttribute.set('name',row2[2])
+                            types=ET.SubElement(ownedAttribute,'type')
+                            types.set('xmi:type','uml:PrimitiveType')
+                            types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
     namecounter = 5555
     #relations
     with open('All CSV Files\BIAN BOM Relations.csv','r',encoding="utf-8") as csvfile:
@@ -765,11 +729,11 @@ def converttoxmiBIANBOMSubSuperTypeRelations():
                 string= row[10]
                 my_split=string.split('=')[1]
                 #if my_split:
-                ownedEnd.set('name',my_split)
+                #    ownedEnd.set('name',my_split)
                 #else:
-                #namecounter = namecounter+1
-                #namestr=str(namecounter)
-                #ownedEnd.set('name',namestr)
+                namecounter = namecounter+1
+                namestr=str(namecounter)
+                ownedEnd.set('name',namestr)
                 if(row[12]=='visibility=public'):
                     ownedEnd.set('visibility','public')
                 elif(row[12]=='visibility=package'):
@@ -823,11 +787,11 @@ def converttoxmiBIANBOMSubSuperTypeRelations():
                 string= row[21]
                 my_split=string.split('=')[1]
                 #if my_split:
-                ownedEnd2.set('name',my_split)
+                #    ownedEnd2.set('name',my_split)
                 #else:
-                #namecounter = namecounter+1
-                #namestr=str(namecounter)
-                #ownedEnd2.set('name',namestr)
+                namecounter = namecounter+1
+                namestr=str(namecounter)
+                ownedEnd2.set('name',namestr)
                 if(row[23]=='visibility=public'):
                     ownedEnd2.set('visibility','public')
                 elif(row[23]=='visibility=package'):
@@ -885,11 +849,11 @@ def converttoxmiBIANBOMSubSuperTypeRelations():
                 string= row[10]
                 my_split=string.split('=')[1]
                 #if my_split:
-                ownedEnd.set('name',my_split)
+                #    ownedEnd.set('name',my_split)
                 #else:
-                #namecounter = namecounter+1
-                #namestr=str(namecounter)
-                #ownedEnd.set('name',namestr)
+                namecounter = namecounter+1
+                namestr=str(namecounter)
+                ownedEnd.set('name',namestr)
                 if(row[12]=='visibility=public'):
                     ownedEnd.set('visibility','public')
                 elif(row[12]=='visibility=package'):
@@ -942,11 +906,11 @@ def converttoxmiBIANBOMSubSuperTypeRelations():
                 string= row[21]
                 my_split=string.split('=')[1]
                 #if my_split:
-                ownedEnd2.set('name',my_split)
+                #    ownedEnd2.set('name',my_split)
                 #else:
-                #namecounter = namecounter+1
-                #namestr=str(namecounter)
-                #ownedEnd2.set('name',namestr)
+                namecounter = namecounter+1
+                namestr=str(namecounter)
+                ownedEnd2.set('name',namestr)
                 if(row[23]=='visibility=public'):
                     ownedEnd2.set('visibility','public')
                 elif(row[23]=='visibility=package'):
@@ -1007,11 +971,11 @@ def converttoxmiBIANBOMSubSuperTypeRelations():
                 string= row[10]
                 my_split=string.split('=')[1]
                 #if my_split:
-                ownedEnd.set('name',my_split)
+                #    ownedEnd.set('name',my_split)
                 #else:
-                #namecounter = namecounter+1
-                #namestr=str(namecounter)
-                #ownedEnd.set('name',namestr)
+                namecounter = namecounter+1
+                namestr=str(namecounter)
+                ownedEnd.set('name',namestr)
                 if(row[12]=='visibility=public'):
                     ownedEnd.set('visibility','public')
                 elif(row[12]=='visibility=package'):
@@ -1064,12 +1028,12 @@ def converttoxmiBIANBOMSubSuperTypeRelations():
                 string= row[21]
                 my_split=string.split('=')[1]
                 #if my_split:
-                ownedEnd2.set('name',my_split)
+                #    ownedEnd2.set('name',my_split)
                 #else:
-                #namecounter = namecounter+1
-                #namestr=str(namecounter)
-                #ownedEnd2.set('name',namestr)
-                #ownedEnd2.set('aggregation','composite')
+                namecounter = namecounter+1
+                namestr=str(namecounter)
+                ownedEnd2.set('name',namestr)
+                ownedEnd2.set('aggregation','composite')
                 if(row[23]=='visibility=public'):
                     ownedEnd2.set('visibility','public')
                 elif(row[23]=='visibility=package'):
@@ -1193,9 +1157,6 @@ def converttoxmiSDBOMOneFile():
         Specialization=[]
         Generalization = []
         UMLType=[]
-        datatypelist=[]
-        getenumid=[]
-        checkenumid=[]
         convertedstring = str(comntcounter)
         csv_reader = csv.reader(read_obj)
         
@@ -1213,9 +1174,6 @@ def converttoxmiSDBOMOneFile():
                         UIDclassdiagram.append(row2[0])
                         UIDRelations.append(row2[1])
                     for row3 in csv_reader3:
-                        if row3[0]=='Enumeration':
-                            getenumid.append(row3[1])
-                            getenumid = list(dict.fromkeys(getenumid))
                         UMLType.append(row3[0])
                         UIDBO.append(row3[1])
                         ObjectName.append(row3[2])
@@ -1289,12 +1247,9 @@ def converttoxmiSDBOMOneFile():
                                                     ownedEnd.set('xmi:id',row[2]+idString)
                                                 else:
                                                     ownedEnd.set('xmi:id',row[2]+"a")
-                                                string= row[10]
-                                                my_split=string.split('=')[1]
-                                                ownedEnd.set('name',my_split)
-                                                #namecounter = namecounter+1
-                                                #namestr=str(namecounter)
-                                                #ownedEnd.set('name',namestr)
+                                                namecounter = namecounter+1
+                                                namestr=str(namecounter)
+                                                ownedEnd.set('name',namestr)
                                                 if(row[12]=='visibility=public'):
                                                     ownedEnd.set('visibility','public')
                                                 elif(row[12]=='visibility=package'):
@@ -1353,9 +1308,9 @@ def converttoxmiSDBOMOneFile():
                                                     ownedEnd2.set('xmi:id',row[13]+idString)
                                                 else:
                                                     ownedEnd2.set('xmi:id',row[13]+"b")
-                                                string= row[21]
-                                                my_split=string.split('=')[1]
-                                                ownedEnd2.set('name',my_split)
+                                                namecounter = namecounter+1
+                                                namestr=str(namecounter)
+                                                ownedEnd2.set('name',namestr)
                                                 if(row[23]=='visibility=public'):
                                                     ownedEnd2.set('visibility','public')
                                                 elif(row[23]=='visibility=package'):
@@ -1423,9 +1378,9 @@ def converttoxmiSDBOMOneFile():
                                                     ownedEnd.set('xmi:id',row[2]+idString)
                                                 else:
                                                     ownedEnd.set('xmi:id',row[13]+"a")
-                                                string= row[10]
-                                                my_split=string.split('=')[1]
-                                                ownedEnd.set('name',my_split)
+                                                namecounter = namecounter+1
+                                                namestr=str(namecounter)
+                                                ownedEnd.set('name',namestr)
                                                 if(row[12]=='visibility=public'):
                                                     ownedEnd.set('visibility','public')
                                                 elif(row[12]=='visibility=package'):
@@ -1484,9 +1439,9 @@ def converttoxmiSDBOMOneFile():
                                                     ownedEnd2.set('xmi:id',row[13]+idString)
                                                 else:
                                                     ownedEnd2.set('xmi:id',row[13]+"b")
-                                                string= row[21]
-                                                my_split=string.split('=')[1]
-                                                ownedEnd2.set('name',my_split)
+                                                namecounter = namecounter+1
+                                                namestr=str(namecounter)
+                                                ownedEnd2.set('name',namestr)
                                                 if(row[23]=='visibility=public'):
                                                     ownedEnd2.set('visibility','public')
                                                 elif(row[23]=='visibility=package'):
@@ -1567,9 +1522,9 @@ def converttoxmiSDBOMOneFile():
                                                     ownedEnd.set('xmi:id',row[2]+idString)
                                                 else:
                                                     ownedEnd.set('xmi:id',row[2]+"a")
-                                                string= row[10]
-                                                my_split=string.split('=')[1]
-                                                ownedEnd.set('name',my_split)
+                                                namecounter = namecounter+1
+                                                namestr=str(namecounter)
+                                                ownedEnd.set('name',namestr)
                                                 if(row[12]=='visibility=public'):
                                                     ownedEnd.set('visibility','public')
                                                 elif(row[12]=='visibility=package'):
@@ -1628,9 +1583,9 @@ def converttoxmiSDBOMOneFile():
                                                     ownedEnd2.set('xmi:id',row[13]+idString)
                                                 else:
                                                     ownedEnd2.set('xmi:id',row[13]+"b")
-                                                string= row[21]
-                                                my_split=string.split('=')[1]
-                                                ownedEnd2.set('name',my_split)
+                                                namecounter = namecounter+1
+                                                namestr=str(namecounter)
+                                                ownedEnd2.set('name',namestr)
                                                 ownedEnd2.set('aggregation','composite')
                                                 if(row[23]=='visibility=public'):
                                                     ownedEnd2.set('visibility','public')
@@ -1703,29 +1658,29 @@ def converttoxmiSDBOMOneFile():
                                     else:
                                         packageElement.set('xmi:id',UIDBO[y])
                                     packageElement.set('name',ObjectName[y])
-                                    if r10[y]== 'Visibility=public':
+                                    if r6[y]== 'Visibility=public':
                                         packageElement.set('visibility','public')
-                                    elif r10[y]== 'Visibility=private':
+                                    elif r6[y]== 'Visibility=private':
                                         packageElement.set('visibility','private')
-                                    if r11[y]== 'isSpecification=false':
+                                    if r7[y]== 'isSpecification=false':
                                         packageElement.set('isSpecification','false')
-                                    elif r11[y]== 'isSpecification=true':
+                                    elif r7[y]== 'isSpecification=true':
                                         packageElement.set('isSpecification','true')
-                                    if r12[y]== 'isRoot=false':
+                                    if r8[y]== 'isRoot=false':
                                         packageElement.set('isRoot','false')
-                                    elif r12[y]== 'isRoot=true':
+                                    elif r8[y]== 'isRoot=true':
                                         packageElement.set('isRoot','true')
-                                    if r13[y]== 'isLeaf=false':
+                                    if r8[y]== 'isLeaf=false':
                                         packageElement.set('isLeaf','false')
-                                    elif r13[y]== 'isLeaf=true':
+                                    elif r8[y]== 'isLeaf=true':
                                         packageElement.set('isLeaf','true')
-                                    if r14[y]== 'isActive=false':
+                                    if r11[y]== 'isActive=false':
                                         packageElement.set('isActive','false')
-                                    elif r14[y]== 'isActive=true':
+                                    elif r11[y]== 'isActive=true':
                                         packageElement.set('isActive','true')
-                                    if r15[y]== 'isAbstract=false':
+                                    if r12[y]== 'isAbstract=false':
                                         packageElement.set('isAbstract','false')
-                                    elif r15[y]== 'isAbstract=true':
+                                    elif r12[y]== 'isAbstract=true':
                                         packageElement.set('isAbstract','true')
                                     for x in range(2,len(Specialization)):
                                         if UIDBO[y] == Specialization[x]:
@@ -1759,33 +1714,33 @@ def converttoxmiSDBOMOneFile():
                                     else:
                                         ownedAttribute.set('xmi:id',UIDAttr[y])
                                     ownedAttribute.set('name',AttrName[y])
-                                    if r10[y]== 'Visibility=public':
+                                    if r6[y]== 'Visibility=public':
                                         ownedAttribute.set('visibility','public')
-                                    elif r10[y]== 'Visibility=private':
+                                    elif r6[y]== 'Visibility=private':
                                         ownedAttribute.set('visibility','private')
-                                    if r11[y]== 'Multivalued=true':
+                                    if r7[y]== 'Multivalued=true':
                                         ownedAttribute.set('Multivalued','true')
-                                    elif r11[y]== 'Multivalued=false':
+                                    elif r7[y]== 'Multivalued=false':
                                         ownedAttribute.set('Multivalued','false')
-                                    if r12[y]== 'Mandatory=true':
+                                    if r8[y]== 'Mandatory=true':
                                         ownedAttribute.set('Mandatory','true')
-                                    elif r12[y]== 'Mandatory=false':
+                                    elif r8[y]== 'Mandatory=false':
                                         ownedAttribute.set('Mandatory','false')
-                                    if r14[y]== 'isDerived=true':
+                                    if r10[y]== 'isDerived=true':
                                         ownedAttribute.set('isDerived','true')
-                                    elif r14[y]== 'isDerived=false':
+                                    elif r10[y]== 'isDerived=false':
                                         ownedAttribute.set('isDerived','false')
-                                    if r15[y]== 'isReadOnly=true':
+                                    if r11[y]== 'isReadOnly=true':
                                         ownedAttribute.set('isReadOnly','true')
-                                    elif r15[y]== 'isReadOnly=false':
+                                    elif r11[y]== 'isReadOnly=false':
                                         ownedAttribute.set('isReadOnly','false')
-                                    if r16[y]== 'MultiplicityElement.isOrdered=true':
+                                    if r14[y]== 'MultiplicityElement.isOrdered=true':
                                         ownedAttribute.set('isOrdered','true')
-                                    elif r16[y]== 'MultiplicityElement.isOrdered=false':
+                                    elif r14[y]== 'MultiplicityElement.isOrdered=false':
                                         ownedAttribute.set('isOrdered','false')
-                                    if r17[y]== 'MultiplicityElement.isUnique=true':
+                                    if r15[y]== 'MultiplicityElement.isUnique=true':
                                         ownedAttribute.set('isUnique','true')
-                                    elif r17[y]== 'MultiplicityElement.isUnique=false':
+                                    elif r15[y]== 'MultiplicityElement.isUnique=false':
                                         ownedAttribute.set('isUnique','false')
                                     ownedcomment=ET.SubElement(ownedAttribute,'ownedComment')
                                     ownedcomment.set('xmi:type','uml:Comment')
@@ -1794,16 +1749,14 @@ def converttoxmiSDBOMOneFile():
                                     convertedstring = str(comntcounter)
                                     body=ET.SubElement(ownedcomment,'body')
                                     body.text=comm[y]
-                                    if not r6[y]:
+                                    if not r13[y]:
                                         types=ET.SubElement(ownedAttribute,'type')
                                         types.set('xmi:type','uml:PrimitiveType')
                                         types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
                                     else:
-                                        #my_string = r8[y]
-                                        #my_list = my_string.split("=")[1]
-                                        ownedAttribute.set('type',r6[y])
-                                        checkenumid.append(r6[y])
-                                       
+                                        my_string = r13[y]
+                                        my_list = my_string.split("=")[1]
+                                        ownedAttribute.set('type',my_list)
                                 elif UMLType[y]=='Enumeration':
                                     if not UIDBO[y] in EnumDuplicateCheck:
                                         EnumDuplicateCheck.append(UIDBO[y])
@@ -1811,34 +1764,29 @@ def converttoxmiSDBOMOneFile():
                                         packageElement.set('xmi:type','uml:Enumeration')
                                         packageElement.set('xmi:id',UIDBO[y])
                                         packageElement.set('name',ObjectName[y])
-                                        if r10[y]== 'Visibility=public':
+                                        if r6[y]== 'Visibility=public':
                                             packageElement.set('visibility','public')
-                                        elif r10[y]== 'Visibility=private':
+                                        elif r6[y]== 'Visibility=private':
                                             packageElement.set('visibility','private')
-                                        if r14[y]== 'isAbstract=false':
+                                        if r7[y]== 'isAbstract=false':
                                             packageElement.set('isAbstract','false')
-                                        elif r14[y]== 'isAbstract=true':
+                                        elif r7[y]== 'isAbstract=true':
                                             packageElement.set('isAbstract','true')
-                                        if r12[y]== 'isRoot=false':
+                                        if r8[y]== 'isRoot=false':
                                             packageElement.set('isRoot','false')
-                                        elif r12[y]== 'isRoot=true':
+                                        elif r8[y]== 'isRoot=true':
                                             packageElement.set('isRoot','true')
-                                        if r13[y]== 'isLeaf=false':
+                                        if r9[y]== 'isLeaf=false':
                                             packageElement.set('isLeaf','false')
-                                        elif r13[y]== 'isLeaf=true':
+                                        elif r9[y]== 'isLeaf=true':
                                             packageElement.set('isLeaf','true')
-                                        if r11[y]== 'isSpecification=false':
-                                            packageElement.set('isSpecification','false')
-                                        elif r11[y]== 'isSpecification=true':
-                                            packageElement.set('isSpecification','true')              
                                         ownedcomment=ET.SubElement(packageElement,'ownedComment')
                                         ownedcomment.set('xmi:id','commentid')
                                         body=ET.SubElement(ownedcomment,'body')
                                         body.text=comm[y]
-
                                 elif UMLType[y]=='Enumeration literal':
                                     ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
-                                    ownedAttribute.set('xmi:id',UIDAttr[y])
+                                    ownedAttribute.set('xmi:id',UIDBO[y])
                                     ownedAttribute.set('name',AttrName[y])
                                     ownedcomment=ET.SubElement(ownedAttribute,'ownedComment')
                                     ownedcomment.set('xmi:id','commentid')
@@ -1858,29 +1806,29 @@ def converttoxmiSDBOMOneFile():
                                                 packageElement.set('xmi:type','uml:Class')
                                                 packageElement.set('xmi:id',UIDBO[d])
                                                 packageElement.set('name',ObjectName[d])
-                                                if r10[d]== 'Visibility=public':
+                                                if r6[d]== 'Visibility=public':
                                                     packageElement.set('visibility','public')
-                                                elif r10[d]== 'Visibility=private':
+                                                elif r6[d]== 'Visibility=private':
                                                     packageElement.set('visibility','private')
-                                                if r11[d]== 'isSpecification=false':
+                                                if r7[d]== 'isSpecification=false':
                                                     packageElement.set('isSpecification','false')
-                                                elif r11[d]== 'isSpecification=true':
+                                                elif r7[d]== 'isSpecification=true':
                                                     packageElement.set('isSpecification','true')
-                                                if r12[d]== 'isRoot=false':
+                                                if r8[d]== 'isRoot=false':
                                                     packageElement.set('isRoot','false')
-                                                elif r12[d]== 'isRoot=true':
+                                                elif r8[d]== 'isRoot=true':
                                                     packageElement.set('isRoot','true')
-                                                if r13[d]== 'isLeaf=false':
+                                                if r8[d]== 'isLeaf=false':
                                                     packageElement.set('isLeaf','false')
-                                                elif r13[d]== 'isLeaf=true':
+                                                elif r8[d]== 'isLeaf=true':
                                                     packageElement.set('isLeaf','true')
-                                                if r14[d]== 'isActive=false':
+                                                if r11[d]== 'isActive=false':
                                                     packageElement.set('isActive','false')
-                                                elif r14[d]== 'isActive=true':
+                                                elif r11[d]== 'isActive=true':
                                                     packageElement.set('isActive','true')
-                                                if r15[d]== 'isAbstract=false':
+                                                if r12[d]== 'isAbstract=false':
                                                     packageElement.set('isAbstract','false')
-                                                elif r15[d]== 'isAbstract=true':
+                                                elif r12[d]== 'isAbstract=true':
                                                     packageElement.set('isAbstract','true')
                                                 ownedcomment=ET.SubElement(packageElement,'ownedComment')
                                                 ownedcomment.set('xmi:type','uml:Comment')
@@ -1893,33 +1841,33 @@ def converttoxmiSDBOMOneFile():
                                                 ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
                                                 ownedAttribute.set('xmi:id',UIDAttr[d])
                                                 ownedAttribute.set('name',AttrName[d])
-                                                if r10[d]== 'Visibility=public':
+                                                if r6[d]== 'Visibility=public':
                                                     ownedAttribute.set('visibility','public')
-                                                elif r10[d]== 'Visibility=private':
+                                                elif r6[d]== 'Visibility=private':
                                                     ownedAttribute.set('visibility','private')
-                                                if r11[d]== 'Multivalued=true':
+                                                if r7[d]== 'Multivalued=true':
                                                     ownedAttribute.set('Multivalued','true')
-                                                elif r11[d]== 'Multivalued=false':
+                                                elif r7[d]== 'Multivalued=false':
                                                     ownedAttribute.set('Multivalued','false')
-                                                if r12[d]== 'Mandatory=true':
+                                                if r8[d]== 'Mandatory=true':
                                                     ownedAttribute.set('Mandatory','true')
-                                                elif r12[d]== 'Mandatory=false':
+                                                elif r8[d]== 'Mandatory=false':
                                                     ownedAttribute.set('Mandatory','false')
-                                                if r14[d]== 'isDerived=true':
+                                                if r10[d]== 'isDerived=true':
                                                     ownedAttribute.set('isDerived','true')
-                                                elif r14[d]== 'isDerived=false':
+                                                elif r10[d]== 'isDerived=false':
                                                     ownedAttribute.set('isDerived','false')
-                                                if r15[d]== 'isReadOnly=true':
+                                                if r11[d]== 'isReadOnly=true':
                                                     ownedAttribute.set('isReadOnly','true')
-                                                elif r15[d]== 'isReadOnly=false':
+                                                elif r11[d]== 'isReadOnly=false':
                                                     ownedAttribute.set('isReadOnly','false')
-                                                if r16[d]== 'MultiplicityElement.isOrdered=true':
+                                                if r14[d]== 'MultiplicityElement.isOrdered=true':
                                                     ownedAttribute.set('isOrdered','true')
-                                                elif r16[d]== 'MultiplicityElement.isOrdered=false':
+                                                elif r14[d]== 'MultiplicityElement.isOrdered=false':
                                                     ownedAttribute.set('isOrdered','false')
-                                                if r17[d]== 'MultiplicityElement.isUnique=true':
+                                                if r15[d]== 'MultiplicityElement.isUnique=true':
                                                     ownedAttribute.set('isUnique','true')
-                                                elif r17[d]== 'MultiplicityElement.isUnique=false':
+                                                elif r15[d]== 'MultiplicityElement.isUnique=false':
                                                     ownedAttribute.set('isUnique','false')
                                                 ownedcomment=ET.SubElement(ownedAttribute,'ownedComment')
                                                 ownedcomment.set('xmi:type','uml:Comment')
@@ -1928,19 +1876,16 @@ def converttoxmiSDBOMOneFile():
                                                 convertedstring = str(comntcounter)
                                                 body=ET.SubElement(ownedcomment,'body')
                                                 body.text=comm[d]
-                                                if not r6[y]:
+                                                if not r13[y]:
                                                     types=ET.SubElement(ownedAttribute,'type')
                                                     types.set('xmi:type','uml:PrimitiveType')
                                                     types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
                                                 else:
-                                                    #my_string = r13[y]
-                                                    #my_list = my_string.split("=")[1]
-                                                    ownedAttribute.set('type',r6[y])
-                                                    checkenumid.append(r6[y])
+                                                    my_string = r13[y]
+                                                    my_list = my_string.split("=")[1]
+                                                    ownedAttribute.set('type',my_list)
                                             checkID.append(makeGeneral[x])
-    while checkenumid in EnumDuplicateCheck:
-        checkenumid.remove(EnumDuplicateCheck)
-    
+
     with open('All CSV Files\BIAN BOM.csv', 'r',encoding="utf-8") as read_obj:
         # pass the file object to reader() to get the reader object
         csv_reader = csv.reader(read_obj)
@@ -1953,26 +1898,22 @@ def converttoxmiSDBOMOneFile():
                 packageElement.set('xmi:type','uml:PrimitiveType')
                 packageElement.set('xmi:id',row[1])
                 packageElement.set('name',row[2])
-                if row[10]== 'Visibility=public':
+                if row[6]== 'Visibility=public':
                         packageElement.set('visibility','public')
-                elif row[10]== 'Visibility=private':
+                elif row[6]== 'Visibility=private':
                     packageElement.set('visibility','private')
-                if row[14]== 'isAbstract=false':
+                if row[7]== 'isAbstract=false':
                     packageElement.set('isAbstract','false')
-                elif row[14]== 'isAbstract=true':
+                elif row[7]== 'isAbstract=true':
                     packageElement.set('isAbstract','true')
-                if row[12]== 'isRoot=false':
+                if row[8]== 'isRoot=false':
                     packageElement.set('isRoot','false')
-                elif row[12]== 'isRoot=true':
+                elif row[8]== 'isRoot=true':
                     packageElement.set('isRoot','true')
-                if row[13]== 'isLeaf=false':
+                if row[9]== 'isLeaf=false':
                     packageElement.set('isLeaf','false')
-                elif row[13]== 'isLeaf=true':
+                elif row[9]== 'isLeaf=true':
                     packageElement.set('isLeaf','true')
-                if row[11]== 'isSpecification=false':
-                    packageElement.set('isSpecification','false')
-                elif row[11]== 'isSpecification=true':
-                    packageElement.set('isSpecification','true')
                 ownedcomment=ET.SubElement(packageElement,'ownedComment')
                 ownedcomment.set('xmi:id','commentid')
                 body=ET.SubElement(ownedcomment,'body')
@@ -1982,141 +1923,39 @@ def converttoxmiSDBOMOneFile():
                 packageElement.set('xmi:type','uml:PrimitiveType')
                 packageElement.set('xmi:id',row[1])
                 packageElement.set('name',row[2])
-                if row[10]== 'Visibility=public':
+                if row[6]== 'Visibility=public':
                     packageElement.set('visibility','public')
-                elif row[10]== 'Visibility=private':
+                elif row[6]== 'Visibility=private':
                     packageElement.set('visibility','private')
-                if row[14]== 'isAbstract=false':
+                if row[7]== 'isAbstract=false':
                     packageElement.set('isAbstract','false')
-                elif row[14]== 'isAbstract=true':
+                elif row[7]== 'isAbstract=true':
                     packageElement.set('isAbstract','true')
-                if row[12]== 'isRoot=false':
+                if row[8]== 'isRoot=false':
                     packageElement.set('isRoot','false')
-                elif row[12]== 'isRoot=true':
+                elif row[8]== 'isRoot=true':
                     packageElement.set('isRoot','true')
-                if row[13]== 'isLeaf=false':
+                if row[9]== 'isLeaf=false':
                     packageElement.set('isLeaf','false')
-                elif row[13]== 'isLeaf=true':
+                elif row[9]== 'isLeaf=true':
                     packageElement.set('isLeaf','true')
-                if row[11]== 'isSpecification=false':
-                    packageElement.set('isSpecification','false')
-                elif row[11]== 'isSpecification=true':
-                    packageElement.set('isSpecification','true')
                 ownedcomment=ET.SubElement(packageElement,'ownedComment')
                 ownedcomment.set('xmi:id','commentid')
                 body=ET.SubElement(ownedcomment,'body')
                 body.text=row[5]
-                datatypelist.append(row[1])
-            elif row[0]=='Attribute':
-                if row[1] in datatypelist:
-                    ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
-                    ownedAttribute.set('xmi:id',row[3])
-                    ownedAttribute.set('name',row[4])
-                    if row[10]== 'Visibility=public':
-                            ownedAttribute.set('visibility','public')
-                    elif row[10]== 'Visibility=private':
-                            ownedAttribute.set('visibility','private')
-                    if row[11]== 'Multivalued=true':
-                            ownedAttribute.set('Multivalued','true')
-                    elif row[11]== 'Multivalued=false':
-                            ownedAttribute.set('Multivalued','false')
-                    if row[12]== 'Mandatory=true':
-                            ownedAttribute.set('Mandatory','true')
-                    elif row[12]== 'Mandatory=false':
-                            ownedAttribute.set('Mandatory','false')
-                    if row[14]== 'isDerived=true':
-                            ownedAttribute.set('isDerived','true')
-                    elif row[14]== 'isDerived=false':
-                            ownedAttribute.set('isDerived','false')
-                    if row[15]== 'isReadOnly=true':
-                            ownedAttribute.set('isReadOnly','true')
-                    elif row[15]== 'isReadOnly=false':
-                            ownedAttribute.set('isReadOnly','false')
-                    if row[16]== 'MultiplicityElement.isOrdered=true':
-                            ownedAttribute.set('isOrdered','true')
-                    elif row[16]== 'MultiplicityElement.isOrdered=false':
-                            ownedAttribute.set('isOrdered','false')
-                    if row[17]== 'MultiplicityElement.isUnique=true':
-                            ownedAttribute.set('isUnique','true')
-                    elif row[17]== 'MultiplicityElement.isUnique=false':
-                            ownedAttribute.set('isUnique','false')
-                    ownedcomment=ET.SubElement(ownedAttribute,'ownedComment')
-                    ownedcomment.set('xmi:id','commentid')
-                    body=ET.SubElement(ownedcomment,'body')
-                    body.text=row[5]
-                    if not row[6]:
-                        types=ET.SubElement(ownedAttribute,'type')
-                        types.set('xmi:type','uml:PrimitiveType')
-                        types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
-                    else:
-                        #my_string = row[13]
-                        #my_list = my_string.split("=")[1]
-                        ownedAttribute.set('type',row[6])
-                        checkenumid.append(row[6])
-                #with open('ACSV Files\BIAN UML Elements.csv', 'r',encoding="utf-8") as read_obj:
-                #    # pass tfile object to reader() to get the reader object
-                #    csv_read = csv.reader(read_obj)
-                #    for row2 csv_reader2:
-                #        if r1]== row2[3]:
-                #            ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
-                #            ownedAttribute.set('xmi:id',row2[0])
-                #            ownedAttribute.set('name',row2[2])
-                #            types=ET.SubElement(ownedAttribute,'type')
-                #            types.set('xmi:type','uml:PrimitiveType')
-                #            types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
+                with open('All CSV Files\BIAN UML Elements.csv', 'r',encoding="utf-8") as read_obj:
+                    # pass the file object to reader() to get the reader object
+                    csv_reader2 = csv.reader(read_obj)
+                    for row2 in csv_reader2:
+                        if row[1]== row2[3]:
+                            ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
+                            ownedAttribute.set('xmi:id',row2[0])
+                            ownedAttribute.set('name',row2[2])
+                            types=ET.SubElement(ownedAttribute,'type')
+                            types.set('xmi:type','uml:PrimitiveType')
+                            types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
 
     # create a new XML file with the results
-    with open('All CSV Files\BIAN BOM.csv', 'r',encoding="utf-8") as read_obj:
-        # pass the file object to reader() to get the reader object
-        csv_reader = csv.reader(read_obj)
-        #csv_reader.replace(" ",np.nan, inplace=True)
-        save=[]
-        # Iterate over each row in the csv using reader object
-        for row in csv_reader:
-            if row[0]=='Enumeration' and row[1] in checkenumid:
-                if not row[1] in EnumDuplicateCheck:
-                    EnumDuplicateCheck.append(row[1])
-                    packageElement=ET.SubElement(uml,'packagedElement')
-                    packageElement.set('xmi:type','uml:Enumeration')
-                    packageElement.set('xmi:id',row[1])
-                    packageElement.set('name',row[2])
-                    if row[10]== 'Visibility=public':
-                        packageElement.set('visibility','public')
-                    elif row[10]== 'Visibility=private':
-                        packageElement.set('visibility','private')
-                    if row[14]== 'isAbstract=false':
-                        packageElement.set('isAbstract','false')
-                    elif row[14]== 'isAbstract=true':
-                        packageElement.set('isAbstract','true')
-                    if row[12]== 'isRoot=false':
-                        packageElement.set('isRoot','false')
-                    elif row[12]== 'isRoot=true':
-                        packageElement.set('isRoot','true')
-                    if row[13]== 'isLeaf=false':
-                        packageElement.set('isLeaf','false')
-                    elif row[13]== 'isLeaf=true':
-                        packageElement.set('isLeaf','true')
-                    if row[11]== 'isSpecification=false':
-                        packageElement.set('isSpecification','false')
-                    elif row[11]== 'isSpecification=true':
-                        packageElement.set('isSpecification','true')
-                    ownedcomment=ET.SubElement(packageElement,'ownedComment')
-                    ownedcomment.set('xmi:id','commentid')
-                    body=ET.SubElement(ownedcomment,'body')
-                    body.text=row[5]
-                    save.append(row[1])
-            elif row[0]=='Enumeration literal':
-                if row[1] in save:
-                    ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
-                    ownedAttribute.set('xmi:id',row[3])
-                    ownedAttribute.set('name',row[4])
-                    ownedcomment=ET.SubElement(ownedAttribute,'ownedComment')
-                    ownedcomment.set('xmi:id','commentid')
-                    body=ET.SubElement(ownedcomment,'body')
-                    body.text=row[5]
-                    types=ET.SubElement(ownedAttribute,'type')
-                    types.set('xmi:type','uml:PrimitiveType')
-                    types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
     mydata = ET.tostring(uml)
     x = mydata
     mydata=BeautifulSoup(x,'xml').prettify()
@@ -2206,9 +2045,6 @@ def converttoxmiSDBOMSeparateFile():
             Specialization=[]
             Generalization = []
             UMLType=[]
-            datatypelist=[]
-            getenumid=[]
-            checkenumid=[]
             convertedstring = str(comntcounter)
             csv_reader = csv.reader(read_obj)
 
@@ -2226,9 +2062,6 @@ def converttoxmiSDBOMSeparateFile():
                             UIDclassdiagram.append(row2[0])
                             UIDRelations.append(row2[1])
                         for row3 in csv_reader3:
-                            if row3[0]=='Enumeration':
-                                getenumid.append(row3[1])
-                                getenumid = list(dict.fromkeys(getenumid))
                             UMLType.append(row3[0])
                             UIDBO.append(row3[1])
                             ObjectName.append(row3[2])
@@ -2250,7 +2083,7 @@ def converttoxmiSDBOMSeparateFile():
                         namecounter = 5555
                         idcounter=90078601
                         for row in csv_reader:
-                            if row[1] in find:
+                            if row[1] == find:
                                 if(row[0]!='UID Class Diagram'):
                                     classDiagramName=row[1]
                                     ClassObjectUID=row[2]
@@ -2302,9 +2135,9 @@ def converttoxmiSDBOMSeparateFile():
                                                             ownedEnd.set('xmi:id',row[2]+idString)
                                                         else:
                                                             ownedEnd.set('xmi:id',row[2]+"a")
-                                                        string= row[10]
-                                                        my_split=string.split('=')[1]
-                                                        ownedEnd.set('name',my_split)
+                                                        namecounter = namecounter+1
+                                                        namestr=str(namecounter)
+                                                        ownedEnd.set('name',namestr)
                                                         if(row[12]=='visibility=public'):
                                                             ownedEnd.set('visibility','public')
                                                         elif(row[12]=='visibility=package'):
@@ -2363,9 +2196,9 @@ def converttoxmiSDBOMSeparateFile():
                                                             ownedEnd2.set('xmi:id',row[13]+idString)
                                                         else:
                                                             ownedEnd2.set('xmi:id',row[13]+"b")
-                                                        string= row[21]
-                                                        my_split=string.split('=')[1]
-                                                        ownedEnd2.set('name',my_split)
+                                                        namecounter = namecounter+1
+                                                        namestr=str(namecounter)
+                                                        ownedEnd2.set('name',namestr)
                                                         if(row[23]=='visibility=public'):
                                                             ownedEnd2.set('visibility','public')
                                                         elif(row[23]=='visibility=package'):
@@ -2433,9 +2266,9 @@ def converttoxmiSDBOMSeparateFile():
                                                             ownedEnd.set('xmi:id',row[2]+idString)
                                                         else:
                                                             ownedEnd.set('xmi:id',row[13]+"a")
-                                                        string= row[10]
-                                                        my_split=string.split('=')[1]
-                                                        ownedEnd.set('name',my_split)
+                                                        namecounter = namecounter+1
+                                                        namestr=str(namecounter)
+                                                        ownedEnd.set('name',namestr)
                                                         if(row[12]=='visibility=public'):
                                                             ownedEnd.set('visibility','public')
                                                         elif(row[12]=='visibility=package'):
@@ -2494,9 +2327,9 @@ def converttoxmiSDBOMSeparateFile():
                                                             ownedEnd2.set('xmi:id',row[13]+idString)
                                                         else:
                                                             ownedEnd2.set('xmi:id',row[13]+"b")
-                                                        string= row[21]
-                                                        my_split=string.split('=')[1]
-                                                        ownedEnd2.set('name',my_split)
+                                                        namecounter = namecounter+1
+                                                        namestr=str(namecounter)
+                                                        ownedEnd2.set('name',namestr)
                                                         if(row[23]=='visibility=public'):
                                                             ownedEnd2.set('visibility','public')
                                                         elif(row[23]=='visibility=package'):
@@ -2577,9 +2410,9 @@ def converttoxmiSDBOMSeparateFile():
                                                             ownedEnd.set('xmi:id',row[2]+idString)
                                                         else:
                                                             ownedEnd.set('xmi:id',row[2]+"a")
-                                                        string= row[10]
-                                                        my_split=string.split('=')[1]
-                                                        ownedEnd.set('name',my_split)
+                                                        namecounter = namecounter+1
+                                                        namestr=str(namecounter)
+                                                        ownedEnd.set('name',namestr)
                                                         if(row[12]=='visibility=public'):
                                                             ownedEnd.set('visibility','public')
                                                         elif(row[12]=='visibility=package'):
@@ -2638,9 +2471,9 @@ def converttoxmiSDBOMSeparateFile():
                                                             ownedEnd2.set('xmi:id',row[13]+idString)
                                                         else:
                                                             ownedEnd2.set('xmi:id',row[13]+"b")
-                                                        string= row[21]
-                                                        my_split=string.split('=')[1]
-                                                        ownedEnd2.set('name',my_split)
+                                                        namecounter = namecounter+1
+                                                        namestr=str(namecounter)
+                                                        ownedEnd2.set('name',namestr)
                                                         ownedEnd2.set('aggregation','composite')
                                                         if(row[23]=='visibility=public'):
                                                             ownedEnd2.set('visibility','public')
@@ -2713,29 +2546,29 @@ def converttoxmiSDBOMSeparateFile():
                                             else:
                                                 packageElement.set('xmi:id',UIDBO[y])
                                             packageElement.set('name',ObjectName[y])
-                                            if r10[y]== 'Visibility=public':
+                                            if r6[y]== 'Visibility=public':
                                                 packageElement.set('visibility','public')
-                                            elif r10[y]== 'Visibility=private':
+                                            elif r6[y]== 'Visibility=private':
                                                 packageElement.set('visibility','private')
-                                            if r11[y]== 'isSpecification=false':
+                                            if r7[y]== 'isSpecification=false':
                                                 packageElement.set('isSpecification','false')
-                                            elif r11[y]== 'isSpecification=true':
+                                            elif r7[y]== 'isSpecification=true':
                                                 packageElement.set('isSpecification','true')
-                                            if r12[y]== 'isRoot=false':
+                                            if r8[y]== 'isRoot=false':
                                                 packageElement.set('isRoot','false')
-                                            elif r12[y]== 'isRoot=true':
+                                            elif r8[y]== 'isRoot=true':
                                                 packageElement.set('isRoot','true')
-                                            if r13[y]== 'isLeaf=false':
+                                            if r8[y]== 'isLeaf=false':
                                                 packageElement.set('isLeaf','false')
-                                            elif r13[y]== 'isLeaf=true':
+                                            elif r8[y]== 'isLeaf=true':
                                                 packageElement.set('isLeaf','true')
-                                            if r14[y]== 'isActive=false':
+                                            if r11[y]== 'isActive=false':
                                                 packageElement.set('isActive','false')
-                                            elif r14[y]== 'isActive=true':
+                                            elif r11[y]== 'isActive=true':
                                                 packageElement.set('isActive','true')
-                                            if r15[y]== 'isAbstract=false':
+                                            if r12[y]== 'isAbstract=false':
                                                 packageElement.set('isAbstract','false')
-                                            elif r15[y]== 'isAbstract=true':
+                                            elif r12[y]== 'isAbstract=true':
                                                 packageElement.set('isAbstract','true')
                                             for x in range(2,len(Specialization)):
                                                 if UIDBO[y] == Specialization[x]:
@@ -2769,33 +2602,33 @@ def converttoxmiSDBOMSeparateFile():
                                             else:
                                                 ownedAttribute.set('xmi:id',UIDAttr[y])
                                             ownedAttribute.set('name',AttrName[y])
-                                            if r10[y]== 'Visibility=public':
+                                            if r6[y]== 'Visibility=public':
                                                 ownedAttribute.set('visibility','public')
-                                            elif r10[y]== 'Visibility=private':
+                                            elif r6[y]== 'Visibility=private':
                                                 ownedAttribute.set('visibility','private')
-                                            if r11[y]== 'Multivalued=true':
+                                            if r7[y]== 'Multivalued=true':
                                                 ownedAttribute.set('Multivalued','true')
-                                            elif r11[y]== 'Multivalued=false':
+                                            elif r7[y]== 'Multivalued=false':
                                                 ownedAttribute.set('Multivalued','false')
-                                            if r12[y]== 'Mandatory=true':
+                                            if r8[y]== 'Mandatory=true':
                                                 ownedAttribute.set('Mandatory','true')
-                                            elif r12[y]== 'Mandatory=false':
+                                            elif r8[y]== 'Mandatory=false':
                                                 ownedAttribute.set('Mandatory','false')
-                                            if r14[y]== 'isDerived=true':
+                                            if r10[y]== 'isDerived=true':
                                                 ownedAttribute.set('isDerived','true')
-                                            elif r14[y]== 'isDerived=false':
+                                            elif r10[y]== 'isDerived=false':
                                                 ownedAttribute.set('isDerived','false')
-                                            if r15[y]== 'isReadOnly=true':
+                                            if r11[y]== 'isReadOnly=true':
                                                 ownedAttribute.set('isReadOnly','true')
-                                            elif r15[y]== 'isReadOnly=false':
+                                            elif r11[y]== 'isReadOnly=false':
                                                 ownedAttribute.set('isReadOnly','false')
-                                            if r16[y]== 'MultiplicityElement.isOrdered=true':
+                                            if r14[y]== 'MultiplicityElement.isOrdered=true':
                                                 ownedAttribute.set('isOrdered','true')
-                                            elif r16[y]== 'MultiplicityElement.isOrdered=false':
+                                            elif r14[y]== 'MultiplicityElement.isOrdered=false':
                                                 ownedAttribute.set('isOrdered','false')
-                                            if r17[y]== 'MultiplicityElement.isUnique=true':
+                                            if r15[y]== 'MultiplicityElement.isUnique=true':
                                                 ownedAttribute.set('isUnique','true')
-                                            elif r17[y]== 'MultiplicityElement.isUnique=false':
+                                            elif r15[y]== 'MultiplicityElement.isUnique=false':
                                                 ownedAttribute.set('isUnique','false')
                                             ownedcomment=ET.SubElement(ownedAttribute,'ownedComment')
                                             ownedcomment.set('xmi:type','uml:Comment')
@@ -2804,16 +2637,15 @@ def converttoxmiSDBOMSeparateFile():
                                             convertedstring = str(comntcounter)
                                             body=ET.SubElement(ownedcomment,'body')
                                             body.text=comm[y]
-                                            if not r6[y]:
+                                            if not r13[y]:
                                                 types=ET.SubElement(ownedAttribute,'type')
                                                 types.set('xmi:type','uml:PrimitiveType')
                                                 types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
                                             else:
-                                                #my_string = r8[y]
-                                                #my_list = my_string.split("=")[1]
-                                                ownedAttribute.set('type',r6[y])
-                                                checkenumid.append(r6[y])
-
+                                                my_string = r13[y]
+                                                my_list = my_string.split("=")[1]
+                                                ownedAttribute.set('type',my_list)
+                                                SaveDataType.append(my_list)
                                         elif UMLType[y]=='Enumeration':
                                             if not UIDBO[y] in EnumDuplicateCheck:
                                                 EnumDuplicateCheck.append(UIDBO[y])
@@ -2821,34 +2653,29 @@ def converttoxmiSDBOMSeparateFile():
                                                 packageElement.set('xmi:type','uml:Enumeration')
                                                 packageElement.set('xmi:id',UIDBO[y])
                                                 packageElement.set('name',ObjectName[y])
-                                                if r10[y]== 'Visibility=public':
+                                                if r6[y]== 'Visibility=public':
                                                     packageElement.set('visibility','public')
-                                                elif r10[y]== 'Visibility=private':
+                                                elif r6[y]== 'Visibility=private':
                                                     packageElement.set('visibility','private')
-                                                if r14[y]== 'isAbstract=false':
+                                                if r7[y]== 'isAbstract=false':
                                                     packageElement.set('isAbstract','false')
-                                                elif r14[y]== 'isAbstract=true':
+                                                elif r7[y]== 'isAbstract=true':
                                                     packageElement.set('isAbstract','true')
-                                                if r12[y]== 'isRoot=false':
+                                                if r8[y]== 'isRoot=false':
                                                     packageElement.set('isRoot','false')
-                                                elif r12[y]== 'isRoot=true':
+                                                elif r8[y]== 'isRoot=true':
                                                     packageElement.set('isRoot','true')
-                                                if r13[y]== 'isLeaf=false':
+                                                if r9[y]== 'isLeaf=false':
                                                     packageElement.set('isLeaf','false')
-                                                elif r13[y]== 'isLeaf=true':
+                                                elif r9[y]== 'isLeaf=true':
                                                     packageElement.set('isLeaf','true')
-                                                if r11[y]== 'isSpecification=false':
-                                                    packageElement.set('isSpecification','false')
-                                                elif r11[y]== 'isSpecification=true':
-                                                    packageElement.set('isSpecification','true')              
                                                 ownedcomment=ET.SubElement(packageElement,'ownedComment')
                                                 ownedcomment.set('xmi:id','commentid')
                                                 body=ET.SubElement(ownedcomment,'body')
                                                 body.text=comm[y]
-
                                         elif UMLType[y]=='Enumeration literal':
                                             ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
-                                            ownedAttribute.set('xmi:id',UIDAttr[y])
+                                            ownedAttribute.set('xmi:id',UIDBO[y])
                                             ownedAttribute.set('name',AttrName[y])
                                             ownedcomment=ET.SubElement(ownedAttribute,'ownedComment')
                                             ownedcomment.set('xmi:id','commentid')
@@ -2868,29 +2695,29 @@ def converttoxmiSDBOMSeparateFile():
                                                         packageElement.set('xmi:type','uml:Class')
                                                         packageElement.set('xmi:id',UIDBO[d])
                                                         packageElement.set('name',ObjectName[d])
-                                                        if r10[d]== 'Visibility=public':
+                                                        if r6[d]== 'Visibility=public':
                                                             packageElement.set('visibility','public')
-                                                        elif r10[d]== 'Visibility=private':
+                                                        elif r6[d]== 'Visibility=private':
                                                             packageElement.set('visibility','private')
-                                                        if r11[d]== 'isSpecification=false':
+                                                        if r7[d]== 'isSpecification=false':
                                                             packageElement.set('isSpecification','false')
-                                                        elif r11[d]== 'isSpecification=true':
+                                                        elif r7[d]== 'isSpecification=true':
                                                             packageElement.set('isSpecification','true')
-                                                        if r12[d]== 'isRoot=false':
+                                                        if r8[d]== 'isRoot=false':
                                                             packageElement.set('isRoot','false')
-                                                        elif r12[d]== 'isRoot=true':
+                                                        elif r8[d]== 'isRoot=true':
                                                             packageElement.set('isRoot','true')
-                                                        if r13[d]== 'isLeaf=false':
+                                                        if r8[d]== 'isLeaf=false':
                                                             packageElement.set('isLeaf','false')
-                                                        elif r13[d]== 'isLeaf=true':
+                                                        elif r8[d]== 'isLeaf=true':
                                                             packageElement.set('isLeaf','true')
-                                                        if r14[d]== 'isActive=false':
+                                                        if r11[d]== 'isActive=false':
                                                             packageElement.set('isActive','false')
-                                                        elif r14[d]== 'isActive=true':
+                                                        elif r11[d]== 'isActive=true':
                                                             packageElement.set('isActive','true')
-                                                        if r15[d]== 'isAbstract=false':
+                                                        if r12[d]== 'isAbstract=false':
                                                             packageElement.set('isAbstract','false')
-                                                        elif r15[d]== 'isAbstract=true':
+                                                        elif r12[d]== 'isAbstract=true':
                                                             packageElement.set('isAbstract','true')
                                                         ownedcomment=ET.SubElement(packageElement,'ownedComment')
                                                         ownedcomment.set('xmi:type','uml:Comment')
@@ -2903,33 +2730,33 @@ def converttoxmiSDBOMSeparateFile():
                                                         ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
                                                         ownedAttribute.set('xmi:id',UIDAttr[d])
                                                         ownedAttribute.set('name',AttrName[d])
-                                                        if r10[d]== 'Visibility=public':
+                                                        if r6[d]== 'Visibility=public':
                                                             ownedAttribute.set('visibility','public')
-                                                        elif r10[d]== 'Visibility=private':
+                                                        elif r6[d]== 'Visibility=private':
                                                             ownedAttribute.set('visibility','private')
-                                                        if r11[d]== 'Multivalued=true':
+                                                        if r7[d]== 'Multivalued=true':
                                                             ownedAttribute.set('Multivalued','true')
-                                                        elif r11[d]== 'Multivalued=false':
+                                                        elif r7[d]== 'Multivalued=false':
                                                             ownedAttribute.set('Multivalued','false')
-                                                        if r12[d]== 'Mandatory=true':
+                                                        if r8[d]== 'Mandatory=true':
                                                             ownedAttribute.set('Mandatory','true')
-                                                        elif r12[d]== 'Mandatory=false':
+                                                        elif r8[d]== 'Mandatory=false':
                                                             ownedAttribute.set('Mandatory','false')
-                                                        if r14[d]== 'isDerived=true':
+                                                        if r10[d]== 'isDerived=true':
                                                             ownedAttribute.set('isDerived','true')
-                                                        elif r14[d]== 'isDerived=false':
+                                                        elif r10[d]== 'isDerived=false':
                                                             ownedAttribute.set('isDerived','false')
-                                                        if r15[d]== 'isReadOnly=true':
+                                                        if r11[d]== 'isReadOnly=true':
                                                             ownedAttribute.set('isReadOnly','true')
-                                                        elif r15[d]== 'isReadOnly=false':
+                                                        elif r11[d]== 'isReadOnly=false':
                                                             ownedAttribute.set('isReadOnly','false')
-                                                        if r16[d]== 'MultiplicityElement.isOrdered=true':
+                                                        if r14[d]== 'MultiplicityElement.isOrdered=true':
                                                             ownedAttribute.set('isOrdered','true')
-                                                        elif r16[d]== 'MultiplicityElement.isOrdered=false':
+                                                        elif r14[d]== 'MultiplicityElement.isOrdered=false':
                                                             ownedAttribute.set('isOrdered','false')
-                                                        if r17[d]== 'MultiplicityElement.isUnique=true':
+                                                        if r15[d]== 'MultiplicityElement.isUnique=true':
                                                             ownedAttribute.set('isUnique','true')
-                                                        elif r17[d]== 'MultiplicityElement.isUnique=false':
+                                                        elif r15[d]== 'MultiplicityElement.isUnique=false':
                                                             ownedAttribute.set('isUnique','false')
                                                         ownedcomment=ET.SubElement(ownedAttribute,'ownedComment')
                                                         ownedcomment.set('xmi:type','uml:Comment')
@@ -2938,195 +2765,62 @@ def converttoxmiSDBOMSeparateFile():
                                                         convertedstring = str(comntcounter)
                                                         body=ET.SubElement(ownedcomment,'body')
                                                         body.text=comm[d]
-                                                        if not r6[y]:
+                                                        if not r13[y]:
                                                             types=ET.SubElement(ownedAttribute,'type')
                                                             types.set('xmi:type','uml:PrimitiveType')
                                                             types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
                                                         else:
-                                                            #my_string = r13[y]
-                                                            #my_list = my_string.split("=")[1]
-                                                            ownedAttribute.set('type',r6[y])
-                                                            checkenumid.append(r6[y])
+                                                            my_string = r13[y]
+                                                            my_list = my_string.split("=")[1]
+                                                            ownedAttribute.set('type',my_list)
+                                                            SaveDataType.append(my_list)
                                                     checkID.append(makeGeneral[x])
-        while checkenumid in EnumDuplicateCheck:
-            checkenumid.remove(EnumDuplicateCheck)
-    
+
         with open('All CSV Files\BIAN BOM.csv', 'r',encoding="utf-8") as read_obj:
             # pass the file object to reader() to get the reader object
             csv_reader = csv.reader(read_obj)
             #csv_reader.replace(" ",np.nan, inplace=True)
-
+            SaveDataType = list(dict.fromkeys(SaveDataType))
             # Iterate over each row in the csv using reader object
             for row in csv_reader:
-                if row[0]=='Primitive type':
+                if row[0]=='Data type' and row[0] in SaveDataType:
                     packageElement=ET.SubElement(uml,'packagedElement')
                     packageElement.set('xmi:type','uml:PrimitiveType')
                     packageElement.set('xmi:id',row[1])
                     packageElement.set('name',row[2])
-                    if row[10]== 'Visibility=public':
-                            packageElement.set('visibility','public')
-                    elif row[10]== 'Visibility=private':
-                        packageElement.set('visibility','private')
-                    if row[14]== 'isAbstract=false':
-                        packageElement.set('isAbstract','false')
-                    elif row[14]== 'isAbstract=true':
-                        packageElement.set('isAbstract','true')
-                    if row[12]== 'isRoot=false':
-                        packageElement.set('isRoot','false')
-                    elif row[12]== 'isRoot=true':
-                        packageElement.set('isRoot','true')
-                    if row[13]== 'isLeaf=false':
-                        packageElement.set('isLeaf','false')
-                    elif row[13]== 'isLeaf=true':
-                        packageElement.set('isLeaf','true')
-                    if row[11]== 'isSpecification=false':
-                        packageElement.set('isSpecification','false')
-                    elif row[11]== 'isSpecification=true':
-                        packageElement.set('isSpecification','true')
-                    ownedcomment=ET.SubElement(packageElement,'ownedComment')
-                    ownedcomment.set('xmi:id','commentid')
-                    body=ET.SubElement(ownedcomment,'body')
-                    body.text=row[5]
-                elif row[0]=='Data type':
-                    packageElement=ET.SubElement(uml,'packagedElement')
-                    packageElement.set('xmi:type','uml:PrimitiveType')
-                    packageElement.set('xmi:id',row[1])
-                    packageElement.set('name',row[2])
-                    if row[10]== 'Visibility=public':
+                    if row[6]== 'Visibility=public':
                         packageElement.set('visibility','public')
-                    elif row[10]== 'Visibility=private':
+                    elif row[6]== 'Visibility=private':
                         packageElement.set('visibility','private')
-                    if row[14]== 'isAbstract=false':
+                    if row[7]== 'isAbstract=false':
                         packageElement.set('isAbstract','false')
-                    elif row[14]== 'isAbstract=true':
+                    elif row[7]== 'isAbstract=true':
                         packageElement.set('isAbstract','true')
-                    if row[12]== 'isRoot=false':
+                    if row[8]== 'isRoot=false':
                         packageElement.set('isRoot','false')
-                    elif row[12]== 'isRoot=true':
+                    elif row[8]== 'isRoot=true':
                         packageElement.set('isRoot','true')
-                    if row[13]== 'isLeaf=false':
+                    if row[9]== 'isLeaf=false':
                         packageElement.set('isLeaf','false')
-                    elif row[13]== 'isLeaf=true':
+                    elif row[9]== 'isLeaf=true':
                         packageElement.set('isLeaf','true')
-                    if row[11]== 'isSpecification=false':
-                        packageElement.set('isSpecification','false')
-                    elif row[11]== 'isSpecification=true':
-                        packageElement.set('isSpecification','true')
                     ownedcomment=ET.SubElement(packageElement,'ownedComment')
                     ownedcomment.set('xmi:id','commentid')
                     body=ET.SubElement(ownedcomment,'body')
                     body.text=row[5]
-                    datatypelist.append(row[1])
-                elif row[0]=='Attribute':
-                    if row[1] in datatypelist:
-                        ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
-                        ownedAttribute.set('xmi:id',row[3])
-                        ownedAttribute.set('name',row[4])
-                        if row[10]== 'Visibility=public':
-                                ownedAttribute.set('visibility','public')
-                        elif row[10]== 'Visibility=private':
-                                ownedAttribute.set('visibility','private')
-                        if row[11]== 'Multivalued=true':
-                                ownedAttribute.set('Multivalued','true')
-                        elif row[11]== 'Multivalued=false':
-                                ownedAttribute.set('Multivalued','false')
-                        if row[12]== 'Mandatory=true':
-                                ownedAttribute.set('Mandatory','true')
-                        elif row[12]== 'Mandatory=false':
-                                ownedAttribute.set('Mandatory','false')
-                        if row[14]== 'isDerived=true':
-                                ownedAttribute.set('isDerived','true')
-                        elif row[14]== 'isDerived=false':
-                                ownedAttribute.set('isDerived','false')
-                        if row[15]== 'isReadOnly=true':
-                                ownedAttribute.set('isReadOnly','true')
-                        elif row[15]== 'isReadOnly=false':
-                                ownedAttribute.set('isReadOnly','false')
-                        if row[16]== 'MultiplicityElement.isOrdered=true':
-                                ownedAttribute.set('isOrdered','true')
-                        elif row[16]== 'MultiplicityElement.isOrdered=false':
-                                ownedAttribute.set('isOrdered','false')
-                        if row[17]== 'MultiplicityElement.isUnique=true':
-                                ownedAttribute.set('isUnique','true')
-                        elif row[17]== 'MultiplicityElement.isUnique=false':
-                                ownedAttribute.set('isUnique','false')
-                        ownedcomment=ET.SubElement(ownedAttribute,'ownedComment')
-                        ownedcomment.set('xmi:id','commentid')
-                        body=ET.SubElement(ownedcomment,'body')
-                        body.text=row[5]
-                        if not row[6]:
-                            types=ET.SubElement(ownedAttribute,'type')
-                            types.set('xmi:type','uml:PrimitiveType')
-                            types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
-                        else:
-                            #my_string = row[13]
-                            #my_list = my_string.split("=")[1]
-                            ownedAttribute.set('type',row[6])
-                            checkenumid.append(row[6])
-                    #with open('ACSV Files\BIAN UML Elements.csv', 'r',encoding="utf-8") as read_obj:
-                    #    # pass tfile object to reader() to get the reader object
-                    #    csv_read = csv.reader(read_obj)
-                    #    for row2 csv_reader2:
-                    #        if r1]== row2[3]:
-                    #            ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
-                    #            ownedAttribute.set('xmi:id',row2[0])
-                    #            ownedAttribute.set('name',row2[2])
-                    #            types=ET.SubElement(ownedAttribute,'type')
-                    #            types.set('xmi:type','uml:PrimitiveType')
-                    #            types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
+                    with open('All CSV Files\BIAN UML Elements.csv', 'r',encoding="utf-8") as read_obj:
+                        # pass the file object to reader() to get the reader object
+                        csv_reader2 = csv.reader(read_obj)
+                        for row2 in csv_reader2:
+                            if row[1]== row2[3]:
+                                ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
+                                ownedAttribute.set('xmi:id',row2[0])
+                                ownedAttribute.set('name',row2[2])
+                                types=ET.SubElement(ownedAttribute,'type')
+                                types.set('xmi:type','uml:PrimitiveType')
+                                types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')
 
-        # create a new XML file with the results
-        with open('All CSV Files\BIAN BOM.csv', 'r',encoding="utf-8") as read_obj:
-            # pass the file object to reader() to get the reader object
-            csv_reader = csv.reader(read_obj)
-            #csv_reader.replace(" ",np.nan, inplace=True)
-            save=[]
-            # Iterate over each row in the csv using reader object
-            for row in csv_reader:
-                if row[0]=='Enumeration' and row[1] in checkenumid:
-                    if not row[1] in EnumDuplicateCheck:
-                        EnumDuplicateCheck.append(row[1])
-                        packageElement=ET.SubElement(uml,'packagedElement')
-                        packageElement.set('xmi:type','uml:Enumeration')
-                        packageElement.set('xmi:id',row[1])
-                        packageElement.set('name',row[2])
-                        if row[10]== 'Visibility=public':
-                            packageElement.set('visibility','public')
-                        elif row[10]== 'Visibility=private':
-                            packageElement.set('visibility','private')
-                        if row[14]== 'isAbstract=false':
-                            packageElement.set('isAbstract','false')
-                        elif row[14]== 'isAbstract=true':
-                            packageElement.set('isAbstract','true')
-                        if row[12]== 'isRoot=false':
-                            packageElement.set('isRoot','false')
-                        elif row[12]== 'isRoot=true':
-                            packageElement.set('isRoot','true')
-                        if row[13]== 'isLeaf=false':
-                            packageElement.set('isLeaf','false')
-                        elif row[13]== 'isLeaf=true':
-                            packageElement.set('isLeaf','true')
-                        if row[11]== 'isSpecification=false':
-                            packageElement.set('isSpecification','false')
-                        elif row[11]== 'isSpecification=true':
-                            packageElement.set('isSpecification','true')
-                        ownedcomment=ET.SubElement(packageElement,'ownedComment')
-                        ownedcomment.set('xmi:id','commentid')
-                        body=ET.SubElement(ownedcomment,'body')
-                        body.text=row[5]
-                        save.append(row[1])
-                elif row[0]=='Enumeration literal':
-                    if row[1] in save:
-                        ownedAttribute=ET.SubElement(packageElement, 'ownedAttribute')
-                        ownedAttribute.set('xmi:id',row[3])
-                        ownedAttribute.set('name',row[4])
-                        ownedcomment=ET.SubElement(ownedAttribute,'ownedComment')
-                        ownedcomment.set('xmi:id','commentid')
-                        body=ET.SubElement(ownedcomment,'body')
-                        body.text=row[5]
-                        types=ET.SubElement(ownedAttribute,'type')
-                        types.set('xmi:type','uml:PrimitiveType')
-                        types.set('href','pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String')                
+
 
         # create a new XML file with the results
         mydata = ET.tostring(uml)
