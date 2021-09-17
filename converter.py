@@ -38,7 +38,7 @@ def main(arg):
     print('Completed')
     time.sleep(0.5)
     print('Converting Class Diagram with references to XMI...')
-    diagrams.converttoxmiwithDiagrams("XMI BIAN files\CLASS DIAGRAMS_and_REFERENCES",'servicedomain','NR','Domains')
+    diagrams.converttoxmiwithDiagrams("XMI BIAN files\CLASS DIAGRAMS_and_REFERENCES",'servicedomain','R','Domains')
     print('Completed')
     time.sleep(0.5)
     print('Converting Bussiness Domains with references to XMI Files...')
