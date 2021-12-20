@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Transaction Engine BOM SD" visibility="public" xmi:id="1304b18f-ce8a-ea11-8295-0638ef697122" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="8031e8f8-6393-e911-823e-065576aa37f8" xmi:type="uml:Association">
+   <ownedEnd association="8031e8f8-6393-e911-823e-065576aa37f8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="5708a70e-fd6f-e911-8237-06309b11004c" visibility="public" xmi:id="1aeced65-0b68-e911-8237-06dd5e24f7bca">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="8031e8f8-6393-e911-823e-065576aa37f8" isUnique="true" name="AccessedBy
+Transaction" type="1aeced65-0b68-e911-8237-06dd5e24f7bc" visibility="public" xmi:id="1aeced65-0b68-e911-8237-06dd5e24f7bcb">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="522adeb6-02b6-ea11-829f-0603c04a45dc" xmi:type="uml:Association">
+   <ownedEnd association="522adeb6-02b6-ea11-829f-0603c04a45dc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="1599031b-02b6-ea11-829f-0603c04a45dc" visibility="public" xmi:id="aec897ae-02b6-ea11-829f-0603c04a45dca">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="522adeb6-02b6-ea11-829f-0603c04a45dc" isUnique="true" name="" type="aec897ae-02b6-ea11-829f-0603c04a45dc" visibility="public" xmi:id="aec897ae-02b6-ea11-829f-0603c04a45dcb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="a3963708-06b6-ea11-829f-0603c04a45dc" xmi:type="uml:Association">
+   <ownedEnd association="a3963708-06b6-ea11-829f-0603c04a45dc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="88012e35-01b6-ea11-829f-0603c04a45dc" visibility="public" xmi:id="a58c8a29-5a96-e911-823e-062d75b50ccaa">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="a3963708-06b6-ea11-829f-0603c04a45dc" isUnique="true" name="Scheduled
+FinancialTransaction" type="a58c8a29-5a96-e911-823e-062d75b50cca" visibility="public" xmi:id="a58c8a29-5a96-e911-823e-062d75b50ccab">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="9a773148-03b6-ea11-829f-0603c04a45dc" xmi:type="uml:Association">
+   <ownedEnd association="9a773148-03b6-ea11-829f-0603c04a45dc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="Supported
+Product/Service" type="1aeced65-0b68-e911-8237-06dd5e24f7bc" visibility="public" xmi:id="88012e35-01b6-ea11-829f-0603c04a45dca">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="9a773148-03b6-ea11-829f-0603c04a45dc" isUnique="true" name="" type="88012e35-01b6-ea11-829f-0603c04a45dc" visibility="public" xmi:id="88012e35-01b6-ea11-829f-0603c04a45dcb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="4bb91928-02b6-ea11-829f-0603c04a45dc" xmi:type="uml:Association">
+   <ownedEnd association="4bb91928-02b6-ea11-829f-0603c04a45dc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="88012e35-01b6-ea11-829f-0603c04a45dc" visibility="public" xmi:id="1599031b-02b6-ea11-829f-0603c04a45dca">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="4bb91928-02b6-ea11-829f-0603c04a45dc" isUnique="true" name="" type="1599031b-02b6-ea11-829f-0603c04a45dc" visibility="public" xmi:id="1599031b-02b6-ea11-829f-0603c04a45dcb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="ServiceArrangement" xmi:id="c80f2ee6-f097-e911-827a-06d89370a58e" xmi:type="uml:Class">
+   <generalization general="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm13209" xmi:type="uml:Comment">
+    <body>
+     An arrangement into which is promised to deliver a specific service.
+
+Comment: Most service arrangements are instantiations of Product Services
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="TransactionScheduleService" xmi:id="88012e35-01b6-ea11-829f-0603c04a45dc" xmi:type="uml:Class">
+   <generalization general="0cbfb7fb-5997-e911-823e-065ba593ba6e" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm13210" xmi:type="uml:Comment">
+    <body>
+     An operational support service to orchestrate a schedule of payment transaction
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ServiceDateTime" type="Visibility=public" xmi:id="f4af1d27-03b6-ea11-829f-0603c04a45dc90157202">
+    <ownedComment xmi:id="comm13211" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ServiceFeeType" type="Visibility=public" xmi:id="bcc1ca58-04b6-ea11-829f-0603c04a45dc90157202">
+    <ownedComment xmi:id="comm13212" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ServiceFunctionType" type="Visibility=public" xmi:id="1ef9b1d4-07b6-ea11-829f-0603c04a45dc90157202">
+    <ownedComment xmi:id="comm13213" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ServiceFunctionDescription" type="Visibility=public" xmi:id="be89e1e8-07b6-ea11-829f-0603c04a45dc90157202">
+    <ownedComment xmi:id="comm13214" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="TransactionScheduleArrangement" xmi:id="1599031b-02b6-ea11-829f-0603c04a45dc" xmi:type="uml:Class">
+   <generalization general="c80f2ee6-f097-e911-827a-06d89370a58e" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm13215" xmi:type="uml:Comment">
+    <body>
+     An arrangement (ServiceArrangement) which is promised to deliver the TransactionScheduleService
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ApplicableServiceFeeType" type="Visibility=public" xmi:id="2ada2b2e-04b6-ea11-829f-0603c04a45dc90157202">
+    <ownedComment xmi:id="comm13216" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ApplicableServiceFeeAmount" type="Visibility=public" xmi:id="73a1ef26-05b6-ea11-829f-0603c04a45dc90157202">
+    <ownedComment xmi:id="comm13217" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ServiceArrangementDateTime" type="Visibility=public" xmi:id="7102c566-05b6-ea11-829f-0603c04a45dc90157202">
+    <ownedComment xmi:id="comm13218" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="TransactionScheduleArrangementFulfilmentEvent" xmi:id="aec897ae-02b6-ea11-829f-0603c04a45dc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm13219" xmi:type="uml:Comment">
+    <body>
+     The fulfilment of TransactionScheduleArrangement
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AppliedServiceFeeType" type="Visibility=public" xmi:id="19798e3b-04b6-ea11-829f-0603c04a45dc90157202">
+    <ownedComment xmi:id="comm13220" xmi:type="uml:Comment">
+     <body>
+      The fee type applied
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AppliedServiceFeeAmount" type="Visibility=public" xmi:id="728923c7-04b6-ea11-829f-0603c04a45dc90157202">
+    <ownedComment xmi:id="comm13221" xmi:type="uml:Comment">
+     <body>
+      The derived fee amount to be charged
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AppliedServiceFeeDescription" type="Visibility=public" xmi:id="08662dcd-04b6-ea11-829f-0603c04a45dc90157202">
+    <ownedComment xmi:id="comm13222" xmi:type="uml:Comment">
+     <body>
+      General description of the fee
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Arrangement" xmi:id="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm13223" xmi:type="uml:Comment">
+    <body>
+     An agreed commitment to perform actions that meet obligations under an agreement
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ActionType" type="Visibility=public" xmi:id="b5b2b263-7770-eb11-82fd-061e1f234dd590157202">
+    <ownedComment xmi:id="comm13224" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ArrangementStartDate" type="Visibility=public" xmi:id="7fa0d46b-7770-eb11-82fd-061e1f234dd590157202">
+    <ownedComment xmi:id="comm13225" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ArrangementEndDate" type="Visibility=public" xmi:id="0feec37e-7770-eb11-82fd-061e1f234dd590157202">
+    <ownedComment xmi:id="comm13226" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ArrangementStatus" type="Visibility=public" xmi:id="3bf71a90-a47a-eb11-8305-06377ca422c790157202">
+    <ownedComment xmi:id="comm13227" xmi:type="uml:Comment">
+     <body>
+      A status which refers to the LifecycleStatus of arrangement (e.g., requested, proposed, offered, accepted, cancelled, terminated, fulfilled, etc.);
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Transaction" xmi:id="5708a70e-fd6f-e911-8237-06309b11004c" xmi:type="uml:Class">
+   <generalization general="ba9240b3-0056-e911-8237-060aad038e48" xmi:id="gen4" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm13228" xmi:type="uml:Comment">
+    <body>
+     A planned or performed action in the context of concluding or fulfilling an agreement. 
+
+Act to do something.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="TransactionIdentification" type="Visibility=public" xmi:id="3f2f97a8-da7e-e911-823e-0680d160e49490157202">
+    <ownedComment xmi:id="comm13229" xmi:type="uml:Comment">
+     <body>
+      An identifier that allows to uniquely refer to an instance of a transaction.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TransactionDate" type="Visibility=public" xmi:id="e6a112c6-da7e-e911-823e-0680d160e49490157202">
+    <ownedComment xmi:id="comm13230" xmi:type="uml:Comment">
+     <body>
+      The Date that the transaction has occurred or is planned to occur.
+A characteristic of transaction which refers to the LifecycleDate of transaction (e.g., initiated date, executed date, fulfillment date).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TransactionType" type="Visibility=public" xmi:id="7113605b-6493-e911-823e-065576aa37f890157202">
+    <ownedComment xmi:id="comm13231" xmi:type="uml:Comment">
+     <body>
+      Specifies the category of Transaction like payment transaction, accounting transaction, financial Transaction, banking transaction, etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TransactionDescription" type="Visibility=public" xmi:id="2445958b-f6d2-e911-8296-06b94e7647ce90157202">
+    <ownedComment xmi:id="comm13232" xmi:type="uml:Comment">
+     <body>
+      A detailed explanation or commentary of transaction.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TransactionLifecycleStatus" type="Visibility=public" xmi:id="e07aa642-0f48-ea11-8289-062ea3b80f1290157202">
+    <ownedComment xmi:id="comm13233" xmi:type="uml:Comment">
+     <body>
+      A characteristic of transaction which refers to the LifecycleStatus of transaction (e.g., initiated, executed, confirmed, cancelled, etc.)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TransactionName" type="Visibility=public" xmi:id="60d33862-0f48-ea11-8289-062ea3b80f1290157202">
+    <ownedComment xmi:id="comm13234" xmi:type="uml:Comment">
+     <body>
+      The name of transaction.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Action" xmi:id="ba9240b3-0056-e911-8237-060aad038e48" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm13235" xmi:type="uml:Comment">
+    <body>
+     An event related to the behaviour performed by an actor. 
+
+Comment:
+An actor can be a party or a machine
+An action Includes various types of requests, orders and financial transactions. Includes responses where appropriate.
+An action is an event which means that the concept describes the result of acting.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Service" xmi:id="0cbfb7fb-5997-e911-823e-065ba593ba6e" xmi:type="uml:Class">
+   <generalization general="64fe5512-598d-eb11-8310-068d732c0449" xmi:id="gen5" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm13236" xmi:type="uml:Comment">
+    <body>
+     An exposed function (an externalized functionality) that is able to deliver a certain value/benefit (a proposed definition adapted from Archimate).
+
+A unit of functionality that a system exposes to its environment, while hiding internal operations, which provides a certain value (monetary or otherwise). 
+
+
+Comment:
+
+A Service is something that is done by an actor for the benefit of an actor in the environment.
+
+A system is the broad sense of the word. Means Business Service, Application Service, Technology Service, "huppeldepup" Service
+ 
+
+
+Characteristics of a service:
+
+A system (The Service Domain)
+Functionality is exposed (Action Term)
+It provides a certain value (monetary or otherwise) 
+
+
+Exposing functionality means that the internals of realizing the service is hidden for the beneficiary of the Service.
+ 
+
+
+In BIAN a "Service Operation" is visualized as a "Business Service" , the "System" refers to the  "Service Domain"  
+
+The name of a Service Operation is composed of an "Action Term" + "Subject Matter" which is the "Control Record" or the "Behaviour Qualifier".
+
+
+Service is the intangible equivalent of a good. (ISO20022). 
+
+A type of economic activity that is intangible, is not stored and does not result in ownership; a service is consumed at the point of sale (FIBO &amp; Business Dictionary)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ServiceName" type="Visibility=public" xmi:id="680df662-c472-eb11-8305-06e7df9dc07990157202">
+    <ownedComment xmi:id="comm13237" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ServiceDescription" type="Visibility=public" xmi:id="d80df662-c472-eb11-8305-06e7df9dc07990157202">
+    <ownedComment xmi:id="comm13238" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ServiceType" type="Visibility=public" xmi:id="2b3fce71-c472-eb11-8305-06e7df9dc07990157202">
+    <ownedComment xmi:id="comm13239" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Feature" xmi:id="64fe5512-598d-eb11-8310-068d732c0449" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm13240" xmi:type="uml:Comment">
+    <body>
+     a distinctive attribute or aspect of something.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="FinancialTransaction" xmi:id="a58c8a29-5a96-e911-823e-062d75b50cca" xmi:type="uml:Class">
+   <generalization general="66bab5d1-0056-e911-8237-060aad038e48" xmi:id="gen6" xmi:type="uml:Generalization"/>
+   <generalization general="5708a70e-fd6f-e911-8237-06309b11004c" xmi:id="gen7" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm13241" xmi:type="uml:Comment">
+    <body>
+     A transaction that changes the financial position (the status of the finances) of involved party.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="FinancialTransactionType" type="Visibility=public" xmi:id="6ef40332-5a96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm13242" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="FinancialTransactionCurrency" type="Visibility=public" xmi:id="e78b1f71-6596-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm13243" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="FinancialTransactionAmount" type="Visibility=public" xmi:id="30076795-6596-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm13244" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="FinancialTransactionFromAccount" type="Visibility=public" xmi:id="afe960fc-7f96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm13245" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="FinancialTransactionTargetAccount" type="Visibility=public" xmi:id="cf978c07-8096-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm13246" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="FinancialTransactionDateTime" type="Visibility=public" xmi:id="19c10366-1048-ea11-8289-062ea3b80f1290157202">
+    <ownedComment xmi:id="comm13247" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="BankingProduct" xmi:id="1aeced65-0b68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <generalization general="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:id="gen8" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm13248" xmi:type="uml:Comment">
+    <body>
+     A package of services and goods, accompanied by term and condition which is offered as a whole to (internal or external) customers.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ProductIdentification" type="Visibility=public" xmi:id="d9550bed-826a-e911-8237-061b75d0d31890157202">
+    <ownedComment xmi:id="comm13249" xmi:type="uml:Comment">
+     <body>
+      The identifier of product e.g. ISIN Code.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductType" type="Visibility=public" xmi:id="8a5e5f87-2f7d-e911-823e-069ad1a2e64890157202">
+    <ownedComment xmi:id="comm13250" xmi:type="uml:Comment">
+     <body>
+      Specifies the category/type/class of product like financial product. Product can be categorized according to different perspectives.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductLifecycleStatus" type="Visibility=public" xmi:id="c5f72c17-307d-e911-823e-069ad1a2e64890157202">
+    <ownedComment xmi:id="comm13251" xmi:type="uml:Comment">
+     <body>
+      Refers to the lifecycle of a product (e.g., initiated, announced, active, obsolete, withdrawn).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductPriority" type="Visibility=public" xmi:id="bf0ea918-b986-e911-823e-062687e6a90490157202">
+    <ownedComment xmi:id="comm13252" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductDescription" type="Visibility=public" xmi:id="34a6446c-2844-ea11-8289-068ff87429a490157202">
+    <ownedComment xmi:id="comm13253" xmi:type="uml:Comment">
+     <body>
+      A detailed explanation or commentary of product.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductVersion" type="Visibility=public" xmi:id="da801270-cc4c-ea11-8289-062dfdfaca5890157202">
+    <ownedComment xmi:id="comm13254" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Event" xmi:id="66bab5d1-0056-e911-8237-060aad038e48" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm13255" xmi:type="uml:Comment">
+    <body>
+     Something that happens, has happened, can happen or is planned to happen.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="FinancialInstrument" xmi:id="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm13256" xmi:type="uml:Comment">
+    <body>
+     A contract that gives rise to a financial asset of one entity and a financial liability or equity instrument of another entity. (IFRS)
+https://www.iasplus.com/en/standards/ias/ias32#:~:text=Key%20definitions%20%5BIAS%2032.11%5D,equity%20instrument%20of%20another%20entity
+
+Financial instruments are financial contracts of different nature made between institutional units. These comprise the full range of financial claims and liabilities between institutional units, including contingent liabilities like guarantees, commitments, etc. (ISO 10962)
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

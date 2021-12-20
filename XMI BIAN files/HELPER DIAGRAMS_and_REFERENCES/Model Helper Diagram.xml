@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Model Helper SD" visibility="public" xmi:id="0242275b-c2e5-e911-82b0-068cff9cc42a" xmi:type="uml:Package">
+  <packagedElement name="RuleSet Helper SD" visibility="public" xmi:id="a89ab5c4-598b-e911-823e-0680522666ec" xmi:type="uml:Package">
+   <packagedElement name="" xmi:id="a73bcc22-ccae-e911-828c-06d72c197ec4" xmi:type="uml:Association">
+    <ownedEnd association="a73bcc22-ccae-e911-828c-06d72c197ec4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="d41c7f3f-c7ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="96635de6-cbae-e911-828c-06d72c197ec4a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="a73bcc22-ccae-e911-828c-06d72c197ec4" isUnique="true" name="" type="96635de6-cbae-e911-828c-06d72c197ec4" visibility="public" xmi:id="96635de6-cbae-e911-828c-06d72c197ec4b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="243f0905-c2ae-e911-828c-06d72c197ec4" xmi:type="uml:Association">
+    <ownedEnd association="243f0905-c2ae-e911-828c-06d72c197ec4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="e48b3c8e-b4ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="a2ab1ae9-c1ae-e911-828c-06d72c197ec4a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="243f0905-c2ae-e911-828c-06d72c197ec4" isUnique="true" name="" type="a2ab1ae9-c1ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="a2ab1ae9-c1ae-e911-828c-06d72c197ec4b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="5d22317b-c1ae-e911-828c-06d72c197ec4" xmi:type="uml:Association">
+    <ownedEnd association="5d22317b-c1ae-e911-828c-06d72c197ec4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="e48b3c8e-b4ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="6d64228c-c0ae-e911-828c-06d72c197ec4a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="5d22317b-c1ae-e911-828c-06d72c197ec4" isUnique="true" name="" type="6d64228c-c0ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="6d64228c-c0ae-e911-828c-06d72c197ec4b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement memberEnd="a7f7f0e1-b7ae-e911-828c-06d72c197ec4a 312ae26c-baae-e911-828c-06d72c197ec4b" name="" navigableOwnedEnd="312ae26c-baae-e911-828c-06d72c197ec4b" xmi:id="3fbb0577-baae-e911-828c-06d72c197ec4" xmi:type="uml:Association">
+    <ownedEnd association="3fbb0577-baae-e911-828c-06d72c197ec4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="a7f7f0e1-b7ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="a7f7f0e1-b7ae-e911-828c-06d72c197ec4a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd aggregation="composite" association="3fbb0577-baae-e911-828c-06d72c197ec4" isUnique="true" name="" type="312ae26c-baae-e911-828c-06d72c197ec4" visibility="public" xmi:id="312ae26c-baae-e911-828c-06d72c197ec4b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement memberEnd="a2ab1ae9-c1ae-e911-828c-06d72c197ec4a ec37b21a-c3ae-e911-828c-06d72c197ec4b" name="" navigableOwnedEnd="ec37b21a-c3ae-e911-828c-06d72c197ec4b" xmi:id="2d7aba7e-c7ae-e911-828c-06d72c197ec4" xmi:type="uml:Association">
+    <ownedEnd association="2d7aba7e-c7ae-e911-828c-06d72c197ec4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="a2ab1ae9-c1ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="a2ab1ae9-c1ae-e911-828c-06d72c197ec4a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd aggregation="composite" association="2d7aba7e-c7ae-e911-828c-06d72c197ec4" isUnique="true" name="" type="ec37b21a-c3ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="ec37b21a-c3ae-e911-828c-06d72c197ec4b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="1de31632-ceae-e911-828c-06d72c197ec4" xmi:type="uml:Association">
+    <ownedEnd association="1de31632-ceae-e911-828c-06d72c197ec4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="a829ebf3-c5ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="83f1ba60-1fa2-e911-8280-068b5ca1cd1aa">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="1de31632-ceae-e911-828c-06d72c197ec4" isUnique="true" name="" type="83f1ba60-1fa2-e911-8280-068b5ca1cd1a" visibility="public" xmi:id="83f1ba60-1fa2-e911-8280-068b5ca1cd1ab">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="c47f6d0e-cfae-e911-828c-06d72c197ec4" xmi:type="uml:Association">
+    <ownedEnd association="c47f6d0e-cfae-e911-828c-06d72c197ec4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="a829ebf3-c5ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="a7108679-cdae-e911-828c-06d72c197ec4a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="c47f6d0e-cfae-e911-828c-06d72c197ec4" isUnique="true" name="" type="a7108679-cdae-e911-828c-06d72c197ec4" visibility="public" xmi:id="a7108679-cdae-e911-828c-06d72c197ec4b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement memberEnd="a2ab1ae9-c1ae-e911-828c-06d72c197ec4a d41c7f3f-c7ae-e911-828c-06d72c197ec4b" name="" navigableOwnedEnd="d41c7f3f-c7ae-e911-828c-06d72c197ec4b" xmi:id="d6927d9f-c7ae-e911-828c-06d72c197ec4" xmi:type="uml:Association">
+    <ownedEnd association="d6927d9f-c7ae-e911-828c-06d72c197ec4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="a2ab1ae9-c1ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="a2ab1ae9-c1ae-e911-828c-06d72c197ec4a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd aggregation="composite" association="d6927d9f-c7ae-e911-828c-06d72c197ec4" isUnique="true" name="" type="d41c7f3f-c7ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="d41c7f3f-c7ae-e911-828c-06d72c197ec4b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement memberEnd="a2ab1ae9-c1ae-e911-828c-06d72c197ec4a a829ebf3-c5ae-e911-828c-06d72c197ec4b" name="" navigableOwnedEnd="a829ebf3-c5ae-e911-828c-06d72c197ec4b" xmi:id="8aa3f67b-c6ae-e911-828c-06d72c197ec4" xmi:type="uml:Association">
+    <ownedEnd association="8aa3f67b-c6ae-e911-828c-06d72c197ec4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="a2ab1ae9-c1ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="a2ab1ae9-c1ae-e911-828c-06d72c197ec4a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd aggregation="composite" association="8aa3f67b-c6ae-e911-828c-06d72c197ec4" isUnique="true" name="" type="a829ebf3-c5ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="a829ebf3-c5ae-e911-828c-06d72c197ec4b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="131e4264-34e4-e911-82a8-060f6c10fb12" xmi:type="uml:Association">
+    <ownedEnd association="131e4264-34e4-e911-82a8-060f6c10fb12" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="96635de6-cbae-e911-828c-06d72c197ec4" visibility="public" xmi:id="6d64228c-c0ae-e911-828c-06d72c197ec4a">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="131e4264-34e4-e911-82a8-060f6c10fb12" isUnique="true" name="" type="6d64228c-c0ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="6d64228c-c0ae-e911-828c-06d72c197ec4b">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement memberEnd="e48b3c8e-b4ae-e911-828c-06d72c197ec4a 7b5fa990-beae-e911-828c-06d72c197ec4b" name="" navigableOwnedEnd="7b5fa990-beae-e911-828c-06d72c197ec4b" xmi:id="bbcc04a5-beae-e911-828c-06d72c197ec4" xmi:type="uml:Association">
+    <ownedEnd association="bbcc04a5-beae-e911-828c-06d72c197ec4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="e48b3c8e-b4ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="e48b3c8e-b4ae-e911-828c-06d72c197ec4a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd aggregation="composite" association="bbcc04a5-beae-e911-828c-06d72c197ec4" isUnique="true" name="" type="7b5fa990-beae-e911-828c-06d72c197ec4" visibility="public" xmi:id="7b5fa990-beae-e911-828c-06d72c197ec4b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="207c68d6-c0ae-e911-828c-06d72c197ec4" xmi:type="uml:Association">
+    <ownedEnd association="207c68d6-c0ae-e911-828c-06d72c197ec4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="e48b3c8e-b4ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="798106aa-c0ae-e911-828c-06d72c197ec4a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="207c68d6-c0ae-e911-828c-06d72c197ec4" isUnique="true" name="" type="798106aa-c0ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="798106aa-c0ae-e911-828c-06d72c197ec4b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="RuleSet" xmi:id="a89ab5c4-598b-e911-823e-0680522666ec" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm1136" xmi:type="uml:Comment">
+     <body>
+      A set of rules (e.g., regulation, policy, law, guideline, principle, standard) to guide, direct or operate a subject matter.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Policy" xmi:id="c812ebb2-22a7-e911-8288-06c837085cb8" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen1" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1137" xmi:type="uml:Comment">
+     <body>
+      Rule that governs business execution.
+
+The set of basic principles and associated guidelines, formulated and enforced by the governing body of an organization, to direct and limit its actions in pursuit of long-term goals. (Business Dictionary)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="RuleSetInvolvement" xmi:id="432d495b-30d6-e911-8296-06e1705194c6" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm1138" xmi:type="uml:Comment">
+     <body>
+      A specific party who plays a specific role in a specific rule set like Publication Agency, Regulatory Authority and etc.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Guideline" xmi:id="06f0124e-2da2-e911-8280-068b5ca1cd1a" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen2" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1139" xmi:type="uml:Comment">
+     <body>
+      A recommended practice (adapted from Business Dictionary)
+A general rule, principle, or piece of advice.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Regulation" xmi:id="21527d12-20a2-e911-8280-068b5ca1cd1a" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen3" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1140" xmi:type="uml:Comment">
+     <body>
+      A rule used to carry out a law (FIBO)
+
+Business Dictionary: a rule (with or without the coercive power of law) employed in controlling, directing, or managing an activity, organization, or system. 
+
+The set of rules and legislation governing certain actions. 
+https://financial-dictionary.thefreedictionary.com/Regulatory
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Criterion" xmi:id="c16435c2-0958-ea11-8289-060c7a9911f6" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen4" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1141" xmi:type="uml:Comment">
+     <body>
+      A principle or standard by which something may be judged or decided.
+
+Read more: http://www.businessdictionary.com/definition/criterion.html
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Standard" xmi:id="e42f60da-2b54-eb11-82e3-06d9eff808b9" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen5" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1142" xmi:type="uml:Comment">
+     <body>
+      A rule considered by an authority or by general consent as a basis of comparison
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Law" xmi:id="41e81f1a-22a7-e911-8288-06c837085cb8" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen6" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1143" xmi:type="uml:Comment">
+     <body>
+      A binding rule that the courts will enforce.
+A system of rules and guidelines which are enforced through social institutions to govern behavior. (FIBO)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Jurisdiction" xmi:id="de2498cb-6188-e911-823e-06b09c770f0c" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm1144" xmi:type="uml:Comment">
+     <body>
+      Jurisdiction that will be assigned in case of legal dispute.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Design Specification Helper SD" visibility="public" xmi:id="312ae26c-baae-e911-828c-06d72c197ec4" xmi:type="uml:Package">
+   <packagedElement name="DesignSpecificationAspect" xmi:id="312ae26c-baae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm1145" xmi:type="uml:Comment">
+     <body>
+      An aspect of the specification for a designed object
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CampaignDesignSpecification" xmi:id="ced4591e-2244-ea11-8289-068ff87429a4" xmi:type="uml:Class">
+    <generalization general="a7f7f0e1-b7ae-e911-828c-06d72c197ec4" xmi:id="gen7" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1146" xmi:type="uml:Comment">
+     <body>
+      A design specification defined for a campaign  (e.g. customer campaign, prospect campaign)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="DesignSpecification" xmi:id="a7f7f0e1-b7ae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm1147" xmi:type="uml:Comment">
+     <body>
+      A specification providing information about a designed object (e.g. product, service, process, procedure, model) covering all aspects required for its use.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductDesignSpecification" xmi:id="c3fba73c-2144-ea11-8289-068ff87429a4" xmi:type="uml:Class">
+    <generalization general="a7f7f0e1-b7ae-e911-828c-06d72c197ec4" xmi:id="gen8" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1148" xmi:type="uml:Comment">
+     <body>
+      A specification for the designed product or service
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ModelDesignSpecification" xmi:id="a2ab1ae9-c1ae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+    <generalization general="a7f7f0e1-b7ae-e911-828c-06d72c197ec4" xmi:id="gen9" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1149" xmi:type="uml:Comment">
+     <body>
+      A design specification defined for a model (e.g. Fraud Model, Customer Behaviour Model, Credit Risk Model)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="DeploymentConfiguration" xmi:id="3ed6b887-2b44-ea11-8289-068ff87429a4" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm1150" xmi:type="uml:Comment">
+     <body>
+      Configuration for deployment of something like Product Design or Model Design
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="StandardDesignSpecification" xmi:id="1fbf15f9-5365-eb11-82ee-06b6c49a40d9" xmi:type="uml:Class">
+    <generalization general="a7f7f0e1-b7ae-e911-828c-06d72c197ec4" xmi:id="gen10" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1151" xmi:type="uml:Comment">
+     <body>
+      A design specification defined for a standard (e.g. Technology Standard, Data Standard).
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm1152" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="DesignSpecificationInvolvement" xmi:id="37816b06-2fe9-ea11-82b8-0621c7360a13" xmi:type="uml:Class">
+    <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen11" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1153" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm1154" xmi:type="uml:Comment">
+     <body>
+      A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Assessment Helper SD" visibility="public" xmi:id="b5e905ea-2ba2-e911-8280-068b5ca1cd1a" xmi:type="uml:Package">
+   <packagedElement name="Audit" xmi:id="b5e905ea-2ba2-e911-8280-068b5ca1cd1a" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen12" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1155" xmi:type="uml:Comment">
+     <body>
+      Systematic examination and verification of a firm's books of account, transaction records, other relevant documents, and physical inspection of inventory by qualified accountants (called auditors) . BusinessDictionary
+
+An examination and verification of a company's financial and accounting records and supporting documents by a professional, such as a Certified Public Accountant. (Read more: http://www.investorwords.com/324/audit.html#ixzz5tAeSPyMC)
+
+
+The term audit usually refers to a financial statement audit. A financial audit is an objective examination and evaluation of the financial statements of an organization to make sure that the financial records are a fair and accurate representation of the transactions they claim to represent. The audit can be conducted internally by employees of the organization or externally by an outside Certified Public Accountant (CPA) firm. (Investopedia)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Assessment" xmi:id="ea36f45c-1656-e911-8237-060aad038e48" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm1156" xmi:type="uml:Comment">
+     <body>
+      the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Test" xmi:id="cf97fd7e-ff76-e911-823e-0663ff6583c4" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm1157" xmi:type="uml:Comment">
+     <body>
+      A measure taken  to check the quality, performance, or reliability of (something), especially before putting it into widespread use or practice
+
+Tests are a collection of one or more tests evaluations that can be made to certify a subject. (Behavior Qualifier Type)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductMatching" xmi:id="85239d30-a486-e911-823e-062687e6a904" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen13" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1158" xmi:type="uml:Comment">
+     <body>
+      An evaluation for matching products to a customer. 
+
+An evaluation for mapping of available products (and product combinations) to a customer based on conditions like customer type/characteristics, the context for the request and desired product/service features.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Document" xmi:id="ba9abd47-c656-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm1159" xmi:type="uml:Comment">
+     <body>
+      Something tangible that records something, such as a recording or a photograph, or a writing that can be used to furnish evidence or information (FIBO)
+
+Definition: A physical or digital representation of something meaningful to the audience.
+
+Comment: 
+1.Technical: Manuals, instructions, tutorials, procedures, specifications, etc., that accompany a piece of equipment or software, and provide guidance for its proper use and maintenance.
+2.Trading: Preparation of a set of commercial and financial documents that record or support a business transaction. International trade documentations include air waybill, bill of exchange, bill of lading, certificate of inspection, certificate of insurance, certificate of origin, commercial invoice, and consular invoice.
+
+
+Read more: http://www.businessdictionary.com/definition/documentation.html#ixzz3EQGRGC4W
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="LegalComplianceCheck" xmi:id="818dfa4c-3d94-ea11-8295-06a5be9987fe" xmi:type="uml:Class">
+    <generalization general="bbdee486-984d-ea11-8289-065500ef61d8" xmi:id="gen14" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1160" xmi:type="uml:Comment">
+     <body>
+      An assessment to check the Legal Compliance for the bank 
+
+Comment:
+This includes interpreting the laws that govern the bank's operations and determining which laws apply in specific circumstances across the enterprise.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="GuidelineComplianceCheck" xmi:id="ea29b2f8-2ca2-e911-8280-068b5ca1cd1a" xmi:type="uml:Class">
+    <generalization general="bbdee486-984d-ea11-8289-065500ef61d8" xmi:id="gen15" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1161" xmi:type="uml:Comment">
+     <body>
+      An assessment to check the Guideline Compliance for the bank
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="RegulatoryComplianceCheck" xmi:id="83f1ba60-1fa2-e911-8280-068b5ca1cd1a" xmi:type="uml:Class">
+    <generalization general="bbdee486-984d-ea11-8289-065500ef61d8" xmi:id="gen16" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1162" xmi:type="uml:Comment">
+     <body>
+      An assessment to check the Regulation Compliance for the bank
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Authentication" xmi:id="11b0a31a-0991-e911-823e-06f3e7d1f9c0" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen17" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1163" xmi:type="uml:Comment">
+     <body>
+      An evaluation whether a party or system is what it claims to be.
+
+A security mechanism for verifying: 1) the identity of an individual or other entity (including verification by means of a computer or computer application); and 2) the level of authority of that person or entity (i.e. the ability of that person or entity to perform specific tasks or activities). (ECB)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ComplianceCheck" xmi:id="bbdee486-984d-ea11-8289-065500ef61d8" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen18" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1164" xmi:type="uml:Comment">
+     <body>
+      An assessment to check the compliance
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Authorisation" xmi:id="df4e3cdd-1fb5-e911-828c-06363e70c8fa" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen19" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1165" xmi:type="uml:Comment">
+     <body>
+      An evaluation whether a party or system is allowed to do something.
+
+The consent given by a participant (or a third party acting on behalf of that participant) in order to transfer funds or securities. (ECB)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductQualityAssurance" xmi:id="95698957-ab64-eb11-82e9-06f39716fe97" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen20" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1166" xmi:type="uml:Comment">
+     <body>
+      An assessment used to determine if a product or service meets quality standards
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="AssetValuation" xmi:id="d5fe9f6e-7b80-e911-823e-061de61e9206" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen21" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm1167" xmi:type="uml:Comment">
+     <body>
+      The result of a valuation of some aspect of an Asset.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="ModelDesignFunctionalRequirementsSpecification" xmi:id="ec37b21a-c3ae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1168" xmi:type="uml:Comment">
+    <body>
+     A functional specification for a designed model.
+
+The specification of functional requirements that defines the model.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="FunctionalRequirementType" type="Visibility=public" xmi:id="3311de47-c3ae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1169" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ExternalServiceInformationProvider" type="Visibility=public" xmi:id="e51f9d9b-c3ae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1170" xmi:type="uml:Comment">
+     <body>
+      Reference to external service information provider used to obtain example production data for design.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="Customer/MarketData" type="Visibility=public" xmi:id="ba6833e4-c3ae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1171" xmi:type="uml:Comment">
+     <body>
+      Record of example production data file.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="RegulatoryComplianceCheck" xmi:id="83f1ba60-1fa2-e911-8280-068b5ca1cd1a90393005" xmi:type="uml:Class">
+   <generalization general="bbdee486-984d-ea11-8289-065500ef61d8" xmi:id="gen22" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm1172" xmi:type="uml:Comment">
+    <body>
+     An assessment to check the Regulation Compliance for the bank
+    </body>
+   </ownedComment>
+   <ownedAttribute name="RegulatoryComplianceCheckResult" type="Visibility=public" xmi:id="76b6a1c7-ceae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1173" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ModelTest" xmi:id="a7108679-cdae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+   <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen23" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm1174" xmi:type="uml:Comment">
+    <body>
+     An evaluation of model.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ModelTestType" type="Visibility=public" xmi:id="e6315483-ceae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1175" xmi:type="uml:Comment">
+     <body>
+      Defines the type of test (e.g. unit, integration, load, user acceptance etc.)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ModelTestHarness" type="Visibility=public" xmi:id="aec1e298-ceae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1176" xmi:type="uml:Comment">
+     <body>
+      Reference to the testing environment used to apply the test.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ModelTestActivity" type="Visibility=public" xmi:id="9466cfa7-ceae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1177" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ModelTestResult" type="Visibility=public" xmi:id="99c472b5-ceae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1178" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="RuleSet" xmi:id="a89ab5c4-598b-e911-823e-0680522666ec90393005" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1179" xmi:type="uml:Comment">
+    <body>
+     A set of rules (e.g., regulation, policy, law, guideline, principle, standard) to guide, direct or operate a subject matter.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="RuleSetDefinition" type="Visibility=public" xmi:id="987fcf6e-c4cf-e911-8296-06957f3f468a90393005">
+    <ownedComment xmi:id="comm1180" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RuleSetInterpretation" type="Visibility=public" xmi:id="212d1c6a-2fd6-e911-8296-06e1705194c690393005">
+    <ownedComment xmi:id="comm1181" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RuleSetType" type="Visibility=public" xmi:id="1cde0ffd-2fd6-e911-8296-06e1705194c690393005">
+    <ownedComment xmi:id="comm1182" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RuleSetName" type="Visibility=public" xmi:id="547527cd-b97d-eb11-8309-06f448ba770790393005">
+    <ownedComment xmi:id="comm1183" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RuleSetIdentification" type="Visibility=public" xmi:id="9e2d918a-bf7d-eb11-8309-06f448ba770790393005">
+    <ownedComment xmi:id="comm1184" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Assessment" xmi:id="ea36f45c-1656-e911-8237-060aad038e4890393005" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1185" xmi:type="uml:Comment">
+    <body>
+     the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AssessmentType" type="Visibility=public" xmi:id="3c005ebe-a272-e911-823e-067c7fd4c97890393005">
+    <ownedComment xmi:id="comm1186" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentMethod" type="Visibility=public" xmi:id="42005ebe-a272-e911-823e-067c7fd4c97890393005">
+    <ownedComment xmi:id="comm1187" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentSchedule" type="Visibility=public" xmi:id="7bdd12c5-0577-e911-823e-0663ff6583c490393005">
+    <ownedComment xmi:id="comm1188" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentDescription" type="Visibility=public" xmi:id="2577ab32-0777-e911-823e-0663ff6583c490393005">
+    <ownedComment xmi:id="comm1189" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentModel" type="Visibility=public" xmi:id="110ee713-0877-e911-823e-0663ff6583c490393005">
+    <ownedComment xmi:id="comm1190" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentDateTime" type="Visibility=public" xmi:id="8626f03d-377d-e911-823e-069ad1a2e64890393005">
+    <ownedComment xmi:id="comm1191" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentResult" type="Visibility=public" xmi:id="1f36dd6d-377d-e911-823e-069ad1a2e64890393005">
+    <ownedComment xmi:id="comm1192" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentSupportingDocument" type="Visibility=public" xmi:id="06b88e61-24a2-e911-8280-068b5ca1cd1a90393005">
+    <ownedComment xmi:id="comm1193" xmi:type="uml:Comment">
+     <body>
+      Document that provides background or corroborating information regarding an assessment(s).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentRepresentingDocument" type="Visibility=public" xmi:id="da6a7970-24a2-e911-8280-068b5ca1cd1a90393005">
+    <ownedComment xmi:id="comm1194" xmi:type="uml:Comment">
+     <body>
+      Document that represents the result of an assessment(s).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentRequiredAdjustment" type="Visibility=public" xmi:id="8c5f059a-24a2-e911-8280-068b5ca1cd1a90393005">
+    <ownedComment xmi:id="comm1195" xmi:type="uml:Comment">
+     <body>
+      Change that the assessment reveals is needed.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentRequirement" type="Visibility=public" xmi:id="0ef47758-2ea2-e911-8280-068b5ca1cd1a90393005">
+    <ownedComment xmi:id="comm1196" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentExpiryDate" type="Visibility=public" xmi:id="2425862b-00bd-e911-8291-066cb8d4b6e890393005">
+    <ownedComment xmi:id="comm1197" xmi:type="uml:Comment">
+     <body>
+      Date when the assessment expires. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="DesignSpecificationAspect" xmi:id="312ae26c-baae-e911-828c-06d72c197ec490393005" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1198" xmi:type="uml:Comment">
+    <body>
+     An aspect of the specification for a designed object
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DesignSpecificationAspectType" type="Visibility=public" xmi:id="d8afaee1-25e9-ea11-82b8-0621c7360a1390393005">
+    <ownedComment xmi:id="comm1199" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ModelUsage" xmi:id="6d64228c-c0ae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1200" xmi:type="uml:Comment">
+    <body>
+     The use of a model over a specified time period.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ModelUsageGuideline" type="Visibility=public" xmi:id="33338124-34e4-e911-82a8-060f6c10fb1290393005">
+    <ownedComment xmi:id="comm1201" xmi:type="uml:Comment">
+     <body>
+      A guidance on the use of the model
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ModelUsageRuleSet" xmi:id="96635de6-cbae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+   <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen24" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm1202" xmi:type="uml:Comment">
+    <body>
+     A set of rules (e.g., regulation, policy, law, guideline) to usage the model.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ModelDesignSpecification" xmi:id="a2ab1ae9-c1ae-e911-828c-06d72c197ec490393005" xmi:type="uml:Class">
+   <generalization general="a7f7f0e1-b7ae-e911-828c-06d72c197ec4" xmi:id="gen25" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm1203" xmi:type="uml:Comment">
+    <body>
+     A design specification defined for a model (e.g. Fraud Model, Customer Behaviour Model, Credit Risk Model)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ModelDesignSpecificationType" type="Visibility=public" xmi:id="414360b9-5465-eb11-82ee-06b6c49a40d990393005">
+    <ownedComment xmi:id="comm1204" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="DesignSpecification" xmi:id="a7f7f0e1-b7ae-e911-828c-06d72c197ec490393005" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1205" xmi:type="uml:Comment">
+    <body>
+     A specification providing information about a designed object (e.g. product, service, process, procedure, model) covering all aspects required for its use.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DesignSpecificationStatus" type="Visibility=public" xmi:id="830f51f5-2c44-ea11-8289-068ff87429a490393005">
+    <ownedComment xmi:id="comm1206" xmi:type="uml:Comment">
+     <body>
+      The operational and development status of a design specification (e.g. under development, available, in-use under review)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DesignSpecificationVersion" type="Visibility=public" xmi:id="838b2d70-2d44-ea11-8289-068ff87429a490393005">
+    <ownedComment xmi:id="comm1207" xmi:type="uml:Comment">
+     <body>
+      Release version of the available design specification plus version history as appropriate
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DesignSpecificationType" type="Visibility=public" xmi:id="eaefe761-25e9-ea11-82b8-0621c7360a1390393005">
+    <ownedComment xmi:id="comm1208" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DesignSpecificationDescription" type="Visibility=public" xmi:id="fd26d3b6-27e9-ea11-82b8-0621c7360a1390393005">
+    <ownedComment xmi:id="comm1209" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Model" xmi:id="e48b3c8e-b4ae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1210" xmi:type="uml:Comment">
+    <body>
+     A simplified representation of reality.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ModelType" type="Visibility=public" xmi:id="5b2920c4-bdae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1211" xmi:type="uml:Comment">
+     <body>
+      The type or category of model
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ModelPurpose" type="Visibility=public" xmi:id="d0c9a8cb-bdae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1212" xmi:type="uml:Comment">
+     <body>
+      A description of the model that clarifies the intended analysis/insights provided
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ModelVersion" type="Visibility=public" xmi:id="25f6410f-beae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1213" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ModelDesignTestingSpecification" xmi:id="a829ebf3-c5ae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1214" xmi:type="uml:Comment">
+    <body>
+     A testing specification for a designed model.
+
+Testing specification covers all testing aspects including compliance.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ModelTest" type="Visibility=public" xmi:id="72e172e7-c7ae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1215" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RegulatoryComplianceCheck" type="Visibility=public" xmi:id="f907cb98-c8ae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1216" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ModelDeploymentConfiguration" xmi:id="7b5fa990-beae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1217" xmi:type="uml:Comment">
+    <body>
+     Configuration for deployment a model.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ModelDeploymentTask" type="Visibility=public" xmi:id="18f6ebf7-beae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1218" xmi:type="uml:Comment">
+     <body>
+      Reference to the specification deployment task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ModelDeploymentInvolvement" type="Visibility=public" xmi:id="6c6edfde-bfae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1219" xmi:type="uml:Comment">
+     <body>
+      Party who plays the role in model deployment. 
+For example, the business units where the product or service is in use or supported.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ModelDeploymentStatus" type="Visibility=public" xmi:id="65df015b-c0ae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1220" xmi:type="uml:Comment">
+     <body>
+      The operational and development status of the model (e.g. under development, available, under review).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ModelDesignProductionSpecification" xmi:id="d41c7f3f-c7ae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1221" xmi:type="uml:Comment">
+    <body>
+     A production specification for a designed model. 
+
+Production specification defines technical and operational deployment needs.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="OperationalRequirement" type="Visibility=public" xmi:id="9b2dd8cd-caae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1222" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ModelUsageRuleSet" type="Visibility=public" xmi:id="2e63a9fa-caae-e911-828c-06d72c197ec490393005">
+    <ownedComment xmi:id="comm1223" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ComplianceCheck" xmi:id="bbdee486-984d-ea11-8289-065500ef61d890393005" xmi:type="uml:Class">
+   <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen26" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm1224" xmi:type="uml:Comment">
+    <body>
+     An assessment to check the compliance
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ComplianceCheckType" type="Visibility=public" xmi:id="aae22681-1fab-ea11-829f-0691f30ba14c90393005">
+    <ownedComment xmi:id="comm1225" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ModelImpact" xmi:id="798106aa-c0ae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1226" xmi:type="uml:Comment">
+    <body>
+     The impact/accuracy of the model's insights.
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Clearing Helper SD" visibility="public" xmi:id="28727a40-65b7-e911-8291-0657c6eca57a" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="62ca135e-6bb7-e911-8291-0657c6eca57a" xmi:type="uml:Association">
+   <ownedEnd association="62ca135e-6bb7-e911-8291-0657c6eca57a" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="e044b3b6-8271-e911-823e-0681a0c1a2d0" visibility="public" xmi:id="f6745b44-6bb7-e911-8291-0657c6eca57aa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="62ca135e-6bb7-e911-8291-0657c6eca57a" isUnique="true" name="" type="f6745b44-6bb7-e911-8291-0657c6eca57a" visibility="public" xmi:id="f6745b44-6bb7-e911-8291-0657c6eca57ab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="b78127c9-63b7-e911-8291-0657c6eca57aa 0db6609c-70b7-e911-8291-0657c6eca57ab" name="" navigableOwnedEnd="0db6609c-70b7-e911-8291-0657c6eca57ab" xmi:id="1af694a6-70b7-e911-8291-0657c6eca57a" xmi:type="uml:Association">
+   <ownedEnd association="1af694a6-70b7-e911-8291-0657c6eca57a" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="b78127c9-63b7-e911-8291-0657c6eca57a" visibility="public" xmi:id="b78127c9-63b7-e911-8291-0657c6eca57aa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="1af694a6-70b7-e911-8291-0657c6eca57a" isUnique="true" name="" type="0db6609c-70b7-e911-8291-0657c6eca57a" visibility="public" xmi:id="0db6609c-70b7-e911-8291-0657c6eca57ab">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="740ad88b-6fb7-e911-8291-0657c6eca57a" xmi:type="uml:Association">
+   <ownedEnd association="740ad88b-6fb7-e911-8291-0657c6eca57a" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="e00fb730-fd60-e911-8237-068e13695e26" visibility="public" xmi:id="b78127c9-63b7-e911-8291-0657c6eca57aa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="740ad88b-6fb7-e911-8291-0657c6eca57a" isUnique="true" name="Clearing
+Process" type="b78127c9-63b7-e911-8291-0657c6eca57a" visibility="public" xmi:id="b78127c9-63b7-e911-8291-0657c6eca57ab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="8bb87bc6-65b7-e911-8291-0657c6eca57a" xmi:type="uml:Association">
+   <ownedEnd association="8bb87bc6-65b7-e911-8291-0657c6eca57a" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="fc95d31a-63b7-e911-8291-0657c6eca57a" visibility="public" xmi:id="b78127c9-63b7-e911-8291-0657c6eca57aa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="8bb87bc6-65b7-e911-8291-0657c6eca57a" isUnique="true" name="" type="b78127c9-63b7-e911-8291-0657c6eca57a" visibility="public" xmi:id="b78127c9-63b7-e911-8291-0657c6eca57ab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="e47fdde1-6fb7-e911-8291-0657c6eca57a" xmi:type="uml:Association">
+   <ownedEnd association="e47fdde1-6fb7-e911-8291-0657c6eca57a" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="3a88c81e-1fb5-e911-828c-06363e70c8fa" visibility="public" xmi:id="b78127c9-63b7-e911-8291-0657c6eca57aa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="e47fdde1-6fb7-e911-8291-0657c6eca57a" isUnique="true" name="" type="b78127c9-63b7-e911-8291-0657c6eca57a" visibility="public" xmi:id="b78127c9-63b7-e911-8291-0657c6eca57ab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="89b36e45-66b7-e911-8291-0657c6eca57a" xmi:type="uml:Association">
+   <ownedEnd association="89b36e45-66b7-e911-8291-0657c6eca57a" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="b78127c9-63b7-e911-8291-0657c6eca57a" visibility="public" xmi:id="52195823-8271-e911-823e-0681a0c1a2d0a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="89b36e45-66b7-e911-8291-0657c6eca57a" isUnique="true" name="" type="52195823-8271-e911-823e-0681a0c1a2d0" visibility="public" xmi:id="52195823-8271-e911-823e-0681a0c1a2d0b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="b78127c9-63b7-e911-8291-0657c6eca57aa e044b3b6-8271-e911-823e-0681a0c1a2d0b" name="" navigableOwnedEnd="e044b3b6-8271-e911-823e-0681a0c1a2d0b" xmi:id="4b0d1e6b-6ab7-e911-8291-0657c6eca57a" xmi:type="uml:Association">
+   <ownedEnd association="4b0d1e6b-6ab7-e911-8291-0657c6eca57a" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="b78127c9-63b7-e911-8291-0657c6eca57a" visibility="public" xmi:id="b78127c9-63b7-e911-8291-0657c6eca57aa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="4b0d1e6b-6ab7-e911-8291-0657c6eca57a" isUnique="true" name="" type="e044b3b6-8271-e911-823e-0681a0c1a2d0" visibility="public" xmi:id="e044b3b6-8271-e911-823e-0681a0c1a2d0b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="a308c9d4-6fb7-e911-8291-0657c6eca57a" xmi:type="uml:Association">
+   <ownedEnd association="a308c9d4-6fb7-e911-8291-0657c6eca57a" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="3a88c81e-1fb5-e911-828c-06363e70c8fa" visibility="public" xmi:id="e00fb730-fd60-e911-8237-068e13695e26a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="a308c9d4-6fb7-e911-8291-0657c6eca57a" isUnique="true" name="" type="e00fb730-fd60-e911-8237-068e13695e26" visibility="public" xmi:id="e00fb730-fd60-e911-8237-068e13695e26b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="PaymentTransaction" xmi:id="e00fb730-fd60-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <generalization general="a58c8a29-5a96-e911-823e-062d75b50cca" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <generalization general="7314f250-f5a9-e911-8288-06812ee60d2a" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <generalization general="5708a70e-fd6f-e911-8237-06309b11004c" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm58" xmi:type="uml:Comment">
+    <body>
+     An act, initiated by the payer or payee, of placing, transferring or withdrawing funds, irrespective of any underlying obligations between the payer and payee (a proposed definition for BIAN BOM adapted from PSD)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PaymentTransactionType" type="Visibility=public" xmi:id="13e877cd-1368-e911-8237-06dd5e24f7bc90157202">
+    <ownedComment xmi:id="comm59" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionAmount" type="Visibility=public" xmi:id="a9ebda1e-1468-e911-8237-06dd5e24f7bc90157202">
+    <ownedComment xmi:id="comm60" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionIdentifier" type="Visibility=public" xmi:id="678e5b63-1468-e911-8237-06dd5e24f7bc90157202">
+    <ownedComment xmi:id="comm61" xmi:type="uml:Comment">
+     <body>
+      An identifier that allows to uniquely refer to a Payment Transaction.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionUsedMechanism" type="Visibility=public" xmi:id="d3e1f83d-8a96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm62" xmi:type="uml:Comment">
+     <body>
+      The payment mechanism the bank decides to use in the transaction to execute a payment instruction
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionDateTime" type="Visibility=public" xmi:id="184e4746-24aa-e911-8288-0674300188c090157202">
+    <ownedComment xmi:id="comm63" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionPurpose" type="Visibility=public" xmi:id="99ecca6c-24aa-e911-8288-0674300188c090157202">
+    <ownedComment xmi:id="comm64" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionStatus" type="Visibility=public" xmi:id="2a0978ea-24aa-e911-8288-0674300188c090157202">
+    <ownedComment xmi:id="comm65" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionAppliedFee" type="Visibility=public" xmi:id="2f54fa43-fabc-e911-8291-066cb8d4b6e890157202">
+    <ownedComment xmi:id="comm66" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionCurrency" type="Visibility=public" xmi:id="dbb75fe4-1f8e-ea11-8295-065d16bc455090157202">
+    <ownedComment xmi:id="comm67" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="FinancialTransaction" xmi:id="a58c8a29-5a96-e911-823e-062d75b50cca" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm68" xmi:type="uml:Comment">
+    <body>
+     A transaction that changes the financial position (the status of the finances) of involved party.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="MoneyTransferTransaction" xmi:id="7314f250-f5a9-e911-8288-06812ee60d2a" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm69" xmi:type="uml:Comment">
+    <body>
+     Transfer of money between two parties and/or accounts
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Transaction" xmi:id="5708a70e-fd6f-e911-8237-06309b11004c" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm70" xmi:type="uml:Comment">
+    <body>
+     A planned or performed action in the context of concluding or fulfilling an agreement. 
+
+Act to do something.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ClearingInvolvement" xmi:id="52195823-8271-e911-823e-0681a0c1a2d0" xmi:type="uml:Class">
+   <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen4" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm71" xmi:type="uml:Comment">
+    <body>
+     A specific party who plays the specific role in the clearing process.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ClearingInvolvementType" type="Visibility=public" xmi:id="a054cd5e-8d7d-eb11-8309-06f448ba770790157202">
+    <ownedComment xmi:id="comm72" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm73" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific relationship.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ClearingSettlementArrangement" xmi:id="e044b3b6-8271-e911-823e-0681a0c1a2d0" xmi:type="uml:Class">
+   <generalization general="3220c939-8e7d-eb11-8309-06f448ba7707" xmi:id="gen5" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm74" xmi:type="uml:Comment">
+    <body>
+     An Arrangements (right and obligation) defined for doing the clearing and settlement of a transaction or a batch of transactions.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CorrespondentBankingArrangement" xmi:id="3220c939-8e7d-eb11-8309-06f448ba7707" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm75" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ClearingSystem" xmi:id="fc95d31a-63b7-e911-8291-0657c6eca57a" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm76" xmi:type="uml:Comment">
+    <body>
+     Specifies the system which plays a role in the clearing process. (ISO20022)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Clearing" xmi:id="b78127c9-63b7-e911-8291-0657c6eca57a" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm77" xmi:type="uml:Comment">
+    <body>
+     Mechanism allowing financial institutions that are members of a clearing house to pay and to receive the amounts linked to the transactions that they have executed on the market. The addition of all the positions per product results in one net position (due or to receive) with the clearing house or the central clearing counterparty. (ISO20022)
+
+The process of transmitting, reconciling and, in some cases, confirming transactions prior to settlement, potentially including the netting of transactions and the establishment of final positions for settlement. Sometimes this term is also used (imprecisely) to cover settlement. For the clearing of futures and options, this term also refers to the daily balancing of profits and losses and the daily calculation of collateral
+requirements ( Bank for International Settlements Glossary)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="TransactionBatch" xmi:id="3a88c81e-1fb5-e911-828c-06363e70c8fa" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm78" xmi:type="uml:Comment">
+    <body>
+     A set of transactions to be executed in one time.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="BatchTransactionDateTime" type="Visibility=public" xmi:id="9b18db3e-c9c4-e911-8296-063f46cce09490157202">
+    <ownedComment xmi:id="comm79" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ClearingSettlementTermAndCondition" xmi:id="0db6609c-70b7-e911-8291-0657c6eca57a" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm80" xmi:type="uml:Comment">
+    <body>
+     Term and condition defined for clearing and settlement of a transaction or a batch of transactions.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ClearingSettlementArrangementFulfillmentEvent" xmi:id="f6745b44-6bb7-e911-8291-0657c6eca57a" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm81" xmi:type="uml:Comment">
+    <body>
+     The fulfillment of a clearing and settlement arrangement.
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Investment BOM Overview SD" visibility="public" xmi:id="5ea7e7a9-c4af-ea11-829f-0681374b35cc" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="00d30bbf-ddab-ea11-829f-067a4ad4fc9c" xmi:type="uml:Association">
+   <ownedEnd association="00d30bbf-ddab-ea11-829f-067a4ad4fc9c" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="5c47482d-d8ab-ea11-829f-067a4ad4fc9c" visibility="public" xmi:id="62e630b8-ddab-ea11-829f-067a4ad4fc9ca">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="00d30bbf-ddab-ea11-829f-067a4ad4fc9c" isUnique="true" name="" type="62e630b8-ddab-ea11-829f-067a4ad4fc9c" visibility="public" xmi:id="62e630b8-ddab-ea11-829f-067a4ad4fc9cb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="097e1767-7eb0-ea11-829f-06e9ae0e1608" xmi:type="uml:Association">
+   <ownedEnd association="097e1767-7eb0-ea11-829f-06e9ae0e1608" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="Holding
+Account" type="43bcacca-69a9-ea11-829f-06478228ed28" visibility="public" xmi:id="ffe016a6-7ba9-ea11-829f-06478228ed28a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="097e1767-7eb0-ea11-829f-06e9ae0e1608" isUnique="true" name="" type="ffe016a6-7ba9-ea11-829f-06478228ed28" visibility="public" xmi:id="ffe016a6-7ba9-ea11-829f-06478228ed28b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="dcbadde3-c6ab-ea11-829f-067a4ad4fc9c" xmi:type="uml:Association">
+   <ownedEnd association="dcbadde3-c6ab-ea11-829f-067a4ad4fc9c" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="Managed
+InvestmentPortfolio" type="92b4cd6c-1eab-ea11-829f-0691f30ba14c" visibility="public" xmi:id="4e0962c7-c6ab-ea11-829f-067a4ad4fc9ca">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="dcbadde3-c6ab-ea11-829f-067a4ad4fc9c" isUnique="true" name="" type="4e0962c7-c6ab-ea11-829f-067a4ad4fc9c" visibility="public" xmi:id="4e0962c7-c6ab-ea11-829f-067a4ad4fc9cb">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="0eb58b24-c6af-ea11-829f-0681374b35cc" xmi:type="uml:Association">
+   <ownedEnd association="0eb58b24-c6af-ea11-829f-0681374b35cc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="5c47482d-d8ab-ea11-829f-067a4ad4fc9c" visibility="public" xmi:id="2b91327b-b6a4-ea11-829f-0660fb1fa966a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="0eb58b24-c6af-ea11-829f-0681374b35cc" isUnique="true" name="" type="2b91327b-b6a4-ea11-829f-0660fb1fa966" visibility="public" xmi:id="2b91327b-b6a4-ea11-829f-0660fb1fa966b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="4e0962c7-c6ab-ea11-829f-067a4ad4fc9ca a0d4a7f2-c6ab-ea11-829f-067a4ad4fc9cb" name="" navigableOwnedEnd="a0d4a7f2-c6ab-ea11-829f-067a4ad4fc9cb" xmi:id="be87c7fa-c6ab-ea11-829f-067a4ad4fc9c" xmi:type="uml:Association">
+   <ownedEnd association="be87c7fa-c6ab-ea11-829f-067a4ad4fc9c" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="4e0962c7-c6ab-ea11-829f-067a4ad4fc9c" visibility="public" xmi:id="4e0962c7-c6ab-ea11-829f-067a4ad4fc9ca">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="be87c7fa-c6ab-ea11-829f-067a4ad4fc9c" isUnique="true" name="" type="a0d4a7f2-c6ab-ea11-829f-067a4ad4fc9c" visibility="public" xmi:id="a0d4a7f2-c6ab-ea11-829f-067a4ad4fc9cb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="349eb1cc-cbab-ea11-829f-067a4ad4fc9c" xmi:type="uml:Association">
+   <ownedEnd association="349eb1cc-cbab-ea11-829f-067a4ad4fc9c" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="92b4cd6c-1eab-ea11-829f-0691f30ba14c" visibility="public" xmi:id="d8ea56fc-eeab-ea11-829f-067a4ad4fc9ca">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="349eb1cc-cbab-ea11-829f-067a4ad4fc9c" isUnique="true" name="" type="d8ea56fc-eeab-ea11-829f-067a4ad4fc9c" visibility="public" xmi:id="d8ea56fc-eeab-ea11-829f-067a4ad4fc9cb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="4e0962c7-c6ab-ea11-829f-067a4ad4fc9ca 61e9f6e1-09af-ea11-829f-06c5ce6fa94eb" name="" navigableOwnedEnd="61e9f6e1-09af-ea11-829f-06c5ce6fa94eb" xmi:id="97cc6eec-09af-ea11-829f-06c5ce6fa94e" xmi:type="uml:Association">
+   <ownedEnd association="97cc6eec-09af-ea11-829f-06c5ce6fa94e" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="4e0962c7-c6ab-ea11-829f-067a4ad4fc9c" visibility="public" xmi:id="4e0962c7-c6ab-ea11-829f-067a4ad4fc9ca">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="97cc6eec-09af-ea11-829f-06c5ce6fa94e" isUnique="true" name="" type="61e9f6e1-09af-ea11-829f-06c5ce6fa94e" visibility="public" xmi:id="61e9f6e1-09af-ea11-829f-06c5ce6fa94eb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="c9202876-84a9-ea11-829f-06478228ed28" xmi:type="uml:Association">
+   <ownedEnd association="c9202876-84a9-ea11-829f-06478228ed28" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="5a795355-84a9-ea11-829f-06478228ed28" visibility="public" xmi:id="ffe016a6-7ba9-ea11-829f-06478228ed28a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="c9202876-84a9-ea11-829f-06478228ed28" isUnique="true" name="" type="ffe016a6-7ba9-ea11-829f-06478228ed28" visibility="public" xmi:id="ffe016a6-7ba9-ea11-829f-06478228ed28b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="InvestmentPortfolioManagementAgreement" xmi:id="4e0962c7-c6ab-ea11-829f-067a4ad4fc9c" xmi:type="uml:Class">
+   <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm853" xmi:type="uml:Comment">
+    <body>
+     A formal agreement between a registered investment adviser and an investor stipulating the terms under which the adviser is authorized to act on behalf of the investor to manage the assets listed in the agreement.
+
+Read more: http://www.businessdictionary.com/definition/investment-management-agreement.html
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Agreement" xmi:id="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm854" xmi:type="uml:Comment">
+    <body>
+     A formal or informal common understanding between two or more (legal competent) parties concerning one or more subject matters expressed in a set of arrangements, terms and conditions. (adapted from Legal System and FIBO)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="InvestmentPortfolioManagementAgreementTermAndCondition" xmi:id="61e9f6e1-09af-ea11-829f-06c5ce6fa94e" xmi:type="uml:Class">
+   <generalization general="1ab9690c-f297-e911-827a-06d89370a58e" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm855" xmi:type="uml:Comment">
+    <body>
+     Term and Condition that is making up the agreement that govern the management of the investment portfolio. Note that there may be many different types of terms and clauses making up the overall policy
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="AgreementCondition" xmi:id="1ab9690c-f297-e911-827a-06d89370a58e" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm856" xmi:type="uml:Comment">
+    <body>
+     Condition is a premise upon which the fulfillment of an agreement depends 
+
+Condition is applied to an instance of an agreement.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="FinancialInstrument" xmi:id="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm857" xmi:type="uml:Comment">
+    <body>
+     A contract that gives rise to a financial asset of one entity and a financial liability or equity instrument of another entity. (IFRS)
+https://www.iasplus.com/en/standards/ias/ias32#:~:text=Key%20definitions%20%5BIAS%2032.11%5D,equity%20instrument%20of%20another%20entity
+
+Financial instruments are financial contracts of different nature made between institutional units. These comprise the full range of financial claims and liabilities between institutional units, including contingent liabilities like guarantees, commitments, etc. (ISO 10962)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="FinancialInstrumentType" type="Visibility=public" xmi:id="af662165-8259-eb11-82e3-069263446f6790157202">
+    <ownedComment xmi:id="comm858" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="FinancialInstrumentIdentification" type="Visibility=public" xmi:id="8b0201f0-8359-eb11-82e3-069263446f6790157202">
+    <ownedComment xmi:id="comm859" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="FinancialInstrumentName" type="Visibility=public" xmi:id="3b0bb741-e067-eb11-82f6-06f5e4900cbd90157202">
+    <ownedComment xmi:id="comm860" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="FinancialMarket" xmi:id="5c47482d-d8ab-ea11-829f-067a4ad4fc9c" xmi:type="uml:Class">
+   <generalization general="811ed017-1794-e911-823e-069871e4ec9c" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm861" xmi:type="uml:Comment">
+    <body>
+     A marketplace, where creation and trading of financial instruments take place.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Market" xmi:id="811ed017-1794-e911-823e-069871e4ec9c" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm862" xmi:type="uml:Comment">
+    <body>
+     A Physical or virtual space where buyers, sellers, market authorities and other market parties trade products and services according to market rules.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="InvestmentAccount" xmi:id="43bcacca-69a9-ea11-829f-06478228ed28" xmi:type="uml:Class">
+   <generalization general="9fe05cf9-fd60-e911-8237-068e13695e26" xmi:id="gen4" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm863" xmi:type="uml:Comment">
+    <body>
+     Account for keeping the position of "non-cash and cash financial instrument holding" related to the InvestmentAccountAgreement. 
+
+
+Account between an investor(s) and a fund manager or a fund. The account can contain holdings in any investment fund or investment fund class managed (or distributed) by the fund manager, within the same fund family. (ISO20022)
+
+A type of financial account that contains a deposit of funds and/or securities that is held at a financial institution.  The typical objectives of an Investment Account are to achieve long term growth, income or capital preservation from the deposited asset portfolio.
+https://www.financialadvisory.com/dictionary/term/investment-account/#:~:text=Investment%20Account,held%20at%20a%20financial%20institution.
+
+An account holding securities such as index funds (ETF, trackers), stocks or bonds.
+
+
+Account held at a financial facility for the purpose of a long term investment for capital preservation, growth or fixed income. Financial facilities for investment accounts include banks, insurance companies, and brokerage houses. Read more: http://www.investorwords.com/11655/investment_account.html#ixzz6PcFc5pTT
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Account" xmi:id="9fe05cf9-fd60-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm864" xmi:type="uml:Comment">
+    <body>
+     A measuring state on which movements in value or amounts of assets, rights and obligations are registered.
+
+Comment: 
+It is a bookkeeping instrument holding the amount or value of something by registering the movements in plus and min when events happen which have an impact on the position.
+The term "account" is usually associated to an accounting or bookkeeping concept to hold the financial or stock state of a business concept. An account will typically group the debit and credit entries for a specific aspect of the business resulting from transactions,
+Often accounts are represented as a T-account which is a visual aid used to depict an account. Above the top portion of the T would be the account title. On the left-side of the base of the T would be any debit amounts; on the right-side would be the credit amounts.
+A commonly used bookkeeping method is the double-entry method. This means that every transaction has at least 2 movements. If a customer pays 100 € in cash, there is
+a decrease in the amount that the customer owes to the company (the customer position is decreased)
+an increase in the amount that the company has in cash (the cash position is increased)
+
+An account can be assigning to one or more ledgers. A ledger is a group of accounts for a certain purpose. If there is need for multiple ledgers because of multiple purpose, an account can perfectly well assigned to multiple ledgers. When Ledgers are in real physical books, this is not possible. When ledgers are digital, accounts can be grouped into multiple groups at the same time. This practice is very rarely taught into courses for accounting, but in digital accounting, it is common practice.
+
+Examples: 
+stock account of a shop, cash register, bank account, financial accounting account, customer account, supplier account, ...
+Bank Account BE12 1234 5678 9012: is an individual banking account
+Accounts Payable, is a collective account keeping the balance of the amounts to pay by the organisation to its suppliers. The balance is the result of the financial movements related to suppliers. This account is managed usually in a General Ledger 
+Supplier Account X, is an individual account keeping the balance of the amounts to pay by the organisation to an individual supplier. The balance is the result of the financial movements related to an individual supplier. This account is managed usually in a sub-ledger.
+Stock Account x, is an individual account keeping the balance of the amounts in stock of a specific good.
+A payment service to take fund out of an account.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="InvestmentPortfolio" xmi:id="92b4cd6c-1eab-ea11-829f-0691f30ba14c" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm865" xmi:type="uml:Comment">
+    <body>
+     A set of financial assets/instruments owned by an investor 
+
+Comment:
+- It may include bonds, stocks, currencies, cash and cash equivalents, and commodities. 
+- Investors aim for a return by mixing these securities in a way that reflects their risk tolerance and financial goals. https://smartasset.com/investing/what-is-an-investment-portfolio
+- Portfolio investments are passive investments, as they do not entail active management or control of the issuing company.
+- A portfolio investment is an asset that is purchased in the expectation that it will earn a return or grow in value, or both.
+- A portfolio investment is passive, unlike a direct investment, which implies hands-on management.
+- Risk tolerance and time horizon are key factors in selecting any portfolio investment.
+https://www.investopedia.com/terms/p/portfolio-investment.asp
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="FinancialAsset" xmi:id="6e02f897-b6a4-ea11-829f-0660fb1fa966" xmi:type="uml:Class">
+   <generalization general="30a4d16d-6080-e911-823e-061de61e9206" xmi:id="gen5" xmi:type="uml:Generalization"/>
+   <generalization general="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:id="gen6" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm866" xmi:type="uml:Comment">
+    <body>
+     A financial asset is an asset whose value comes from a contractual claim. These assets are frequently traded. 
+https://www.accountingtools.com/articles/2017/5/9/financial-asset
+    </body>
+   </ownedComment>
+   <ownedAttribute name="FinancialAssetType" type="Visibility=public" xmi:id="f7e658cf-baa4-ea11-829f-0660fb1fa96690157202">
+    <ownedComment xmi:id="comm867" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="FinancialMarketResearch" xmi:id="62e630b8-ddab-ea11-829f-067a4ad4fc9c" xmi:type="uml:Class">
+   <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen7" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm868" xmi:type="uml:Comment">
+    <body>
+     The process of gathering, analyzing and interpreting information about a financial market, about the financial instruments to be offered for sale in that market, and about the past, present and potential customers.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Asset" xmi:id="30a4d16d-6080-e911-823e-061de61e9206" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm869" xmi:type="uml:Comment">
+    <body>
+     An object classified as something of value.
+It is some tangible or intangible thing that the bank has ownership and/or influence over and has one or more inherent uses or purposes that create commercial value
+Comment
+BIAN has defined the likely assets found in any bank and uses this approach to isolate the specific types of asset that are acted on by the ServiceDomains. The role or purpose of each and every ServiceDomain is to apply its specific functional pattern to instances of one type of asset.
+Is the tangible or intangible item that can have associated 'replacement' value/worth and purpose/use for which the bank has ownership or some level of control. It is exploited/leveraged in the execution of business through the application of some business behavior/control as effected by a ServiceDomain. Some asset types are obvious - for example a machine or building, some are intangible but easily identified such as knowhow, knowledge, relationships, reputation. Some are less obvious - most common is the 'capacity to perform' type which applies to many BIAN Service Domains. For example in the case of product fulfillment and support activities like party authentication the asset is the bank's possession of the capacity to perform these activities - the combination of the people/processes/systems to execute if you will...
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Assessment" xmi:id="ea36f45c-1656-e911-8237-060aad038e48" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm870" xmi:type="uml:Comment">
+    <body>
+     the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="InvestmentPortfolioManagementArrangement" xmi:id="a0d4a7f2-c6ab-ea11-829f-067a4ad4fc9c" xmi:type="uml:Class">
+   <generalization general="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen8" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm871" xmi:type="uml:Comment">
+    <body>
+     An arrangement within the investment Portfolio Management Agreement like:
+- Advisory Arrangement: give or not to give the advice before to do something 
+- Investment Strategy Arrangement: Defensive vs  Offensive. Defensive investment strategies are designed to deliver protection first and modest growth second. With an offensive or aggressive investment strategy, by contrast, an investor tries to take advantage of a rising market by purchasing securities that are outperforming for a given level of risk and volatility. (Investopedia)
+- Market Trading Arrangement
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Arrangement" xmi:id="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm872" xmi:type="uml:Comment">
+    <body>
+     An agreed commitment to perform actions that meet obligations under an agreement
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Security" xmi:id="ffe016a6-7ba9-ea11-829f-06478228ed28" xmi:type="uml:Class">
+   <generalization general="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:id="gen9" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm873" xmi:type="uml:Comment">
+    <body>
+     Financial instruments representing a sum of rights of the investor vis-a-vis the issuer. (ISO20022)
+
+
+A fungible, negotiable financial instrument that holds some type of monetary value used to raise capital in public and private markets.
+
+There are primarily three types of securities: equity - which provide ownership rights to holders, debt - which are essentially loans that are repaid with periodic payments, and hybrid - which combine aspects of debt and equity.
+https://www.investopedia.com/terms/s/security.asp
+
+Fungibility is the ability of a good or asset to be interchanged with other individual goods or assets of the same type. 
+https://www.investopedia.com/terms/f/fungibility.asp
+
+Financing or investment instruments (some negotiable, others not) bought and sold in financial markets, such as bonds, debentures, notes, options, shares (stocks), and warrants. See also security.
+
+Read more: http://www.businessdictionary.com/definition/securities.html
+
+
+A security is a financial instrument issued by a business entity or government, which gives the buyer the right to either interest payments or a share of the earnings of the issuer. 
+Examples of securities are stocks, bonds, options, and warrants. 
+https://www.accountingtools.com/articles/2017/5/16/security?rq=security
+    </body>
+   </ownedComment>
+   <ownedAttribute name="SecurityType" type="Visibility=public" xmi:id="23717070-87a9-ea11-829f-06478228ed2890157202">
+    <ownedComment xmi:id="comm874" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SecurityAmount" type="Visibility=public" xmi:id="3f23a10d-1eab-ea11-829f-0691f30ba14c90157202">
+    <ownedComment xmi:id="comm875" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SecurityPrice" type="Visibility=public" xmi:id="3cdec730-21ab-ea11-829f-0691f30ba14c90157202">
+    <ownedComment xmi:id="comm876" xmi:type="uml:Comment">
+     <body>
+      The prevailing bank buy/sell quote for the security
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="InvestmentPortfolioAnalysis" xmi:id="d8ea56fc-eeab-ea11-829f-067a4ad4fc9c" xmi:type="uml:Class">
+   <generalization general="6aa1554b-7675-e911-823e-064d1e9fbc72" xmi:id="gen10" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm877" xmi:type="uml:Comment">
+    <body>
+     An evaluation of the investment profile including performance analysis, sensitivity analysis, valuation and etc. 
+
+The process of studying an investment portfolio to determine its appropriateness for a given investor's needs, preferences, and resources.
+http://www.newbore-wealth.com/investment-portfolio-analysis/
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Analysis" xmi:id="6aa1554b-7675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm878" xmi:type="uml:Comment">
+    <body>
+     Def.1 The insights derived from an analysis applied to an entity using specific models/evaluation methods
+
+Def.2 A detailed examination of anything complex
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="SecuritiesPosition" xmi:id="5a795355-84a9-ea11-829f-06478228ed28" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm879" xmi:type="uml:Comment">
+    <body>
+     The state of owning or owing a security
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

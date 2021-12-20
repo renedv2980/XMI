@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Lien Helper SD" visibility="public" xmi:id="82d4660d-b6da-e911-82a8-06a46ad19552" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="e4417b02-bfda-e911-82a8-06a46ad19552" xmi:type="uml:Association">
+   <ownedEnd association="e4417b02-bfda-e911-82a8-06a46ad19552" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="0250b837-e797-e911-827a-06d89370a58e" visibility="public" xmi:id="efd74dde-5896-e911-823e-062d75b50ccaa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="e4417b02-bfda-e911-82a8-06a46ad19552" isUnique="true" name="" type="efd74dde-5896-e911-823e-062d75b50cca" visibility="public" xmi:id="efd74dde-5896-e911-823e-062d75b50ccab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="d84b241e-f7a2-e911-8280-06df5c9909ce" xmi:type="uml:Association">
+   <ownedEnd association="d84b241e-f7a2-e911-8280-06df5c9909ce" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="3a451382-f6a2-e911-8280-06df5c9909ce" visibility="public" xmi:id="efd74dde-5896-e911-823e-062d75b50ccaa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="d84b241e-f7a2-e911-8280-06df5c9909ce" isUnique="true" name="" type="efd74dde-5896-e911-823e-062d75b50cca" visibility="public" xmi:id="efd74dde-5896-e911-823e-062d75b50ccab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="LienFeature" xmi:id="0250b837-e797-e911-827a-06d89370a58e" xmi:type="uml:Class">
+   <generalization general="f629d849-639e-e911-827a-06e8627b9e66" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <generalization general="823053bb-a486-e911-823e-062687e6a904" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm2549" xmi:type="uml:Comment">
+    <body>
+     A right to claim in case of non-payment.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="LienType" type="Visibility=public" xmi:id="6a11d36c-f597-e911-827a-06d89370a58e90157202">
+    <ownedComment xmi:id="comm2550" xmi:type="uml:Comment">
+     <body>
+      The type of lien (e.g. final, pending)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienDefinition" type="Visibility=public" xmi:id="e1223174-f597-e911-827a-06d89370a58e90157202">
+    <ownedComment xmi:id="comm2551" xmi:type="uml:Comment">
+     <body>
+      Definition of lien.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="LienArrangement" xmi:id="efd74dde-5896-e911-823e-062d75b50cca" xmi:type="uml:Class">
+   <generalization general="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <generalization general="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:id="gen4" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm2552" xmi:type="uml:Comment">
+    <body>
+     An arrangement that grants a creditor the right to use an asset as a guarantee for an underlying obligation. 
+
+A lien is a legal right granted by the owner of property, by a law or otherwise acquired by a creditor. A lien serves to guarantee an underlying obligation, such as the repayment of a loan. If the underlying obligation is not satisfied, the creditor may be able to seize the asset that is the subject of the lien. (Investopedia)
+
+A lien is a legal document filed by a creditor (lender) in order to record its claim on the debtor's (borrower's) property. The lien is recorded at a government's office. The lien provides a creditor with some protection or collateral until the debtor pays the creditor the amount owed. (Accounting Coach)
+
+A legal claim against an asset which is used to secure a loan and which must be paid when the property is sold. Liens can be structured in many different ways. In some cases, the creditor will have legal claim against an asset, but not actually hold it in possession, while in other cases the creditor will actually hold on to the asset until the debt is paid off. The former is a more common arrangement when the asset is productive, since the creditor would prefer that the asset be used to produce a stream of income to pay off debt rather than just held in possession and not used. A claim can hold against an asset until all the obligations to the creditor are cleared (a general lien), or just until the obligations against that particular assets are cleared (a particular lien). (Investorword)
+
+Difference between Lien and Collateral? The Lien is the agreement, the Collateral is the asset. So, a collateral agreement and a lien are synonyms. see also https://efinancemanagement.com/sources-of-finance/pledge-vs-hypothecation-vs-lien-vs-mortgage-vs-assignment
+    </body>
+   </ownedComment>
+   <ownedAttribute name="LienType" type="Visibility=public" xmi:id="51e312b1-7896-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm2553" xmi:type="uml:Comment">
+     <body>
+      The type of Lien
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienOriginatorReference" type="Visibility=public" xmi:id="cc1a2e5b-7996-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm2554" xmi:type="uml:Comment">
+     <body>
+      The party requesting the lien.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienPurposeReference" type="Visibility=public" xmi:id="ccd38c24-7a96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm2555" xmi:type="uml:Comment">
+     <body>
+      The reason why the lien is taken.
+
+Should refer to another agreements arrangement whose obligations are guaranteed by the lien
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienAmount" type="Visibility=public" xmi:id="bfb41035-7a96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm2556" xmi:type="uml:Comment">
+     <body>
+      The amount being blocked.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienStartDate" type="Visibility=public" xmi:id="d7963d5c-7a96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm2557" xmi:type="uml:Comment">
+     <body>
+      The date the lien is enforced.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienExpiryDate" type="Visibility=public" xmi:id="7968c16f-7a96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm2558" xmi:type="uml:Comment">
+     <body>
+      The date the lien is removed.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienStatus" type="Visibility=public" xmi:id="76edaf8e-7a96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm2559" xmi:type="uml:Comment">
+     <body>
+      The status on the lien.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienModalities" type="Visibility=public" xmi:id="4df310f1-7c96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm2560" xmi:type="uml:Comment">
+     <body>
+      Processing guidelines
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienSubjectReference" type="Visibility=public" xmi:id="3f4f595e-f7a2-e911-8280-06df5c9909ce90157202">
+    <ownedComment xmi:id="comm2561" xmi:type="uml:Comment">
+     <body>
+      Reference to the subject the lean is placed upon
+
+e.g. the savings account the lien is placed upon
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienParameters" type="Visibility=public" xmi:id="25ef453d-afa4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm2562" xmi:type="uml:Comment">
+     <body>
+      Parameters to be used in the lien modalities
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="SavingsAccountProductFeature" xmi:id="f629d849-639e-e911-827a-06e8627b9e66" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm2563" xmi:type="uml:Comment">
+    <body>
+     An subject matter about which arrangements should or can be made when selling a savings account product.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="LoanArrangement" xmi:id="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm2564" xmi:type="uml:Comment">
+    <body>
+     An arrangement defining the applicable features for a loan account agreement.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ProductFeature" xmi:id="823053bb-a486-e911-823e-062687e6a904" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm2565" xmi:type="uml:Comment">
+    <body>
+     A detailed characteristic of a product expressed in offered services and the terms and conditions applicable to the delivery of the services.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ProductFeatureType" type="Visibility=public" xmi:id="560b653c-0b94-e911-823e-069871e4ec9c90157202">
+    <ownedComment xmi:id="comm2566" xmi:type="uml:Comment">
+     <body>
+      The type or category of product/service features
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductFeatureSpecification" type="Visibility=public" xmi:id="201bb74a-d94c-ea11-8289-062dfdfaca5890157202">
+    <ownedComment xmi:id="comm2567" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="LienFacilityArrangement" xmi:id="3a451382-f6a2-e911-8280-06df5c9909ce" xmi:type="uml:Class">
+   <generalization general="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen5" xmi:type="uml:Generalization"/>
+   <generalization general="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:id="gen6" xmi:type="uml:Generalization"/>
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen7" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm2568" xmi:type="uml:Comment">
+    <body>
+     An arrangement stating the permission to use the funds on a deposit as collateral;This means a lien can be placed on the deposit.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="LienArrangementReference" type="Visibility=public" xmi:id="e4bf190a-f8a2-e911-8280-06df5c9909ce90157202">
+    <ownedComment xmi:id="comm2569" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="TermDepositArrangement" xmi:id="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm2570" xmi:type="uml:Comment">
+    <body>
+     An arrangement defining the applicable features for a Corporate Deposit Agreement.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="SavingsAccountArrangement" xmi:id="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm2571" xmi:type="uml:Comment">
+    <body>
+     An arrangement defining the applicable features for a savings account agreement. 
+
+The arrangement type is one of those possible/mandatory for the sale of a savings account product. The actual arrangements are a selection of those offered under the savings account product.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Arrangement" xmi:id="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm2572" xmi:type="uml:Comment">
+    <body>
+     An agreed commitment to perform actions that meet obligations under an agreement
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ActionType" type="Visibility=public" xmi:id="b5b2b263-7770-eb11-82fd-061e1f234dd590157202">
+    <ownedComment xmi:id="comm2573" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ArrangementStartDate" type="Visibility=public" xmi:id="7fa0d46b-7770-eb11-82fd-061e1f234dd590157202">
+    <ownedComment xmi:id="comm2574" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ArrangementEndDate" type="Visibility=public" xmi:id="0feec37e-7770-eb11-82fd-061e1f234dd590157202">
+    <ownedComment xmi:id="comm2575" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ArrangementStatus" type="Visibility=public" xmi:id="3bf71a90-a47a-eb11-8305-06377ca422c790157202">
+    <ownedComment xmi:id="comm2576" xmi:type="uml:Comment">
+     <body>
+      A status which refers to the LifecycleStatus of arrangement (e.g., requested, proposed, offered, accepted, cancelled, terminated, fulfilled, etc.);
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

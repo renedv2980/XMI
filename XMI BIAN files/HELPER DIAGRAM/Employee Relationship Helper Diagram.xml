@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Employee Relationship Helper SD" visibility="public" xmi:id="a2a4193f-fdfa-e911-82bd-067729125860" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="98fefe6f-3ffa-e911-82bd-06e507138132" xmi:type="uml:Association">
+   <ownedEnd association="98fefe6f-3ffa-e911-82bd-06e507138132" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c412fec5-26f7-e911-82bd-06554362bd22" visibility="public" xmi:id="94885b0f-22f7-e911-82bd-06554362bd22a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="98fefe6f-3ffa-e911-82bd-06e507138132" isUnique="true" name="" type="94885b0f-22f7-e911-82bd-06554362bd22" visibility="public" xmi:id="94885b0f-22f7-e911-82bd-06554362bd22b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="f2b7db32-41fa-e911-82bd-06e507138132" xmi:type="uml:Association">
+   <ownedEnd association="f2b7db32-41fa-e911-82bd-06e507138132" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c412fec5-26f7-e911-82bd-06554362bd22" visibility="public" xmi:id="5b5afda9-27f7-e911-82bd-06554362bd22a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="f2b7db32-41fa-e911-82bd-06e507138132" isUnique="true" name="" type="5b5afda9-27f7-e911-82bd-06554362bd22" visibility="public" xmi:id="5b5afda9-27f7-e911-82bd-06554362bd22b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="8e48d266-3ffa-e911-82bd-06e507138132" xmi:type="uml:Association">
+   <ownedEnd association="8e48d266-3ffa-e911-82bd-06e507138132" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c412fec5-26f7-e911-82bd-06554362bd22" visibility="public" xmi:id="da39738d-3efa-e911-82bd-06e507138132a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="8e48d266-3ffa-e911-82bd-06e507138132" isUnique="true" name="" type="da39738d-3efa-e911-82bd-06e507138132" visibility="public" xmi:id="da39738d-3efa-e911-82bd-06e507138132b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="4503bd81-8257-e911-8237-0645314e65ac" xmi:type="uml:Association">
+   <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6f53fd37-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isUnique="true" name="" type="70959fdb-be56-e911-8237-06ecaacb4c68" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="Employee Agreement" xmi:id="94885b0f-22f7-e911-82bd-06554362bd22" xmi:type="uml:Class">
+   <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm3412" xmi:type="uml:Comment">
+    <body>
+     A formal agreement that specifies the terms and conditions of the relationship between an employee and an employer including compensation and expectations. (Business Dictionary)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Agreement" xmi:id="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3413" xmi:type="uml:Comment">
+    <body>
+     A formal or informal common understanding between two or more (legal competent) parties concerning one or more subject matters expressed in a set of arrangements, terms and conditions. (adapted from Legal System and FIBO)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="EmployeeRelationshipLifecyclePhase" xmi:id="5b5afda9-27f7-e911-82bd-06554362bd22" xmi:type="uml:Class">
+   <generalization general="5bec4388-9dd7-e911-82a8-0667cb2841e8" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm3414" xmi:type="uml:Comment">
+    <body>
+     Specifies a series of stages that characterize the course of existence of an employee relationship including five stages: Recruitment, Onboarding, Development, Retention, and Exit/Separation/Offboarding.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="EmployeeRelationshipInvolvement" xmi:id="da39738d-3efa-e911-82bd-06e507138132" xmi:type="uml:Class">
+   <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm3415" xmi:type="uml:Comment">
+    <body>
+     A specific party who plays a specific role in a specific employee relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="EmployeeRelationshipInvolvementType" type="Visibility=public" xmi:id="850041bd-3efa-e911-82bd-06e50713813290157202">
+    <ownedComment xmi:id="comm3416" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="EmployeeRelationship" xmi:id="c412fec5-26f7-e911-82bd-06554362bd22" xmi:type="uml:Class">
+   <generalization general="fa6490a1-8957-e911-8237-0645314e65ac" xmi:id="gen4" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm3417" xmi:type="uml:Comment">
+    <body>
+     A relationship between an employer and its employee focused on enabling employee to collaborate on typical managerial tasks with its employer.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="EmployeeRelationshipInvolvementTypeValues" xmi:id="a60a8947-3ffa-e911-82bd-06e507138132" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="Employee" xmi:id="a70a8947-3ffa-e911-82bd-06e507138132">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Employer" xmi:id="6d00eb50-3ffa-e911-82bd-06e507138132">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="RelationshipManager" xmi:id="6e00eb50-3ffa-e911-82bd-06e507138132">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="DevelopmentLifecyclePhase" xmi:id="8d2ecfa9-5dfa-e911-82bd-061ae500ecdc" xmi:type="uml:Class">
+   <generalization general="5b5afda9-27f7-e911-82bd-06554362bd22" xmi:id="gen5" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm3418" xmi:type="uml:Comment">
+    <body>
+     This stage includes all the processes in which employees are given feedback for their work through performance reviews, one-on-one check-ins and meetings.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="OnboardingLifecyclePhase" xmi:id="a15e35b9-5bfa-e911-82bd-061ae500ecdc" xmi:type="uml:Class">
+   <generalization general="5b5afda9-27f7-e911-82bd-06554362bd22" xmi:id="gen6" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm3419" xmi:type="uml:Comment">
+    <body>
+     At this stage, employees who have accepted job offers become part of the company's workforce. (giving a new hire the information and tools needed to start working).
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3420" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyRoleType" type="Visibility=public" xmi:id="83c28dd9-29e9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm3421" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleName" type="Visibility=public" xmi:id="7ebb122f-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm3422" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleValidityPeriod" type="Visibility=public" xmi:id="fb571d5e-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm3423" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyInvolvementType" type="Visibility=public" xmi:id="c5867926-2de9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm3424" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="RetentionLifecyclePhase" xmi:id="2ad4259a-5ffa-e911-82bd-060c1aa554c0" xmi:type="uml:Class">
+   <generalization general="5b5afda9-27f7-e911-82bd-06554362bd22" xmi:id="gen7" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm3425" xmi:type="uml:Comment">
+    <body>
+     This stage is about retaining the worker and ensuring continued employee development. Continuous evaluation, recognition and training are crucial at this stage for sustaining employee engagement and retaining the employee.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRelationship" xmi:id="fa6490a1-8957-e911-8237-0645314e65ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3426" xmi:type="uml:Comment">
+    <body>
+     A relationship between two or more parties; the parties involved are specified in terms of the roles they play in the relationship.
+
+A Party Relationship is a connection between an instance of a Party and two or more instances of associated objects in the relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="RelationshipType" type="Visibility=public" xmi:id="cec7e43f-39cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm3427" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RelationshipValidityPeriod" type="Visibility=public" xmi:id="735af251-5fd2-e911-8296-0633d5e0e61090157202">
+    <ownedComment xmi:id="comm3428" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="OffboardingLifecyclePhase" xmi:id="5139c7f9-60fa-e911-82bd-060c1aa554c0" xmi:type="uml:Class">
+   <generalization general="5b5afda9-27f7-e911-82bd-06554362bd22" xmi:id="gen8" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm3429" xmi:type="uml:Comment">
+    <body>
+     This is the final stage of the employee life cycle, wherein the employee leaves due to a new job, retirement, layoffs, personal reasons or termination for violating company policy.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRelationshipLifecyclePhase" xmi:id="5bec4388-9dd7-e911-82a8-0667cb2841e8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3430" xmi:type="uml:Comment">
+    <body>
+     Specifies a series of stages that characterize the course of existence of a party relationship in a specific context.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="Description" type="Visibility=public" xmi:id="67d92ebf-9dd7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3431" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="IsCurrentPhase" type="Visibility=public" xmi:id="d6825fc8-9dd7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3432" xmi:type="uml:Comment">
+     <body>
+      Specifies whether the phase is the current phase of the party relationship.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PhaseName" type="Visibility=public" xmi:id="416143e2-9dd7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3433" xmi:type="uml:Comment">
+     <body>
+      The name of the phase of the relationship, such as prospect, contracted, on-board, etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PhaseStatus" type="Visibility=public" xmi:id="88694df8-9dd7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3434" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PhasePeriod" type="Visibility=public" xmi:id="16290418-9ed7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3435" xmi:type="uml:Comment">
+     <body>
+      The period of time during which the phase was the current phase of the party relationship.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="RecruitmentLifecyclePhase" xmi:id="47bc25fe-49fa-e911-82bd-06e507138132" xmi:type="uml:Class">
+   <generalization general="5b5afda9-27f7-e911-82bd-06554362bd22" xmi:id="gen9" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm3436" xmi:type="uml:Comment">
+    <body>
+     This stage includes all the processes leading up to and including the hiring of a new employee.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3437" xmi:type="uml:Comment">
+    <body>
+     A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyName" type="Visibility=public" xmi:id="d8f7f366-21cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm3438" xmi:type="uml:Comment">
+     <body>
+      Name by which a party is known and which is usually used to identify that party. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyType" type="Visibility=public" xmi:id="b1f7b3d8-21cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm3439" xmi:type="uml:Comment">
+     <body>
+      Specifies the type of party in different business contexts. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyDateTime" type="Visibility=public" xmi:id="d6ed5669-40f6-e911-82bd-06a31b9588ce90157202">
+    <ownedComment xmi:id="comm3440" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyIdentification" type="Visibility=public" xmi:id="449e231b-a846-ea11-8289-06f8a6a00ed090157202">
+    <ownedComment xmi:id="comm3441" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

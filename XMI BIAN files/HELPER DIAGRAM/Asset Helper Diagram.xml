@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Asset Helper SD" visibility="public" xmi:id="7b4edf68-4d5a-eb11-82e3-0696e5690f15" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="81c469f2-6380-e911-823e-061de61e9206" xmi:type="uml:Association">
+   <ownedEnd association="81c469f2-6380-e911-823e-061de61e9206" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="fd698611-6380-e911-823e-061de61e9206" visibility="public" xmi:id="30a4d16d-6080-e911-823e-061de61e9206a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="81c469f2-6380-e911-823e-061de61e9206" isUnique="true" name="" type="30a4d16d-6080-e911-823e-061de61e9206" visibility="public" xmi:id="30a4d16d-6080-e911-823e-061de61e9206b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="972e2303-7e56-eb11-82e3-06d64c037e3d" xmi:type="uml:Association">
+   <ownedEnd association="972e2303-7e56-eb11-82e3-06d64c037e3d" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="30a4d16d-6080-e911-823e-061de61e9206" visibility="public" xmi:id="d5fe9f6e-7b80-e911-823e-061de61e9206a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="972e2303-7e56-eb11-82e3-06d64c037e3d" isUnique="true" name="" type="d5fe9f6e-7b80-e911-823e-061de61e9206" visibility="public" xmi:id="d5fe9f6e-7b80-e911-823e-061de61e9206b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="AssetValuation" xmi:id="d5fe9f6e-7b80-e911-823e-061de61e9206" xmi:type="uml:Class">
+   <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm1125" xmi:type="uml:Comment">
+    <body>
+     The result of a valuation of some aspect of an Asset.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AssetValue" type="Visibility=public" xmi:id="9ba3419a-7b80-e911-823e-061de61e920690157202">
+    <ownedComment xmi:id="comm1126" xmi:type="uml:Comment">
+     <body>
+      A value of some value aspect of an Asset.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssetValueType" type="Visibility=public" xmi:id="a16ecda3-7b80-e911-823e-061de61e920690157202">
+    <ownedComment xmi:id="comm1127" xmi:type="uml:Comment">
+     <body>
+      reference to the type of value expressed in the valuation.
+this can be ratio, qualifier, amounts, etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssetValuationType" type="Visibility=public" xmi:id="f3de79ab-7d80-e911-823e-061de61e920690157202">
+    <ownedComment xmi:id="comm1128" xmi:type="uml:Comment">
+     <body>
+      reference to the type of valuation resulting in the Asset Value
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssetValuationDate" type="Visibility=public" xmi:id="9a329aed-7d80-e911-823e-061de61e920690157202">
+    <ownedComment xmi:id="comm1129" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssetvaluationServiceReference" type="Visibility=public" xmi:id="f7b01a03-7e80-e911-823e-061de61e920690157202">
+    <ownedComment xmi:id="comm1130" xmi:type="uml:Comment">
+     <body>
+      External identifier assigned by an asset valuation service provider to refer to an instance of Asset Valuation
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="AssetType" xmi:id="fd698611-6380-e911-823e-061de61e9206" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1131" xmi:type="uml:Comment">
+    <body>
+     A functional Classification Hierarchy that distinguishes between objects of value according to some criteria.
+Comment: BIAN Has developed a classification hierarchy, but also other authorities have defined classification hierarchies.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Assessment" xmi:id="ea36f45c-1656-e911-8237-060aad038e48" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1132" xmi:type="uml:Comment">
+    <body>
+     the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AssessmentType" type="Visibility=public" xmi:id="3c005ebe-a272-e911-823e-067c7fd4c97890157202">
+    <ownedComment xmi:id="comm1133" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentMethod" type="Visibility=public" xmi:id="42005ebe-a272-e911-823e-067c7fd4c97890157202">
+    <ownedComment xmi:id="comm1134" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentSchedule" type="Visibility=public" xmi:id="7bdd12c5-0577-e911-823e-0663ff6583c490157202">
+    <ownedComment xmi:id="comm1135" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentDescription" type="Visibility=public" xmi:id="2577ab32-0777-e911-823e-0663ff6583c490157202">
+    <ownedComment xmi:id="comm1136" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentModel" type="Visibility=public" xmi:id="110ee713-0877-e911-823e-0663ff6583c490157202">
+    <ownedComment xmi:id="comm1137" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentDateTime" type="Visibility=public" xmi:id="8626f03d-377d-e911-823e-069ad1a2e64890157202">
+    <ownedComment xmi:id="comm1138" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentResult" type="Visibility=public" xmi:id="1f36dd6d-377d-e911-823e-069ad1a2e64890157202">
+    <ownedComment xmi:id="comm1139" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentSupportingDocument" type="Visibility=public" xmi:id="06b88e61-24a2-e911-8280-068b5ca1cd1a90157202">
+    <ownedComment xmi:id="comm1140" xmi:type="uml:Comment">
+     <body>
+      Document that provides background or corroborating information regarding an assessment(s).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentRepresentingDocument" type="Visibility=public" xmi:id="da6a7970-24a2-e911-8280-068b5ca1cd1a90157202">
+    <ownedComment xmi:id="comm1141" xmi:type="uml:Comment">
+     <body>
+      Document that represents the result of an assessment(s).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentRequiredAdjustment" type="Visibility=public" xmi:id="8c5f059a-24a2-e911-8280-068b5ca1cd1a90157202">
+    <ownedComment xmi:id="comm1142" xmi:type="uml:Comment">
+     <body>
+      Change that the assessment reveals is needed.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentRequirement" type="Visibility=public" xmi:id="0ef47758-2ea2-e911-8280-068b5ca1cd1a90157202">
+    <ownedComment xmi:id="comm1143" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentExpiryDate" type="Visibility=public" xmi:id="2425862b-00bd-e911-8291-066cb8d4b6e890157202">
+    <ownedComment xmi:id="comm1144" xmi:type="uml:Comment">
+     <body>
+      Date when the assessment expires. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="AssetHolding" xmi:id="b2aa1a32-b2a4-e911-8284-06aa98c8c004" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1145" xmi:type="uml:Comment">
+    <body>
+     Specifies in terms of value and quantity the assets. (ISO20022)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Asset" xmi:id="30a4d16d-6080-e911-823e-061de61e9206" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1146" xmi:type="uml:Comment">
+    <body>
+     An object classified as something of value.
+It is some tangible or intangible thing that the bank has ownership and/or influence over and has one or more inherent uses or purposes that create commercial value
+Comment
+BIAN has defined the likely assets found in any bank and uses this approach to isolate the specific types of asset that are acted on by the ServiceDomains. The role or purpose of each and every ServiceDomain is to apply its specific functional pattern to instances of one type of asset.
+Is the tangible or intangible item that can have associated 'replacement' value/worth and purpose/use for which the bank has ownership or some level of control. It is exploited/leveraged in the execution of business through the application of some business behavior/control as effected by a ServiceDomain. Some asset types are obvious - for example a machine or building, some are intangible but easily identified such as knowhow, knowledge, relationships, reputation. Some are less obvious - most common is the 'capacity to perform' type which applies to many BIAN Service Domains. For example in the case of product fulfillment and support activities like party authentication the asset is the bank's possession of the capacity to perform these activities - the combination of the people/processes/systems to execute if you will...
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AssetProperties" type="Visibility=public" xmi:id="1b79d3fd-6680-e911-823e-061de61e920690157202">
+    <ownedComment xmi:id="comm1147" xmi:type="uml:Comment">
+     <body>
+      Describing elements expressing valuation of the object classified as something that has value.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssetTitle" type="Visibility=public" xmi:id="d3dff671-6780-e911-823e-061de61e920690157202">
+    <ownedComment xmi:id="comm1148" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssetIdentification" type="Visibility=public" xmi:id="93842273-7d80-e911-823e-061de61e920690157202">
+    <ownedComment xmi:id="comm1149" xmi:type="uml:Comment">
+     <body>
+      An identifier that allows to uniquely refer to an instance of an Asset.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssetType" type="Visibility=public" xmi:id="295637a5-ce80-e911-823e-065e8061d7e690157202">
+    <ownedComment xmi:id="comm1150" xmi:type="uml:Comment">
+     <body>
+      classification of an asset according to a specific Asset classification hierarchy
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssetDescription" type="Visibility=public" xmi:id="46827629-40ce-e911-8296-066680ee926890157202">
+    <ownedComment xmi:id="comm1151" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssetStatus" type="Visibility=public" xmi:id="26483f25-10cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm1152" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

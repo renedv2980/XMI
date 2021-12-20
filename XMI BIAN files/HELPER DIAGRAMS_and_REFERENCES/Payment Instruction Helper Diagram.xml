@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Instruction Helper SD" visibility="public" xmi:id="5387ebcc-309f-e911-827a-06f9569e2544" xmi:type="uml:Package">
+  <packagedElement name="Arrangement Helper SD" visibility="public" xmi:id="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Package">
+   <packagedElement name="" xmi:id="562961e1-319f-e911-827a-06f9569e2544" xmi:type="uml:Association">
+    <ownedEnd association="562961e1-319f-e911-827a-06f9569e2544" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="7effad6e-9965-e911-8237-06eba4258fe0" visibility="public" xmi:id="35bb47d6-319f-e911-827a-06f9569e2544a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="562961e1-319f-e911-827a-06f9569e2544" isUnique="true" name="" type="35bb47d6-319f-e911-827a-06f9569e2544" visibility="public" xmi:id="35bb47d6-319f-e911-827a-06f9569e2544b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="4503bd81-8257-e911-8237-0645314e65ac" xmi:type="uml:Association">
+    <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6f53fd37-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isUnique="true" name="" type="70959fdb-be56-e911-8237-06ecaacb4c68" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="5a2d22eb-799d-e911-827a-069b88dafb42" xmi:type="uml:Association">
+    <ownedEnd association="5a2d22eb-799d-e911-827a-069b88dafb42" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="7effad6e-9965-e911-8237-06eba4258fe0" visibility="public" xmi:id="5708a70e-fd6f-e911-8237-06309b11004ca">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="5a2d22eb-799d-e911-827a-069b88dafb42" isUnique="true" name="" type="5708a70e-fd6f-e911-8237-06309b11004c" visibility="public" xmi:id="5708a70e-fd6f-e911-8237-06309b11004cb">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="c5e97cbd-799d-e911-827a-069b88dafb42" xmi:type="uml:Association">
+    <ownedEnd association="c5e97cbd-799d-e911-827a-069b88dafb42" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="7effad6e-9965-e911-8237-06eba4258fe0" visibility="public" xmi:id="dd3cc0aa-0a68-e911-8237-06dd5e24f7bca">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="c5e97cbd-799d-e911-827a-069b88dafb42" isUnique="true" name="" type="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" visibility="public" xmi:id="dd3cc0aa-0a68-e911-8237-06dd5e24f7bcb">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="Arrangement" xmi:id="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4283" xmi:type="uml:Comment">
+     <body>
+      An agreed commitment to perform actions that meet obligations under an agreement
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Account" xmi:id="9fe05cf9-fd60-e911-8237-068e13695e26" xmi:type="uml:Class">
+    <generalization general="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:id="gen1" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4284" xmi:type="uml:Comment">
+     <body>
+      A measuring state on which movements in value or amounts of assets, rights and obligations are registered.
+
+Comment: 
+It is a bookkeeping instrument holding the amount or value of something by registering the movements in plus and min when events happen which have an impact on the position.
+The term "account" is usually associated to an accounting or bookkeeping concept to hold the financial or stock state of a business concept. An account will typically group the debit and credit entries for a specific aspect of the business resulting from transactions,
+Often accounts are represented as a T-account which is a visual aid used to depict an account. Above the top portion of the T would be the account title. On the left-side of the base of the T would be any debit amounts; on the right-side would be the credit amounts.
+A commonly used bookkeeping method is the double-entry method. This means that every transaction has at least 2 movements. If a customer pays 100 € in cash, there is
+a decrease in the amount that the customer owes to the company (the customer position is decreased)
+an increase in the amount that the company has in cash (the cash position is increased)
+
+An account can be assigning to one or more ledgers. A ledger is a group of accounts for a certain purpose. If there is need for multiple ledgers because of multiple purpose, an account can perfectly well assigned to multiple ledgers. When Ledgers are in real physical books, this is not possible. When ledgers are digital, accounts can be grouped into multiple groups at the same time. This practice is very rarely taught into courses for accounting, but in digital accounting, it is common practice.
+
+Examples: 
+stock account of a shop, cash register, bank account, financial accounting account, customer account, supplier account, ...
+Bank Account BE12 1234 5678 9012: is an individual banking account
+Accounts Payable, is a collective account keeping the balance of the amounts to pay by the organisation to its suppliers. The balance is the result of the financial movements related to suppliers. This account is managed usually in a General Ledger 
+Supplier Account X, is an individual account keeping the balance of the amounts to pay by the organisation to an individual supplier. The balance is the result of the financial movements related to an individual supplier. This account is managed usually in a sub-ledger.
+Stock Account x, is an individual account keeping the balance of the amounts in stock of a specific good.
+A payment service to take fund out of an account.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Agreement" xmi:id="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4285" xmi:type="uml:Comment">
+     <body>
+      A formal or informal common understanding between two or more (legal competent) parties concerning one or more subject matters expressed in a set of arrangements, terms and conditions. (adapted from Legal System and FIBO)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Obligation" xmi:id="e5593d03-2694-e911-823e-069871e4ec9c" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4286" xmi:type="uml:Comment">
+     <body>
+      A duty that is specified in and imposed by an agreement. (FIBO)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Right" xmi:id="9d0be673-2694-e911-823e-069871e4ec9c" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4287" xmi:type="uml:Comment">
+     <body>
+      A contingent right conferred via an agreement. (FIBO)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ServiceArrangement" xmi:id="c80f2ee6-f097-e911-827a-06d89370a58e" xmi:type="uml:Class">
+    <generalization general="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen2" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4288" xmi:type="uml:Comment">
+     <body>
+      An arrangement into which is promised to deliver a specific service.
+
+Comment: Most service arrangements are instantiations of Product Services
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ArrangementInvolvement" xmi:id="606c73fd-2694-e911-823e-069871e4ec9c" xmi:type="uml:Class">
+    <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen3" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4289" xmi:type="uml:Comment">
+     <body>
+      The involvement (role) of an instance of a party in an instance of an arrangement.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ServiceArrangementModality" xmi:id="b6c65e81-f197-e911-827a-06d89370a58e" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4290" xmi:type="uml:Comment">
+     <body>
+      Specification of how a service arrangement can be fulfilled.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Event" xmi:id="66bab5d1-0056-e911-8237-060aad038e48" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4291" xmi:type="uml:Comment">
+     <body>
+      Something that happens, has happened, can happen or is planned to happen.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyObligationEntitlement" xmi:id="719c9355-a89d-e911-827a-06c73ecc951a" xmi:type="uml:Class">
+    <generalization general="eecc7a97-33d6-e911-8296-06c6ee6741dc" xmi:id="gen4" xmi:type="uml:Generalization"/>
+    <generalization general="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:id="gen5" xmi:type="uml:Generalization"/>
+    <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen6" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4292" xmi:type="uml:Comment">
+     <body>
+      Right or obligation linked to the involvement of a party in an agreement
+
+Can be default, linked to an involvement type, or specifically agreed upon. 
+This can be default obligations or entitlements, of specific arrangements
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductServiceModality" xmi:id="5277bbed-5897-e911-823e-065ba593ba6e" xmi:type="uml:Class">
+    <generalization general="e2cc80ca-5c8d-eb11-8310-068d732c0449" xmi:id="gen7" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4293" xmi:type="uml:Comment">
+     <body>
+      A Service Modality applicable to a Service Feature
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductFeature" xmi:id="823053bb-a486-e911-823e-062687e6a904" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4294" xmi:type="uml:Comment">
+     <body>
+      A detailed characteristic of a product expressed in offered services and the terms and conditions applicable to the delivery of the services.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductService" xmi:id="9e6e153d-5997-e911-823e-065ba593ba6e" xmi:type="uml:Class">
+    <generalization general="823053bb-a486-e911-823e-062687e6a904" xmi:id="gen8" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4295" xmi:type="uml:Comment">
+     <body>
+      A service offered as a feature of a product.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ArrangementFulfilmentEvent" xmi:id="3b53beb6-f4a9-e911-8288-06812ee60d2a" xmi:type="uml:Class">
+    <generalization general="66bab5d1-0056-e911-8237-060aad038e48" xmi:id="gen9" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4296" xmi:type="uml:Comment">
+     <body>
+      The fulfilment of the engagements (obligations/rights) taken in an arrangement
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4297" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4298" xmi:type="uml:Comment">
+     <body>
+      A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="BankingProduct" xmi:id="1aeced65-0b68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+    <generalization general="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:id="gen10" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4299" xmi:type="uml:Comment">
+     <body>
+      A package of services and goods, accompanied by term and condition which is offered as a whole to (internal or external) customers.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Instruction" xmi:id="7effad6e-9965-e911-8237-06eba4258fe0" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4300" xmi:type="uml:Comment">
+     <body>
+      A request to do something.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Arrangement/ArrangementRelationship" xmi:id="10add2f9-3d6d-eb11-82f6-0653aca742a3" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4301" xmi:type="uml:Comment">
+     <body>
+      A characteristic of arrangement which refers to its related arrangements.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Service" xmi:id="0cbfb7fb-5997-e911-823e-065ba593ba6e" xmi:type="uml:Class">
+    <generalization general="64fe5512-598d-eb11-8310-068d732c0449" xmi:id="gen11" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4302" xmi:type="uml:Comment">
+     <body>
+      An exposed function (an externalized functionality) that is able to deliver a certain value/benefit (a proposed definition adapted from Archimate).
+
+A unit of functionality that a system exposes to its environment, while hiding internal operations, which provides a certain value (monetary or otherwise). 
+
+
+Comment:
+
+A Service is something that is done by an actor for the benefit of an actor in the environment.
+
+A system is the broad sense of the word. Means Business Service, Application Service, Technology Service, "huppeldepup" Service
+ 
+
+
+Characteristics of a service:
+
+A system (The Service Domain)
+Functionality is exposed (Action Term)
+It provides a certain value (monetary or otherwise) 
+
+
+Exposing functionality means that the internals of realizing the service is hidden for the beneficiary of the Service.
+ 
+
+
+In BIAN a "Service Operation" is visualized as a "Business Service" , the "System" refers to the  "Service Domain"  
+
+The name of a Service Operation is composed of an "Action Term" + "Subject Matter" which is the "Control Record" or the "Behaviour Qualifier".
+
+
+Service is the intangible equivalent of a good. (ISO20022). 
+
+A type of economic activity that is intangible, is not stored and does not result in ownership; a service is consumed at the point of sale (FIBO &amp; Business Dictionary)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ServiceModality" xmi:id="48c585c3-5b97-e911-823e-065ba593ba6e" xmi:type="uml:Class">
+    <generalization general="d16fa97c-588d-eb11-8310-068d732c0449" xmi:id="gen12" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4303" xmi:type="uml:Comment">
+     <body>
+      The way in which a service can happen.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Party Helper SD" visibility="public" xmi:id="d4d0de74-94f1-e911-82b5-06f9534b74c8" xmi:type="uml:Package">
+   <packagedElement name="PartyRelationshipAgreement" xmi:id="d4d0de74-94f1-e911-82b5-06f9534b74c8" xmi:type="uml:Class">
+    <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen13" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4304" xmi:type="uml:Comment">
+     <body>
+      An agreement that outlines the terms and conditions of the relationship between the two or more parties. An agreement has arrangements which are the cause of the relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Person" xmi:id="04c123f4-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <generalization general="6f53fd37-8257-e911-8237-0645314e65ac" xmi:id="gen14" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4305" xmi:type="uml:Comment">
+     <body>
+      Human entity, as distinguished from a corporate entity (which is sometimes referred to as an 'artificial person'). ISO20022
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c6890314404" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4306" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyLocation" xmi:id="6499694e-619e-e911-827a-06e8627b9e66" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4307" xmi:type="uml:Comment">
+     <body>
+      A place to locate a party.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Organisation" xmi:id="fbc0b4fa-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <generalization general="6f53fd37-8257-e911-8237-0645314e65ac" xmi:id="gen15" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4308" xmi:type="uml:Comment">
+     <body>
+      structure/make-up of an organizational entity
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ContactPoint" xmi:id="5f9548fc-e277-e911-823e-067f69a9229a" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4309" xmi:type="uml:Comment">
+     <body>
+      Number, physical or virtual address, used for communication.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Location" xmi:id="063a0dcf-0561-e911-8237-068e13695e26" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4310" xmi:type="uml:Comment">
+     <body>
+      The definition of an addressable space/position both in real and virtual environments with associated uses and entitlements
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac90314404" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4311" xmi:type="uml:Comment">
+     <body>
+      A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PowerOfAttorney" xmi:id="31cfdbdc-61d2-e911-8296-0633d5e0e610" xmi:type="uml:Class">
+    <generalization general="852a0fc0-7188-e911-823e-06b09c770f0c" xmi:id="gen16" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4312" xmi:type="uml:Comment">
+     <body>
+      A written authorization that transfers specific rights from a party to another party.
+
+Document that transfers specific rights from a party to another party. ISO20022
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRelationship" xmi:id="fa6490a1-8957-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4313" xmi:type="uml:Comment">
+     <body>
+      A relationship between two or more parties; the parties involved are specified in terms of the roles they play in the relationship.
+
+A Party Relationship is a connection between an instance of a Party and two or more instances of associated objects in the relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Document" xmi:id="ba9abd47-c656-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4314" xmi:type="uml:Comment">
+     <body>
+      Something tangible that records something, such as a recording or a photograph, or a writing that can be used to furnish evidence or information (FIBO)
+
+Definition: A physical or digital representation of something meaningful to the audience.
+
+Comment: 
+1.Technical: Manuals, instructions, tutorials, procedures, specifications, etc., that accompany a piece of equipment or software, and provide guidance for its proper use and maintenance.
+2.Trading: Preparation of a set of commercial and financial documents that record or support a business transaction. International trade documentations include air waybill, bill of exchange, bill of lading, certificate of inspection, certificate of insurance, certificate of origin, commercial invoice, and consular invoice.
+
+
+Read more: http://www.businessdictionary.com/definition/documentation.html#ixzz3EQGRGC4W
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyCertificate" xmi:id="2f325852-a2f1-e911-82b5-06f9534b74c8" xmi:type="uml:Class">
+    <generalization general="ba9abd47-c656-e911-8237-06ecaacb4c68" xmi:id="gen17" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4315" xmi:type="uml:Comment">
+     <body>
+      A certification issued for a party. 
+
+An issued document to certify a party.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyProfile" xmi:id="abe83556-95f1-e911-82b5-06f9534b74c8" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4316" xmi:type="uml:Comment">
+     <body>
+      A set of information giving a description of a person or organization.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Transaction Helper SD" visibility="public" xmi:id="7effad6e-9965-e911-8237-06eba4258fe0" xmi:type="uml:Package">
+   <packagedElement name="Instruction" xmi:id="7effad6e-9965-e911-8237-06eba4258fe090393005" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4317" xmi:type="uml:Comment">
+     <body>
+      A request to do something.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Transaction" xmi:id="5708a70e-fd6f-e911-8237-06309b11004c" xmi:type="uml:Class">
+    <generalization general="ba9240b3-0056-e911-8237-060aad038e48" xmi:id="gen18" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4318" xmi:type="uml:Comment">
+     <body>
+      A planned or performed action in the context of concluding or fulfilling an agreement. 
+
+Act to do something.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="TransactionLocation" xmi:id="d3cfa06d-1248-ea11-8289-062ea3b80f12" xmi:type="uml:Class">
+    <generalization general="063a0dcf-0561-e911-8237-068e13695e26" xmi:id="gen19" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4319" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Document" xmi:id="ba9abd47-c656-e911-8237-06ecaacb4c6890393005" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4320" xmi:type="uml:Comment">
+     <body>
+      Something tangible that records something, such as a recording or a photograph, or a writing that can be used to furnish evidence or information (FIBO)
+
+Definition: A physical or digital representation of something meaningful to the audience.
+
+Comment: 
+1.Technical: Manuals, instructions, tutorials, procedures, specifications, etc., that accompany a piece of equipment or software, and provide guidance for its proper use and maintenance.
+2.Trading: Preparation of a set of commercial and financial documents that record or support a business transaction. International trade documentations include air waybill, bill of exchange, bill of lading, certificate of inspection, certificate of insurance, certificate of origin, commercial invoice, and consular invoice.
+
+
+Read more: http://www.businessdictionary.com/definition/documentation.html#ixzz3EQGRGC4W
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="FinancialTransaction" xmi:id="a58c8a29-5a96-e911-823e-062d75b50cca" xmi:type="uml:Class">
+    <generalization general="66bab5d1-0056-e911-8237-060aad038e48" xmi:id="gen20" xmi:type="uml:Generalization"/>
+    <generalization general="5708a70e-fd6f-e911-8237-06309b11004c" xmi:id="gen21" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4321" xmi:type="uml:Comment">
+     <body>
+      A transaction that changes the financial position (the status of the finances) of involved party.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Location" xmi:id="063a0dcf-0561-e911-8237-068e13695e2690393005" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4322" xmi:type="uml:Comment">
+     <body>
+      The definition of an addressable space/position both in real and virtual environments with associated uses and entitlements
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Account" xmi:id="9fe05cf9-fd60-e911-8237-068e13695e2690393005" xmi:type="uml:Class">
+    <generalization general="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:id="gen22" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4323" xmi:type="uml:Comment">
+     <body>
+      A measuring state on which movements in value or amounts of assets, rights and obligations are registered.
+
+Comment: 
+It is a bookkeeping instrument holding the amount or value of something by registering the movements in plus and min when events happen which have an impact on the position.
+The term "account" is usually associated to an accounting or bookkeeping concept to hold the financial or stock state of a business concept. An account will typically group the debit and credit entries for a specific aspect of the business resulting from transactions,
+Often accounts are represented as a T-account which is a visual aid used to depict an account. Above the top portion of the T would be the account title. On the left-side of the base of the T would be any debit amounts; on the right-side would be the credit amounts.
+A commonly used bookkeeping method is the double-entry method. This means that every transaction has at least 2 movements. If a customer pays 100 € in cash, there is
+a decrease in the amount that the customer owes to the company (the customer position is decreased)
+an increase in the amount that the company has in cash (the cash position is increased)
+
+An account can be assigning to one or more ledgers. A ledger is a group of accounts for a certain purpose. If there is need for multiple ledgers because of multiple purpose, an account can perfectly well assigned to multiple ledgers. When Ledgers are in real physical books, this is not possible. When ledgers are digital, accounts can be grouped into multiple groups at the same time. This practice is very rarely taught into courses for accounting, but in digital accounting, it is common practice.
+
+Examples: 
+stock account of a shop, cash register, bank account, financial accounting account, customer account, supplier account, ...
+Bank Account BE12 1234 5678 9012: is an individual banking account
+Accounts Payable, is a collective account keeping the balance of the amounts to pay by the organisation to its suppliers. The balance is the result of the financial movements related to suppliers. This account is managed usually in a General Ledger 
+Supplier Account X, is an individual account keeping the balance of the amounts to pay by the organisation to an individual supplier. The balance is the result of the financial movements related to an individual supplier. This account is managed usually in a sub-ledger.
+Stock Account x, is an individual account keeping the balance of the amounts in stock of a specific good.
+A payment service to take fund out of an account.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="AccountEntry" xmi:id="69ad2f0a-0061-e911-8237-068e13695e26" xmi:type="uml:Class">
+    <generalization general="63b22f22-24d3-e911-8296-06b94e7647ce" xmi:id="gen23" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4324" xmi:type="uml:Comment">
+     <body>
+      Entry means Posting to an account that results in an increase or decrease to a balance. (ISO20022)
+
+An entry posted/booked in the account.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="TransactionDocument" xmi:id="091d20a8-f148-ea11-8289-064c9ffef37a" xmi:type="uml:Class">
+    <generalization general="ba9abd47-c656-e911-8237-06ecaacb4c68" xmi:id="gen24" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4325" xmi:type="uml:Comment">
+     <body>
+      Specified a document that is assigned to a specific transaction.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Arrangement" xmi:id="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc90393005" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4326" xmi:type="uml:Comment">
+    <body>
+     An agreed commitment to perform actions that meet obligations under an agreement
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ActionType" type="Visibility=public" xmi:id="b5b2b263-7770-eb11-82fd-061e1f234dd590393005">
+    <ownedComment xmi:id="comm4327" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ArrangementStartDate" type="Visibility=public" xmi:id="7fa0d46b-7770-eb11-82fd-061e1f234dd590393005">
+    <ownedComment xmi:id="comm4328" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ArrangementEndDate" type="Visibility=public" xmi:id="0feec37e-7770-eb11-82fd-061e1f234dd590393005">
+    <ownedComment xmi:id="comm4329" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ArrangementStatus" type="Visibility=public" xmi:id="3bf71a90-a47a-eb11-8305-06377ca422c790393005">
+    <ownedComment xmi:id="comm4330" xmi:type="uml:Comment">
+     <body>
+      A status which refers to the LifecycleStatus of arrangement (e.g., requested, proposed, offered, accepted, cancelled, terminated, fulfilled, etc.);
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Log" xmi:id="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4331" xmi:type="uml:Comment">
+    <body>
+     A record of events/entries.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="TermDepositAccountArrangement" xmi:id="eecc7a97-33d6-e911-8296-06c6ee6741dc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4332" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="TermDepositArrangement" xmi:id="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4333" xmi:type="uml:Comment">
+    <body>
+     An arrangement defining the applicable features for a Corporate Deposit Agreement.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="SavingsAccountArrangement" xmi:id="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4334" xmi:type="uml:Comment">
+    <body>
+     An arrangement defining the applicable features for a savings account agreement. 
+
+The arrangement type is one of those possible/mandatory for the sale of a savings account product. The actual arrangements are a selection of those offered under the savings account product.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ProductFeatureModality" xmi:id="e2cc80ca-5c8d-eb11-8310-068d732c0449" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4335" xmi:type="uml:Comment">
+    <body>
+     A Feature Modality applicable to a Product Feature
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ProductFeature" xmi:id="823053bb-a486-e911-823e-062687e6a904" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4336" xmi:type="uml:Comment">
+    <body>
+     A detailed characteristic of a product expressed in offered services and the terms and conditions applicable to the delivery of the services.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Event" xmi:id="66bab5d1-0056-e911-8237-060aad038e48" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4337" xmi:type="uml:Comment">
+    <body>
+     Something that happens, has happened, can happen or is planned to happen.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="FinancialInstrument" xmi:id="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4338" xmi:type="uml:Comment">
+    <body>
+     A contract that gives rise to a financial asset of one entity and a financial liability or equity instrument of another entity. (IFRS)
+https://www.iasplus.com/en/standards/ias/ias32#:~:text=Key%20definitions%20%5BIAS%2032.11%5D,equity%20instrument%20of%20another%20entity
+
+Financial instruments are financial contracts of different nature made between institutional units. These comprise the full range of financial claims and liabilities between institutional units, including contingent liabilities like guarantees, commitments, etc. (ISO 10962)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Feature" xmi:id="64fe5512-598d-eb11-8310-068d732c0449" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4339" xmi:type="uml:Comment">
+    <body>
+     a distinctive attribute or aspect of something.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="FeatureModality" xmi:id="d16fa97c-588d-eb11-8310-068d732c0449" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4340" xmi:type="uml:Comment">
+    <body>
+     The way in which a feature can happen.
+Feature can be a Service or Condition
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Agreement" xmi:id="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4341" xmi:type="uml:Comment">
+    <body>
+     A formal or informal common understanding between two or more (legal competent) parties concerning one or more subject matters expressed in a set of arrangements, terms and conditions. (adapted from Legal System and FIBO)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Mandate" xmi:id="852a0fc0-7188-e911-823e-06b09c770f0c" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4342" xmi:type="uml:Comment">
+    <body>
+     An agreement that authorises a party (holding party) to act on behalf of a principal party.
+
+Authorisation given by an issuing party to a holder party to act on the issuer's behalf. (ISO20022)
+
+Written authorization and/or command by a person, group, or organization (the 'mandator') to another (the 'mandatary') to take a certain course of action.  (Business Dictionary)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Document" xmi:id="ba9abd47-c656-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4343" xmi:type="uml:Comment">
+    <body>
+     Something tangible that records something, such as a recording or a photograph, or a writing that can be used to furnish evidence or information (FIBO)
+
+Definition: A physical or digital representation of something meaningful to the audience.
+
+Comment: 
+1.Technical: Manuals, instructions, tutorials, procedures, specifications, etc., that accompany a piece of equipment or software, and provide guidance for its proper use and maintenance.
+2.Trading: Preparation of a set of commercial and financial documents that record or support a business transaction. International trade documentations include air waybill, bill of exchange, bill of lading, certificate of inspection, certificate of insurance, certificate of origin, commercial invoice, and consular invoice.
+
+
+Read more: http://www.businessdictionary.com/definition/documentation.html#ixzz3EQGRGC4W
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Action" xmi:id="ba9240b3-0056-e911-8237-060aad038e48" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4344" xmi:type="uml:Comment">
+    <body>
+     An event related to the behaviour performed by an actor. 
+
+Comment:
+An actor can be a party or a machine
+An action Includes various types of requests, orders and financial transactions. Includes responses where appropriate.
+An action is an event which means that the concept describes the result of acting.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Location" xmi:id="063a0dcf-0561-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4345" xmi:type="uml:Comment">
+    <body>
+     The definition of an addressable space/position both in real and virtual environments with associated uses and entitlements
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="LogEntry" xmi:id="63b22f22-24d3-e911-8296-06b94e7647ce" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4346" xmi:type="uml:Comment">
+    <body>
+     Posting events to the log.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Instruction" xmi:id="7effad6e-9965-e911-8237-06eba4258fe090393005" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4347" xmi:type="uml:Comment">
+    <body>
+     A request to do something.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="InstructionDueDate" type="Visibility=public" xmi:id="ee0c1470-0170-e911-8237-06309b11004c90393005">
+    <ownedComment xmi:id="comm4348" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionStatus" type="Visibility=public" xmi:id="6299677b-0170-e911-8237-06309b11004c90393005">
+    <ownedComment xmi:id="comm4349" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ObligeeReference" type="Visibility=public" xmi:id="0a7e09e1-1b81-e911-823e-06e233b9c77290393005">
+    <ownedComment xmi:id="comm4350" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ObligorReference" type="Visibility=public" xmi:id="c1414858-1c81-e911-823e-06e233b9c77290393005">
+    <ownedComment xmi:id="comm4351" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionIdentifier" type="Visibility=public" xmi:id="d7d37cf7-1c81-e911-823e-06e233b9c77290393005">
+    <ownedComment xmi:id="comm4352" xmi:type="uml:Comment">
+     <body>
+      An identifier that allows to uniquely refer to an instance of an Instruction.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionType" type="Visibility=public" xmi:id="c5019438-1d81-e911-823e-06e233b9c77290393005">
+    <ownedComment xmi:id="comm4353" xmi:type="uml:Comment">
+     <body>
+      Classification Value classifying the instruction according to the "type of action" to be applied to a subject matter.
+
+examples: payment instruction, withdrawal instruction, blocking instruction, accounting instruction, sending instruction, purchase instruction blocked deposit, a blocked securities portfolio, pawn, etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionResult" type="Visibility=public" xmi:id="e1a7f823-288c-e911-823e-061d8abd002690393005">
+    <ownedComment xmi:id="comm4354" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionDescription" type="Visibility=public" xmi:id="df43dc90-2d8c-e911-823e-061d8abd002690393005">
+    <ownedComment xmi:id="comm4355" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionLog" type="Visibility=public" xmi:id="7dfccec6-2e8c-e911-823e-061d8abd002690393005">
+    <ownedComment xmi:id="comm4356" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionPurpose" type="Visibility=public" xmi:id="0f2c5b3b-319f-e911-827a-06f9569e254490393005">
+    <ownedComment xmi:id="comm4357" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="FinancialInstruction" xmi:id="f0b986ab-7192-e911-823e-0616b0d596e4" xmi:type="uml:Class">
+   <generalization general="7effad6e-9965-e911-8237-06eba4258fe0" xmi:id="gen25" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4358" xmi:type="uml:Comment">
+    <body>
+     An instruction to do something expressed in an amount of money.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="InstructionAmount" type="Visibility=public" xmi:id="81f24c50-7292-e911-823e-0616b0d596e490393005">
+    <ownedComment xmi:id="comm4359" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionCurrency" type="Visibility=public" xmi:id="a3dfe861-7292-e911-823e-0616b0d596e490393005">
+    <ownedComment xmi:id="comm4360" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="FinancialInstructionType" type="Visibility=public" xmi:id="035ba4e9-369f-e911-827a-06f9569e254490393005">
+    <ownedComment xmi:id="comm4361" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Transaction" xmi:id="5708a70e-fd6f-e911-8237-06309b11004c90393005" xmi:type="uml:Class">
+   <generalization general="ba9240b3-0056-e911-8237-060aad038e48" xmi:id="gen26" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4362" xmi:type="uml:Comment">
+    <body>
+     A planned or performed action in the context of concluding or fulfilling an agreement. 
+
+Act to do something.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="TransactionIdentification" type="Visibility=public" xmi:id="3f2f97a8-da7e-e911-823e-0680d160e49490393005">
+    <ownedComment xmi:id="comm4363" xmi:type="uml:Comment">
+     <body>
+      An identifier that allows to uniquely refer to an instance of a transaction.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TransactionDate" type="Visibility=public" xmi:id="e6a112c6-da7e-e911-823e-0680d160e49490393005">
+    <ownedComment xmi:id="comm4364" xmi:type="uml:Comment">
+     <body>
+      The Date that the transaction has occurred or is planned to occur.
+A characteristic of transaction which refers to the LifecycleDate of transaction (e.g., initiated date, executed date, fulfillment date).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TransactionType" type="Visibility=public" xmi:id="7113605b-6493-e911-823e-065576aa37f890393005">
+    <ownedComment xmi:id="comm4365" xmi:type="uml:Comment">
+     <body>
+      Specifies the category of Transaction like payment transaction, accounting transaction, financial Transaction, banking transaction, etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TransactionDescription" type="Visibility=public" xmi:id="2445958b-f6d2-e911-8296-06b94e7647ce90393005">
+    <ownedComment xmi:id="comm4366" xmi:type="uml:Comment">
+     <body>
+      A detailed explanation or commentary of transaction.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TransactionLifecycleStatus" type="Visibility=public" xmi:id="e07aa642-0f48-ea11-8289-062ea3b80f1290393005">
+    <ownedComment xmi:id="comm4367" xmi:type="uml:Comment">
+     <body>
+      A characteristic of transaction which refers to the LifecycleStatus of transaction (e.g., initiated, executed, confirmed, cancelled, etc.)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TransactionName" type="Visibility=public" xmi:id="60d33862-0f48-ea11-8289-062ea3b80f1290393005">
+    <ownedComment xmi:id="comm4368" xmi:type="uml:Comment">
+     <body>
+      The name of transaction.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="InstructionInvolvement" xmi:id="35bb47d6-319f-e911-827a-06f9569e2544" xmi:type="uml:Class">
+   <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen27" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4369" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac90393005" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4370" xmi:type="uml:Comment">
+    <body>
+     A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyName" type="Visibility=public" xmi:id="d8f7f366-21cf-e911-8296-06bf764cb4bc90393005">
+    <ownedComment xmi:id="comm4371" xmi:type="uml:Comment">
+     <body>
+      Name by which a party is known and which is usually used to identify that party. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyType" type="Visibility=public" xmi:id="b1f7b3d8-21cf-e911-8296-06bf764cb4bc90393005">
+    <ownedComment xmi:id="comm4372" xmi:type="uml:Comment">
+     <body>
+      Specifies the type of party in different business contexts. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyDateTime" type="Visibility=public" xmi:id="d6ed5669-40f6-e911-82bd-06a31b9588ce90393005">
+    <ownedComment xmi:id="comm4373" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyIdentification" type="Visibility=public" xmi:id="449e231b-a846-ea11-8289-06f8a6a00ed090393005">
+    <ownedComment xmi:id="comm4374" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c6890393005" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4375" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyRoleType" type="Visibility=public" xmi:id="83c28dd9-29e9-ea11-82b8-0621c7360a1390393005">
+    <ownedComment xmi:id="comm4376" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleName" type="Visibility=public" xmi:id="7ebb122f-2ce9-ea11-82b8-0621c7360a1390393005">
+    <ownedComment xmi:id="comm4377" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleValidityPeriod" type="Visibility=public" xmi:id="fb571d5e-2ce9-ea11-82b8-0621c7360a1390393005">
+    <ownedComment xmi:id="comm4378" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyInvolvementType" type="Visibility=public" xmi:id="c5867926-2de9-ea11-82b8-0621c7360a1390393005">
+    <ownedComment xmi:id="comm4379" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+ </packagedElement>
+ <packagedElement name="Payment Instruction Helper SD" visibility="public" xmi:id="ef7a2a21-fc6f-e911-8237-06309b11004c" xmi:type="uml:Package">
+  <packagedElement name="Transaction Helper SD" visibility="public" xmi:id="7effad6e-9965-e911-8237-06eba4258fe0" xmi:type="uml:Package">
+   <packagedElement name="" xmi:id="87be1f48-ff60-e911-8237-068e13695e26" xmi:type="uml:Association">
+    <ownedEnd association="87be1f48-ff60-e911-8237-068e13695e26" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="e6304f28-fd60-e911-8237-068e13695e26" visibility="public" xmi:id="e00fb730-fd60-e911-8237-068e13695e26a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="87be1f48-ff60-e911-8237-068e13695e26" isUnique="true" name="Causes" type="e00fb730-fd60-e911-8237-068e13695e26" visibility="public" xmi:id="e00fb730-fd60-e911-8237-068e13695e26b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="b2d71fd9-c7ab-e911-828c-0679464e26a4" xmi:type="uml:Association">
+    <ownedEnd association="b2d71fd9-c7ab-e911-828c-0679464e26a4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="92910269-8dab-e911-828c-06e8cb19aef2" visibility="public" xmi:id="7314f250-f5a9-e911-8288-06812ee60d2aa">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="b2d71fd9-c7ab-e911-828c-0679464e26a4" isUnique="true" name="" type="7314f250-f5a9-e911-8288-06812ee60d2a" visibility="public" xmi:id="7314f250-f5a9-e911-8288-06812ee60d2ab">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="1459d3fc-0698-e911-827a-06b20c6b9b78" xmi:type="uml:Association">
+    <ownedEnd association="1459d3fc-0698-e911-827a-06b20c6b9b78" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="a6ea66b8-8596-e911-823e-062d75b50cca" visibility="public" xmi:id="e6304f28-fd60-e911-8237-068e13695e26a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="1459d3fc-0698-e911-827a-06b20c6b9b78" isUnique="true" name="" type="e6304f28-fd60-e911-8237-068e13695e26" visibility="public" xmi:id="e6304f28-fd60-e911-8237-068e13695e26b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="9cb806ad-fc6f-e911-8237-06309b11004c" xmi:type="uml:Association">
+    <ownedEnd association="9cb806ad-fc6f-e911-8237-06309b11004c" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="e6304f28-fd60-e911-8237-068e13695e26" visibility="public" xmi:id="eca491e3-d66f-e911-8237-06309b11004ca">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="9cb806ad-fc6f-e911-8237-06309b11004c" isUnique="true" name="" type="eca491e3-d66f-e911-8237-06309b11004c" visibility="public" xmi:id="eca491e3-d66f-e911-8237-06309b11004cb">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="1f6a4c44-4c47-ea11-8289-0680d91fd4a4" xmi:type="uml:Association">
+    <ownedEnd association="1f6a4c44-4c47-ea11-8289-0680d91fd4a4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="e6304f28-fd60-e911-8237-068e13695e26" visibility="public" xmi:id="0914c173-4b47-ea11-8289-0680d91fd4a4a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="1f6a4c44-4c47-ea11-8289-0680d91fd4a4" isUnique="true" name="" type="0914c173-4b47-ea11-8289-0680d91fd4a4" visibility="public" xmi:id="0914c173-4b47-ea11-8289-0680d91fd4a4b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="Instruction" xmi:id="7effad6e-9965-e911-8237-06eba4258fe090550207" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4380" xmi:type="uml:Comment">
+     <body>
+      A request to do something.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Transaction" xmi:id="5708a70e-fd6f-e911-8237-06309b11004c90550207" xmi:type="uml:Class">
+    <generalization general="ba9240b3-0056-e911-8237-060aad038e48" xmi:id="gen28" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4381" xmi:type="uml:Comment">
+     <body>
+      A planned or performed action in the context of concluding or fulfilling an agreement. 
+
+Act to do something.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="TransactionLocation" xmi:id="d3cfa06d-1248-ea11-8289-062ea3b80f1290550207" xmi:type="uml:Class">
+    <generalization general="063a0dcf-0561-e911-8237-068e13695e26" xmi:id="gen29" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4382" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Document" xmi:id="ba9abd47-c656-e911-8237-06ecaacb4c6890550207" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4383" xmi:type="uml:Comment">
+     <body>
+      Something tangible that records something, such as a recording or a photograph, or a writing that can be used to furnish evidence or information (FIBO)
+
+Definition: A physical or digital representation of something meaningful to the audience.
+
+Comment: 
+1.Technical: Manuals, instructions, tutorials, procedures, specifications, etc., that accompany a piece of equipment or software, and provide guidance for its proper use and maintenance.
+2.Trading: Preparation of a set of commercial and financial documents that record or support a business transaction. International trade documentations include air waybill, bill of exchange, bill of lading, certificate of inspection, certificate of insurance, certificate of origin, commercial invoice, and consular invoice.
+
+
+Read more: http://www.businessdictionary.com/definition/documentation.html#ixzz3EQGRGC4W
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="FinancialTransaction" xmi:id="a58c8a29-5a96-e911-823e-062d75b50cca90550207" xmi:type="uml:Class">
+    <generalization general="66bab5d1-0056-e911-8237-060aad038e48" xmi:id="gen30" xmi:type="uml:Generalization"/>
+    <generalization general="5708a70e-fd6f-e911-8237-06309b11004c" xmi:id="gen31" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4384" xmi:type="uml:Comment">
+     <body>
+      A transaction that changes the financial position (the status of the finances) of involved party.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Location" xmi:id="063a0dcf-0561-e911-8237-068e13695e2690550207" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4385" xmi:type="uml:Comment">
+     <body>
+      The definition of an addressable space/position both in real and virtual environments with associated uses and entitlements
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Account" xmi:id="9fe05cf9-fd60-e911-8237-068e13695e2690550207" xmi:type="uml:Class">
+    <generalization general="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:id="gen32" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4386" xmi:type="uml:Comment">
+     <body>
+      A measuring state on which movements in value or amounts of assets, rights and obligations are registered.
+
+Comment: 
+It is a bookkeeping instrument holding the amount or value of something by registering the movements in plus and min when events happen which have an impact on the position.
+The term "account" is usually associated to an accounting or bookkeeping concept to hold the financial or stock state of a business concept. An account will typically group the debit and credit entries for a specific aspect of the business resulting from transactions,
+Often accounts are represented as a T-account which is a visual aid used to depict an account. Above the top portion of the T would be the account title. On the left-side of the base of the T would be any debit amounts; on the right-side would be the credit amounts.
+A commonly used bookkeeping method is the double-entry method. This means that every transaction has at least 2 movements. If a customer pays 100 € in cash, there is
+a decrease in the amount that the customer owes to the company (the customer position is decreased)
+an increase in the amount that the company has in cash (the cash position is increased)
+
+An account can be assigning to one or more ledgers. A ledger is a group of accounts for a certain purpose. If there is need for multiple ledgers because of multiple purpose, an account can perfectly well assigned to multiple ledgers. When Ledgers are in real physical books, this is not possible. When ledgers are digital, accounts can be grouped into multiple groups at the same time. This practice is very rarely taught into courses for accounting, but in digital accounting, it is common practice.
+
+Examples: 
+stock account of a shop, cash register, bank account, financial accounting account, customer account, supplier account, ...
+Bank Account BE12 1234 5678 9012: is an individual banking account
+Accounts Payable, is a collective account keeping the balance of the amounts to pay by the organisation to its suppliers. The balance is the result of the financial movements related to suppliers. This account is managed usually in a General Ledger 
+Supplier Account X, is an individual account keeping the balance of the amounts to pay by the organisation to an individual supplier. The balance is the result of the financial movements related to an individual supplier. This account is managed usually in a sub-ledger.
+Stock Account x, is an individual account keeping the balance of the amounts in stock of a specific good.
+A payment service to take fund out of an account.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="AccountEntry" xmi:id="69ad2f0a-0061-e911-8237-068e13695e2690550207" xmi:type="uml:Class">
+    <generalization general="63b22f22-24d3-e911-8296-06b94e7647ce" xmi:id="gen33" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4387" xmi:type="uml:Comment">
+     <body>
+      Entry means Posting to an account that results in an increase or decrease to a balance. (ISO20022)
+
+An entry posted/booked in the account.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="TransactionDocument" xmi:id="091d20a8-f148-ea11-8289-064c9ffef37a90550207" xmi:type="uml:Class">
+    <generalization general="ba9abd47-c656-e911-8237-06ecaacb4c68" xmi:id="gen34" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4388" xmi:type="uml:Comment">
+     <body>
+      Specified a document that is assigned to a specific transaction.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Payment Transaction Helper SD" visibility="public" xmi:id="a58c8a29-5a96-e911-823e-062d75b50cca" xmi:type="uml:Package">
+   <packagedElement name="FinancialTransaction" xmi:id="a58c8a29-5a96-e911-823e-062d75b50cca90628808" xmi:type="uml:Class">
+    <generalization general="66bab5d1-0056-e911-8237-060aad038e48" xmi:id="gen35" xmi:type="uml:Generalization"/>
+    <generalization general="5708a70e-fd6f-e911-8237-06309b11004c" xmi:id="gen36" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4389" xmi:type="uml:Comment">
+     <body>
+      A transaction that changes the financial position (the status of the finances) of involved party.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PaymentTransaction" xmi:id="e00fb730-fd60-e911-8237-068e13695e26" xmi:type="uml:Class">
+    <generalization general="a58c8a29-5a96-e911-823e-062d75b50cca" xmi:id="gen37" xmi:type="uml:Generalization"/>
+    <generalization general="7314f250-f5a9-e911-8288-06812ee60d2a" xmi:id="gen38" xmi:type="uml:Generalization"/>
+    <generalization general="5708a70e-fd6f-e911-8237-06309b11004c" xmi:id="gen39" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4390" xmi:type="uml:Comment">
+     <body>
+      An act, initiated by the payer or payee, of placing, transferring or withdrawing funds, irrespective of any underlying obligations between the payer and payee (a proposed definition for BIAN BOM adapted from PSD)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PaymentTransactionInvolvement" xmi:id="201e3fe9-1468-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+    <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen40" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4391" xmi:type="uml:Comment">
+     <body>
+      A party role which is involved in the payment transaction.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="MoneyTransferTransaction" xmi:id="7314f250-f5a9-e911-8288-06812ee60d2a" xmi:type="uml:Class">
+    <generalization general="a58c8a29-5a96-e911-823e-062d75b50cca" xmi:id="gen41" xmi:type="uml:Generalization"/>
+    <generalization general="5708a70e-fd6f-e911-8237-06309b11004c" xmi:id="gen42" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4392" xmi:type="uml:Comment">
+     <body>
+      Transfer of money between two parties and/or accounts
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PaymentInstruction" xmi:id="e6304f28-fd60-e911-8237-068e13695e26" xmi:type="uml:Class">
+    <generalization general="7effad6e-9965-e911-8237-06eba4258fe0" xmi:id="gen43" xmi:type="uml:Generalization"/>
+    <generalization general="f0b986ab-7192-e911-823e-0616b0d596e4" xmi:id="gen44" xmi:type="uml:Generalization"/>
+    <generalization general="92910269-8dab-e911-828c-06e8cb19aef2" xmi:id="gen45" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4393" xmi:type="uml:Comment">
+     <body>
+      Instruction to pay an amount of money to an ultimate beneficiary, on behalf of an originator. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c6890628808" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4394" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PaymentTransactionAccount" xmi:id="97ab8097-238e-ea11-8295-065d16bc4550" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4395" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Account" xmi:id="9fe05cf9-fd60-e911-8237-068e13695e2690628808" xmi:type="uml:Class">
+    <generalization general="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:id="gen46" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4396" xmi:type="uml:Comment">
+     <body>
+      A measuring state on which movements in value or amounts of assets, rights and obligations are registered.
+
+Comment: 
+It is a bookkeeping instrument holding the amount or value of something by registering the movements in plus and min when events happen which have an impact on the position.
+The term "account" is usually associated to an accounting or bookkeeping concept to hold the financial or stock state of a business concept. An account will typically group the debit and credit entries for a specific aspect of the business resulting from transactions,
+Often accounts are represented as a T-account which is a visual aid used to depict an account. Above the top portion of the T would be the account title. On the left-side of the base of the T would be any debit amounts; on the right-side would be the credit amounts.
+A commonly used bookkeeping method is the double-entry method. This means that every transaction has at least 2 movements. If a customer pays 100 € in cash, there is
+a decrease in the amount that the customer owes to the company (the customer position is decreased)
+an increase in the amount that the company has in cash (the cash position is increased)
+
+An account can be assigning to one or more ledgers. A ledger is a group of accounts for a certain purpose. If there is need for multiple ledgers because of multiple purpose, an account can perfectly well assigned to multiple ledgers. When Ledgers are in real physical books, this is not possible. When ledgers are digital, accounts can be grouped into multiple groups at the same time. This practice is very rarely taught into courses for accounting, but in digital accounting, it is common practice.
+
+Examples: 
+stock account of a shop, cash register, bank account, financial accounting account, customer account, supplier account, ...
+Bank Account BE12 1234 5678 9012: is an individual banking account
+Accounts Payable, is a collective account keeping the balance of the amounts to pay by the organisation to its suppliers. The balance is the result of the financial movements related to suppliers. This account is managed usually in a General Ledger 
+Supplier Account X, is an individual account keeping the balance of the amounts to pay by the organisation to an individual supplier. The balance is the result of the financial movements related to an individual supplier. This account is managed usually in a sub-ledger.
+Stock Account x, is an individual account keeping the balance of the amounts in stock of a specific good.
+A payment service to take fund out of an account.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac90628808" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4397" xmi:type="uml:Comment">
+     <body>
+      A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Money Transfer Execution Helper SD" visibility="public" xmi:id="8d2e5ef5-f2a3-e911-8284-065b2e50bbd8" xmi:type="uml:Package">
+   <packagedElement name="PaymentSystemSelection" xmi:id="8d2e5ef5-f2a3-e911-8284-065b2e50bbd8" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4398" xmi:type="uml:Comment">
+     <body>
+      Directions on how the selected payment mechanism would be used; E.g. what service level (instant payment or not...), e.g. what intermediate correspondents should be used...
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Account" xmi:id="9fe05cf9-fd60-e911-8237-068e13695e2690707409" xmi:type="uml:Class">
+    <generalization general="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:id="gen47" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4399" xmi:type="uml:Comment">
+     <body>
+      A measuring state on which movements in value or amounts of assets, rights and obligations are registered.
+
+Comment: 
+It is a bookkeeping instrument holding the amount or value of something by registering the movements in plus and min when events happen which have an impact on the position.
+The term "account" is usually associated to an accounting or bookkeeping concept to hold the financial or stock state of a business concept. An account will typically group the debit and credit entries for a specific aspect of the business resulting from transactions,
+Often accounts are represented as a T-account which is a visual aid used to depict an account. Above the top portion of the T would be the account title. On the left-side of the base of the T would be any debit amounts; on the right-side would be the credit amounts.
+A commonly used bookkeeping method is the double-entry method. This means that every transaction has at least 2 movements. If a customer pays 100 € in cash, there is
+a decrease in the amount that the customer owes to the company (the customer position is decreased)
+an increase in the amount that the company has in cash (the cash position is increased)
+
+An account can be assigning to one or more ledgers. A ledger is a group of accounts for a certain purpose. If there is need for multiple ledgers because of multiple purpose, an account can perfectly well assigned to multiple ledgers. When Ledgers are in real physical books, this is not possible. When ledgers are digital, accounts can be grouped into multiple groups at the same time. This practice is very rarely taught into courses for accounting, but in digital accounting, it is common practice.
+
+Examples: 
+stock account of a shop, cash register, bank account, financial accounting account, customer account, supplier account, ...
+Bank Account BE12 1234 5678 9012: is an individual banking account
+Accounts Payable, is a collective account keeping the balance of the amounts to pay by the organisation to its suppliers. The balance is the result of the financial movements related to suppliers. This account is managed usually in a General Ledger 
+Supplier Account X, is an individual account keeping the balance of the amounts to pay by the organisation to an individual supplier. The balance is the result of the financial movements related to an individual supplier. This account is managed usually in a sub-ledger.
+Stock Account x, is an individual account keeping the balance of the amounts in stock of a specific good.
+A payment service to take fund out of an account.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="InstructionAccountRole" xmi:id="3724febb-e2a3-e911-8284-065b2e50bbd8" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4400" xmi:type="uml:Comment">
+     <body>
+      The role of an account in a payment instruction
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="InstructionRelationship" xmi:id="8caa8f90-eba3-e911-8284-065b2e50bbd8" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4401" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="MoneyTransferInstructionInvolvement" xmi:id="a798d911-8996-e911-823e-066b14f5b0ba" xmi:type="uml:Class">
+    <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen48" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4402" xmi:type="uml:Comment">
+     <body>
+      The specific role that a specific party has in a specific payment instruction
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="TransactionAccountRole" xmi:id="093f2c3f-e3a3-e911-8284-065b2e50bbd8" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4403" xmi:type="uml:Comment">
+     <body>
+      The role of an account in a transaction
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="RelevantDateTime" xmi:id="3500ccc6-af9d-e911-827a-06c73ecc951a" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4404" xmi:type="uml:Comment">
+     <body>
+      The meaning of a time indication for an object; E.g. opening data of an account, signing date of an agreement... birth date of a person.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="DateTime" xmi:id="4b8c8046-af9d-e911-827a-06c73ecc951a" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4405" xmi:type="uml:Comment">
+     <body>
+      A point in time. 
+Can be a period, a date or a more detailed time indication.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="MoneyTransferTransaction" xmi:id="7314f250-f5a9-e911-8288-06812ee60d2a90707409" xmi:type="uml:Class">
+    <generalization general="a58c8a29-5a96-e911-823e-062d75b50cca" xmi:id="gen49" xmi:type="uml:Generalization"/>
+    <generalization general="5708a70e-fd6f-e911-8237-06309b11004c" xmi:id="gen50" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4406" xmi:type="uml:Comment">
+     <body>
+      Transfer of money between two parties and/or accounts
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PaymentServiceProviderInstruction" xmi:id="a8272ce6-c2ab-e911-828c-0679464e26a4" xmi:type="uml:Class">
+    <generalization general="92910269-8dab-e911-828c-06e8cb19aef2" xmi:id="gen51" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4407" xmi:type="uml:Comment">
+     <body>
+      Money Transfer instruction given to a Payment Service Provider
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="MoneyTransferInstruction" xmi:id="92910269-8dab-e911-828c-06e8cb19aef2" xmi:type="uml:Class">
+    <generalization general="f0b986ab-7192-e911-823e-0616b0d596e4" xmi:id="gen52" xmi:type="uml:Generalization"/>
+    <generalization general="7effad6e-9965-e911-8237-06eba4258fe0" xmi:id="gen53" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4408" xmi:type="uml:Comment">
+     <body>
+      Instruction to execute a payment from a payer to a payee
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="MoneyTransferTransactionInvolvement" xmi:id="116cc96f-c7ab-e911-828c-0679464e26a4" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4409" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Instruction Helper SD" visibility="public" xmi:id="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Package">
+   <packagedElement name="Arrangement" xmi:id="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc90786010" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4410" xmi:type="uml:Comment">
+     <body>
+      An agreed commitment to perform actions that meet obligations under an agreement
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Instruction" xmi:id="7effad6e-9965-e911-8237-06eba4258fe090786010" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4411" xmi:type="uml:Comment">
+     <body>
+      A request to do something.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="FinancialInstruction" xmi:id="f0b986ab-7192-e911-823e-0616b0d596e490786010" xmi:type="uml:Class">
+    <generalization general="7effad6e-9965-e911-8237-06eba4258fe0" xmi:id="gen54" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4412" xmi:type="uml:Comment">
+     <body>
+      An instruction to do something expressed in an amount of money.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Transaction" xmi:id="5708a70e-fd6f-e911-8237-06309b11004c90786010" xmi:type="uml:Class">
+    <generalization general="ba9240b3-0056-e911-8237-060aad038e48" xmi:id="gen55" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4413" xmi:type="uml:Comment">
+     <body>
+      A planned or performed action in the context of concluding or fulfilling an agreement. 
+
+Act to do something.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="InstructionInvolvement" xmi:id="35bb47d6-319f-e911-827a-06f9569e254490786010" xmi:type="uml:Class">
+    <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen56" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm4414" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac90786010" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4415" xmi:type="uml:Comment">
+     <body>
+      A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c6890786010" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm4416" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="PaymentInstruction" xmi:id="e6304f28-fd60-e911-8237-068e13695e2690786010" xmi:type="uml:Class">
+   <generalization general="7effad6e-9965-e911-8237-06eba4258fe0" xmi:id="gen57" xmi:type="uml:Generalization"/>
+   <generalization general="f0b986ab-7192-e911-823e-0616b0d596e4" xmi:id="gen58" xmi:type="uml:Generalization"/>
+   <generalization general="92910269-8dab-e911-828c-06e8cb19aef2" xmi:id="gen59" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4417" xmi:type="uml:Comment">
+    <body>
+     Instruction to pay an amount of money to an ultimate beneficiary, on behalf of an originator. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PaymentInstructionDirectionType" type="Visibility=public" xmi:id="b8de9525-ca96-e911-823e-063411acec0a90786010">
+    <ownedComment xmi:id="comm4418" xmi:type="uml:Comment">
+     <body>
+      A classification of an instance of a payment instruction as an inbound or outbound payment.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentInstructionType" type="Visibility=public" xmi:id="5b7e820a-389f-e911-827a-06f9569e254490786010">
+    <ownedComment xmi:id="comm4419" xmi:type="uml:Comment">
+     <body>
+      Classification of a payment instruction according to the arrangement type that made it possible/generated it
+
+There are several ways a payment instruction can be created
+- as a consequence of the fulfillment of an arrangement ("a "xxx-FulfillmentEvent" (a standing order instruction is also the fulfillment of an arrangement)
+- as an instruction given by a customer (made possible by a payment service arrangement), e.g. a credit transfer, a card payment, a withdrawal, a deposit, a direct debit instruction.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentInstructionRequestedMechanism" type="Visibility=public" xmi:id="98fd32ff-efa3-e911-8284-065b2e50bbd890786010">
+    <ownedComment xmi:id="comm4420" xmi:type="uml:Comment">
+     <body>
+      The payment system requested to be used in a payment instruction.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentInstructionDateTime" type="Visibility=public" xmi:id="0926e45f-8346-ea11-8289-06f8a6a00ed090786010">
+    <ownedComment xmi:id="comm4421" xmi:type="uml:Comment">
+     <body>
+      Type of critical dates of a payment transaction executed by the payment order like RequestedExecutionDate.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Instruction" xmi:id="7effad6e-9965-e911-8237-06eba4258fe090786010" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4422" xmi:type="uml:Comment">
+    <body>
+     A request to do something.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="InstructionDueDate" type="Visibility=public" xmi:id="ee0c1470-0170-e911-8237-06309b11004c90786010">
+    <ownedComment xmi:id="comm4423" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionStatus" type="Visibility=public" xmi:id="6299677b-0170-e911-8237-06309b11004c90786010">
+    <ownedComment xmi:id="comm4424" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ObligeeReference" type="Visibility=public" xmi:id="0a7e09e1-1b81-e911-823e-06e233b9c77290786010">
+    <ownedComment xmi:id="comm4425" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ObligorReference" type="Visibility=public" xmi:id="c1414858-1c81-e911-823e-06e233b9c77290786010">
+    <ownedComment xmi:id="comm4426" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionIdentifier" type="Visibility=public" xmi:id="d7d37cf7-1c81-e911-823e-06e233b9c77290786010">
+    <ownedComment xmi:id="comm4427" xmi:type="uml:Comment">
+     <body>
+      An identifier that allows to uniquely refer to an instance of an Instruction.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionType" type="Visibility=public" xmi:id="c5019438-1d81-e911-823e-06e233b9c77290786010">
+    <ownedComment xmi:id="comm4428" xmi:type="uml:Comment">
+     <body>
+      Classification Value classifying the instruction according to the "type of action" to be applied to a subject matter.
+
+examples: payment instruction, withdrawal instruction, blocking instruction, accounting instruction, sending instruction, purchase instruction blocked deposit, a blocked securities portfolio, pawn, etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionResult" type="Visibility=public" xmi:id="e1a7f823-288c-e911-823e-061d8abd002690786010">
+    <ownedComment xmi:id="comm4429" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionDescription" type="Visibility=public" xmi:id="df43dc90-2d8c-e911-823e-061d8abd002690786010">
+    <ownedComment xmi:id="comm4430" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionLog" type="Visibility=public" xmi:id="7dfccec6-2e8c-e911-823e-061d8abd002690786010">
+    <ownedComment xmi:id="comm4431" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionPurpose" type="Visibility=public" xmi:id="0f2c5b3b-319f-e911-827a-06f9569e254490786010">
+    <ownedComment xmi:id="comm4432" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PaymentInstructionInvolvement" xmi:id="eca491e3-d66f-e911-8237-06309b11004c" xmi:type="uml:Class">
+   <generalization general="9bc7af8d-d46f-e911-8237-06309b11004c" xmi:id="gen60" xmi:type="uml:Generalization"/>
+   <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen61" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4433" xmi:type="uml:Comment">
+    <body>
+     Party who plays a specific role in a specific payment instruction.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PaymentInstructionInvolvementName" type="Visibility=public" xmi:id="0e091c34-7546-ea11-8289-06f8a6a00ed090786010">
+    <ownedComment xmi:id="comm4434" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentInstructionInvolvementType" type="Visibility=public" xmi:id="6f3d78a4-4147-ea11-8289-0680d91fd4a490786010">
+    <ownedComment xmi:id="comm4435" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PaymentTransaction" xmi:id="e00fb730-fd60-e911-8237-068e13695e2690786010" xmi:type="uml:Class">
+   <generalization general="a58c8a29-5a96-e911-823e-062d75b50cca" xmi:id="gen62" xmi:type="uml:Generalization"/>
+   <generalization general="7314f250-f5a9-e911-8288-06812ee60d2a" xmi:id="gen63" xmi:type="uml:Generalization"/>
+   <generalization general="5708a70e-fd6f-e911-8237-06309b11004c" xmi:id="gen64" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4436" xmi:type="uml:Comment">
+    <body>
+     An act, initiated by the payer or payee, of placing, transferring or withdrawing funds, irrespective of any underlying obligations between the payer and payee (a proposed definition for BIAN BOM adapted from PSD)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PaymentTransactionType" type="Visibility=public" xmi:id="13e877cd-1368-e911-8237-06dd5e24f7bc90786010">
+    <ownedComment xmi:id="comm4437" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionAmount" type="Visibility=public" xmi:id="a9ebda1e-1468-e911-8237-06dd5e24f7bc90786010">
+    <ownedComment xmi:id="comm4438" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionIdentifier" type="Visibility=public" xmi:id="678e5b63-1468-e911-8237-06dd5e24f7bc90786010">
+    <ownedComment xmi:id="comm4439" xmi:type="uml:Comment">
+     <body>
+      An identifier that allows to uniquely refer to a Payment Transaction.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionUsedMechanism" type="Visibility=public" xmi:id="d3e1f83d-8a96-e911-823e-062d75b50cca90786010">
+    <ownedComment xmi:id="comm4440" xmi:type="uml:Comment">
+     <body>
+      The payment mechanism the bank decides to use in the transaction to execute a payment instruction
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionDateTime" type="Visibility=public" xmi:id="184e4746-24aa-e911-8288-0674300188c090786010">
+    <ownedComment xmi:id="comm4441" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionPurpose" type="Visibility=public" xmi:id="99ecca6c-24aa-e911-8288-0674300188c090786010">
+    <ownedComment xmi:id="comm4442" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionStatus" type="Visibility=public" xmi:id="2a0978ea-24aa-e911-8288-0674300188c090786010">
+    <ownedComment xmi:id="comm4443" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionAppliedFee" type="Visibility=public" xmi:id="2f54fa43-fabc-e911-8291-066cb8d4b6e890786010">
+    <ownedComment xmi:id="comm4444" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionCurrency" type="Visibility=public" xmi:id="dbb75fe4-1f8e-ea11-8295-065d16bc455090786010">
+    <ownedComment xmi:id="comm4445" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="MoneyTransferInstruction" xmi:id="92910269-8dab-e911-828c-06e8cb19aef290786010" xmi:type="uml:Class">
+   <generalization general="f0b986ab-7192-e911-823e-0616b0d596e4" xmi:id="gen65" xmi:type="uml:Generalization"/>
+   <generalization general="7effad6e-9965-e911-8237-06eba4258fe0" xmi:id="gen66" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4446" xmi:type="uml:Comment">
+    <body>
+     Instruction to execute a payment from a payer to a payee
+    </body>
+   </ownedComment>
+   <ownedAttribute name="MoneyTransferInstructionType" type="Visibility=public" xmi:id="d5c9b69e-8dab-e911-828c-06e8cb19aef290786010">
+    <ownedComment xmi:id="comm4447" xmi:type="uml:Comment">
+     <body>
+      Classification of the Money Transfer Instruction according to the event that lead to the instruction
+
+e.g. withdrawal, interest disbursement, direct debit, card payment.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferInstructionAmount" type="Visibility=public" xmi:id="cbde55b6-c1ab-e911-828c-0679464e26a490786010">
+    <ownedComment xmi:id="comm4448" xmi:type="uml:Comment">
+     <body>
+      Amount of money to be transferred.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferInstructionAmountCurrency" type="Visibility=public" xmi:id="672395ca-c1ab-e911-828c-0679464e26a490786010">
+    <ownedComment xmi:id="comm4449" xmi:type="uml:Comment">
+     <body>
+      Currency in which the transfer amount is expressed.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferInstructionPurpose" type="Visibility=public" xmi:id="889401db-c1ab-e911-828c-0679464e26a490786010">
+    <ownedComment xmi:id="comm4450" xmi:type="uml:Comment">
+     <body>
+      The reason why the instruction is given
+
+can be reference to a lot of information, concerning e.g. a purchase, an arrangement fulfillment event, a billing period...
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferInstructionRequestedMechanism" type="Visibility=public" xmi:id="c0c4b66b-c2ab-e911-828c-0679464e26a490786010">
+    <ownedComment xmi:id="comm4451" xmi:type="uml:Comment">
+     <body>
+      The network to be used for the processing of the money transfer instruction as requested in the instruction.
+e.g. instant SEPA?
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferInstructionStatus" type="Visibility=public" xmi:id="db712661-c3ab-e911-828c-0679464e26a490786010">
+    <ownedComment xmi:id="comm4452" xmi:type="uml:Comment">
+     <body>
+      The processing status of the instruction
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferInstructionChannelReference" type="Visibility=public" xmi:id="18572405-24d6-e911-8296-06c6ee6741dc90786010">
+    <ownedComment xmi:id="comm4453" xmi:type="uml:Comment">
+     <body>
+      Reference to the contact channel that was used to give the money transfer instruction
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="MoneyTransferTransaction" xmi:id="7314f250-f5a9-e911-8288-06812ee60d2a90786010" xmi:type="uml:Class">
+   <generalization general="a58c8a29-5a96-e911-823e-062d75b50cca" xmi:id="gen67" xmi:type="uml:Generalization"/>
+   <generalization general="5708a70e-fd6f-e911-8237-06309b11004c" xmi:id="gen68" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4454" xmi:type="uml:Comment">
+    <body>
+     Transfer of money between two parties and/or accounts
+    </body>
+   </ownedComment>
+   <ownedAttribute name="MoneyTransferTransaction Amount" type="Visibility=public" xmi:id="f2b83603-0caa-e911-8288-06812ee60d2a90786010">
+    <ownedComment xmi:id="comm4455" xmi:type="uml:Comment">
+     <body>
+      The amount of money transferred from the source to the target.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferTransactionCurrency" type="Visibility=public" xmi:id="8a3fc515-0caa-e911-8288-06812ee60d2a90786010">
+    <ownedComment xmi:id="comm4456" xmi:type="uml:Comment">
+     <body>
+      The currency of the money transfer amount
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferTransactionSourceAccount" type="Visibility=public" xmi:id="1036b526-0caa-e911-8288-06812ee60d2a90786010">
+    <ownedComment xmi:id="comm4457" xmi:type="uml:Comment">
+     <body>
+      The account the money is transferred from.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferTransactionTargetAccount" type="Visibility=public" xmi:id="d238234a-0caa-e911-8288-06812ee60d2a90786010">
+    <ownedComment xmi:id="comm4458" xmi:type="uml:Comment">
+     <body>
+      The account the money is transferred to.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferInstructionReference" type="Visibility=public" xmi:id="1b9a59e4-c7ab-e911-828c-0679464e26a490786010">
+    <ownedComment xmi:id="comm4459" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferUsedMethod" type="Visibility=public" xmi:id="04d1ca9d-c8ab-e911-828c-0679464e26a490786010">
+    <ownedComment xmi:id="comm4460" xmi:type="uml:Comment">
+     <body>
+      The method used to transfer money; Can be a payment network but also something physical.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferValueDate" type="Visibility=public" xmi:id="65c8119a-3dd6-e911-8296-06c6ee6741dc90786010">
+    <ownedComment xmi:id="comm4461" xmi:type="uml:Comment">
+     <body>
+      The date on which the money is considerd to have left/have arrived become active can be used /strats to starts is considerd to be
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="FinancialInstruction" xmi:id="f0b986ab-7192-e911-823e-0616b0d596e490786010" xmi:type="uml:Class">
+   <generalization general="7effad6e-9965-e911-8237-06eba4258fe0" xmi:id="gen69" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4462" xmi:type="uml:Comment">
+    <body>
+     An instruction to do something expressed in an amount of money.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="InstructionAmount" type="Visibility=public" xmi:id="81f24c50-7292-e911-823e-0616b0d596e490786010">
+    <ownedComment xmi:id="comm4463" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionCurrency" type="Visibility=public" xmi:id="a3dfe861-7292-e911-823e-0616b0d596e490786010">
+    <ownedComment xmi:id="comm4464" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="FinancialInstructionType" type="Visibility=public" xmi:id="035ba4e9-369f-e911-827a-06f9569e254490786010">
+    <ownedComment xmi:id="comm4465" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PaymentInstructionInvolvementTypeValues" xmi:id="35328c76-7546-ea11-8289-06f8a6a00ed0" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="Payer" xmi:id="5cf3db7c-7546-ea11-8289-06f8a6a00ed0">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Party who holds a payment account and allows a payment order from that payment account, or, where there is no payment account, a party who gives a payment order.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="PayeeBank" xmi:id="0af165c3-7846-ea11-8289-06f8a6a00ed0">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Financial institution servicing an account for the payee.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Payee" xmi:id="d431d046-a646-ea11-8289-06b8f115a03a">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Party who is the intended recipient of funds which have been the subject of a payment transaction.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="PayerBank" xmi:id="5a06fcbe-a646-ea11-8289-06b8f115a03a">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Financial institution servicing an account for the payer.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Initiator" xmi:id="00fcfd29-b48e-ea11-8295-06417761d128">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PaymentServiceArrangement" xmi:id="a6ea66b8-8596-e911-823e-062d75b50cca" xmi:type="uml:Class">
+   <generalization general="c80f2ee6-f097-e911-827a-06d89370a58e" xmi:id="gen70" xmi:type="uml:Generalization"/>
+   <generalization general="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen71" xmi:type="uml:Generalization"/>
+   <generalization general="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:id="gen72" xmi:type="uml:Generalization"/>
+   <generalization general="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:id="gen73" xmi:type="uml:Generalization"/>
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen74" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4466" xmi:type="uml:Comment">
+    <body>
+     An arrangement which specifies the promise to offer the payment service, accompanied by the payment modalities.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PaymentServiceType" type="Visibility=public" xmi:id="af8b00da-8596-e911-823e-062d75b50cca90786010">
+    <ownedComment xmi:id="comm4467" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentDueDate" type="Visibility=public" xmi:id="6ee6a2f6-8696-e911-823e-062d75b50cca90786010">
+    <ownedComment xmi:id="comm4468" xmi:type="uml:Comment">
+     <body>
+      Due date for the payment. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentPeriod" type="Visibility=public" xmi:id="03a9330f-3298-e911-827a-06b20c6b9b7890786010">
+    <ownedComment xmi:id="comm4469" xmi:type="uml:Comment">
+     <body>
+      Period to which the payment terms apply. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ExpiryDate" type="Visibility=public" xmi:id="077eeae9-9099-e911-827a-063e87e1daa290786010">
+    <ownedComment xmi:id="comm4470" xmi:type="uml:Comment">
+     <body>
+      Date at which the arrangement/obligation will expire. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentPurpose" type="Visibility=public" xmi:id="b2a46715-1b8e-ea11-8295-065d16bc455090786010">
+    <ownedComment xmi:id="comm4471" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="FinancialTransaction" xmi:id="a58c8a29-5a96-e911-823e-062d75b50cca" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4472" xmi:type="uml:Comment">
+    <body>
+     A transaction that changes the financial position (the status of the finances) of involved party.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRoleType" xmi:id="9bc7af8d-d46f-e911-8237-06309b11004c" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4473" xmi:type="uml:Comment">
+    <body>
+     A Classification Hierarchy that distinguishes between Party Roles according to the associated object type.
+
+Associated object types are for example location (PartyLocation), agreement (Agreement Involvement) , Product (Product Involvement); etc.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ServiceArrangement" xmi:id="c80f2ee6-f097-e911-827a-06d89370a58e" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4474" xmi:type="uml:Comment">
+    <body>
+     An arrangement into which is promised to deliver a specific service.
+
+Comment: Most service arrangements are instantiations of Product Services
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="LoanArrangement" xmi:id="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4475" xmi:type="uml:Comment">
+    <body>
+     An arrangement defining the applicable features for a loan account agreement.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PaymentInstructionInvolvedAccount" xmi:id="0914c173-4b47-ea11-8289-0680d91fd4a4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4476" xmi:type="uml:Comment">
+    <body>
+     Account where the funds are to be credited/debited for a payment instruction.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PaymentInstructionInvolvedAccountName" type="Visibility=public" xmi:id="f188f3f2-4b47-ea11-8289-0680d91fd4a490786010">
+    <ownedComment xmi:id="comm4477" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentInstructionInvolvedAccountType" type="Visibility=public" xmi:id="9c3255fa-4b47-ea11-8289-0680d91fd4a490786010">
+    <ownedComment xmi:id="comm4478" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PaymentInstructionDateTimeTypeValues" xmi:id="293734c3-4047-ea11-8289-0680d91fd4a4" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="RequestedExecutionDate" xmi:id="fc2bfbdf-4047-ea11-8289-0680d91fd4a4">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PaymentInstructionInvolvedAccountTypeValues" xmi:id="84c3ce8e-4c47-ea11-8289-0680d91fd4a4" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="PayeeAccount" xmi:id="56202297-4c47-ea11-8289-0680d91fd4a4">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Account of the creditor where the funds are to be credited.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="PayerAccount" xmi:id="f8f534a3-4c47-ea11-8289-0680d91fd4a4">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Account of the debtor from where funds are to be taken for the payment order.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

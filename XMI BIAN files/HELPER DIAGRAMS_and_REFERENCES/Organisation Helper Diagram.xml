@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Organisation Helper SD" visibility="public" xmi:id="892c677b-e477-e911-823e-067f69a9229a" xmi:type="uml:Package">
+  <packagedElement name="Party Helper SD" visibility="public" xmi:id="d4d0de74-94f1-e911-82b5-06f9534b74c8" xmi:type="uml:Package">
+   <packagedElement name="" xmi:id="c00a4fac-e577-e911-823e-067f69a9229a" xmi:type="uml:Association">
+    <ownedEnd association="c00a4fac-e577-e911-823e-067f69a9229a" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="ParentOrganisation" type="fbc0b4fa-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="fbc0b4fa-8257-e911-8237-0645314e65aca">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="c00a4fac-e577-e911-823e-067f69a9229a" isUnique="true" name="Branch" type="fbc0b4fa-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="fbc0b4fa-8257-e911-8237-0645314e65acb">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="3c8302aa-a6f1-e911-82b5-06f9534b74c8" xmi:type="uml:Association">
+    <ownedEnd association="3c8302aa-a6f1-e911-82b5-06f9534b74c8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="063a0dcf-0561-e911-8237-068e13695e26" visibility="public" xmi:id="8ea1bf11-a6f1-e911-82b5-06f9534b74c8a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="3c8302aa-a6f1-e911-82b5-06f9534b74c8" isUnique="true" name="" type="8ea1bf11-a6f1-e911-82b5-06f9534b74c8" visibility="public" xmi:id="8ea1bf11-a6f1-e911-82b5-06f9534b74c8b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="cac23db5-a6f1-e911-82b5-06f9534b74c8" xmi:type="uml:Association">
+    <ownedEnd association="cac23db5-a6f1-e911-82b5-06f9534b74c8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="fbc0b4fa-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="8ea1bf11-a6f1-e911-82b5-06f9534b74c8a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="cac23db5-a6f1-e911-82b5-06f9534b74c8" isUnique="true" name="" type="8ea1bf11-a6f1-e911-82b5-06f9534b74c8" visibility="public" xmi:id="8ea1bf11-a6f1-e911-82b5-06f9534b74c8b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement memberEnd="fbc0b4fa-8257-e911-8237-0645314e65aca 0544b299-05a7-e911-8288-068d1795c1bcb" name="" navigableOwnedEnd="0544b299-05a7-e911-8288-068d1795c1bcb" xmi:id="2b4d22a0-05a7-e911-8288-068d1795c1bc" xmi:type="uml:Association">
+    <ownedEnd association="2b4d22a0-05a7-e911-8288-068d1795c1bc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="fbc0b4fa-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="fbc0b4fa-8257-e911-8237-0645314e65aca">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd aggregation="composite" association="2b4d22a0-05a7-e911-8288-068d1795c1bc" isUnique="true" name="" type="0544b299-05a7-e911-8288-068d1795c1bc" visibility="public" xmi:id="0544b299-05a7-e911-8288-068d1795c1bcb">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="d43d0e35-3bcf-e911-8296-06bf764cb4bc" xmi:type="uml:Association">
+    <ownedEnd association="d43d0e35-3bcf-e911-8296-06bf764cb4bc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="a442f4fb-3acf-e911-8296-06bf764cb4bc" visibility="public" xmi:id="fbc0b4fa-8257-e911-8237-0645314e65aca">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="d43d0e35-3bcf-e911-8296-06bf764cb4bc" isUnique="true" name="" type="fbc0b4fa-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="fbc0b4fa-8257-e911-8237-0645314e65acb">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="c124510a-f5ef-e911-82b5-061762718aaa" xmi:type="uml:Association">
+    <ownedEnd association="c124510a-f5ef-e911-82b5-061762718aaa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="fbc0b4fa-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="ab98bae6-f4ef-e911-82b5-061762718aaaa">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="c124510a-f5ef-e911-82b5-061762718aaa" isUnique="true" name="" type="ab98bae6-f4ef-e911-82b5-061762718aaa" visibility="public" xmi:id="ab98bae6-f4ef-e911-82b5-061762718aaab">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="37f1f452-a5f1-e911-82b5-06f9534b74c8" xmi:type="uml:Association">
+    <ownedEnd association="37f1f452-a5f1-e911-82b5-06f9534b74c8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="fbc0b4fa-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="eb81a6e1-a4f1-e911-82b5-06f9534b74c8a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="37f1f452-a5f1-e911-82b5-06f9534b74c8" isUnique="true" name="" type="eb81a6e1-a4f1-e911-82b5-06f9534b74c8" visibility="public" xmi:id="eb81a6e1-a4f1-e911-82b5-06f9534b74c8b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="1a61d351-34cf-e911-8296-06bf764cb4bc" xmi:type="uml:Association">
+    <ownedEnd association="1a61d351-34cf-e911-8296-06bf764cb4bc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="fbc0b4fa-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="a3008920-34cf-e911-8296-06bf764cb4bca">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="1a61d351-34cf-e911-8296-06bf764cb4bc" isUnique="true" name="" type="a3008920-34cf-e911-8296-06bf764cb4bc" visibility="public" xmi:id="a3008920-34cf-e911-8296-06bf764cb4bcb">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="PartyRelationshipAgreement" xmi:id="d4d0de74-94f1-e911-82b5-06f9534b74c8" xmi:type="uml:Class">
+    <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen1" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm5137" xmi:type="uml:Comment">
+     <body>
+      An agreement that outlines the terms and conditions of the relationship between the two or more parties. An agreement has arrangements which are the cause of the relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Person" xmi:id="04c123f4-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <generalization general="6f53fd37-8257-e911-8237-0645314e65ac" xmi:id="gen2" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm5138" xmi:type="uml:Comment">
+     <body>
+      Human entity, as distinguished from a corporate entity (which is sometimes referred to as an 'artificial person'). ISO20022
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5139" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyLocation" xmi:id="6499694e-619e-e911-827a-06e8627b9e66" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5140" xmi:type="uml:Comment">
+     <body>
+      A place to locate a party.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Organisation" xmi:id="fbc0b4fa-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <generalization general="6f53fd37-8257-e911-8237-0645314e65ac" xmi:id="gen3" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm5141" xmi:type="uml:Comment">
+     <body>
+      structure/make-up of an organizational entity
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ContactPoint" xmi:id="5f9548fc-e277-e911-823e-067f69a9229a" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5142" xmi:type="uml:Comment">
+     <body>
+      Number, physical or virtual address, used for communication.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Location" xmi:id="063a0dcf-0561-e911-8237-068e13695e26" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5143" xmi:type="uml:Comment">
+     <body>
+      The definition of an addressable space/position both in real and virtual environments with associated uses and entitlements
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5144" xmi:type="uml:Comment">
+     <body>
+      A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PowerOfAttorney" xmi:id="31cfdbdc-61d2-e911-8296-0633d5e0e610" xmi:type="uml:Class">
+    <generalization general="852a0fc0-7188-e911-823e-06b09c770f0c" xmi:id="gen4" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm5145" xmi:type="uml:Comment">
+     <body>
+      A written authorization that transfers specific rights from a party to another party.
+
+Document that transfers specific rights from a party to another party. ISO20022
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRelationship" xmi:id="fa6490a1-8957-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5146" xmi:type="uml:Comment">
+     <body>
+      A relationship between two or more parties; the parties involved are specified in terms of the roles they play in the relationship.
+
+A Party Relationship is a connection between an instance of a Party and two or more instances of associated objects in the relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Document" xmi:id="ba9abd47-c656-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5147" xmi:type="uml:Comment">
+     <body>
+      Something tangible that records something, such as a recording or a photograph, or a writing that can be used to furnish evidence or information (FIBO)
+
+Definition: A physical or digital representation of something meaningful to the audience.
+
+Comment: 
+1.Technical: Manuals, instructions, tutorials, procedures, specifications, etc., that accompany a piece of equipment or software, and provide guidance for its proper use and maintenance.
+2.Trading: Preparation of a set of commercial and financial documents that record or support a business transaction. International trade documentations include air waybill, bill of exchange, bill of lading, certificate of inspection, certificate of insurance, certificate of origin, commercial invoice, and consular invoice.
+
+
+Read more: http://www.businessdictionary.com/definition/documentation.html#ixzz3EQGRGC4W
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyCertificate" xmi:id="2f325852-a2f1-e911-82b5-06f9534b74c8" xmi:type="uml:Class">
+    <generalization general="ba9abd47-c656-e911-8237-06ecaacb4c68" xmi:id="gen5" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm5148" xmi:type="uml:Comment">
+     <body>
+      A certification issued for a party. 
+
+An issued document to certify a party.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyProfile" xmi:id="abe83556-95f1-e911-82b5-06f9534b74c8" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5149" xmi:type="uml:Comment">
+     <body>
+      A set of information giving a description of a person or organization.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Location Helper SD" visibility="public" xmi:id="de2498cb-6188-e911-823e-06b09c770f0c" xmi:type="uml:Package">
+   <packagedElement name="Jurisdiction" xmi:id="de2498cb-6188-e911-823e-06b09c770f0c" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5150" xmi:type="uml:Comment">
+     <body>
+      Jurisdiction that will be assigned in case of legal dispute.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="LocationUsage" xmi:id="1d94f5b6-d1d7-e911-82a8-0667cb2841e8" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5151" xmi:type="uml:Comment">
+     <body>
+      The purpose or usage of  location in relationship to the associated object like the mailing address for letters or URL for email address.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="LocationInvolvement" xmi:id="6f49396f-d2d7-e911-82a8-0667cb2841e8" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5152" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the location.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Location" xmi:id="063a0dcf-0561-e911-8237-068e13695e2690314404" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5153" xmi:type="uml:Comment">
+     <body>
+      The definition of an addressable space/position both in real and virtual environments with associated uses and entitlements
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ObjectLocationClass" xmi:id="b49e9090-6980-e911-823e-061de61e9206" xmi:type="uml:Class">
+    <generalization general="ccbe8f33-c67e-e911-823e-0680d160e494" xmi:id="gen6" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm5154" xmi:type="uml:Comment">
+     <body>
+      A value of Location Type expressing the place where an object can be found.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Country" xmi:id="9fb6e873-26cf-e911-8296-06bf764cb4bc" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5155" xmi:type="uml:Comment">
+     <body>
+      Nation with its own government. ISO20022
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="LocationType" xmi:id="ccbe8f33-c67e-e911-823e-0680d160e494" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5156" xmi:type="uml:Comment">
+     <body>
+      A Classification Hierarchy that distinguishes between locations according to specified viewpoint.
+Typical viewpoints are
+·    geographical areas
+·    political areas - countries, cities, ...
+·    economical areas 
+·    business purposes such as sales areas
+·    juridical areas
+·    monetary areas
+·    ...
+Often the location is used as an address to refer to the position of something. In this case Location Type can also be viewed from the perspective of "address type" such as Postal Address, or GPS-coordinates, etc.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="JurisdictionAreaClass" xmi:id="f4dc9305-6a80-e911-823e-061de61e9206" xmi:type="uml:Class">
+    <generalization general="ccbe8f33-c67e-e911-823e-0680d160e494" xmi:id="gen7" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm5157" xmi:type="uml:Comment">
+     <body>
+      A value of Location Type expressing that a location is an area where a legal authority has Jurisdiction.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Party Role Helper SD" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Package">
+   <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c6890393005" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5158" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="AgreementInvolvement" xmi:id="dfe32bfe-2281-e911-823e-06e233b9c772" xmi:type="uml:Class">
+    <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen8" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm5159" xmi:type="uml:Comment">
+     <body>
+      The involvement (role) of an instance of a party in an instance of an agreement.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRelationship" xmi:id="fa6490a1-8957-e911-8237-0645314e65ac90393005" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5160" xmi:type="uml:Comment">
+     <body>
+      A relationship between two or more parties; the parties involved are specified in terms of the roles they play in the relationship.
+
+A Party Relationship is a connection between an instance of a Party and two or more instances of associated objects in the relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac90393005" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5161" xmi:type="uml:Comment">
+     <body>
+      A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ArrangementInvolvement" xmi:id="606c73fd-2694-e911-823e-069871e4ec9c" xmi:type="uml:Class">
+    <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen9" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm5162" xmi:type="uml:Comment">
+     <body>
+      The involvement (role) of an instance of a party in an instance of an arrangement.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Document" xmi:id="ba9abd47-c656-e911-8237-06ecaacb4c6890393005" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5163" xmi:type="uml:Comment">
+     <body>
+      Something tangible that records something, such as a recording or a photograph, or a writing that can be used to furnish evidence or information (FIBO)
+
+Definition: A physical or digital representation of something meaningful to the audience.
+
+Comment: 
+1.Technical: Manuals, instructions, tutorials, procedures, specifications, etc., that accompany a piece of equipment or software, and provide guidance for its proper use and maintenance.
+2.Trading: Preparation of a set of commercial and financial documents that record or support a business transaction. International trade documentations include air waybill, bill of exchange, bill of lading, certificate of inspection, certificate of insurance, certificate of origin, commercial invoice, and consular invoice.
+
+
+Read more: http://www.businessdictionary.com/definition/documentation.html#ixzz3EQGRGC4W
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRoleType" xmi:id="9bc7af8d-d46f-e911-8237-06309b11004c" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5164" xmi:type="uml:Comment">
+     <body>
+      A Classification Hierarchy that distinguishes between Party Roles according to the associated object type.
+
+Associated object types are for example location (PartyLocation), agreement (Agreement Involvement) , Product (Product Involvement); etc.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyObligationEntitlement" xmi:id="719c9355-a89d-e911-827a-06c73ecc951a" xmi:type="uml:Class">
+    <generalization general="eecc7a97-33d6-e911-8296-06c6ee6741dc" xmi:id="gen10" xmi:type="uml:Generalization"/>
+    <generalization general="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:id="gen11" xmi:type="uml:Generalization"/>
+    <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen12" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm5165" xmi:type="uml:Comment">
+     <body>
+      Right or obligation linked to the involvement of a party in an agreement
+
+Can be default, linked to an involvement type, or specifically agreed upon. 
+This can be default obligations or entitlements, of specific arrangements
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Document Helper SD" visibility="public" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac" xmi:type="uml:Package">
+   <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac90471606" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5166" xmi:type="uml:Comment">
+     <body>
+      A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="TitleClass" xmi:id="66e3c041-7680-e911-823e-061de61e9206" xmi:type="uml:Class">
+    <generalization general="a09bbcdb-6c80-e911-823e-061de61e9206" xmi:id="gen13" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm5167" xmi:type="uml:Comment">
+     <body>
+      A value of DocumentType expressing that the Document is a Title
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Location" xmi:id="063a0dcf-0561-e911-8237-068e13695e2690471606" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5168" xmi:type="uml:Comment">
+     <body>
+      The definition of an addressable space/position both in real and virtual environments with associated uses and entitlements
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Correspondence" xmi:id="983b78e0-03c8-e911-8296-065c48f41faa" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5169" xmi:type="uml:Comment">
+     <body>
+      The rendering of a document to a medium and the transmission of the rendering via a communication channel.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ShareClass" xmi:id="67e3c041-7680-e911-823e-061de61e9206" xmi:type="uml:Class">
+    <generalization general="a09bbcdb-6c80-e911-823e-061de61e9206" xmi:id="gen14" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm5170" xmi:type="uml:Comment">
+     <body>
+      A value of DocumentType expressing that the Document is a Share
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="DocumentInvolvement" xmi:id="1daf39cd-58ca-e911-8296-0635f2119d82" xmi:type="uml:Class">
+    <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen15" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm5171" xmi:type="uml:Comment">
+     <body>
+      A specific party who plays a specific role in the document.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="DocumentType" xmi:id="a09bbcdb-6c80-e911-823e-061de61e9206" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5172" xmi:type="uml:Comment">
+     <body>
+      A Classification Hierarchy that distinguishes between Documents according to the nature of the Information represented.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c6890471606" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5173" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CertificateClass" xmi:id="7f42b319-8380-e911-823e-061de61e9206" xmi:type="uml:Class">
+    <generalization general="a09bbcdb-6c80-e911-823e-061de61e9206" xmi:id="gen16" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm5174" xmi:type="uml:Comment">
+     <body>
+      A value of DocumentType expressing that the Document is a Certificate
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Document" xmi:id="ba9abd47-c656-e911-8237-06ecaacb4c6890471606" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5175" xmi:type="uml:Comment">
+     <body>
+      Something tangible that records something, such as a recording or a photograph, or a writing that can be used to furnish evidence or information (FIBO)
+
+Definition: A physical or digital representation of something meaningful to the audience.
+
+Comment: 
+1.Technical: Manuals, instructions, tutorials, procedures, specifications, etc., that accompany a piece of equipment or software, and provide guidance for its proper use and maintenance.
+2.Trading: Preparation of a set of commercial and financial documents that record or support a business transaction. International trade documentations include air waybill, bill of exchange, bill of lading, certificate of inspection, certificate of insurance, certificate of origin, commercial invoice, and consular invoice.
+
+
+Read more: http://www.businessdictionary.com/definition/documentation.html#ixzz3EQGRGC4W
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ContractClass" xmi:id="68e3c041-7680-e911-823e-061de61e9206" xmi:type="uml:Class">
+    <generalization general="a09bbcdb-6c80-e911-823e-061de61e9206" xmi:id="gen17" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm5176" xmi:type="uml:Comment">
+     <body>
+      A value of DocumentType expressing that the Document is a Contract
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="DocumentService" xmi:id="0a3f22c0-08e0-ea11-82b8-0606337a4559" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5177" xmi:type="uml:Comment">
+     <body>
+      A service for Verification, Amendment, Update, Archiving of document.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="DocumentLocation" xmi:id="f5b946d2-f248-ea11-8289-064c9ffef37a" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm5178" xmi:type="uml:Comment">
+     <body>
+      Specifies the location of document.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="BankingProduct" xmi:id="1aeced65-0b68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+    <generalization general="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:id="gen18" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm5179" xmi:type="uml:Comment">
+     <body>
+      A package of services and goods, accompanied by term and condition which is offered as a whole to (internal or external) customers.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac90471606" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm5180" xmi:type="uml:Comment">
+    <body>
+     A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyName" type="Visibility=public" xmi:id="d8f7f366-21cf-e911-8296-06bf764cb4bc90471606">
+    <ownedComment xmi:id="comm5181" xmi:type="uml:Comment">
+     <body>
+      Name by which a party is known and which is usually used to identify that party. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyType" type="Visibility=public" xmi:id="b1f7b3d8-21cf-e911-8296-06bf764cb4bc90471606">
+    <ownedComment xmi:id="comm5182" xmi:type="uml:Comment">
+     <body>
+      Specifies the type of party in different business contexts. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyDateTime" type="Visibility=public" xmi:id="d6ed5669-40f6-e911-82bd-06a31b9588ce90471606">
+    <ownedComment xmi:id="comm5183" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyIdentification" type="Visibility=public" xmi:id="449e231b-a846-ea11-8289-06f8a6a00ed090471606">
+    <ownedComment xmi:id="comm5184" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Agreement" xmi:id="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm5185" xmi:type="uml:Comment">
+    <body>
+     A formal or informal common understanding between two or more (legal competent) parties concerning one or more subject matters expressed in a set of arrangements, terms and conditions. (adapted from Legal System and FIBO)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Mandate" xmi:id="852a0fc0-7188-e911-823e-06b09c770f0c" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm5186" xmi:type="uml:Comment">
+    <body>
+     An agreement that authorises a party (holding party) to act on behalf of a principal party.
+
+Authorisation given by an issuing party to a holder party to act on the issuer's behalf. (ISO20022)
+
+Written authorization and/or command by a person, group, or organization (the 'mandator') to another (the 'mandatary') to take a certain course of action.  (Business Dictionary)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="LocationType" xmi:id="ccbe8f33-c67e-e911-823e-0680d160e494" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm5187" xmi:type="uml:Comment">
+    <body>
+     A Classification Hierarchy that distinguishes between locations according to specified viewpoint.
+Typical viewpoints are
+·    geographical areas
+·    political areas - countries, cities, ...
+·    economical areas 
+·    business purposes such as sales areas
+·    juridical areas
+·    monetary areas
+·    ...
+Often the location is used as an address to refer to the position of something. In this case Location Type can also be viewed from the perspective of "address type" such as Postal Address, or GPS-coordinates, etc.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="TermDepositAccountArrangement" xmi:id="eecc7a97-33d6-e911-8296-06c6ee6741dc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm5188" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="TermDepositArrangement" xmi:id="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm5189" xmi:type="uml:Comment">
+    <body>
+     An arrangement defining the applicable features for a Corporate Deposit Agreement.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="SavingsAccountArrangement" xmi:id="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm5190" xmi:type="uml:Comment">
+    <body>
+     An arrangement defining the applicable features for a savings account agreement. 
+
+The arrangement type is one of those possible/mandatory for the sale of a savings account product. The actual arrangements are a selection of those offered under the savings account product.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="DocumentType" xmi:id="a09bbcdb-6c80-e911-823e-061de61e9206" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm5191" xmi:type="uml:Comment">
+    <body>
+     A Classification Hierarchy that distinguishes between Documents according to the nature of the Information represented.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="FinancialInstrument" xmi:id="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm5192" xmi:type="uml:Comment">
+    <body>
+     A contract that gives rise to a financial asset of one entity and a financial liability or equity instrument of another entity. (IFRS)
+https://www.iasplus.com/en/standards/ias/ias32#:~:text=Key%20definitions%20%5BIAS%2032.11%5D,equity%20instrument%20of%20another%20entity
+
+Financial instruments are financial contracts of different nature made between institutional units. These comprise the full range of financial claims and liabilities between institutional units, including contingent liabilities like guarantees, commitments, etc. (ISO 10962)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="OrganisationIdentificationTypeValues" xmi:id="3a1ebe5a-25b2-e911-828c-064878c57b7e" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="LEI" xmi:id="7af71494-26b2-e911-828c-064878c57b7e">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Legal Entity Identifier is a code allocated to a party as described in ISO 17442 "Financial Services - Legal Entity Identifier (LEI)".
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="ELF" xmi:id="ded8e9ac-26b2-e911-828c-064878c57b7e">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Entity Legal Forms is a code allocated to a party as described in ISO 20275 "Financial services  Entity legal forms (ELF)".
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="MIC" xmi:id="a2e088d5-26b2-e911-828c-064878c57b7e">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Market Identifier Code. Identification of a financial market, as stipulated in the norm ISO 10383 "Codes for exchanges and market identifications".
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="BICFI" xmi:id="6d7763e0-26b2-e911-828c-064878c57b7e">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Code allocated to a financial institution by the ISO 9362 Registration Authority as described in ISO 9362 "Banking - Banking telecommunication messages - Business identifier code (BIC)".
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="DUNS" xmi:id="a7739226-27b2-e911-828c-064878c57b7e">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Data Universal Numbering System. A unique identification number provided by Dun &amp; Bradstreet to identify an organization.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Organisation" xmi:id="fbc0b4fa-8257-e911-8237-0645314e65ac90471606" xmi:type="uml:Class">
+   <generalization general="6f53fd37-8257-e911-8237-0645314e65ac" xmi:id="gen19" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm5193" xmi:type="uml:Comment">
+    <body>
+     structure/make-up of an organizational entity
+    </body>
+   </ownedComment>
+   <ownedAttribute name="OrganisationStructure" type="Visibility=public" xmi:id="5ed08536-e677-e911-823e-067f69a9229a90471606">
+    <ownedComment xmi:id="comm5194" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="OrganisationIdentification" type="Visibility=public" xmi:id="cc30cf1f-25b2-e911-828c-064878c57b7e90471606">
+    <ownedComment xmi:id="comm5195" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="OrganisationSector" type="Visibility=public" xmi:id="63657937-22cf-e911-8296-06bf764cb4bc90471606">
+    <ownedComment xmi:id="comm5196" xmi:type="uml:Comment">
+     <body>
+      Sector of business of the organisation, for example, pharmaceutical. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="OrganisationRegistrationDate" type="Visibility=public" xmi:id="0017be4c-24cf-e911-8296-06bf764cb4bc90471606">
+    <ownedComment xmi:id="comm5197" xmi:type="uml:Comment">
+     <body>
+      Date and time at which a given organisation was officially registered. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Location" xmi:id="063a0dcf-0561-e911-8237-068e13695e2690471606" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm5198" xmi:type="uml:Comment">
+    <body>
+     The definition of an addressable space/position both in real and virtual environments with associated uses and entitlements
+    </body>
+   </ownedComment>
+   <ownedAttribute name="LocationDescription" type="Visibility=public" xmi:id="e731883b-d0d7-e911-82a8-0667cb2841e890471606">
+    <ownedComment xmi:id="comm5199" xmi:type="uml:Comment">
+     <body>
+      A description of the property, particularly if it has landmark characteristics.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationDateTime" type="Visibility=public" xmi:id="8048356c-d0d7-e911-82a8-0667cb2841e890471606">
+    <ownedComment xmi:id="comm5200" xmi:type="uml:Comment">
+     <body>
+      Key dates associated with the directory entry (e.g. open date, refresh date).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationStatus" type="Visibility=public" xmi:id="0095b775-d0d7-e911-82a8-0667cb2841e890471606">
+    <ownedComment xmi:id="comm5201" xmi:type="uml:Comment">
+     <body>
+      The tracked status (e.g. under construction or repair, inhabited, vacant).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationType" type="Visibility=public" xmi:id="c8da42a8-d0d7-e911-82a8-0667cb2841e890471606">
+    <ownedComment xmi:id="comm5202" xmi:type="uml:Comment">
+     <body>
+      Type of location (e.g. building, point of interest, virtual location/device).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationZoningType" type="Visibility=public" xmi:id="f8d2c2b9-d0d7-e911-82a8-0667cb2841e890471606">
+    <ownedComment xmi:id="comm5203" xmi:type="uml:Comment">
+     <body>
+      The planning or zoning status (e.g. residential, commercial, industrial).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationNeighborhoodType" type="Visibility=public" xmi:id="1f5d9cc2-d0d7-e911-82a8-0667cb2841e890471606">
+    <ownedComment xmi:id="comm5204" xmi:type="uml:Comment">
+     <body>
+      The general purpose and neighborhood of the property  (e.g. residential, industrial, commercial).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationConstructionType" type="Visibility=public" xmi:id="1736d338-d1d7-e911-82a8-0667cb2841e890471606">
+    <ownedComment xmi:id="comm5205" xmi:type="uml:Comment">
+     <body>
+      The construction approach for a property at the location (e.g. era and architecture as might be used in valuation).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationOccupancyType" type="Visibility=public" xmi:id="f2546806-d2d7-e911-82a8-0667cb2841e890471606">
+    <ownedComment xmi:id="comm5206" xmi:type="uml:Comment">
+     <body>
+      The type of occupancy (e.g. residency, business, retail, entertainment).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationValue" type="Visibility=public" xmi:id="715fcc33-d2d7-e911-82a8-0667cb2841e890471606">
+    <ownedComment xmi:id="comm5207" xmi:type="uml:Comment">
+     <body>
+      The estimated (book) value of the property at the location - rental and purchase as appropriate.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationCapacity" type="Visibility=public" xmi:id="368c7152-d2d7-e911-82a8-0667cb2841e890471606">
+    <ownedComment xmi:id="comm5208" xmi:type="uml:Comment">
+     <body>
+      An indication of the size or scale of the property where appropriate (e.g. 4 bedroom, 600 seat auditorium, 40 cover restaurant).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationIdentification" type="Visibility=public" xmi:id="51262755-cd48-ea11-8289-064c9ffef37a90471606">
+    <ownedComment xmi:id="comm5209" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationAddress" type="Visibility=public" xmi:id="01683582-cf48-ea11-8289-064c9ffef37a90471606">
+    <ownedComment xmi:id="comm5210" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="OrganizationCertificate" xmi:id="eb81a6e1-a4f1-e911-82b5-06f9534b74c8" xmi:type="uml:Class">
+   <generalization general="ba9abd47-c656-e911-8237-06ecaacb4c68" xmi:id="gen20" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm5211" xmi:type="uml:Comment">
+    <body>
+     A certification issued for an organisation.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="OrganizationCertificateType" type="Visibility=public" xmi:id="dcb9c423-a5f1-e911-82b5-06f9534b74c890471606">
+    <ownedComment xmi:id="comm5212" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="OrganizationInvolvementTypeValues" xmi:id="bcf7c909-f6ef-e911-82b5-061762718aaa" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="RepresentativeOfficer" xmi:id="bdf7c909-f6ef-e911-82b5-061762718aaa">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Officer who has some rights to represent a given organisation.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="RegistrationAuthority" xmi:id="ea75c730-f6ef-e911-82b5-061762718aaa">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Authority responsible for registering the organisation
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="ExecutiveOfficer" xmi:id="efb027e6-f6ef-e911-82b5-061762718aaa">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A person/officer responsible for running an organization
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Shareholder" xmi:id="eaf006f8-faef-e911-82b5-061762718aaa">
+    <ownedComment xmi:id="commentid">
+     <body>
+      An owner of shares in a company.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="OrganizationInvolvement" xmi:id="ab98bae6-f4ef-e911-82b5-061762718aaa" xmi:type="uml:Class">
+   <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen21" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm5213" xmi:type="uml:Comment">
+    <body>
+     Party who plays a role in the organisation.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="OrganizationInvolvementType" type="Visibility=public" xmi:id="4028eb47-f5ef-e911-82b5-061762718aaa90471606">
+    <ownedComment xmi:id="comm5214" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="OrganisationProfile" xmi:id="a3008920-34cf-e911-8296-06bf764cb4bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm5215" xmi:type="uml:Comment">
+    <body>
+     A set of key financial indicators for an organisation.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="Capitalisation" type="Visibility=public" xmi:id="f4bcbc76-34cf-e911-8296-06bf764cb4bc90471606">
+    <ownedComment xmi:id="comm5216" xmi:type="uml:Comment">
+     <body>
+      Structure and amount of long-term equity and debt capitals of the associated organisation, expressed as percentage of the total (equity and debt) capital.
+
+capitalization (cap). BusinessDictionary.com. Retrieved September 10, 2018, from BusinessDictionary.com website: http://www.businessdictionary.com/definition/capitalization-cap.html
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DebtLevel" type="Visibility=public" xmi:id="5f676688-34cf-e911-8296-06bf764cb4bc90471606">
+    <ownedComment xmi:id="comm5217" xmi:type="uml:Comment">
+     <body>
+      The organisation's debt level (also known as "debt ratio"), expressed as total debt divided by total assets.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="EconomicIntent" type="Visibility=public" xmi:id="a1c104ca-35cf-e911-8296-06bf764cb4bc90471606">
+    <ownedComment xmi:id="comm5218" xmi:type="uml:Comment">
+     <body>
+      Description of the associated organisation's economic intent.
+The projected economic performance for the entity.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="GrowthRate" type="Visibility=public" xmi:id="5f1a2e06-36cf-e911-8296-06bf764cb4bc90471606">
+    <ownedComment xmi:id="comm5219" xmi:type="uml:Comment">
+     <body>
+      The (past and projected) growth rate of the associated organisation.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="Profitability" type="Visibility=public" xmi:id="061beb45-36cf-e911-8296-06bf764cb4bc90471606">
+    <ownedComment xmi:id="comm5220" xmi:type="uml:Comment">
+     <body>
+      Summary description of the associated organisation's profitability and securities holdings.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="Revenue" type="Visibility=public" xmi:id="39101a81-36cf-e911-8296-06bf764cb4bc90471606">
+    <ownedComment xmi:id="comm5221" xmi:type="uml:Comment">
+     <body>
+      Summary description of the associated organisation's revenue and turnover.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProfileType" type="Visibility=public" xmi:id="dd9cac59-7cf5-e911-82b9-06927032cbee90471606">
+    <ownedComment xmi:id="comm5222" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="BusinessUnit" xmi:id="0544b299-05a7-e911-8288-068d1795c1bc" xmi:type="uml:Class">
+   <generalization general="fbc0b4fa-8257-e911-8237-0645314e65ac" xmi:id="gen22" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm5223" xmi:type="uml:Comment">
+    <body>
+     A unit of an organisation that does not have legal standing outside the organisation.
+
+A logical element or segment of a company (such as accounting, production, marketing) representing a specific business function, and a definite place on the organizational chart, under the domain of a manager. Also called department, division, or a functional area. (Business Dictionary)
+
+Read more: http://www.businessdictionary.com/definition/business-unit.html
+    </body>
+   </ownedComment>
+   <ownedAttribute name="BusinessFunction" type="Visibility=public" xmi:id="9fa7188b-a67a-eb11-8305-06377ca422c790471606">
+    <ownedComment xmi:id="comm5224" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="Goal" type="Visibility=public" xmi:id="bdb3bc96-a67a-eb11-8305-06377ca422c790471606">
+    <ownedComment xmi:id="comm5225" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="OrganizationLocationTypeValues" xmi:id="1b6ece40-a6f1-e911-82b5-06f9534b74c8" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="PlaceOfRegistration" xmi:id="71d18247-a6f1-e911-82b5-06f9534b74c8">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Place (including country) in which the organisation is registered. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="PlaceOfOperation" xmi:id="67bb1d4e-a6f1-e911-82b5-06f9534b74c8">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Place (including country) in which the organisation has its business activity. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="OrganizationLocation" xmi:id="8ea1bf11-a6f1-e911-82b5-06f9534b74c8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm5226" xmi:type="uml:Comment">
+    <body>
+     A Place to locate an organisation.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="OrganizationLocationType" type="Visibility=public" xmi:id="0c948321-a6f1-e911-82b5-06f9534b74c890471606">
+    <ownedComment xmi:id="comm5227" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c6890471606" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm5228" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyRoleType" type="Visibility=public" xmi:id="83c28dd9-29e9-ea11-82b8-0621c7360a1390471606">
+    <ownedComment xmi:id="comm5229" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleName" type="Visibility=public" xmi:id="7ebb122f-2ce9-ea11-82b8-0621c7360a1390471606">
+    <ownedComment xmi:id="comm5230" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleValidityPeriod" type="Visibility=public" xmi:id="fb571d5e-2ce9-ea11-82b8-0621c7360a1390471606">
+    <ownedComment xmi:id="comm5231" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyInvolvementType" type="Visibility=public" xmi:id="c5867926-2de9-ea11-82b8-0621c7360a1390471606">
+    <ownedComment xmi:id="comm5232" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Document" xmi:id="ba9abd47-c656-e911-8237-06ecaacb4c6890471606" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm5233" xmi:type="uml:Comment">
+    <body>
+     Something tangible that records something, such as a recording or a photograph, or a writing that can be used to furnish evidence or information (FIBO)
+
+Definition: A physical or digital representation of something meaningful to the audience.
+
+Comment: 
+1.Technical: Manuals, instructions, tutorials, procedures, specifications, etc., that accompany a piece of equipment or software, and provide guidance for its proper use and maintenance.
+2.Trading: Preparation of a set of commercial and financial documents that record or support a business transaction. International trade documentations include air waybill, bill of exchange, bill of lading, certificate of inspection, certificate of insurance, certificate of origin, commercial invoice, and consular invoice.
+
+
+Read more: http://www.businessdictionary.com/definition/documentation.html#ixzz3EQGRGC4W
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DocumentIdentifer" type="Visibility=public" xmi:id="83be2d6b-6d80-e911-823e-061de61e920690471606">
+    <ownedComment xmi:id="comm5234" xmi:type="uml:Comment">
+     <body>
+      An identifier that allows to uniquely refer to an instance of a Document.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentVersion" type="Visibility=public" xmi:id="40e4a0f4-80c9-e911-8296-06780660052890471606">
+    <ownedComment xmi:id="comm5235" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentType" type="Visibility=public" xmi:id="57831409-81c9-e911-8296-06780660052890471606">
+    <ownedComment xmi:id="comm5236" xmi:type="uml:Comment">
+     <body>
+      Specifies the type of the document, for example commercial invoice. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentStatus" type="Visibility=public" xmi:id="8012da19-81c9-e911-8296-06780660052890471606">
+    <ownedComment xmi:id="comm5237" xmi:type="uml:Comment">
+     <body>
+      Status of the document (e.g. delivered, paid, etc.). ISO20022
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentDateTime" type="Visibility=public" xmi:id="6f891d23-81c9-e911-8296-06780660052890471606">
+    <ownedComment xmi:id="comm5238" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentName" type="Visibility=public" xmi:id="90114332-58ca-e911-8296-0635f2119d8290471606">
+    <ownedComment xmi:id="comm5239" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentDateTimeType" type="Visibility=public" xmi:id="17c0a341-58ca-e911-8296-0635f2119d8290471606">
+    <ownedComment xmi:id="comm5240" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentPurpose" type="Visibility=public" xmi:id="f746a91d-59ca-e911-8296-0635f2119d8290471606">
+    <ownedComment xmi:id="comm5241" xmi:type="uml:Comment">
+     <body>
+      Specifies the function of the document. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentFormat" type="Visibility=public" xmi:id="c4e34489-59ca-e911-8296-0635f2119d8290471606">
+    <ownedComment xmi:id="comm5242" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentSubject" type="Visibility=public" xmi:id="af2e7816-5aca-e911-8296-0635f2119d8290471606">
+    <ownedComment xmi:id="comm5243" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentDescription" type="Visibility=public" xmi:id="f4259bc1-c7f1-ea11-82b8-06a3e705455d90471606">
+    <ownedComment xmi:id="comm5244" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="OrganizationCertificateTypeValues" xmi:id="bb8ef671-a5f1-e911-82b5-06f9534b74c8" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="Organisation/FormationCertificate" xmi:id="cd2d678a-a5f1-e911-82b5-06f9534b74c8">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="OrganisationProfileTypeValues" xmi:id="57904082-7cf5-e911-82b9-06927032cbee" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="FinancialProfile" xmi:id="58904082-7cf5-e911-82b9-06927032cbee">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="KYC/RiskProfile" xmi:id="8bc9438f-7cf5-e911-82b9-06927032cbee">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ShareholdingProfile" xmi:id="a442f4fb-3acf-e911-8296-06bf764cb4bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm5245" xmi:type="uml:Comment">
+    <body>
+     List of major shareholders and shareholdings of significance.
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

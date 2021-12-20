@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Product Inventory Item Management BOM SD" visibility="public" xmi:id="71d4fd0e-968b-ea11-8295-06e7a30f2f68" xmi:type="uml:Package">
+  <packagedElement memberEnd="ce44e0a8-3eb5-ea11-829f-06ddb95e6bc8a 26e1320b-a760-eb11-82e9-06f21a0655e3b" name="" navigableOwnedEnd="26e1320b-a760-eb11-82e9-06f21a0655e3b" xmi:id="99278311-a760-eb11-82e9-06f21a0655e3" xmi:type="uml:Association">
+   <ownedEnd association="99278311-a760-eb11-82e9-06f21a0655e3" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="ce44e0a8-3eb5-ea11-829f-06ddb95e6bc8" visibility="public" xmi:id="ce44e0a8-3eb5-ea11-829f-06ddb95e6bc8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="99278311-a760-eb11-82e9-06f21a0655e3" isUnique="true" name="" type="26e1320b-a760-eb11-82e9-06f21a0655e3" visibility="public" xmi:id="26e1320b-a760-eb11-82e9-06f21a0655e3b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="e01a0d98-42b5-ea11-829f-06ddb95e6bc8" xmi:type="uml:Association">
+   <ownedEnd association="e01a0d98-42b5-ea11-829f-06ddb95e6bc8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="1b4ae369-3fb5-ea11-829f-06ddb95e6bc8" visibility="public" xmi:id="b1d6fa8e-42b5-ea11-829f-06ddb95e6bc8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="e01a0d98-42b5-ea11-829f-06ddb95e6bc8" isUnique="true" name="" type="b1d6fa8e-42b5-ea11-829f-06ddb95e6bc8" visibility="public" xmi:id="b1d6fa8e-42b5-ea11-829f-06ddb95e6bc8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="8cc603dc-3fb5-ea11-829f-06ddb95e6bc8" xmi:type="uml:Association">
+   <ownedEnd association="8cc603dc-3fb5-ea11-829f-06ddb95e6bc8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="1aeced65-0b68-e911-8237-06dd5e24f7bc" visibility="public" xmi:id="26e1320b-a760-eb11-82e9-06f21a0655e3a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="8cc603dc-3fb5-ea11-829f-06ddb95e6bc8" isUnique="true" name="" type="26e1320b-a760-eb11-82e9-06f21a0655e3" visibility="public" xmi:id="26e1320b-a760-eb11-82e9-06f21a0655e3b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="34c9f889-3fb5-ea11-829f-06ddb95e6bc8" xmi:type="uml:Association">
+   <ownedEnd association="34c9f889-3fb5-ea11-829f-06ddb95e6bc8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="ce44e0a8-3eb5-ea11-829f-06ddb95e6bc8" visibility="public" xmi:id="1b4ae369-3fb5-ea11-829f-06ddb95e6bc8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="34c9f889-3fb5-ea11-829f-06ddb95e6bc8" isUnique="true" name="" type="1b4ae369-3fb5-ea11-829f-06ddb95e6bc8" visibility="public" xmi:id="1b4ae369-3fb5-ea11-829f-06ddb95e6bc8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="a2ae7238-41b5-ea11-829f-06ddb95e6bc8" xmi:type="uml:Association">
+   <ownedEnd association="a2ae7238-41b5-ea11-829f-06ddb95e6bc8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="07f399d7-40b5-ea11-829f-06ddb95e6bc8" visibility="public" xmi:id="b1d6fa8e-42b5-ea11-829f-06ddb95e6bc8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="a2ae7238-41b5-ea11-829f-06ddb95e6bc8" isUnique="true" name="" type="b1d6fa8e-42b5-ea11-829f-06ddb95e6bc8" visibility="public" xmi:id="b1d6fa8e-42b5-ea11-829f-06ddb95e6bc8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="ProductInventory" xmi:id="ce44e0a8-3eb5-ea11-829f-06ddb95e6bc8" xmi:type="uml:Class">
+   <generalization general="1716f2c4-b4a4-e911-8284-06aa98c8c004" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm8901" xmi:type="uml:Comment">
+    <body>
+     An inventory of a particular product that is available for sale
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ItemInventory" xmi:id="1716f2c4-b4a4-e911-8284-06aa98c8c004" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8902" xmi:type="uml:Comment">
+    <body>
+     An inventory of tangible or intangible things.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ProductInventoryItem" xmi:id="26e1320b-a760-eb11-82e9-06f21a0655e3" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8903" xmi:type="uml:Comment">
+    <body>
+     An item in a product inventory
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ProductInventoryAllocation" xmi:id="1b4ae369-3fb5-ea11-829f-06ddb95e6bc8" xmi:type="uml:Class">
+   <generalization general="1856b69e-cb80-e911-823e-065e8061d7e6" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm8904" xmi:type="uml:Comment">
+    <body>
+     Allocation of a product inventory
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AllocationServiceSchedule" type="Visibility=public" xmi:id="7aba1bbb-3fb5-ea11-829f-06ddb95e6bc890157202">
+    <ownedComment xmi:id="comm8905" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Allocation" xmi:id="1856b69e-cb80-e911-823e-065e8061d7e6" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8906" xmi:type="uml:Comment">
+    <body>
+     The act of assignment or the act of allocating.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AllocationAmount" type="Visibility=public" xmi:id="9677003a-2581-e911-823e-06e233b9c77290157202">
+    <ownedComment xmi:id="comm8907" xmi:type="uml:Comment">
+     <body>
+      The amount allocated
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AllocationDuration" type="Visibility=public" xmi:id="81584064-2581-e911-823e-06e233b9c77290157202">
+    <ownedComment xmi:id="comm8908" xmi:type="uml:Comment">
+     <body>
+      duration for which the allocation is enforced
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AllocationDirection" type="Visibility=public" xmi:id="16c6d6e6-2581-e911-823e-06e233b9c77290157202">
+    <ownedComment xmi:id="comm8909" xmi:type="uml:Comment">
+     <body>
+      Indication if it is an allocation or recall
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AllocationStatus" type="Visibility=public" xmi:id="92b406cf-2781-e911-823e-06e233b9c77290157202">
+    <ownedComment xmi:id="comm8910" xmi:type="uml:Comment">
+     <body>
+      A state expressing if the allocation is pending confirmation, allocated, recalled, etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AllocationDescription" type="Visibility=public" xmi:id="ec27f701-2028-eb11-82d4-06b1e967d8ed90157202">
+    <ownedComment xmi:id="comm8911" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="BankingProduct" xmi:id="1aeced65-0b68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <generalization general="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm8912" xmi:type="uml:Comment">
+    <body>
+     A package of services and goods, accompanied by term and condition which is offered as a whole to (internal or external) customers.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ProductIdentification" type="Visibility=public" xmi:id="d9550bed-826a-e911-8237-061b75d0d31890157202">
+    <ownedComment xmi:id="comm8913" xmi:type="uml:Comment">
+     <body>
+      The identifier of product e.g. ISIN Code.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductType" type="Visibility=public" xmi:id="8a5e5f87-2f7d-e911-823e-069ad1a2e64890157202">
+    <ownedComment xmi:id="comm8914" xmi:type="uml:Comment">
+     <body>
+      Specifies the category/type/class of product like financial product. Product can be categorized according to different perspectives.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductLifecycleStatus" type="Visibility=public" xmi:id="c5f72c17-307d-e911-823e-069ad1a2e64890157202">
+    <ownedComment xmi:id="comm8915" xmi:type="uml:Comment">
+     <body>
+      Refers to the lifecycle of a product (e.g., initiated, announced, active, obsolete, withdrawn).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductPriority" type="Visibility=public" xmi:id="bf0ea918-b986-e911-823e-062687e6a90490157202">
+    <ownedComment xmi:id="comm8916" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductDescription" type="Visibility=public" xmi:id="34a6446c-2844-ea11-8289-068ff87429a490157202">
+    <ownedComment xmi:id="comm8917" xmi:type="uml:Comment">
+     <body>
+      A detailed explanation or commentary of product.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductVersion" type="Visibility=public" xmi:id="da801270-cc4c-ea11-8289-062dfdfaca5890157202">
+    <ownedComment xmi:id="comm8918" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="FinancialInstrument" xmi:id="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8919" xmi:type="uml:Comment">
+    <body>
+     A contract that gives rise to a financial asset of one entity and a financial liability or equity instrument of another entity. (IFRS)
+https://www.iasplus.com/en/standards/ias/ias32#:~:text=Key%20definitions%20%5BIAS%2032.11%5D,equity%20instrument%20of%20another%20entity
+
+Financial instruments are financial contracts of different nature made between institutional units. These comprise the full range of financial claims and liabilities between institutional units, including contingent liabilities like guarantees, commitments, etc. (ISO 10962)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ProductInventoryAssignment" xmi:id="b1d6fa8e-42b5-ea11-829f-06ddb95e6bc8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8920" xmi:type="uml:Comment">
+    <body>
+     The distribution of product inventory to a location
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ProductInventoryAssignmentDetail" type="Visibility=public" xmi:id="8835bd33-43b5-ea11-829f-06ddb95e6bc890157202">
+    <ownedComment xmi:id="comm8921" xmi:type="uml:Comment">
+     <body>
+      Details of the distribution of product inventory to a location
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductInventoryAssignmentCost" type="Visibility=public" xmi:id="5c646d49-43b5-ea11-829f-06ddb95e6bc890157202">
+    <ownedComment xmi:id="comm8922" xmi:type="uml:Comment">
+     <body>
+      Details of inventory and delivery related costs
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ProductInventoryAssignmentRequest" xmi:id="07f399d7-40b5-ea11-829f-06ddb95e6bc8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8923" xmi:type="uml:Comment">
+    <body>
+     A request to distribute the product inventory
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ProductInventoryAssignmentRequest Type" type="Visibility=public" xmi:id="8a07b65b-41b5-ea11-829f-06ddb95e6bc890157202">
+    <ownedComment xmi:id="comm8924" xmi:type="uml:Comment">
+     <body>
+      The type of assignment request (e.g. to schedule, ad-hoc inventory request)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductInventoryAssignmentRequest Date" type="Visibility=public" xmi:id="c7c37e84-41b5-ea11-829f-06ddb95e6bc890157202">
+    <ownedComment xmi:id="comm8925" xmi:type="uml:Comment">
+     <body>
+      Key dates associated with the assignment request (e.g. order date, confirmation date, delivery date)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

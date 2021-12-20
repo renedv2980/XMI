@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Customer Case Management BOM SD" visibility="public" xmi:id="5de49919-1657-ea11-8289-06a605eb4d64" xmi:type="uml:Package">
+  <packagedElement name="Customer Relationship Management BOM SD" visibility="public" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72" xmi:type="uml:Package">
+   <packagedElement name="" xmi:id="e5447864-1857-ea11-8289-06a605eb4d64" xmi:type="uml:Association">
+    <ownedEnd association="e5447864-1857-ea11-8289-06a605eb4d64" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="7df4c544-9cc9-e911-8296-067806600528" visibility="public" xmi:id="845fa448-1857-ea11-8289-06a605eb4d64a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="e5447864-1857-ea11-8289-06a605eb4d64" isUnique="true" name="" type="845fa448-1857-ea11-8289-06a605eb4d64" visibility="public" xmi:id="845fa448-1857-ea11-8289-06a605eb4d64b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="dba592bd-9cc9-e911-8296-067806600528" xmi:type="uml:Association">
+    <ownedEnd association="dba592bd-9cc9-e911-8296-067806600528" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="7df4c544-9cc9-e911-8296-067806600528" visibility="public" xmi:id="1803596c-6675-e911-823e-064d1e9fbc72a">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="dba592bd-9cc9-e911-8296-067806600528" isUnique="true" name="Customer
+RaisingCase" type="1803596c-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="1803596c-6675-e911-823e-064d1e9fbc72b">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="886ef82a-1957-ea11-8289-06a605eb4d64" xmi:type="uml:Association">
+    <ownedEnd association="886ef82a-1957-ea11-8289-06a605eb4d64" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="ApplicableCriterionUsed
+InResolution" type="30a78d1e-1957-ea11-8289-06a605eb4d64" visibility="public" xmi:id="845fa448-1857-ea11-8289-06a605eb4d64a">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="886ef82a-1957-ea11-8289-06a605eb4d64" isUnique="true" name="" type="845fa448-1857-ea11-8289-06a605eb4d64" visibility="public" xmi:id="845fa448-1857-ea11-8289-06a605eb4d64b">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="2368e7ce-145a-ea11-8290-06eaa2e18406" xmi:type="uml:Association">
+    <ownedEnd association="2368e7ce-145a-ea11-8290-06eaa2e18406" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="30a78d1e-1957-ea11-8289-06a605eb4d64" visibility="public" xmi:id="7d9702ae-145a-ea11-8290-06eaa2e18406a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="2368e7ce-145a-ea11-8290-06eaa2e18406" isUnique="true" name="AnalysisOfCriterionImpact  " type="7d9702ae-145a-ea11-8290-06eaa2e18406" visibility="public" xmi:id="7d9702ae-145a-ea11-8290-06eaa2e18406b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="3727c3db-155a-ea11-8290-06eaa2e18406" xmi:type="uml:Association">
+    <ownedEnd association="3727c3db-155a-ea11-8290-06eaa2e18406" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="62a895c2-155a-ea11-8290-06eaa2e18406" visibility="public" xmi:id="845fa448-1857-ea11-8289-06a605eb4d64a">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="3727c3db-155a-ea11-8290-06eaa2e18406" isUnique="true" name="" type="845fa448-1857-ea11-8289-06a605eb4d64" visibility="public" xmi:id="845fa448-1857-ea11-8289-06a605eb4d64b">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="19ca6ed4-1657-ea11-8289-06a605eb4d64" xmi:type="uml:Association">
+    <ownedEnd association="19ca6ed4-1657-ea11-8289-06a605eb4d64" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="7df4c544-9cc9-e911-8296-067806600528" visibility="public" xmi:id="b64392be-1657-ea11-8289-06a605eb4d64a">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="19ca6ed4-1657-ea11-8289-06a605eb4d64" isUnique="true" name="" type="b64392be-1657-ea11-8289-06a605eb4d64" visibility="public" xmi:id="b64392be-1657-ea11-8289-06a605eb4d64b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement memberEnd="a03dec86-6675-e911-823e-064d1e9fbc72a 97698d8d-6675-e911-823e-064d1e9fbc72b" name="" navigableOwnedEnd="97698d8d-6675-e911-823e-064d1e9fbc72b" xmi:id="83e8e4c4-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Association">
+    <ownedEnd association="83e8e4c4-6675-e911-823e-064d1e9fbc72" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="a03dec86-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="a03dec86-6675-e911-823e-064d1e9fbc72a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="83e8e4c4-6675-e911-823e-064d1e9fbc72" isUnique="true" name="" type="97698d8d-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="97698d8d-6675-e911-823e-064d1e9fbc72b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="CustomerContact" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <generalization general="904758f4-6180-e911-823e-066c44d66510" xmi:id="gen1" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29731" xmi:type="uml:Comment">
+     <body>
+      An (structured) interaction between a customer and a financial institution.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRelationshipManagementPlan" xmi:id="b26cfdf8-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <generalization general="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:id="gen2" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29732" xmi:type="uml:Comment">
+     <body>
+      The management plan for a specific customer relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="BankingRelationship" xmi:id="7ef3c45c-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29733" xmi:type="uml:Comment">
+     <body>
+      A specific Relationship (= an instance of a Relationship Class) between a specific party acting as the Bank and one or more other specific involved Parties.
+A Relationship is a logical unit of collaboration between two or more involved Parties.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerInsight" xmi:id="79b6536c-7675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29734" xmi:type="uml:Comment">
+     <body>
+      An interpretation/observation on the customer's behaviour.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRating" xmi:id="0a0b83c5-7f75-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <generalization general="3bb93032-8580-e911-823e-066c44d66510" xmi:id="gen3" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29735" xmi:type="uml:Comment">
+     <body>
+      Rating of the Customer or Customer Relationship for value, credit, risk and etc.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ManagementPlan" xmi:id="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <generalization general="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:id="gen4" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29736" xmi:type="uml:Comment">
+     <body>
+      The course of action to realize goals (of an operational unit of an enterprise).
+
+The management and oversight while running an operational unit of an enterprise. (Generic Artifact)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRelationshipDevelopment" xmi:id="d4e5f9d2-8675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29737" xmi:type="uml:Comment">
+     <body>
+      The action/task which is planned to develop the customer relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRelationship" xmi:id="1803596c-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <generalization general="7ef3c45c-6675-e911-823e-064d1e9fbc72" xmi:id="gen5" xmi:type="uml:Generalization"/>
+    <generalization general="fa6490a1-8957-e911-8237-0645314e65ac" xmi:id="gen6" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29738" xmi:type="uml:Comment">
+     <body>
+      A specific relationship between a specific Bank (= party acting as a supplier of banking services) and one or more other involved parties acting as (potential) consumers of banking services as agreed in one or more banking product or service offerings and/or agreements.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Duty" xmi:id="97698d8d-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29739" xmi:type="uml:Comment">
+     <body>
+      A responsibility of task (under management).
+
+Duties are a collection of one or more responsibilities or tasks under management. (Behavior Qualifier Type)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRelationshipInvolvement" xmi:id="bd51787a-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen7" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29740" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific Customer Relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRelationshipBudget" xmi:id="0926d59c-8375-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29741" xmi:type="uml:Comment">
+     <body>
+      The budget which is planned to spend for a specific customer relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRelationship" xmi:id="fa6490a1-8957-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29742" xmi:type="uml:Comment">
+     <body>
+      A relationship between two or more parties; the parties involved are specified in terms of the roles they play in the relationship.
+
+A Party Relationship is a connection between an instance of a Party and two or more instances of associated objects in the relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerIncident" xmi:id="eb9fe33f-9475-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29743" xmi:type="uml:Comment">
+     <body>
+      Unplanned interruption to a service, a reduction in the quality of a service or an event that has not yet impacted the service to the customer where this customer relationship is impacted.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerProductProfile" xmi:id="7d149499-2076-e911-823e-065f1d1f71b2" xmi:type="uml:Class">
+    <generalization general="af9552c0-6f92-e911-823e-06332a9c23ba" xmi:id="gen8" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29744" xmi:type="uml:Comment">
+     <body>
+      The product/service profile for a specific customer or customer relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29745" xmi:type="uml:Comment">
+     <body>
+      A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29746" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="RuleSet Helper SD" visibility="public" xmi:id="a89ab5c4-598b-e911-823e-0680522666ec" xmi:type="uml:Package">
+   <packagedElement name="RuleSet" xmi:id="a89ab5c4-598b-e911-823e-0680522666ec" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29747" xmi:type="uml:Comment">
+     <body>
+      A set of rules (e.g., regulation, policy, law, guideline, principle, standard) to guide, direct or operate a subject matter.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Policy" xmi:id="c812ebb2-22a7-e911-8288-06c837085cb8" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen9" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29748" xmi:type="uml:Comment">
+     <body>
+      Rule that governs business execution.
+
+The set of basic principles and associated guidelines, formulated and enforced by the governing body of an organization, to direct and limit its actions in pursuit of long-term goals. (Business Dictionary)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="RuleSetInvolvement" xmi:id="432d495b-30d6-e911-8296-06e1705194c6" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29749" xmi:type="uml:Comment">
+     <body>
+      A specific party who plays a specific role in a specific rule set like Publication Agency, Regulatory Authority and etc.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Guideline" xmi:id="06f0124e-2da2-e911-8280-068b5ca1cd1a" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen10" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29750" xmi:type="uml:Comment">
+     <body>
+      A recommended practice (adapted from Business Dictionary)
+A general rule, principle, or piece of advice.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Regulation" xmi:id="21527d12-20a2-e911-8280-068b5ca1cd1a" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen11" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29751" xmi:type="uml:Comment">
+     <body>
+      A rule used to carry out a law (FIBO)
+
+Business Dictionary: a rule (with or without the coercive power of law) employed in controlling, directing, or managing an activity, organization, or system. 
+
+The set of rules and legislation governing certain actions. 
+https://financial-dictionary.thefreedictionary.com/Regulatory
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Criterion" xmi:id="c16435c2-0958-ea11-8289-060c7a9911f6" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen12" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29752" xmi:type="uml:Comment">
+     <body>
+      A principle or standard by which something may be judged or decided.
+
+Read more: http://www.businessdictionary.com/definition/criterion.html
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Standard" xmi:id="e42f60da-2b54-eb11-82e3-06d9eff808b9" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen13" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29753" xmi:type="uml:Comment">
+     <body>
+      A rule considered by an authority or by general consent as a basis of comparison
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Law" xmi:id="41e81f1a-22a7-e911-8288-06c837085cb8" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen14" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29754" xmi:type="uml:Comment">
+     <body>
+      A binding rule that the courts will enforce.
+A system of rules and guidelines which are enforced through social institutions to govern behavior. (FIBO)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Jurisdiction" xmi:id="de2498cb-6188-e911-823e-06b09c770f0c" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29755" xmi:type="uml:Comment">
+     <body>
+      Jurisdiction that will be assigned in case of legal dispute.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Design Specification Helper SD" visibility="public" xmi:id="312ae26c-baae-e911-828c-06d72c197ec4" xmi:type="uml:Package">
+   <packagedElement name="DesignSpecificationAspect" xmi:id="312ae26c-baae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29756" xmi:type="uml:Comment">
+     <body>
+      An aspect of the specification for a designed object
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CampaignDesignSpecification" xmi:id="ced4591e-2244-ea11-8289-068ff87429a4" xmi:type="uml:Class">
+    <generalization general="a7f7f0e1-b7ae-e911-828c-06d72c197ec4" xmi:id="gen15" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29757" xmi:type="uml:Comment">
+     <body>
+      A design specification defined for a campaign  (e.g. customer campaign, prospect campaign)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="DesignSpecification" xmi:id="a7f7f0e1-b7ae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29758" xmi:type="uml:Comment">
+     <body>
+      A specification providing information about a designed object (e.g. product, service, process, procedure, model) covering all aspects required for its use.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductDesignSpecification" xmi:id="c3fba73c-2144-ea11-8289-068ff87429a4" xmi:type="uml:Class">
+    <generalization general="a7f7f0e1-b7ae-e911-828c-06d72c197ec4" xmi:id="gen16" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29759" xmi:type="uml:Comment">
+     <body>
+      A specification for the designed product or service
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ModelDesignSpecification" xmi:id="a2ab1ae9-c1ae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+    <generalization general="a7f7f0e1-b7ae-e911-828c-06d72c197ec4" xmi:id="gen17" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29760" xmi:type="uml:Comment">
+     <body>
+      A design specification defined for a model (e.g. Fraud Model, Customer Behaviour Model, Credit Risk Model)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="DeploymentConfiguration" xmi:id="3ed6b887-2b44-ea11-8289-068ff87429a4" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29761" xmi:type="uml:Comment">
+     <body>
+      Configuration for deployment of something like Product Design or Model Design
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="StandardDesignSpecification" xmi:id="1fbf15f9-5365-eb11-82ee-06b6c49a40d9" xmi:type="uml:Class">
+    <generalization general="a7f7f0e1-b7ae-e911-828c-06d72c197ec4" xmi:id="gen18" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29762" xmi:type="uml:Comment">
+     <body>
+      A design specification defined for a standard (e.g. Technology Standard, Data Standard).
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c6890393005" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29763" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="DesignSpecificationInvolvement" xmi:id="37816b06-2fe9-ea11-82b8-0621c7360a13" xmi:type="uml:Class">
+    <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen19" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29764" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac90393005" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29765" xmi:type="uml:Comment">
+     <body>
+      A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Customer Case BOM SD" visibility="public" xmi:id="be9acfc4-7880-e911-823e-066c44d66510" xmi:type="uml:Package">
+   <packagedElement name="Case" xmi:id="be9acfc4-7880-e911-823e-066c44d66510" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29766" xmi:type="uml:Comment">
+     <body>
+      A specific occurrence or matter requiring discussion, decision, or investigation, as by officials or law-enforcement authorities.
+
+Is not synonym of Dispute. Dispute means:
+1) A serious argument or disagreement
+2) Disagreement followed by opposition against something. (Business Dictionary)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRelationshipInvolvement" xmi:id="bd51787a-6675-e911-823e-064d1e9fbc7290471606" xmi:type="uml:Class">
+    <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen20" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29767" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific Customer Relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Procedure" xmi:id="7fa3e892-2b81-e911-823e-06e80039c878" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29768" xmi:type="uml:Comment">
+     <body>
+      A step-by-step sequence of activities or course of action to perform a supporting office activity within the enterprise.
+
+A procedure is a series of steps, taken together, to achieve a desired result. 
+
+Procedure as Generic Artifact: The performance of a supporting office activity within the enterprise (not product/service fulfillment specific)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerAgreement" xmi:id="a90a7c61-497d-e911-823e-069ad1a2e648" xmi:type="uml:Class">
+    <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen21" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29769" xmi:type="uml:Comment">
+     <body>
+      An agreement between a bank and its customer.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Workstep" xmi:id="f701c099-2b81-e911-823e-06e80039c878" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29770" xmi:type="uml:Comment">
+     <body>
+      A course of action must be followed to execute the procedure. 
+
+Worksteps as Behaviour Qualifier Type: The main worksteps to be followed in the execution of the procedure
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerContact" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc7290471606" xmi:type="uml:Class">
+    <generalization general="904758f4-6180-e911-823e-066c44d66510" xmi:id="gen22" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29771" xmi:type="uml:Comment">
+     <body>
+      An (structured) interaction between a customer and a financial institution.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerCase" xmi:id="7df4c544-9cc9-e911-8296-067806600528" xmi:type="uml:Class">
+    <generalization general="be9acfc4-7880-e911-823e-066c44d66510" xmi:id="gen23" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29772" xmi:type="uml:Comment">
+     <body>
+      A dispute related to the customer. 
+
+Customer cases are issues that typically require corrective response to some financial transaction.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerCaseProcedure" xmi:id="70918f68-9cc9-e911-8296-067806600528" xmi:type="uml:Class">
+    <generalization general="7fa3e892-2b81-e911-823e-06e80039c878" xmi:id="gen24" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29773" xmi:type="uml:Comment">
+     <body>
+      A procedure for management and investigation of a customer case/dispute.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRelationship" xmi:id="1803596c-6675-e911-823e-064d1e9fbc7290471606" xmi:type="uml:Class">
+    <generalization general="7ef3c45c-6675-e911-823e-064d1e9fbc72" xmi:id="gen25" xmi:type="uml:Generalization"/>
+    <generalization general="fa6490a1-8957-e911-8237-0645314e65ac" xmi:id="gen26" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29774" xmi:type="uml:Comment">
+     <body>
+      A specific relationship between a specific Bank (= party acting as a supplier of banking services) and one or more other involved parties acting as (potential) consumers of banking services as agreed in one or more banking product or service offerings and/or agreements.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductionTransaction" xmi:id="56f6f84a-0be1-e911-82a8-06ca917a32e2" xmi:type="uml:Class">
+    <generalization general="5708a70e-fd6f-e911-8237-06309b11004c" xmi:id="gen27" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29775" xmi:type="uml:Comment">
+     <body>
+      A transaction to fulfill the product's arrangement.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Case Helper SD" visibility="public" xmi:id="ec0ddc17-76c9-e911-8296-067806600528" xmi:type="uml:Package">
+   <packagedElement name="CaseResolution" xmi:id="ef8f1d54-76c9-e911-8296-067806600528" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29776" xmi:type="uml:Comment">
+     <body>
+      Synonym= Dispute Resolution
+
+A process for resolving differences between two or more parties or groups. In business practice the resolution seeks to achieve fairness for all participants, and is often moderated by a third party. There is often a dispute resolution clause in contracts that defines how a disagreement is to be resolved. (Business Dictionary)
+
+dispute resolution. BusinessDictionary.com. Retrieved August 22, 2019, from BusinessDictionary.com website: http://www.businessdictionary.com/definition/dispute-resolution.html
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="RuleSet" xmi:id="a89ab5c4-598b-e911-823e-0680522666ec90550207" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29777" xmi:type="uml:Comment">
+     <body>
+      A set of rules (e.g., regulation, policy, law, guideline, principle, standard) to guide, direct or operate a subject matter.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Case" xmi:id="be9acfc4-7880-e911-823e-066c44d6651090550207" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29778" xmi:type="uml:Comment">
+     <body>
+      A specific occurrence or matter requiring discussion, decision, or investigation, as by officials or law-enforcement authorities.
+
+Is not synonym of Dispute. Dispute means:
+1) A serious argument or disagreement
+2) Disagreement followed by opposition against something. (Business Dictionary)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Document" xmi:id="ba9abd47-c656-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29779" xmi:type="uml:Comment">
+     <body>
+      Something tangible that records something, such as a recording or a photograph, or a writing that can be used to furnish evidence or information (FIBO)
+
+Definition: A physical or digital representation of something meaningful to the audience.
+
+Comment: 
+1.Technical: Manuals, instructions, tutorials, procedures, specifications, etc., that accompany a piece of equipment or software, and provide guidance for its proper use and maintenance.
+2.Trading: Preparation of a set of commercial and financial documents that record or support a business transaction. International trade documentations include air waybill, bill of exchange, bill of lading, certificate of inspection, certificate of insurance, certificate of origin, commercial invoice, and consular invoice.
+
+
+Read more: http://www.businessdictionary.com/definition/documentation.html#ixzz3EQGRGC4W
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Correspondence" xmi:id="983b78e0-03c8-e911-8296-065c48f41faa" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29780" xmi:type="uml:Comment">
+     <body>
+      The rendering of a document to a medium and the transmission of the rendering via a communication channel.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CaseInvestigationInvolvement" xmi:id="84506653-83c9-e911-8296-067806600528" xmi:type="uml:Class">
+    <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen28" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm29781" xmi:type="uml:Comment">
+     <body>
+      Party role which is involved in investigation of a case/dispute.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c6890550207" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29782" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Location" xmi:id="063a0dcf-0561-e911-8237-068e13695e26" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29783" xmi:type="uml:Comment">
+     <body>
+      The definition of an addressable space/position both in real and virtual environments with associated uses and entitlements
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac90550207" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm29784" xmi:type="uml:Comment">
+     <body>
+      A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="CustomerCaseCriterion" xmi:id="30a78d1e-1957-ea11-8289-06a605eb4d64" xmi:type="uml:Class">
+   <generalization general="c16435c2-0958-ea11-8289-060c7a9911f6" xmi:id="gen29" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm29785" xmi:type="uml:Comment">
+    <body>
+     the applicable criterion to be considered in case evaluation (e.g. documentary evidence, customer/merchant history, projected relationship impact, financial cost/projected revenue impact, reputational impact)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Criterion" xmi:id="c16435c2-0958-ea11-8289-060c7a9911f690550207" xmi:type="uml:Class">
+   <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen30" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm29786" xmi:type="uml:Comment">
+    <body>
+     A principle or standard by which something may be judged or decided.
+
+Read more: http://www.businessdictionary.com/definition/criterion.html
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerCaseCriterionAnalysis" xmi:id="7d9702ae-145a-ea11-8290-06eaa2e18406" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm29787" xmi:type="uml:Comment">
+    <body>
+     Analysis of the impact of the criterion in practice that is used to recalibrate associated rules
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="RuleSet" xmi:id="a89ab5c4-598b-e911-823e-0680522666ec90550207" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm29788" xmi:type="uml:Comment">
+    <body>
+     A set of rules (e.g., regulation, policy, law, guideline, principle, standard) to guide, direct or operate a subject matter.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="RuleSetDefinition" type="Visibility=public" xmi:id="987fcf6e-c4cf-e911-8296-06957f3f468a90550207">
+    <ownedComment xmi:id="comm29789" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RuleSetInterpretation" type="Visibility=public" xmi:id="212d1c6a-2fd6-e911-8296-06e1705194c690550207">
+    <ownedComment xmi:id="comm29790" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RuleSetType" type="Visibility=public" xmi:id="1cde0ffd-2fd6-e911-8296-06e1705194c690550207">
+    <ownedComment xmi:id="comm29791" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RuleSetName" type="Visibility=public" xmi:id="547527cd-b97d-eb11-8309-06f448ba770790550207">
+    <ownedComment xmi:id="comm29792" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RuleSetIdentification" type="Visibility=public" xmi:id="9e2d918a-bf7d-eb11-8309-06f448ba770790550207">
+    <ownedComment xmi:id="comm29793" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerCaseResolutionPerformanceAnalysis" xmi:id="62a895c2-155a-ea11-8290-06eaa2e18406" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm29794" xmi:type="uml:Comment">
+    <body>
+     Analysis of the performance/effectiveness of the case resolution operation and direct resource allocation and priorities
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerCaseResolution" xmi:id="845fa448-1857-ea11-8289-06a605eb4d64" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm29795" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerRelationship" xmi:id="1803596c-6675-e911-823e-064d1e9fbc7290550207" xmi:type="uml:Class">
+   <generalization general="7ef3c45c-6675-e911-823e-064d1e9fbc72" xmi:id="gen31" xmi:type="uml:Generalization"/>
+   <generalization general="fa6490a1-8957-e911-8237-0645314e65ac" xmi:id="gen32" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm29796" xmi:type="uml:Comment">
+    <body>
+     A specific relationship between a specific Bank (= party acting as a supplier of banking services) and one or more other involved parties acting as (potential) consumers of banking services as agreed in one or more banking product or service offerings and/or agreements.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerEvent" xmi:id="904758f4-6180-e911-823e-066c44d66510" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm29797" xmi:type="uml:Comment">
+    <body>
+     Event related to a specific Customer or Customer Relationship.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CreditPositionMeasurement" xmi:id="3bb93032-8580-e911-823e-066c44d66510" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm29798" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Plan" xmi:id="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm29799" xmi:type="uml:Comment">
+    <body>
+     A method for doing or achieving something, usually involving a series of actions or stages, or something you have arranged to do. (Cambridge Dictionary)
+
+A plan is a set of intended actions, through which one intends to achieve a goal.
+
+"Course of action" is a synonym for Plan.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BankingRelationship" xmi:id="7ef3c45c-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm29800" xmi:type="uml:Comment">
+    <body>
+     A specific Relationship (= an instance of a Relationship Class) between a specific party acting as the Bank and one or more other specific involved Parties.
+A Relationship is a logical unit of collaboration between two or more involved Parties.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRelationship" xmi:id="fa6490a1-8957-e911-8237-0645314e65ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm29801" xmi:type="uml:Comment">
+    <body>
+     A relationship between two or more parties; the parties involved are specified in terms of the roles they play in the relationship.
+
+A Party Relationship is a connection between an instance of a Party and two or more instances of associated objects in the relationship.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm29802" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific relationship.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Profile" xmi:id="af9552c0-6f92-e911-823e-06332a9c23ba" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm29803" xmi:type="uml:Comment">
+    <body>
+     A brief description of the characteristics of something or someone. (Business Dictionary)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="DesignSpecification" xmi:id="a7f7f0e1-b7ae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm29804" xmi:type="uml:Comment">
+    <body>
+     A specification providing information about a designed object (e.g. product, service, process, procedure, model) covering all aspects required for its use.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Agreement" xmi:id="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm29805" xmi:type="uml:Comment">
+    <body>
+     A formal or informal common understanding between two or more (legal competent) parties concerning one or more subject matters expressed in a set of arrangements, terms and conditions. (adapted from Legal System and FIBO)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Procedure" xmi:id="7fa3e892-2b81-e911-823e-06e80039c878" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm29806" xmi:type="uml:Comment">
+    <body>
+     A step-by-step sequence of activities or course of action to perform a supporting office activity within the enterprise.
+
+A procedure is a series of steps, taken together, to achieve a desired result. 
+
+Procedure as Generic Artifact: The performance of a supporting office activity within the enterprise (not product/service fulfillment specific)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Transaction" xmi:id="5708a70e-fd6f-e911-8237-06309b11004c" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm29807" xmi:type="uml:Comment">
+    <body>
+     A planned or performed action in the context of concluding or fulfilling an agreement. 
+
+Act to do something.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerCaseManagementPlan" xmi:id="b64392be-1657-ea11-8289-06a605eb4d64" xmi:type="uml:Class">
+   <generalization general="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:id="gen33" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm29808" xmi:type="uml:Comment">
+    <body>
+     A management plan to handle customer case and to track the effectiveness and impact of case resolution
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Duty" xmi:id="97698d8d-6675-e911-823e-064d1e9fbc7290550207" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm29809" xmi:type="uml:Comment">
+    <body>
+     A responsibility of task (under management).
+
+Duties are a collection of one or more responsibilities or tasks under management. (Behavior Qualifier Type)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="WorkTaskType" type="Visibility=public" xmi:id="6e430280-2c5a-ea11-8290-06eaa2e1840690550207">
+    <ownedComment xmi:id="comm29810" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskDescription" type="Visibility=public" xmi:id="5ebf7d88-2c5a-ea11-8290-06eaa2e1840690550207">
+    <ownedComment xmi:id="comm29811" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskResult" type="Visibility=public" xmi:id="e3abda96-2c5a-ea11-8290-06eaa2e1840690550207">
+    <ownedComment xmi:id="comm29812" xmi:type="uml:Comment">
+     <body>
+      The outcome or result of the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskDateTime" type="Visibility=public" xmi:id="ff3c149f-2c5a-ea11-8290-06eaa2e1840690550207">
+    <ownedComment xmi:id="comm29813" xmi:type="uml:Comment">
+     <body>
+      Key dates associated with the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskWorkProduct" type="Visibility=public" xmi:id="0b594fb2-2c5a-ea11-8290-06eaa2e1840690550207">
+    <ownedComment xmi:id="comm29814" xmi:type="uml:Comment">
+     <body>
+      File of consolidated notes, evaluations and recommendations for the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ManagementPlan" xmi:id="a03dec86-6675-e911-823e-064d1e9fbc7290550207" xmi:type="uml:Class">
+   <generalization general="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:id="gen34" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm29815" xmi:type="uml:Comment">
+    <body>
+     The course of action to realize goals (of an operational unit of an enterprise).
+
+The management and oversight while running an operational unit of an enterprise. (Generic Artifact)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ManagementPlanPeriod" type="Visibility=public" xmi:id="d9d5a7a3-1757-ea11-8289-06a605eb4d6490550207">
+    <ownedComment xmi:id="comm29816" xmi:type="uml:Comment">
+     <body>
+      The time period addressed by the management plan.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ManagementPlanGoal" type="Visibility=public" xmi:id="9b86d8bd-1757-ea11-8289-06a605eb4d6490550207">
+    <ownedComment xmi:id="comm29817" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ManagementPlanType" type="Visibility=public" xmi:id="0e5ac279-d5e2-ea11-82b8-068800dddbf790550207">
+    <ownedComment xmi:id="comm29818" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="Management Plan Description" type="Visibility=public" xmi:id="38856e94-d5e2-ea11-82b8-068800dddbf790550207">
+    <ownedComment xmi:id="comm29819" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Case" xmi:id="be9acfc4-7880-e911-823e-066c44d6651090550207" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm29820" xmi:type="uml:Comment">
+    <body>
+     A specific occurrence or matter requiring discussion, decision, or investigation, as by officials or law-enforcement authorities.
+
+Is not synonym of Dispute. Dispute means:
+1) A serious argument or disagreement
+2) Disagreement followed by opposition against something. (Business Dictionary)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CaseCreationDateTime" type="Visibility=public" xmi:id="e8152c9c-71c9-e911-8296-06780660052890550207">
+    <ownedComment xmi:id="comm29821" xmi:type="uml:Comment">
+     <body>
+      Creation date and time of the case. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CaseType" type="Visibility=public" xmi:id="bc83dee1-71c9-e911-8296-06780660052890550207">
+    <ownedComment xmi:id="comm29822" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CaseLocation" type="Visibility=public" xmi:id="c35aac93-72c9-e911-8296-06780660052890550207">
+    <ownedComment xmi:id="comm29823" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CaseStatus" type="Visibility=public" xmi:id="57d1170d-75c9-e911-8296-06780660052890550207">
+    <ownedComment xmi:id="comm29824" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CaseDocument" type="Visibility=public" xmi:id="c6a0f0cf-40ce-e911-8296-066680ee926890550207">
+    <ownedComment xmi:id="comm29825" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CaseDateTime" type="Visibility=public" xmi:id="75b9bbeb-11d6-e911-8296-06e1705194c690550207">
+    <ownedComment xmi:id="comm29826" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerCase" xmi:id="7df4c544-9cc9-e911-8296-06780660052890550207" xmi:type="uml:Class">
+   <generalization general="be9acfc4-7880-e911-823e-066c44d66510" xmi:id="gen35" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm29827" xmi:type="uml:Comment">
+    <body>
+     A dispute related to the customer. 
+
+Customer cases are issues that typically require corrective response to some financial transaction.
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

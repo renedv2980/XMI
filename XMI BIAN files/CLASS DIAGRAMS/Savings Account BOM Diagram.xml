@@ -1,0 +1,2946 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Savings Account BOM SD" visibility="public" xmi:id="5712507b-a09d-e911-827a-06c73ecc951a" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="8769c56f-619e-e911-827a-06e8627b9e66" xmi:type="uml:Association">
+   <ownedEnd association="8769c56f-619e-e911-827a-06e8627b9e66" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6f53fd37-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="6499694e-619e-e911-827a-06e8627b9e66a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="8769c56f-619e-e911-827a-06e8627b9e66" isUnique="true" name="" type="6499694e-619e-e911-827a-06e8627b9e66" visibility="public" xmi:id="6499694e-619e-e911-827a-06e8627b9e66b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="4503bd81-8257-e911-8237-0645314e65ac" xmi:type="uml:Association">
+   <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6f53fd37-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isUnique="true" name="" type="70959fdb-be56-e911-8237-06ecaacb4c68" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="936b720e-8d9e-e911-827a-06e8627b9e66" xmi:type="uml:Association">
+   <ownedEnd association="936b720e-8d9e-e911-827a-06e8627b9e66" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="7301eaaf-8c9e-e911-827a-06e8627b9e66" visibility="public" xmi:id="9fe05cf9-fd60-e911-8237-068e13695e26a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="936b720e-8d9e-e911-827a-06e8627b9e66" isUnique="true" name="" type="9fe05cf9-fd60-e911-8237-068e13695e26" visibility="public" xmi:id="9fe05cf9-fd60-e911-8237-068e13695e26b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="9fe05cf9-fd60-e911-8237-068e13695e26a 69ad2f0a-0061-e911-8237-068e13695e26b" name="" navigableOwnedEnd="69ad2f0a-0061-e911-8237-068e13695e26b" xmi:id="48c7256f-0061-e911-8237-068e13695e26" xmi:type="uml:Association">
+   <ownedEnd association="48c7256f-0061-e911-8237-068e13695e26" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="9fe05cf9-fd60-e911-8237-068e13695e26" visibility="public" xmi:id="9fe05cf9-fd60-e911-8237-068e13695e26a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="48c7256f-0061-e911-8237-068e13695e26" isUnique="true" name="" type="69ad2f0a-0061-e911-8237-068e13695e26" visibility="public" xmi:id="69ad2f0a-0061-e911-8237-068e13695e26b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="fd421307-8d9e-e911-827a-06e8627b9e66" xmi:type="uml:Association">
+   <ownedEnd association="fd421307-8d9e-e911-827a-06e8627b9e66" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="fc930fc2-8c9e-e911-827a-06e8627b9e66" visibility="public" xmi:id="7301eaaf-8c9e-e911-827a-06e8627b9e66a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="fd421307-8d9e-e911-827a-06e8627b9e66" isUnique="true" name="" type="7301eaaf-8c9e-e911-827a-06e8627b9e66" visibility="public" xmi:id="7301eaaf-8c9e-e911-827a-06e8627b9e66b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="2f4faab0-c7ab-e911-828c-0679464e26a4" xmi:type="uml:Association">
+   <ownedEnd association="2f4faab0-c7ab-e911-828c-0679464e26a4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="7314f250-f5a9-e911-8288-06812ee60d2a" visibility="public" xmi:id="116cc96f-c7ab-e911-828c-0679464e26a4a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="2f4faab0-c7ab-e911-828c-0679464e26a4" isUnique="true" name="" type="116cc96f-c7ab-e911-828c-0679464e26a4" visibility="public" xmi:id="116cc96f-c7ab-e911-828c-0679464e26a4b">
+    <upperValue xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="8b789363-b09d-e911-827a-06c73ecc951a" xmi:type="uml:Association">
+   <ownedEnd association="8b789363-b09d-e911-827a-06c73ecc951a" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="4b8c8046-af9d-e911-827a-06c73ecc951a" visibility="public" xmi:id="3500ccc6-af9d-e911-827a-06c73ecc951aa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="8b789363-b09d-e911-827a-06c73ecc951a" isUnique="true" name="" type="3500ccc6-af9d-e911-827a-06c73ecc951a" visibility="public" xmi:id="3500ccc6-af9d-e911-827a-06c73ecc951ab">
+    <upperValue xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="b2d71fd9-c7ab-e911-828c-0679464e26a4" xmi:type="uml:Association">
+   <ownedEnd association="b2d71fd9-c7ab-e911-828c-0679464e26a4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="92910269-8dab-e911-828c-06e8cb19aef2" visibility="public" xmi:id="7314f250-f5a9-e911-8288-06812ee60d2aa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="b2d71fd9-c7ab-e911-828c-0679464e26a4" isUnique="true" name="" type="7314f250-f5a9-e911-8288-06812ee60d2a" visibility="public" xmi:id="7314f250-f5a9-e911-8288-06812ee60d2ab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="e120999b-e3a3-e911-8284-065b2e50bbd8" xmi:type="uml:Association">
+   <ownedEnd association="e120999b-e3a3-e911-8284-065b2e50bbd8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="9fe05cf9-fd60-e911-8237-068e13695e26" visibility="public" xmi:id="093f2c3f-e3a3-e911-8284-065b2e50bbd8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="e120999b-e3a3-e911-8284-065b2e50bbd8" isUnique="true" name="" type="093f2c3f-e3a3-e911-8284-065b2e50bbd8" visibility="public" xmi:id="093f2c3f-e3a3-e911-8284-065b2e50bbd8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="14150151-c7ab-e911-828c-0679464e26a4" xmi:type="uml:Association">
+   <ownedEnd association="14150151-c7ab-e911-828c-0679464e26a4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="7314f250-f5a9-e911-8288-06812ee60d2a" visibility="public" xmi:id="093f2c3f-e3a3-e911-8284-065b2e50bbd8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="14150151-c7ab-e911-828c-0679464e26a4" isUnique="true" name="" type="093f2c3f-e3a3-e911-8284-065b2e50bbd8" visibility="public" xmi:id="093f2c3f-e3a3-e911-8284-065b2e50bbd8b">
+    <upperValue xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="1915a026-c5ab-e911-828c-0679464e26a4" xmi:type="uml:Association">
+   <ownedEnd association="1915a026-c5ab-e911-828c-0679464e26a4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="92910269-8dab-e911-828c-06e8cb19aef2" visibility="public" xmi:id="a798d911-8996-e911-823e-066b14f5b0baa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="1915a026-c5ab-e911-828c-0679464e26a4" isUnique="true" name="" type="a798d911-8996-e911-823e-066b14f5b0ba" visibility="public" xmi:id="a798d911-8996-e911-823e-066b14f5b0bab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="e7480bfc-c3ab-e911-828c-0679464e26a4" xmi:type="uml:Association">
+   <ownedEnd association="e7480bfc-c3ab-e911-828c-0679464e26a4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="92910269-8dab-e911-828c-06e8cb19aef2" visibility="public" xmi:id="3724febb-e2a3-e911-8284-065b2e50bbd8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="e7480bfc-c3ab-e911-828c-0679464e26a4" isUnique="true" name="" type="3724febb-e2a3-e911-8284-065b2e50bbd8" visibility="public" xmi:id="3724febb-e2a3-e911-8284-065b2e50bbd8b">
+    <upperValue xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="3f77b24a-c3ab-e911-828c-0679464e26a4" xmi:type="uml:Association">
+   <ownedEnd association="3f77b24a-c3ab-e911-828c-0679464e26a4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="92910269-8dab-e911-828c-06e8cb19aef2" visibility="public" xmi:id="3500ccc6-af9d-e911-827a-06c73ecc951aa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="3f77b24a-c3ab-e911-828c-0679464e26a4" isUnique="true" name="" type="3500ccc6-af9d-e911-827a-06c73ecc951a" visibility="public" xmi:id="3500ccc6-af9d-e911-827a-06c73ecc951ab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="986cfba4-e3a3-e911-8284-065b2e50bbd8" xmi:type="uml:Association">
+   <ownedEnd association="986cfba4-e3a3-e911-8284-065b2e50bbd8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="9fe05cf9-fd60-e911-8237-068e13695e26" visibility="public" xmi:id="3724febb-e2a3-e911-8284-065b2e50bbd8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="986cfba4-e3a3-e911-8284-065b2e50bbd8" isUnique="true" name="" type="3724febb-e2a3-e911-8284-065b2e50bbd8" visibility="public" xmi:id="3724febb-e2a3-e911-8284-065b2e50bbd8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="bfa45348-f6a9-e911-8288-06812ee60d2a" xmi:type="uml:Association">
+   <ownedEnd association="bfa45348-f6a9-e911-8288-06812ee60d2a" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="7314f250-f5a9-e911-8288-06812ee60d2a" visibility="public" xmi:id="69ad2f0a-0061-e911-8237-068e13695e26a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="bfa45348-f6a9-e911-8288-06812ee60d2a" isUnique="true" name="is registered as" type="69ad2f0a-0061-e911-8237-068e13695e26" visibility="public" xmi:id="69ad2f0a-0061-e911-8237-068e13695e26b">
+    <upperValue xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="ae38a514-11ab-e911-828c-0605e339c9ac" xmi:type="uml:Association">
+   <ownedEnd association="ae38a514-11ab-e911-828c-0605e339c9ac" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="01d64189-5c96-e911-823e-062d75b50cca" visibility="public" xmi:id="7dfa7ee3-10ab-e911-828c-0605e339c9aca">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="ae38a514-11ab-e911-828c-0605e339c9ac" isUnique="true" name="" type="7dfa7ee3-10ab-e911-828c-0605e339c9ac" visibility="public" xmi:id="7dfa7ee3-10ab-e911-828c-0605e339c9acb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="f083e62c-05aa-e911-8288-06812ee60d2a" xmi:type="uml:Association">
+   <ownedEnd association="f083e62c-05aa-e911-8288-06812ee60d2a" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="05a41f61-04aa-e911-8288-06812ee60d2a" visibility="public" xmi:id="ac535bd6-3298-e911-827a-06b20c6b9b78a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="f083e62c-05aa-e911-8288-06812ee60d2a" isUnique="true" name="" type="ac535bd6-3298-e911-827a-06b20c6b9b78" visibility="public" xmi:id="ac535bd6-3298-e911-827a-06b20c6b9b78b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="59aeea62-bba4-e911-8284-062084c0b880" xmi:type="uml:Association">
+   <ownedEnd association="59aeea62-bba4-e911-8284-062084c0b880" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="2711aa0e-baa4-e911-8284-062084c0b880" visibility="public" xmi:id="0263db4b-0761-e911-8237-068e13695e26a">
+    <upperValue xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="59aeea62-bba4-e911-8284-062084c0b880" isUnique="true" name="" type="0263db4b-0761-e911-8237-068e13695e26" visibility="public" xmi:id="0263db4b-0761-e911-8237-068e13695e26b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="18130ffc-bda4-e911-8284-062084c0b880" xmi:type="uml:Association">
+   <ownedEnd association="18130ffc-bda4-e911-8284-062084c0b880" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="ae0d5738-bca4-e911-8284-062084c0b880" visibility="public" xmi:id="5b635669-bda4-e911-8284-062084c0b880a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="18130ffc-bda4-e911-8284-062084c0b880" isUnique="true" name="" type="5b635669-bda4-e911-8284-062084c0b880" visibility="public" xmi:id="5b635669-bda4-e911-8284-062084c0b880b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="94b2ddee-f9a6-e911-8288-06c837085cb8" xmi:type="uml:Association">
+   <ownedEnd association="94b2ddee-f9a6-e911-8288-06c837085cb8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="ae0d5738-bca4-e911-8284-062084c0b880" visibility="public" xmi:id="d47b801b-f9a6-e911-8288-06c837085cb8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="94b2ddee-f9a6-e911-8288-06c837085cb8" isUnique="true" name="" type="d47b801b-f9a6-e911-8288-06c837085cb8" visibility="public" xmi:id="d47b801b-f9a6-e911-8288-06c837085cb8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="2b9514fb-f9a6-e911-8288-06c837085cb8" xmi:type="uml:Association">
+   <ownedEnd association="2b9514fb-f9a6-e911-8288-06c837085cb8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="2cd1dc8a-85a4-e911-8284-062084c0b880" visibility="public" xmi:id="d47b801b-f9a6-e911-8288-06c837085cb8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="2b9514fb-f9a6-e911-8288-06c837085cb8" isUnique="true" name="" type="d47b801b-f9a6-e911-8288-06c837085cb8" visibility="public" xmi:id="d47b801b-f9a6-e911-8288-06c837085cb8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="66f1d387-bca4-e911-8284-062084c0b880" xmi:type="uml:Association">
+   <ownedEnd association="66f1d387-bca4-e911-8284-062084c0b880" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="0263db4b-0761-e911-8237-068e13695e26" visibility="public" xmi:id="ae0d5738-bca4-e911-8284-062084c0b880a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="66f1d387-bca4-e911-8284-062084c0b880" isUnique="true" name="" type="ae0d5738-bca4-e911-8284-062084c0b880" visibility="public" xmi:id="ae0d5738-bca4-e911-8284-062084c0b880b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="bedf98d5-10ab-e911-828c-0605e339c9ac" xmi:type="uml:Association">
+   <ownedEnd association="bedf98d5-10ab-e911-828c-0605e339c9ac" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="0a28b29d-5c96-e911-823e-062d75b50cca" visibility="public" xmi:id="63628987-10ab-e911-828c-0605e339c9aca">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="bedf98d5-10ab-e911-828c-0605e339c9ac" isUnique="true" name="" type="63628987-10ab-e911-828c-0605e339c9ac" visibility="public" xmi:id="63628987-10ab-e911-828c-0605e339c9acb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="7a6e3a70-a99d-e911-827a-06c73ecc951a" xmi:type="uml:Association">
+   <ownedEnd association="7a6e3a70-a99d-e911-827a-06c73ecc951a" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="606c73fd-2694-e911-823e-069871e4ec9c" visibility="public" xmi:id="719c9355-a89d-e911-827a-06c73ecc951aa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="7a6e3a70-a99d-e911-827a-06c73ecc951a" isUnique="true" name="" type="719c9355-a89d-e911-827a-06c73ecc951a" visibility="public" xmi:id="719c9355-a89d-e911-827a-06c73ecc951ab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="04c43783-a99d-e911-827a-06c73ecc951a" xmi:type="uml:Association">
+   <ownedEnd association="04c43783-a99d-e911-827a-06c73ecc951a" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="dfe32bfe-2281-e911-823e-06e233b9c772" visibility="public" xmi:id="719c9355-a89d-e911-827a-06c73ecc951aa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="04c43783-a99d-e911-827a-06c73ecc951a" isUnique="true" name="" type="719c9355-a89d-e911-827a-06c73ecc951a" visibility="public" xmi:id="719c9355-a89d-e911-827a-06c73ecc951ab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="6fe8fa81-c3ab-e911-828c-0679464e26a4" xmi:type="uml:Association">
+   <ownedEnd association="6fe8fa81-c3ab-e911-828c-0679464e26a4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="92910269-8dab-e911-828c-06e8cb19aef2" visibility="public" xmi:id="8caa8f90-eba3-e911-8284-065b2e50bbd8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="6fe8fa81-c3ab-e911-828c-0679464e26a4" isUnique="true" name="" type="8caa8f90-eba3-e911-8284-065b2e50bbd8" visibility="public" xmi:id="8caa8f90-eba3-e911-8284-065b2e50bbd8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="cb5b7c88-c3ab-e911-828c-0679464e26a4" xmi:type="uml:Association">
+   <ownedEnd association="cb5b7c88-c3ab-e911-828c-0679464e26a4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="92910269-8dab-e911-828c-06e8cb19aef2" visibility="public" xmi:id="8caa8f90-eba3-e911-8284-065b2e50bbd8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="cb5b7c88-c3ab-e911-828c-0679464e26a4" isUnique="true" name="" type="8caa8f90-eba3-e911-8284-065b2e50bbd8" visibility="public" xmi:id="8caa8f90-eba3-e911-8284-065b2e50bbd8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="d84b241e-f7a2-e911-8280-06df5c9909ce" xmi:type="uml:Association">
+   <ownedEnd association="d84b241e-f7a2-e911-8280-06df5c9909ce" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="3a451382-f6a2-e911-8280-06df5c9909ce" visibility="public" xmi:id="efd74dde-5896-e911-823e-062d75b50ccaa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="d84b241e-f7a2-e911-8280-06df5c9909ce" isUnique="true" name="" type="efd74dde-5896-e911-823e-062d75b50cca" visibility="public" xmi:id="efd74dde-5896-e911-823e-062d75b50ccab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="a756871e-2381-e911-823e-06e233b9c772" xmi:type="uml:Association">
+   <ownedEnd association="a756871e-2381-e911-823e-06e233b9c772" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="b2f7829a-0a68-e911-8237-06dd5e24f7bc" visibility="public" xmi:id="dfe32bfe-2281-e911-823e-06e233b9c772a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="a756871e-2381-e911-823e-06e233b9c772" isUnique="true" name="" type="dfe32bfe-2281-e911-823e-06e233b9c772" visibility="public" xmi:id="dfe32bfe-2281-e911-823e-06e233b9c772b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="5f6f4d8a-a5a4-e911-8284-062084c0b880" xmi:type="uml:Association">
+   <ownedEnd association="5f6f4d8a-a5a4-e911-8284-062084c0b880" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="974543f6-3494-e911-823e-069871e4ec9c" visibility="public" xmi:id="b5a55978-a5a4-e911-8284-062084c0b880a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="5f6f4d8a-a5a4-e911-8284-062084c0b880" isUnique="true" name="" type="b5a55978-a5a4-e911-8284-062084c0b880" visibility="public" xmi:id="b5a55978-a5a4-e911-8284-062084c0b880b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="8f8c4941-7aac-e911-828c-064985deff14" xmi:type="uml:Association">
+   <ownedEnd association="8f8c4941-7aac-e911-828c-064985deff14" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="b5a55978-a5a4-e911-8284-062084c0b880" visibility="public" xmi:id="92910269-8dab-e911-828c-06e8cb19aef2a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="8f8c4941-7aac-e911-828c-064985deff14" isUnique="true" name="" type="92910269-8dab-e911-828c-06e8cb19aef2" visibility="public" xmi:id="92910269-8dab-e911-828c-06e8cb19aef2b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="780e12ed-ff97-e911-827a-06d89370a58e" xmi:type="uml:Association">
+   <ownedEnd association="780e12ed-ff97-e911-827a-06d89370a58e" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="f0129ac2-3394-e911-823e-069871e4ec9c" visibility="public" xmi:id="e591ecbf-ff97-e911-827a-06d89370a58ea">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="780e12ed-ff97-e911-827a-06d89370a58e" isUnique="true" name="" type="e591ecbf-ff97-e911-827a-06d89370a58e" visibility="public" xmi:id="e591ecbf-ff97-e911-827a-06d89370a58eb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="932dc437-7aac-e911-828c-064985deff14" xmi:type="uml:Association">
+   <ownedEnd association="932dc437-7aac-e911-828c-064985deff14" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="e591ecbf-ff97-e911-827a-06d89370a58e" visibility="public" xmi:id="92910269-8dab-e911-828c-06e8cb19aef2a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="932dc437-7aac-e911-828c-064985deff14" isUnique="true" name="" type="92910269-8dab-e911-828c-06e8cb19aef2" visibility="public" xmi:id="92910269-8dab-e911-828c-06e8cb19aef2b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="f0129ac2-3394-e911-823e-069871e4ec9ca 84fa164a-2198-e911-827a-06b20c6b9b78b" name="" navigableOwnedEnd="84fa164a-2198-e911-827a-06b20c6b9b78b" xmi:id="4fd9b1d9-94a4-e911-8284-062084c0b880" xmi:type="uml:Association">
+   <ownedEnd association="4fd9b1d9-94a4-e911-8284-062084c0b880" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="f0129ac2-3394-e911-823e-069871e4ec9c" visibility="public" xmi:id="f0129ac2-3394-e911-823e-069871e4ec9ca">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="4fd9b1d9-94a4-e911-8284-062084c0b880" isUnique="true" name="" type="84fa164a-2198-e911-827a-06b20c6b9b78" visibility="public" xmi:id="84fa164a-2198-e911-827a-06b20c6b9b78b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="5235f1a5-06aa-e911-8288-06812ee60d2a" xmi:type="uml:Association">
+   <ownedEnd association="5235f1a5-06aa-e911-8288-06812ee60d2a" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="ac535bd6-3298-e911-827a-06b20c6b9b78" visibility="public" xmi:id="cd2b1465-06aa-e911-8288-06812ee60d2aa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="5235f1a5-06aa-e911-8288-06812ee60d2a" isUnique="true" name="" type="cd2b1465-06aa-e911-8288-06812ee60d2a" visibility="public" xmi:id="cd2b1465-06aa-e911-8288-06812ee60d2ab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="29f3d531-fba2-e911-8280-06df5c9909ce" xmi:type="uml:Association">
+   <ownedEnd association="29f3d531-fba2-e911-8280-06df5c9909ce" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="7875b148-729e-e911-827a-06e8627b9e66" visibility="public" xmi:id="ebbe09e1-faa2-e911-8280-06df5c9909cea">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="29f3d531-fba2-e911-8280-06df5c9909ce" isUnique="true" name="" type="ebbe09e1-faa2-e911-8280-06df5c9909ce" visibility="public" xmi:id="ebbe09e1-faa2-e911-8280-06df5c9909ceb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="a76fddfc-05aa-e911-8288-06812ee60d2a" xmi:type="uml:Association">
+   <ownedEnd association="a76fddfc-05aa-e911-8288-06812ee60d2a" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="70244c62-05aa-e911-8288-06812ee60d2a" visibility="public" xmi:id="ac535bd6-3298-e911-827a-06b20c6b9b78a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="a76fddfc-05aa-e911-8288-06812ee60d2a" isUnique="true" name="" type="ac535bd6-3298-e911-827a-06b20c6b9b78" visibility="public" xmi:id="ac535bd6-3298-e911-827a-06b20c6b9b78b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="8afb104e-12ab-e911-828c-0605e339c9ac" xmi:type="uml:Association">
+   <ownedEnd association="8afb104e-12ab-e911-828c-0605e339c9ac" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="70244c62-05aa-e911-8288-06812ee60d2a" visibility="public" xmi:id="cd2b1465-06aa-e911-8288-06812ee60d2aa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="8afb104e-12ab-e911-828c-0605e339c9ac" isUnique="true" name="" type="cd2b1465-06aa-e911-8288-06812ee60d2a" visibility="public" xmi:id="cd2b1465-06aa-e911-8288-06812ee60d2ab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="76d3676c-879e-e911-827a-06e8627b9e66" xmi:type="uml:Association">
+   <ownedEnd association="76d3676c-879e-e911-827a-06e8627b9e66" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="7875b148-729e-e911-827a-06e8627b9e66" visibility="public" xmi:id="6d8fea76-e855-e911-8237-060aad038e48a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="76d3676c-879e-e911-827a-06e8627b9e66" isUnique="true" name="" type="6d8fea76-e855-e911-8237-060aad038e48" visibility="public" xmi:id="6d8fea76-e855-e911-8237-060aad038e48b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="451b0240-fba2-e911-8280-06df5c9909ce" xmi:type="uml:Association">
+   <ownedEnd association="451b0240-fba2-e911-8280-06df5c9909ce" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6d8fea76-e855-e911-8237-060aad038e48" visibility="public" xmi:id="ebbe09e1-faa2-e911-8280-06df5c9909cea">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="451b0240-fba2-e911-8280-06df5c9909ce" isUnique="true" name="" type="ebbe09e1-faa2-e911-8280-06df5c9909ce" visibility="public" xmi:id="ebbe09e1-faa2-e911-8280-06df5c9909ceb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="4a87fa45-7f4e-ea11-8289-06e6d0546392" xmi:type="uml:Association">
+   <ownedEnd association="4a87fa45-7f4e-ea11-8289-06e6d0546392" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="063a0dcf-0561-e911-8237-068e13695e26" visibility="public" xmi:id="983b78e0-03c8-e911-8296-065c48f41faaa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="4a87fa45-7f4e-ea11-8289-06e6d0546392" isUnique="true" name="" type="983b78e0-03c8-e911-8296-065c48f41faa" visibility="public" xmi:id="983b78e0-03c8-e911-8296-065c48f41faab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="36589424-7e4e-ea11-8289-06e6d0546392" xmi:type="uml:Association">
+   <ownedEnd association="36589424-7e4e-ea11-8289-06e6d0546392" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="dabdcda0-7c4e-ea11-8289-06e6d0546392" visibility="public" xmi:id="983b78e0-03c8-e911-8296-065c48f41faaa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="36589424-7e4e-ea11-8289-06e6d0546392" isUnique="true" name="" type="983b78e0-03c8-e911-8296-065c48f41faa" visibility="public" xmi:id="983b78e0-03c8-e911-8296-065c48f41faab">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="d10c7cc5-d6ab-e911-828c-0679464e26a4" xmi:type="uml:Association">
+   <ownedEnd association="d10c7cc5-d6ab-e911-828c-0679464e26a4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="8856dd89-9b9d-e911-827a-06c73ecc951a" visibility="public" xmi:id="9fe05cf9-fd60-e911-8237-068e13695e26a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="d10c7cc5-d6ab-e911-828c-0679464e26a4" isUnique="true" name="" type="9fe05cf9-fd60-e911-8237-068e13695e26" visibility="public" xmi:id="9fe05cf9-fd60-e911-8237-068e13695e26b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="038ad9de-6c9e-e911-827a-06e8627b9e66" xmi:type="uml:Association">
+   <ownedEnd association="038ad9de-6c9e-e911-827a-06e8627b9e66" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="3500ccc6-af9d-e911-827a-06c73ecc951a" visibility="public" xmi:id="113ad50c-a29d-e911-827a-06c73ecc951aa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="038ad9de-6c9e-e911-827a-06e8627b9e66" isUnique="true" name="" type="113ad50c-a29d-e911-827a-06c73ecc951a" visibility="public" xmi:id="113ad50c-a29d-e911-827a-06c73ecc951ab">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="73d9ba75-a1a1-e911-827a-06eab14cfc22" xmi:type="uml:Association">
+   <ownedEnd association="73d9ba75-a1a1-e911-827a-06eab14cfc22" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="53777ee2-6a9e-e911-827a-06e8627b9e66" visibility="public" xmi:id="113ad50c-a29d-e911-827a-06c73ecc951aa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="73d9ba75-a1a1-e911-827a-06eab14cfc22" isUnique="true" name="" type="113ad50c-a29d-e911-827a-06c73ecc951a" visibility="public" xmi:id="113ad50c-a29d-e911-827a-06c73ecc951ab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="4872d807-b09d-e911-827a-06c73ecc951a" xmi:type="uml:Association">
+   <ownedEnd association="4872d807-b09d-e911-827a-06c73ecc951a" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="8856dd89-9b9d-e911-827a-06c73ecc951a" visibility="public" xmi:id="3500ccc6-af9d-e911-827a-06c73ecc951aa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="4872d807-b09d-e911-827a-06c73ecc951a" isUnique="true" name="" type="3500ccc6-af9d-e911-827a-06c73ecc951a" visibility="public" xmi:id="3500ccc6-af9d-e911-827a-06c73ecc951ab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="75dc7766-6d9e-e911-827a-06e8627b9e66" xmi:type="uml:Association">
+   <ownedEnd association="75dc7766-6d9e-e911-827a-06e8627b9e66" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="53777ee2-6a9e-e911-827a-06e8627b9e66" visibility="public" xmi:id="606c73fd-2694-e911-823e-069871e4ec9ca">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="75dc7766-6d9e-e911-827a-06e8627b9e66" isUnique="true" name="" type="606c73fd-2694-e911-823e-069871e4ec9c" visibility="public" xmi:id="606c73fd-2694-e911-823e-069871e4ec9cb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="f22af3ba-21a2-e911-8280-06c32eb41056" xmi:type="uml:Association">
+   <ownedEnd association="f22af3ba-21a2-e911-8280-06c32eb41056" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="1aeced65-0b68-e911-8237-06dd5e24f7bc" visibility="public" xmi:id="e26ef189-21a2-e911-8280-06c32eb41056a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="f22af3ba-21a2-e911-8280-06c32eb41056" isUnique="true" name="" type="e26ef189-21a2-e911-8280-06c32eb41056" visibility="public" xmi:id="e26ef189-21a2-e911-8280-06c32eb41056b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="8856dd89-9b9d-e911-827a-06c73ecc951aa 53777ee2-6a9e-e911-827a-06e8627b9e66b" name="" navigableOwnedEnd="53777ee2-6a9e-e911-827a-06e8627b9e66b" xmi:id="3d4d2503-6c9e-e911-827a-06e8627b9e66" xmi:type="uml:Association">
+   <ownedEnd association="3d4d2503-6c9e-e911-827a-06e8627b9e66" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="8856dd89-9b9d-e911-827a-06c73ecc951a" visibility="public" xmi:id="8856dd89-9b9d-e911-827a-06c73ecc951aa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="3d4d2503-6c9e-e911-827a-06e8627b9e66" isUnique="true" name="" type="53777ee2-6a9e-e911-827a-06e8627b9e66" visibility="public" xmi:id="53777ee2-6a9e-e911-827a-06e8627b9e66b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="c848eb03-7e4e-ea11-8289-06e6d0546392" xmi:type="uml:Association">
+   <ownedEnd association="c848eb03-7e4e-ea11-8289-06e6d0546392" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="063a0dcf-0561-e911-8237-068e13695e26" visibility="public" xmi:id="dabdcda0-7c4e-ea11-8289-06e6d0546392a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="c848eb03-7e4e-ea11-8289-06e6d0546392" isUnique="true" name="" type="dabdcda0-7c4e-ea11-8289-06e6d0546392" visibility="public" xmi:id="dabdcda0-7c4e-ea11-8289-06e6d0546392b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="0912905f-b7a4-e911-8284-062084c0b880" xmi:type="uml:Association">
+   <ownedEnd association="0912905f-b7a4-e911-8284-062084c0b880" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="ca976c42-7c96-e911-823e-062d75b50cca" visibility="public" xmi:id="2b542337-b6a4-e911-8284-062084c0b880a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="0912905f-b7a4-e911-8284-062084c0b880" isUnique="true" name="" type="2b542337-b6a4-e911-8284-062084c0b880" visibility="public" xmi:id="2b542337-b6a4-e911-8284-062084c0b880b">
+    <upperValue xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="2e3c6320-7aac-e911-828c-064985deff14" xmi:type="uml:Association">
+   <ownedEnd association="2e3c6320-7aac-e911-828c-064985deff14" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="2b542337-b6a4-e911-8284-062084c0b880" visibility="public" xmi:id="92910269-8dab-e911-828c-06e8cb19aef2a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="2e3c6320-7aac-e911-828c-064985deff14" isUnique="true" name="" type="92910269-8dab-e911-828c-06e8cb19aef2" visibility="public" xmi:id="92910269-8dab-e911-828c-06e8cb19aef2b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="Agreement" xmi:id="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4495" xmi:type="uml:Comment">
+    <body>
+     A formal or informal common understanding between two or more (legal competent) parties concerning one or more subject matters expressed in a set of arrangements, terms and conditions. (adapted from Legal System and FIBO)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AgreementSignedDate" type="Visibility=public" xmi:id="38d73dbf-7288-e911-823e-06b09c770f0c90157202">
+    <ownedComment xmi:id="comm4496" xmi:type="uml:Comment">
+     <body>
+      Date on which the agreement was signed by all parties. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementType" type="Visibility=public" xmi:id="39d73dbf-7288-e911-823e-06b09c770f0c90157202">
+    <ownedComment xmi:id="comm4497" xmi:type="uml:Comment">
+     <body>
+      Specifies the category of agreement. Agreement type is very often referred to product. But, the term product does not cover all kinds of agreements. An Agreement can be subtyped from the perspective of various aspects of interest. One can classify the agreement from the perspective of format type (e.g., verbal agreement, written agreement). Other one can classify agreement based on duration like short-term agreement or long-term agreement.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementValidityPeriod" type="Visibility=public" xmi:id="a16043ce-7288-e911-823e-06b09c770f0c90157202">
+    <ownedComment xmi:id="comm4498" xmi:type="uml:Comment">
+     <body>
+      Period during which the agreement is valid
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementVersion" type="Visibility=public" xmi:id="a26043ce-7288-e911-823e-06b09c770f0c90157202">
+    <ownedComment xmi:id="comm4499" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementStatus" type="Visibility=public" xmi:id="e76ce121-3250-ea11-8289-06b8c2aff48690157202">
+    <ownedComment xmi:id="comm4500" xmi:type="uml:Comment">
+     <body>
+      LifecycleStatus of agreement (e.g., potential, offered, confirmed, completed, signed, terminated)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementSubjectMatter" type="Visibility=public" xmi:id="b7704e49-7870-eb11-82fd-061e1f234dd590157202">
+    <ownedComment xmi:id="comm4501" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementIdentification" type="Visibility=public" xmi:id="ac6ca285-5777-eb11-8305-06d6e8bf29e790157202">
+    <ownedComment xmi:id="comm4502" xmi:type="uml:Comment">
+     <body>
+      The identifier of agreement like Agreement Number, Contract Number, Contract Registration Number, etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementDate" type="Visibility=public" xmi:id="4d27b628-5977-eb11-8305-06d6e8bf29e790157202">
+    <ownedComment xmi:id="comm4503" xmi:type="uml:Comment">
+     <body>
+      A characteristic of agreement which refers to 1) LifecycleDate of agreement (e.g., SignedDate, TerminatedDate, FulfilledDate) OR 2) ArrangedDate of agreement (e.g., StartingDate, EndingDate, ValidityPeriod, EffectiveDate).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="BankingProduct" xmi:id="1aeced65-0b68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <generalization general="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4504" xmi:type="uml:Comment">
+    <body>
+     A package of services and goods, accompanied by term and condition which is offered as a whole to (internal or external) customers.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ProductIdentification" type="Visibility=public" xmi:id="d9550bed-826a-e911-8237-061b75d0d31890157202">
+    <ownedComment xmi:id="comm4505" xmi:type="uml:Comment">
+     <body>
+      The identifier of product e.g. ISIN Code.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductType" type="Visibility=public" xmi:id="8a5e5f87-2f7d-e911-823e-069ad1a2e64890157202">
+    <ownedComment xmi:id="comm4506" xmi:type="uml:Comment">
+     <body>
+      Specifies the category/type/class of product like financial product. Product can be categorized according to different perspectives.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductLifecycleStatus" type="Visibility=public" xmi:id="c5f72c17-307d-e911-823e-069ad1a2e64890157202">
+    <ownedComment xmi:id="comm4507" xmi:type="uml:Comment">
+     <body>
+      Refers to the lifecycle of a product (e.g., initiated, announced, active, obsolete, withdrawn).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductPriority" type="Visibility=public" xmi:id="bf0ea918-b986-e911-823e-062687e6a90490157202">
+    <ownedComment xmi:id="comm4508" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductDescription" type="Visibility=public" xmi:id="34a6446c-2844-ea11-8289-068ff87429a490157202">
+    <ownedComment xmi:id="comm4509" xmi:type="uml:Comment">
+     <body>
+      A detailed explanation or commentary of product.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductVersion" type="Visibility=public" xmi:id="da801270-cc4c-ea11-8289-062dfdfaca5890157202">
+    <ownedComment xmi:id="comm4510" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="FinancialInstrument" xmi:id="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4511" xmi:type="uml:Comment">
+    <body>
+     A contract that gives rise to a financial asset of one entity and a financial liability or equity instrument of another entity. (IFRS)
+https://www.iasplus.com/en/standards/ias/ias32#:~:text=Key%20definitions%20%5BIAS%2032.11%5D,equity%20instrument%20of%20another%20entity
+
+Financial instruments are financial contracts of different nature made between institutional units. These comprise the full range of financial claims and liabilities between institutional units, including contingent liabilities like guarantees, commitments, etc. (ISO 10962)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Account" xmi:id="9fe05cf9-fd60-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <generalization general="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4512" xmi:type="uml:Comment">
+    <body>
+     A measuring state on which movements in value or amounts of assets, rights and obligations are registered.
+
+Comment: 
+It is a bookkeeping instrument holding the amount or value of something by registering the movements in plus and min when events happen which have an impact on the position.
+The term "account" is usually associated to an accounting or bookkeeping concept to hold the financial or stock state of a business concept. An account will typically group the debit and credit entries for a specific aspect of the business resulting from transactions,
+Often accounts are represented as a T-account which is a visual aid used to depict an account. Above the top portion of the T would be the account title. On the left-side of the base of the T would be any debit amounts; on the right-side would be the credit amounts.
+A commonly used bookkeeping method is the double-entry method. This means that every transaction has at least 2 movements. If a customer pays 100 € in cash, there is
+a decrease in the amount that the customer owes to the company (the customer position is decreased)
+an increase in the amount that the company has in cash (the cash position is increased)
+
+An account can be assigning to one or more ledgers. A ledger is a group of accounts for a certain purpose. If there is need for multiple ledgers because of multiple purpose, an account can perfectly well assigned to multiple ledgers. When Ledgers are in real physical books, this is not possible. When ledgers are digital, accounts can be grouped into multiple groups at the same time. This practice is very rarely taught into courses for accounting, but in digital accounting, it is common practice.
+
+Examples: 
+stock account of a shop, cash register, bank account, financial accounting account, customer account, supplier account, ...
+Bank Account BE12 1234 5678 9012: is an individual banking account
+Accounts Payable, is a collective account keeping the balance of the amounts to pay by the organisation to its suppliers. The balance is the result of the financial movements related to suppliers. This account is managed usually in a General Ledger 
+Supplier Account X, is an individual account keeping the balance of the amounts to pay by the organisation to an individual supplier. The balance is the result of the financial movements related to an individual supplier. This account is managed usually in a sub-ledger.
+Stock Account x, is an individual account keeping the balance of the amounts in stock of a specific good.
+A payment service to take fund out of an account.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AccountStatus" type="Visibility=public" xmi:id="b6757cb3-0e61-e911-8237-068e13695e2690157202">
+    <ownedComment xmi:id="comm4513" xmi:type="uml:Comment">
+     <body>
+      A characteristic of account which refers to the LifecycleStatus of account like opened, closed, blocked, etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccountIdentification" type="Visibility=public" xmi:id="cd2b67ab-2f94-e911-823e-069871e4ec9c90157202">
+    <ownedComment xmi:id="comm4514" xmi:type="uml:Comment">
+     <body>
+      The identifier of account like Account Number.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccountDate" type="Visibility=public" xmi:id="29a677e6-2f94-e911-823e-069871e4ec9c90157202">
+    <ownedComment xmi:id="comm4515" xmi:type="uml:Comment">
+     <body>
+      A characteristic of account which refers to LifecycleDate of account (e.g., ClosingDate, OpeningDate, LiveDate, etc.)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccountType" type="Visibility=public" xmi:id="e8a9ed12-3094-e911-823e-069871e4ec9c90157202">
+    <ownedComment xmi:id="comm4516" xmi:type="uml:Comment">
+     <body>
+      Specifies the category of account like payment account, loan account, cash account, securities account, etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccountPurpose" type="Visibility=public" xmi:id="13e05499-3294-e911-823e-069871e4ec9c90157202">
+    <ownedComment xmi:id="comm4517" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccountBalance" type="Visibility=public" xmi:id="b8c9074f-a2a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4518" xmi:type="uml:Comment">
+     <body>
+      The state of the obligations managed on the account, the result of all entries on the account.
+
+Numerical representation of the net increases and decreases in an account at a specific point in time. (ISO20022)
+
+Banking: Amount available in an account for withdrawal or use.
+Read more: http://www.businessdictionary.com/definition/balance.html
+
+Bookkeeping: Difference between the debit and credit sides of an account.
+Read more: http://www.businessdictionary.com/definition/balance.html
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccountCurrency" type="Visibility=public" xmi:id="163ee7c1-7dba-e911-8291-062b31ab758a90157202">
+    <ownedComment xmi:id="comm4519" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccountDescription" type="Visibility=public" xmi:id="a98503ad-edd2-e911-8296-06b94e7647ce90157202">
+    <ownedComment xmi:id="comm4520" xmi:type="uml:Comment">
+     <body>
+      A detailed explanation or commentary of account.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Log" xmi:id="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4521" xmi:type="uml:Comment">
+    <body>
+     A record of events/entries.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="LienArrangement" xmi:id="efd74dde-5896-e911-823e-062d75b50cca" xmi:type="uml:Class">
+   <generalization general="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <generalization general="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:id="gen4" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4522" xmi:type="uml:Comment">
+    <body>
+     An arrangement that grants a creditor the right to use an asset as a guarantee for an underlying obligation. 
+
+A lien is a legal right granted by the owner of property, by a law or otherwise acquired by a creditor. A lien serves to guarantee an underlying obligation, such as the repayment of a loan. If the underlying obligation is not satisfied, the creditor may be able to seize the asset that is the subject of the lien. (Investopedia)
+
+A lien is a legal document filed by a creditor (lender) in order to record its claim on the debtor's (borrower's) property. The lien is recorded at a government's office. The lien provides a creditor with some protection or collateral until the debtor pays the creditor the amount owed. (Accounting Coach)
+
+A legal claim against an asset which is used to secure a loan and which must be paid when the property is sold. Liens can be structured in many different ways. In some cases, the creditor will have legal claim against an asset, but not actually hold it in possession, while in other cases the creditor will actually hold on to the asset until the debt is paid off. The former is a more common arrangement when the asset is productive, since the creditor would prefer that the asset be used to produce a stream of income to pay off debt rather than just held in possession and not used. A claim can hold against an asset until all the obligations to the creditor are cleared (a general lien), or just until the obligations against that particular assets are cleared (a particular lien). (Investorword)
+
+Difference between Lien and Collateral? The Lien is the agreement, the Collateral is the asset. So, a collateral agreement and a lien are synonyms. see also https://efinancemanagement.com/sources-of-finance/pledge-vs-hypothecation-vs-lien-vs-mortgage-vs-assignment
+    </body>
+   </ownedComment>
+   <ownedAttribute name="LienType" type="Visibility=public" xmi:id="51e312b1-7896-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4523" xmi:type="uml:Comment">
+     <body>
+      The type of Lien
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienOriginatorReference" type="Visibility=public" xmi:id="cc1a2e5b-7996-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4524" xmi:type="uml:Comment">
+     <body>
+      The party requesting the lien.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienPurposeReference" type="Visibility=public" xmi:id="ccd38c24-7a96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4525" xmi:type="uml:Comment">
+     <body>
+      The reason why the lien is taken.
+
+Should refer to another agreements arrangement whose obligations are guaranteed by the lien
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienAmount" type="Visibility=public" xmi:id="bfb41035-7a96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4526" xmi:type="uml:Comment">
+     <body>
+      The amount being blocked.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienStartDate" type="Visibility=public" xmi:id="d7963d5c-7a96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4527" xmi:type="uml:Comment">
+     <body>
+      The date the lien is enforced.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienExpiryDate" type="Visibility=public" xmi:id="7968c16f-7a96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4528" xmi:type="uml:Comment">
+     <body>
+      The date the lien is removed.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienStatus" type="Visibility=public" xmi:id="76edaf8e-7a96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4529" xmi:type="uml:Comment">
+     <body>
+      The status on the lien.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienModalities" type="Visibility=public" xmi:id="4df310f1-7c96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4530" xmi:type="uml:Comment">
+     <body>
+      Processing guidelines
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienSubjectReference" type="Visibility=public" xmi:id="3f4f595e-f7a2-e911-8280-06df5c9909ce90157202">
+    <ownedComment xmi:id="comm4531" xmi:type="uml:Comment">
+     <body>
+      Reference to the subject the lean is placed upon
+
+e.g. the savings account the lien is placed upon
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LienParameters" type="Visibility=public" xmi:id="25ef453d-afa4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4532" xmi:type="uml:Comment">
+     <body>
+      Parameters to be used in the lien modalities
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Arrangement" xmi:id="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4533" xmi:type="uml:Comment">
+    <body>
+     An agreed commitment to perform actions that meet obligations under an agreement
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="LoanArrangement" xmi:id="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4534" xmi:type="uml:Comment">
+    <body>
+     An arrangement defining the applicable features for a loan account agreement.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="DepositServiceArrangement" xmi:id="01d64189-5c96-e911-823e-062d75b50cca" xmi:type="uml:Class">
+   <generalization general="c80f2ee6-f097-e911-827a-06d89370a58e" xmi:id="gen5" xmi:type="uml:Generalization"/>
+   <generalization general="eecc7a97-33d6-e911-8296-06c6ee6741dc" xmi:id="gen6" xmi:type="uml:Generalization"/>
+   <generalization general="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:id="gen7" xmi:type="uml:Generalization"/>
+   <generalization general="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:id="gen8" xmi:type="uml:Generalization"/>
+   <generalization general="fe005481-40b1-ea11-829f-06cfa6a4383a" xmi:id="gen9" xmi:type="uml:Generalization"/>
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen10" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4535" xmi:type="uml:Comment">
+    <body>
+     An service arrangement which specifies the acceptance of deposits, accompanied by the modalities to deposit money. 
+
+
+An arrangement in which a lender gives money or property to a borrower, and the borrower agrees to return the property or repay the money, usually along with interest, at some future point(s) in time. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DepositType" type="Visibility=public" xmi:id="15f46868-8196-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4536" xmi:type="uml:Comment">
+     <body>
+      The type of deposit transaction that can be applied to the account (e.g. customer deposit, internal credit, funding, ...)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DepositLimit" type="Visibility=public" xmi:id="df2b30b2-b49d-e911-827a-06c73ecc951a90157202">
+    <ownedComment xmi:id="comm4537" xmi:type="uml:Comment">
+     <body>
+      A limit imposed to the facility to deposit funds
+
+e.g. minimum deposit of 500€, maximum of 5000 per year, maximum balance of 500 000€This is the actual "value" that has to be used in "the algorithm depicted by the "type".
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DepositLimitType" type="Visibility=public" xmi:id="18caecbb-b49d-e911-827a-06c73ecc951a90157202">
+    <ownedComment xmi:id="comm4538" xmi:type="uml:Comment">
+     <body>
+      Type of limit imposed on a deposit facility
+
+e.g. maximum amount per deposit or per periodThis is "the algorithm"
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="SweepArrangement" xmi:id="ca976c42-7c96-e911-823e-062d75b50cca" xmi:type="uml:Class">
+   <generalization general="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:id="gen11" xmi:type="uml:Generalization"/>
+   <generalization general="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:id="gen12" xmi:type="uml:Generalization"/>
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen13" xmi:type="uml:Generalization"/>
+   <generalization general="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen14" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4539" xmi:type="uml:Comment">
+    <body>
+     Arrangement in which funds are transferred from one deposit account to another when a certain threshold is reached. 
+
+Banking arrangement in which a checking (current) account balance above or below a certain amount is automatically transferred to and from an interest-bearing (savings or money market fund) account. The objective of a sweep account is to maximize the accountholder's interest earnings while covering all withdrawals. (Business Dictionary)
+
+Sweep Account is a brokerage account whose cash balance is automatically transferred into an interest-bearing investment, such as a money market fund. (Investorwords)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="SweepType" type="Visibility=public" xmi:id="c6bbf367-7c96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4540" xmi:type="uml:Comment">
+     <body>
+      The type of sweep (e.g. periodic, threshold).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SweepModalitites" type="Visibility=public" xmi:id="a31a2dcd-7c96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4541" xmi:type="uml:Comment">
+     <body>
+      The way sweep transactions will be triggered and executed (on the "from side) or what the reaction should be (on the receive side)
+
+e.g. buy securities when a sweep of the "petty cash" type is received on a securities account from a current account
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SweepCounterAccountReference" type="Visibility=public" xmi:id="7d45fc09-7e96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4542" xmi:type="uml:Comment">
+     <body>
+      Reference to the account the funds are transferred to or from
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SweepSchedule" type="Visibility=public" xmi:id="c98f4920-7e96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4543" xmi:type="uml:Comment">
+     <body>
+      Timing and or triggers for initiating sweep transaction;
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SweepMandate" type="Visibility=public" xmi:id="ce8f4920-7e96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4544" xmi:type="uml:Comment">
+     <body>
+      Permission to define a sweep arrangement to the target account.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SweepDirection" type="Visibility=public" xmi:id="2263e6ec-b5a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4545" xmi:type="uml:Comment">
+     <body>
+      Indication whether the savings account is source or target of the sweep arrangement
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ServiceArrangement" xmi:id="c80f2ee6-f097-e911-827a-06d89370a58e" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4546" xmi:type="uml:Comment">
+    <body>
+     An arrangement into which is promised to deliver a specific service.
+
+Comment: Most service arrangements are instantiations of Product Services
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="TermDepositAccountArrangement" xmi:id="eecc7a97-33d6-e911-8296-06c6ee6741dc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4547" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="TermDepositArrangement" xmi:id="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4548" xmi:type="uml:Comment">
+    <body>
+     An arrangement defining the applicable features for a Corporate Deposit Agreement.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="NonCashServiceArrangement" xmi:id="fe005481-40b1-ea11-829f-06cfa6a4383a" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4549" xmi:type="uml:Comment">
+    <body>
+     ServiceArrangement defined for non-cash financial instruments like SecuritiesDepositArrangement, ...
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="WithdrawalServiceArrangement" xmi:id="0a28b29d-5c96-e911-823e-062d75b50cca" xmi:type="uml:Class">
+   <generalization general="c80f2ee6-f097-e911-827a-06d89370a58e" xmi:id="gen15" xmi:type="uml:Generalization"/>
+   <generalization general="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:id="gen16" xmi:type="uml:Generalization"/>
+   <generalization general="fe005481-40b1-ea11-829f-06cfa6a4383a" xmi:id="gen17" xmi:type="uml:Generalization"/>
+   <generalization general="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:id="gen18" xmi:type="uml:Generalization"/>
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen19" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4550" xmi:type="uml:Comment">
+    <body>
+     An service arrangement which specifies the acceptance of withdrawals, accompanied by the modalities to withdraw money.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="WithdrawalType" type="Visibility=public" xmi:id="772f4f77-8196-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4551" xmi:type="uml:Comment">
+     <body>
+      The type of withdrawal transaction that can be applied to the account (e.g. customer withdrawal, internal service charge, disbursement)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WithdrawalLimit" type="Visibility=public" xmi:id="f1d060d4-759e-e911-827a-06e8627b9e6690157202">
+    <ownedComment xmi:id="comm4552" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WithdrawallimitType" type="Visibility=public" xmi:id="871662de-759e-e911-827a-06e8627b9e6690157202">
+    <ownedComment xmi:id="comm4553" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WithdrawalLimitHandling" type="Visibility=public" xmi:id="d64b4ba8-0fab-e911-828c-0605e339c9ac90157202">
+    <ownedComment xmi:id="comm4554" xmi:type="uml:Comment">
+     <body>
+      Handling options in case a withdrawal results in exceeding the agreed limit
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="InterestArrangement" xmi:id="f0129ac2-3394-e911-823e-069871e4ec9c" xmi:type="uml:Class">
+   <generalization general="eecc7a97-33d6-e911-8296-06c6ee6741dc" xmi:id="gen20" xmi:type="uml:Generalization"/>
+   <generalization general="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:id="gen21" xmi:type="uml:Generalization"/>
+   <generalization general="3fd1b799-fc60-e911-8237-068e13695e26" xmi:id="gen22" xmi:type="uml:Generalization"/>
+   <generalization general="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:id="gen23" xmi:type="uml:Generalization"/>
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen24" xmi:type="uml:Generalization"/>
+   <generalization general="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen25" xmi:type="uml:Generalization"/>
+   <generalization general="c388a7ff-1e92-eb11-8314-06d9fc4c370f" xmi:id="gen26" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4555" xmi:type="uml:Comment">
+    <body>
+     An arrangement into which both parties confirm on an interest product feature.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="InterestType" type="Visibility=public" xmi:id="02cdd118-6496-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4556" xmi:type="uml:Comment">
+     <body>
+      Specifies the type of interest associated with a trade. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InterestRate" type="Visibility=public" xmi:id="69329c55-6496-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4557" xmi:type="uml:Comment">
+     <body>
+      An arranged InterestRate
+
+InterestRate: A price generally expressed as a percentage for the use of capital unit for a certain period
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InterestDefinition" type="Visibility=public" xmi:id="135cb18d-4f91-eb11-8310-069c6e24f8ad90157202">
+    <ownedComment xmi:id="comm4558" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InterestRateType" type="Visibility=public" xmi:id="5a0fa4a0-4f91-eb11-8310-069c6e24f8ad90157202">
+    <ownedComment xmi:id="comm4559" xmi:type="uml:Comment">
+     <body>
+      Specifies the type of rate used to calculate the interest. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InterestPeriod" type="Visibility=public" xmi:id="f2c738ad-4f91-eb11-8310-069c6e24f8ad90157202">
+    <ownedComment xmi:id="comm4560" xmi:type="uml:Comment">
+     <body>
+      Period during which the interest rate has to be applied.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InterestRatePlan" type="Visibility=public" xmi:id="f8ab0eef-3792-eb11-8314-06d9fc4c370f90157202">
+    <ownedComment xmi:id="comm4561" xmi:type="uml:Comment">
+     <body>
+      An arranged InterestRatePlan
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CardPaymentArrangement" xmi:id="3fd1b799-fc60-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4562" xmi:type="uml:Comment">
+    <body>
+     An agreement established among the card holder and the card issuer to use the payment card for payment
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ProductSalesArrangement" xmi:id="c388a7ff-1e92-eb11-8314-06d9fc4c370f" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4563" xmi:type="uml:Comment">
+    <body>
+     Arrangement whitin the product sales agreement
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="FeeArrangement" xmi:id="974543f6-3494-e911-823e-069871e4ec9c" xmi:type="uml:Class">
+   <generalization general="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen27" xmi:type="uml:Generalization"/>
+   <generalization general="eecc7a97-33d6-e911-8296-06c6ee6741dc" xmi:id="gen28" xmi:type="uml:Generalization"/>
+   <generalization general="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:id="gen29" xmi:type="uml:Generalization"/>
+   <generalization general="3fd1b799-fc60-e911-8237-068e13695e26" xmi:id="gen30" xmi:type="uml:Generalization"/>
+   <generalization general="36bdcde1-3fb1-ea11-829f-06cfa6a4383a" xmi:id="gen31" xmi:type="uml:Generalization"/>
+   <generalization general="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:id="gen32" xmi:type="uml:Generalization"/>
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen33" xmi:type="uml:Generalization"/>
+   <generalization general="c388a7ff-1e92-eb11-8314-06d9fc4c370f" xmi:id="gen34" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4564" xmi:type="uml:Comment">
+    <body>
+     An arrangement which specifies to charge fees when banking transactions did take place, accompanied by the modalities to calculate and charge the fees and the related terms and conditions.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="FeeType" type="Visibility=public" xmi:id="e5e25009-7196-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4565" xmi:type="uml:Comment">
+     <body>
+      Specifies the type of fee which is applicable to the amount of goods/services. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="FeeAmount" type="Visibility=public" xmi:id="6800d2f8-af98-e911-827a-06145c0197d090157202">
+    <ownedComment xmi:id="comm4566" xmi:type="uml:Comment">
+     <body>
+      Base amount that would be applied when the service is requested.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="FeeRate" type="Visibility=public" xmi:id="d643ee32-b098-e911-827a-06145c0197d090157202">
+    <ownedComment xmi:id="comm4567" xmi:type="uml:Comment">
+     <body>
+      Rate used to calculate the amount of the adjustment, allowance, charge or fee. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="FeeEffectivePeriod" type="Visibility=public" xmi:id="d405909f-b198-e911-827a-06145c0197d090157202">
+    <ownedComment xmi:id="comm4568" xmi:type="uml:Comment">
+     <body>
+      Period during which the fee is applicable. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="FeeDueDate" type="Visibility=public" xmi:id="35b494df-965c-eb11-82e9-065ba105bad390157202">
+    <ownedComment xmi:id="comm4569" xmi:type="uml:Comment">
+     <body>
+      Date on which the fee needs to be paid.
+- It is not nessessary a date and could be  expressed as a calander or formula or events that would be fulfiled.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="FeePlan" type="Visibility=public" xmi:id="5aa66f81-3a92-eb11-8314-06d9fc4c370f90157202">
+    <ownedComment xmi:id="comm4570" xmi:type="uml:Comment">
+     <body>
+      An arranged FeeRatePlan
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CashServiceArrangement" xmi:id="36bdcde1-3fb1-ea11-829f-06cfa6a4383a" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4571" xmi:type="uml:Comment">
+    <body>
+     ServiceArrangement defined for cash financial instruments like FeeArrangement, DepositArrangement, ...
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="InterestArrangementModality" xmi:id="84fa164a-2198-e911-827a-06b20c6b9b78" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4572" xmi:type="uml:Comment">
+    <body>
+     A selection of interest product feature modalities for a specific interestment arrangement in a specific agreemen
+
+The specification of the set of parameters used to calculate an interest amount. (adapted from ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="InterestCalculationMethod" type="Visibility=public" xmi:id="686dc386-2298-e911-827a-06b20c6b9b7890157202">
+    <ownedComment xmi:id="comm4573" xmi:type="uml:Comment">
+     <body>
+      A method has to be used for calculating the interest
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InterestCalculationFrequency" type="Visibility=public" xmi:id="a24d0e17-2398-e911-827a-06b20c6b9b7890157202">
+    <ownedComment xmi:id="comm4574" xmi:type="uml:Comment">
+     <body>
+      The periodicity of the calculation of the interest. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InterestCalculationDate" type="Visibility=public" xmi:id="d8830f38-2398-e911-827a-06b20c6b9b7890157202">
+    <ownedComment xmi:id="comm4575" xmi:type="uml:Comment">
+     <body>
+      The calculation date of the interest amount. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InterestCalculationParameter" type="Visibility=public" xmi:id="70dedd1d-4d91-eb11-8310-069c6e24f8ad90157202">
+    <ownedComment xmi:id="comm4576" xmi:type="uml:Comment">
+     <body>
+      A parameter used to calculate the interest
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InterestCalculationMethodType" type="Visibility=public" xmi:id="4f1d7cb3-6198-eb11-8314-06ae79c35e8d90157202">
+    <ownedComment xmi:id="comm4577" xmi:type="uml:Comment">
+     <body>
+      Specifies whether the interest calculation method is simple or compounding. (ISO20022)
+
+Simple: Calculation method by which interest is calculated on the original principal only. Accumulated interest from prior periods is not used in calculations for the following periods. (ISO20022)
+
+Compounding: Calculation method by which interest is calculated each period on the original principal and all interest accumulated during past periods. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="SavingsAccount" xmi:id="113ad50c-a29d-e911-827a-06c73ecc951a" xmi:type="uml:Class">
+   <generalization general="9fe05cf9-fd60-e911-8237-068e13695e26" xmi:id="gen35" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4578" xmi:type="uml:Comment">
+    <body>
+     A bank account upon which the financial position of a saving account agreement is managed.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4579" xmi:type="uml:Comment">
+    <body>
+     A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyName" type="Visibility=public" xmi:id="d8f7f366-21cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm4580" xmi:type="uml:Comment">
+     <body>
+      Name by which a party is known and which is usually used to identify that party. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyType" type="Visibility=public" xmi:id="b1f7b3d8-21cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm4581" xmi:type="uml:Comment">
+     <body>
+      Specifies the type of party in different business contexts. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyDateTime" type="Visibility=public" xmi:id="d6ed5669-40f6-e911-82bd-06a31b9588ce90157202">
+    <ownedComment xmi:id="comm4582" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyIdentification" type="Visibility=public" xmi:id="449e231b-a846-ea11-8289-06f8a6a00ed090157202">
+    <ownedComment xmi:id="comm4583" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="SavingsAccountAgreement" xmi:id="8856dd89-9b9d-e911-827a-06c73ecc951a" xmi:type="uml:Class">
+   <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen36" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4584" xmi:type="uml:Comment">
+    <body>
+     An agreement with a primary purpose of accumulating a flexibly available financial reserve
+
+Contrary to a current account agreement, its primary purpose is not to facilitate payments.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="SavingsAccountAgreementidentification" type="Visibility=public" xmi:id="160af216-a79d-e911-827a-06c73ecc951a90157202">
+    <ownedComment xmi:id="comm4585" xmi:type="uml:Comment">
+     <body>
+      The reference with which a SavingsAgreement is identified
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SavingsAccountAgreementCurrency" type="Visibility=public" xmi:id="6c31468e-b39d-e911-827a-06c73ecc951a90157202">
+    <ownedComment xmi:id="comm4586" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SavingsAccountAgreementTaxRegime" type="Visibility=public" xmi:id="151a7b1d-749e-e911-827a-06e8627b9e6690157202">
+    <ownedComment xmi:id="comm4587" xmi:type="uml:Comment">
+     <body>
+      The modalities for taxation of a savings account agreement
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerCommentary" type="Visibility=public" xmi:id="55e3e6ff-799e-e911-827a-06e8627b9e6690157202">
+    <ownedComment xmi:id="comm4588" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="JoinedAccountHolderIndicator" type="Visibility=public" xmi:id="6c2dffcd-554e-ea11-8289-069813aed0a690157202">
+    <ownedComment xmi:id="comm4589" xmi:type="uml:Comment">
+     <body>
+      An indicator specifying if the Agreement has more than one account holder of not.
+This indicator is a derived attribute. If there is more than one agreement involvement of type account holder, the indicator will be flagged as 1
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="StandingOrderIndicator" type="Visibility=public" xmi:id="8bdce48d-824e-ea11-8289-06e6d054639290157202">
+    <ownedComment xmi:id="comm4590" xmi:type="uml:Comment">
+     <body>
+      An indicator specifying if a standing order agreement is associated to the savings account.
+
+This is a derived attribute from the relationship between Savings Account Agreement and Standing Order Agreement.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="DateTime" xmi:id="4b8c8046-af9d-e911-827a-06c73ecc951a" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4591" xmi:type="uml:Comment">
+    <body>
+     A point in time. 
+Can be a period, a date or a more detailed time indication.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="TimeIndication" type="Visibility=public" xmi:id="bf5cd981-af9d-e911-827a-06c73ecc951a90157202">
+    <ownedComment xmi:id="comm4592" xmi:type="uml:Comment">
+     <body>
+      Expression of the point in time
+
+is expressed according to "TimeIndicationType"
+e.g. period, day, more detailed indication
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TimeIndicationType" type="Visibility=public" xmi:id="109c9d8b-af9d-e911-827a-06c73ecc951a90157202">
+    <ownedComment xmi:id="comm4593" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="RelevantDateTime" xmi:id="3500ccc6-af9d-e911-827a-06c73ecc951a" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4594" xmi:type="uml:Comment">
+    <body>
+     The meaning of a time indication for an object; E.g. opening data of an account, signing date of an agreement... birth date of a person.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DateTimeRelevanceType" type="Visibility=public" xmi:id="5deb4924-b09d-e911-827a-06c73ecc951a90157202">
+    <ownedComment xmi:id="comm4595" xmi:type="uml:Comment">
+     <body>
+      A classification of the relevance a time indication has for an object.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="AgreementInvolvement" xmi:id="dfe32bfe-2281-e911-823e-06e233b9c772" xmi:type="uml:Class">
+   <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen37" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4596" xmi:type="uml:Comment">
+    <body>
+     The involvement (role) of an instance of a party in an instance of an agreement.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AgreementInvolvementType" type="Visibility=public" xmi:id="b7b2e48e-b19d-e911-827a-06c73ecc951a90157202">
+    <ownedComment xmi:id="comm4597" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementInvolvedPartyReference" type="Visibility=public" xmi:id="c1291e6c-9fa1-e911-827a-06eab14cfc2290157202">
+    <ownedComment xmi:id="comm4598" xmi:type="uml:Comment">
+     <body>
+      The party that has the involvement in the agreement
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InvolvedAgreementReference" type="Visibility=public" xmi:id="95e16b76-9fa1-e911-827a-06eab14cfc2290157202">
+    <ownedComment xmi:id="comm4599" xmi:type="uml:Comment">
+     <body>
+      The Agreement in which the party is involved
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ArrangementInvolvement" xmi:id="606c73fd-2694-e911-823e-069871e4ec9c" xmi:type="uml:Class">
+   <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen38" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4600" xmi:type="uml:Comment">
+    <body>
+     The involvement (role) of an instance of a party in an instance of an arrangement.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ArrangementInvolvementType" type="Visibility=public" xmi:id="ea797699-b19d-e911-827a-06c73ecc951a90157202">
+    <ownedComment xmi:id="comm4601" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ArrangementInvolvedPartyReference" type="Visibility=public" xmi:id="ff254686-9fa1-e911-827a-06eab14cfc2290157202">
+    <ownedComment xmi:id="comm4602" xmi:type="uml:Comment">
+     <body>
+      The party that has the arrangement involvement
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InvovedArrangementReference" type="Visibility=public" xmi:id="17ed6c8f-9fa1-e911-827a-06eab14cfc2290157202">
+    <ownedComment xmi:id="comm4603" xmi:type="uml:Comment">
+     <body>
+      The arrangement in which the party is involved
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PartyObligationEntitlement" xmi:id="719c9355-a89d-e911-827a-06c73ecc951a" xmi:type="uml:Class">
+   <generalization general="eecc7a97-33d6-e911-8296-06c6ee6741dc" xmi:id="gen39" xmi:type="uml:Generalization"/>
+   <generalization general="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:id="gen40" xmi:type="uml:Generalization"/>
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen41" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4604" xmi:type="uml:Comment">
+    <body>
+     Right or obligation linked to the involvement of a party in an agreement
+
+Can be default, linked to an involvement type, or specifically agreed upon. 
+This can be default obligations or entitlements, of specific arrangements
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ObligationEntitlementSubject" type="Visibility=public" xmi:id="b869b6c7-86a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4605" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ObligationEntitlementType" type="Visibility=public" xmi:id="90374cd9-86a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4606" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ObligationEntitlementModality" type="Visibility=public" xmi:id="f1fb1cf6-86a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4607" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="SavingsAccountProduct" xmi:id="f5d78473-629e-e911-827a-06e8627b9e66" xmi:type="uml:Class">
+   <generalization general="1aeced65-0b68-e911-8237-06dd5e24f7bc" xmi:id="gen42" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4608" xmi:type="uml:Comment">
+    <body>
+     A commercial offering enabeling the customer to build a financial reserve that is easily accessible
+    </body>
+   </ownedComment>
+   <ownedAttribute name="SavingsAccountProductType" type="Visibility=public" xmi:id="614af020-a0a1-e911-827a-06eab14cfc2290157202">
+    <ownedComment xmi:id="comm4609" xmi:type="uml:Comment">
+     <body>
+      Classification of a Savings Account Product
+
+further classification level of the product type "savings account"
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4610" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyRoleType" type="Visibility=public" xmi:id="83c28dd9-29e9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm4611" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleName" type="Visibility=public" xmi:id="7ebb122f-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm4612" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleValidityPeriod" type="Visibility=public" xmi:id="fb571d5e-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm4613" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyInvolvementType" type="Visibility=public" xmi:id="c5867926-2de9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm4614" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PartyLocation" xmi:id="6499694e-619e-e911-827a-06e8627b9e66" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4615" xmi:type="uml:Comment">
+    <body>
+     A place to locate a party.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyLocationRole" type="Visibility=public" xmi:id="59cdc696-619e-e911-827a-06e8627b9e6690157202">
+    <ownedComment xmi:id="comm4616" xmi:type="uml:Comment">
+     <body>
+      The use a party makes of a location
+
+e.g. domicile, correspondence address
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyLocationType" type="Visibility=public" xmi:id="a3b5bbbe-58d2-e911-8296-0633d5e0e61090157202">
+    <ownedComment xmi:id="comm4617" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="BillPayMandateFacilityArrangement" xmi:id="7875b148-729e-e911-827a-06e8627b9e66" xmi:type="uml:Class">
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen43" xmi:type="uml:Generalization"/>
+   <generalization general="a6ea66b8-8596-e911-823e-062d75b50cca" xmi:id="gen44" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4618" xmi:type="uml:Comment">
+    <body>
+     An arrangement allowing an account to be used as payer account in a bill pay instruction 
+
+this is not the direct bill pay (in SEPA: debit mandate) but the permission to use the account for bill pay mandate/direct debit initiated payments
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="DirectDebitMandate" xmi:id="6d8fea76-e855-e911-8237-060aad038e48" xmi:type="uml:Class">
+   <generalization general="852a0fc0-7188-e911-823e-06b09c770f0c" xmi:id="gen45" xmi:type="uml:Generalization"/>
+   <generalization general="d4dfa812-1eab-e911-828c-0605e339c9ac" xmi:id="gen46" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4619" xmi:type="uml:Comment">
+    <body>
+     Swagger definition: An agreement between a debtor and a creditor allowing the creditor to instruct the bank to debit the debtors account
+
+Authorization in favour of the creditor given by the debtor to debit its own account. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DirectDebitMandateIdentification" type="Visibility=public" xmi:id="e7fb6eb0-879e-e911-827a-06e8627b9e6690157202">
+    <ownedComment xmi:id="comm4620" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DirectDebitPurpose" type="Visibility=public" xmi:id="b2136499-889e-e911-827a-06e8627b9e6690157202">
+    <ownedComment xmi:id="comm4621" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DirectDebitServiceConfiguration" type="Visibility=public" xmi:id="a14af7a5-889e-e911-827a-06e8627b9e6690157202">
+    <ownedComment xmi:id="comm4622" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DirectDebitSourceAccount" type="Visibility=public" xmi:id="a5ce7451-f9a2-e911-8280-06df5c9909ce90157202">
+    <ownedComment xmi:id="comm4623" xmi:type="uml:Comment">
+     <body>
+      Reference to the account that can be used a source for the claimed amount
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="AccountStatement" xmi:id="7301eaaf-8c9e-e911-827a-06e8627b9e66" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4624" xmi:type="uml:Comment">
+    <body>
+     to do: definitie opzoeken
+
+A statement of account is a detailed report of the contents of an account. (AccountingTool)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AccountStatementBalanceType" type="Visibility=public" xmi:id="f91056b8-f79e-e911-827a-0694d7239d9090157202">
+    <ownedComment xmi:id="comm4625" xmi:type="uml:Comment">
+     <body>
+      a Classification of the balance that is shown on a statement
+
+e.g. booked, available, closing...
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccounStatementBalance" type="Visibility=public" xmi:id="060e4be3-f79e-e911-827a-0694d7239d9090157202">
+    <ownedComment xmi:id="comm4626" xmi:type="uml:Comment">
+     <body>
+      The balance (of balance type) that is shown on an account statement
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccounStatementIdentification," type="Visibility=public" xmi:id="af2ddb04-f89e-e911-827a-0694d7239d9090157202">
+    <ownedComment xmi:id="comm4627" xmi:type="uml:Comment">
+     <body>
+      Unique identification of an account statement
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccountStatementType" type="Visibility=public" xmi:id="acbc881d-f89e-e911-827a-0694d7239d9090157202">
+    <ownedComment xmi:id="comm4628" xmi:type="uml:Comment">
+     <body>
+      Classification of account statement according to ....
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccountStatementContentType" type="Visibility=public" xmi:id="69cf983d-f89e-e911-827a-0694d7239d9090157202">
+    <ownedComment xmi:id="comm4629" xmi:type="uml:Comment">
+     <body>
+      classification of the content that is mentioned on an account statement
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AcountStatementPeriod" type="Visibility=public" xmi:id="39e58980-f89e-e911-827a-0694d7239d9090157202">
+    <ownedComment xmi:id="comm4630" xmi:type="uml:Comment">
+     <body>
+      Period about which an account statement provides information
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccountStatement Content" type="Visibility=public" xmi:id="a241b2d6-35aa-e911-828c-0691abed0d2c90157202">
+    <ownedComment xmi:id="comm4631" xmi:type="uml:Comment">
+     <body>
+      The information contained by the account statement
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="SavingsAccountArrangement" xmi:id="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4632" xmi:type="uml:Comment">
+    <body>
+     An arrangement defining the applicable features for a savings account agreement. 
+
+The arrangement type is one of those possible/mandatory for the sale of a savings account product. The actual arrangements are a selection of those offered under the savings account product.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="SavingsAccountArrangementType" type="Visibility=public" xmi:id="920155db-6b9e-e911-827a-06e8627b9e6690157202">
+    <ownedComment xmi:id="comm4633" xmi:type="uml:Comment">
+     <body>
+      Classification of the Savings Account Arrangement according to the subject of the arrangement
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SavingsAccountArrangementProductFeatureType" type="Visibility=public" xmi:id="3b1cdf58-789e-e911-827a-06e8627b9e6690157202">
+    <ownedComment xmi:id="comm4634" xmi:type="uml:Comment">
+     <body>
+      Reference to the product feature applied in this arrangement
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="StandingOrderArrangement" xmi:id="ac535bd6-3298-e911-827a-06b20c6b9b78" xmi:type="uml:Class">
+   <generalization general="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen47" xmi:type="uml:Generalization"/>
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen48" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4635" xmi:type="uml:Comment">
+    <body>
+     An arrangement which specifies the acceptance of the standing order, accompanied by the modalities.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="StandingOrderFrequency" type="Visibility=public" xmi:id="b20af51a-3398-e911-827a-06b20c6b9b7890157202">
+    <ownedComment xmi:id="comm4636" xmi:type="uml:Comment">
+     <body>
+      Frequency of the investment or divestment, eg, daily, weekly, or monthly. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="StandingOrderPurpose" type="Visibility=public" xmi:id="58b79beb-839e-e911-827a-06e8627b9e6690157202">
+    <ownedComment xmi:id="comm4637" xmi:type="uml:Comment">
+     <body>
+      The purpose of a standing order
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="StandingOrderAmount" type="Visibility=public" xmi:id="310ed2f4-839e-e911-827a-06e8627b9e6690157202">
+    <ownedComment xmi:id="comm4638" xmi:type="uml:Comment">
+     <body>
+      The Amount of a standing order
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="StandingOrderCurrency" type="Visibility=public" xmi:id="d46e9201-849e-e911-827a-06e8627b9e6690157202">
+    <ownedComment xmi:id="comm4639" xmi:type="uml:Comment">
+     <body>
+      The currency in which the amount of a standing order is expressed
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="StandingOrderTargetAccountOwner" type="Visibility=public" xmi:id="5e888227-859e-e911-827a-06e8627b9e6690157202">
+    <ownedComment xmi:id="comm4640" xmi:type="uml:Comment">
+     <body>
+      The party who is involved with the target account of standing order as owner
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="StandingOrderTargetAccountIdentification" type="Visibility=public" xmi:id="a558e13e-859e-e911-827a-06e8627b9e6690157202">
+    <ownedComment xmi:id="comm4641" xmi:type="uml:Comment">
+     <body>
+      The identification of the target account of a standing order.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="StandingOrderTargetAccountBank" type="Visibility=public" xmi:id="5a12454a-859e-e911-827a-06e8627b9e6690157202">
+    <ownedComment xmi:id="comm4642" xmi:type="uml:Comment">
+     <body>
+      The Bank who is responsible for the target account of a standing order
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="StandingOrderSourceAccount" type="Visibility=public" xmi:id="24349743-05aa-e911-8288-06812ee60d2a90157202">
+    <ownedComment xmi:id="comm4643" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="StandingOrderValidityPeriod" type="Visibility=public" xmi:id="9036bb01-be48-ea11-8289-064c9ffef37a90157202">
+    <ownedComment xmi:id="comm4644" xmi:type="uml:Comment">
+     <body>
+      Dates during which the standing order is in effect. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="StandingOrderDay" type="Visibility=public" xmi:id="5453de1c-be48-ea11-8289-064c9ffef37a90157202">
+    <ownedComment xmi:id="comm4645" xmi:type="uml:Comment">
+     <body>
+      Specifies the date in a month for instance the 30th. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="BankingProductTaxRegime" xmi:id="e26ef189-21a2-e911-8280-06c32eb41056" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4646" xmi:type="uml:Comment">
+    <body>
+     Modalities for the calculation and payment of taxes on a banking product
+
+tax regime depends (a.o.) on the product type, the area where it is sold and characteristics of the party to whom it is sold.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="LienFacilityArrangement" xmi:id="3a451382-f6a2-e911-8280-06df5c9909ce" xmi:type="uml:Class">
+   <generalization general="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen49" xmi:type="uml:Generalization"/>
+   <generalization general="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:id="gen50" xmi:type="uml:Generalization"/>
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen51" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4647" xmi:type="uml:Comment">
+    <body>
+     An arrangement stating the permission to use the funds on a deposit as collateral;This means a lien can be placed on the deposit.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="LienArrangementReference" type="Visibility=public" xmi:id="e4bf190a-f8a2-e911-8280-06df5c9909ce90157202">
+    <ownedComment xmi:id="comm4648" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="InformationArrangement" xmi:id="fc930fc2-8c9e-e911-827a-06e8627b9e66" xmi:type="uml:Class">
+   <generalization general="eecc7a97-33d6-e911-8296-06c6ee6741dc" xmi:id="gen52" xmi:type="uml:Generalization"/>
+   <generalization general="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:id="gen53" xmi:type="uml:Generalization"/>
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen54" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4649" xmi:type="uml:Comment">
+    <body>
+     An arrangement concerning the information the bank will provide about the agreement/account
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AccountStatementType" type="Visibility=public" xmi:id="fcbe5a1c-f6a2-e911-8280-06df5c9909ce90157202">
+    <ownedComment xmi:id="comm4650" xmi:type="uml:Comment">
+     <body>
+      Type of statement agreed upon
+
+e.g. balance, mini-statement, annual
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccountStatementSchedule" type="Visibility=public" xmi:id="8388e030-f6a2-e911-8280-06df5c9909ce90157202">
+    <ownedComment xmi:id="comm4651" xmi:type="uml:Comment">
+     <body>
+      Definition of the timetable for providing statements
+
+e.g. start date and frequency, or a list of dates or "on demand"
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccountStatementContenttype" type="Visibility=public" xmi:id="8c766455-f6a2-e911-8280-06df5c9909ce90157202">
+    <ownedComment xmi:id="comm4652" xmi:type="uml:Comment">
+     <body>
+      Content type to be included in the statements 
+
+e.g. type of transactions and transaction details
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="DirectDebitInstruction" xmi:id="ebbe09e1-faa2-e911-8280-06df5c9909ce" xmi:type="uml:Class">
+   <generalization general="e6304f28-fd60-e911-8237-068e13695e26" xmi:id="gen55" xmi:type="uml:Generalization"/>
+   <generalization general="7effad6e-9965-e911-8237-06eba4258fe0" xmi:id="gen56" xmi:type="uml:Generalization"/>
+   <generalization general="92910269-8dab-e911-828c-06e8cb19aef2" xmi:id="gen57" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4653" xmi:type="uml:Comment">
+    <body>
+     An instruction to pay, given by of a payee to a payees bank, made possible by a direct debit agreement
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="InterestArrangementFulfilmentEvent" xmi:id="e591ecbf-ff97-e911-827a-06d89370a58e" xmi:type="uml:Class">
+   <generalization general="3b53beb6-f4a9-e911-8288-06812ee60d2a" xmi:id="gen58" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4654" xmi:type="uml:Comment">
+    <body>
+     A fulfillment of a specific interest arrangement
+    </body>
+   </ownedComment>
+   <ownedAttribute name="InterestEventAmount" type="Visibility=public" xmi:id="fd1afc17-0198-e911-827a-06d89370a58e90157202">
+    <ownedComment xmi:id="comm4655" xmi:type="uml:Comment">
+     <body>
+      The amount of interest that is subject of this transaction
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AppliedInterestType" type="Visibility=public" xmi:id="2d522743-0198-e911-827a-06d89370a58e90157202">
+    <ownedComment xmi:id="comm4656" xmi:type="uml:Comment">
+     <body>
+      The InterestType of the Interest arrangement this is a transaction for
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccuredInterestAmount" type="Visibility=public" xmi:id="3b7ed1ea-1098-e911-827a-06b20c6b9b7890157202">
+    <ownedComment xmi:id="comm4657" xmi:type="uml:Comment">
+     <body>
+      Interest amount that has accrued in between coupon payment periods. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccuredInterestType" type="Visibility=public" xmi:id="a2f2a5f9-1098-e911-827a-06b20c6b9b7890157202">
+    <ownedComment xmi:id="comm4658" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InterestTaxAmount" type="Visibility=public" xmi:id="8e534eb7-a1a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4659" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InterestEventDueDate" type="Visibility=public" xmi:id="e4e4eba3-a5a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4660" xmi:type="uml:Comment">
+     <body>
+      The date on which the interest has to be payed
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InterestEventDescription" type="Visibility=public" xmi:id="dfaacf58-a7a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4661" xmi:type="uml:Comment">
+     <body>
+      Description of the transaction, such as applied interest rate, Interest period ...
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InterestEventRateType" type="Visibility=public" xmi:id="1a946b45-37aa-e911-828c-0691abed0d2c90157202">
+    <ownedComment xmi:id="comm4662" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Mandate" xmi:id="852a0fc0-7188-e911-823e-06b09c770f0c" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4663" xmi:type="uml:Comment">
+    <body>
+     An agreement that authorises a party (holding party) to act on behalf of a principal party.
+
+Authorisation given by an issuing party to a holder party to act on the issuer's behalf. (ISO20022)
+
+Written authorization and/or command by a person, group, or organization (the 'mandator') to another (the 'mandatary') to take a certain course of action.  (Business Dictionary)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PaymentInstruction" xmi:id="e6304f28-fd60-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4664" xmi:type="uml:Comment">
+    <body>
+     Instruction to pay an amount of money to an ultimate beneficiary, on behalf of an originator. (ISO20022)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Instruction" xmi:id="7effad6e-9965-e911-8237-06eba4258fe0" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4665" xmi:type="uml:Comment">
+    <body>
+     A request to do something.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ArrangementFulfilmentEvent" xmi:id="3b53beb6-f4a9-e911-8288-06812ee60d2a" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4666" xmi:type="uml:Comment">
+    <body>
+     The fulfilment of the engagements (obligations/rights) taken in an arrangement
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Device" xmi:id="0263db4b-0761-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4667" xmi:type="uml:Comment">
+    <body>
+     An item created to serve a particular need, such as a credit card, a smart phone, an electronic signature, an electronic key, etc.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DeviceIdentification" type="Visibility=public" xmi:id="d87e94b2-b9a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4668" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceType" type="Visibility=public" xmi:id="a372c5da-b9a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4669" xmi:type="uml:Comment">
+     <body>
+      Reference to the device type of the device
+
+A device has the characteristics of the device type it belongs to possibly specified
+e.g. a device of the type "cheque book" will have cheques. The device specifies how many and what the number range is.
+e.g. an electronic banking app consists of software modules, the device specifies what version
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceProperty" type="Visibility=public" xmi:id="a70d33c5-bda4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4670" xmi:type="uml:Comment">
+     <body>
+      Property of a device relevant for its use.
+
+A device has the characteristics of the device type it belongs to,possibly specified
+e.g. . a device of the type "cheque book" will have cheques. The device specifies how many and what the number range is.
+e.g. an electronic banking app consists of software modules, the device specifies what version
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceElement" type="Visibility=public" xmi:id="c99ad9e9-bfa4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4671" xmi:type="uml:Comment">
+     <body>
+      An element of the device that can be used independently and is individually identified
+
+e.g. a cheque in a chequebook
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceStatus" type="Visibility=public" xmi:id="f108fea3-efa6-e911-8288-06c837085cb890157202">
+    <ownedComment xmi:id="comm4672" xmi:type="uml:Comment">
+     <body>
+      The life cycle stage of a device
+
+e.g. active, defect
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceVersion" type="Visibility=public" xmi:id="04fa505a-96c5-e911-8296-06227606fcb690157202">
+    <ownedComment xmi:id="comm4673" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceDateTime" type="Visibility=public" xmi:id="16dabb60-96c5-e911-8296-06227606fcb690157202">
+    <ownedComment xmi:id="comm4674" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceDescription" type="Visibility=public" xmi:id="317799d8-96c5-e911-8296-06227606fcb690157202">
+    <ownedComment xmi:id="comm4675" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="DeviceType" xmi:id="2711aa0e-baa4-e911-8284-062084c0b880" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4676" xmi:type="uml:Comment">
+    <body>
+     A taxonomical classification of device, according to its characteristics as an item.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DeviceTypeDescription" type="Visibility=public" xmi:id="6add3a96-baa4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4677" xmi:type="uml:Comment">
+     <body>
+      Characteristics of the item that can be used as device
+
+a device has the characteristics of the device type it belongs to,possibly specifiede.g. . a device of the type "cheque book" will have cheques. The device specifies how many and what the number range is.e.g. an electronic banking app consists of software modules, the device specifies what version
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="IssuedDevice" xmi:id="ae0d5738-bca4-e911-8284-062084c0b880" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4678" xmi:type="uml:Comment">
+    <body>
+     The allocation of a device to a party
+    </body>
+   </ownedComment>
+   <ownedAttribute name="IssuedDevicetatus" type="Visibility=public" xmi:id="8da509e2-bca4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4679" xmi:type="uml:Comment">
+     <body>
+      The status of an issued device 
+e.g. issued but not activated, activate, suspended, retrieved,
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="IssuedDevicePartyReference" type="Visibility=public" xmi:id="4416603a-bda4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4680" xmi:type="uml:Comment">
+     <body>
+      Party to whom the device is issued
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="IssuedDeviceConfiguration" type="Visibility=public" xmi:id="9102d2a9-f0a6-e911-8288-06c837085cb890157202">
+    <ownedComment xmi:id="comm4681" xmi:type="uml:Comment">
+     <body>
+      Specific characteristics of an issued device 
+
+e.g. installed software, number-range of cheques, personification of card lay-ou
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="IssuedDeviceReference" type="Visibility=public" xmi:id="040411e7-04a7-e911-8288-06c837085cb890157202">
+    <ownedComment xmi:id="comm4682" xmi:type="uml:Comment">
+     <body>
+      Reference to the device that is issued
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="SweepArrangementFulfilmentEvent" xmi:id="2b542337-b6a4-e911-8284-062084c0b880" xmi:type="uml:Class">
+   <generalization general="a58c8a29-5a96-e911-823e-062d75b50cca" xmi:id="gen59" xmi:type="uml:Generalization"/>
+   <generalization general="3b53beb6-f4a9-e911-8288-06812ee60d2a" xmi:id="gen60" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4683" xmi:type="uml:Comment">
+    <body>
+     Execution of the sweep arrangement
+    </body>
+   </ownedComment>
+   <ownedAttribute name="SweepEventCounterAccountReference" type="Visibility=public" xmi:id="073fb35c-b6a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4684" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SweepEventAmount" type="Visibility=public" xmi:id="5a46f870-b6a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4685" xmi:type="uml:Comment">
+     <body>
+      The account in which the sweep amount came from or went to
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SweepEventExecutionDate" type="Visibility=public" xmi:id="90f9f782-b6a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4686" xmi:type="uml:Comment">
+     <body>
+      The date on which the sweep transfer was executed
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="FinancialTransaction" xmi:id="a58c8a29-5a96-e911-823e-062d75b50cca" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4687" xmi:type="uml:Comment">
+    <body>
+     A transaction that changes the financial position (the status of the finances) of involved party.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="FeeArrangementFulfilmentEvent" xmi:id="b5a55978-a5a4-e911-8284-062084c0b880" xmi:type="uml:Class">
+   <generalization general="3b53beb6-f4a9-e911-8288-06812ee60d2a" xmi:id="gen61" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4688" xmi:type="uml:Comment">
+    <body>
+     An even that triggers the fulfilment of a fee arrangement.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="FeeAmount" type="Visibility=public" xmi:id="3b77ccbe-a5a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4689" xmi:type="uml:Comment">
+     <body>
+      Amount of fee that is charged. 
+
+Amount of money that results from the application of an adjustment (charges. fees, discount or allowance) to the amount due. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="FeeDueDate" type="Visibility=public" xmi:id="e4a716d2-a5a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4690" xmi:type="uml:Comment">
+     <body>
+      Date on which the fee needs to be paid.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="FeeEventDescription" type="Visibility=public" xmi:id="84b886a9-a7a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4691" xmi:type="uml:Comment">
+     <body>
+      Information about the fee transaction, such as reason, period, applied formula...
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="IssuedDeviceAgreementAllocation" xmi:id="d47b801b-f9a6-e911-8288-06c837085cb8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4692" xmi:type="uml:Comment">
+    <body>
+     The allocation of a Device to a ProductSalesAgreement
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DeviceAgreementAllocationStatus" type="Visibility=public" xmi:id="d51695cb-0da7-e911-8288-06c837085cb890157202">
+    <ownedComment xmi:id="comm4693" xmi:type="uml:Comment">
+     <body>
+      Status of the allocation of a device to a ProductSalesAgreement 
+
+e.g. an electronic banking application can be denied or granted access to insurance agreements
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceAgreementFunctionality" type="Visibility=public" xmi:id="2e2d5110-78a7-e911-8288-06eb4e507c7890157202">
+    <ownedComment xmi:id="comm4694" xmi:type="uml:Comment">
+     <body>
+      The functionality the device is allowed to support for the agreement
+
+e.g. authenticate involved party, authorize transaction, provide access, be carrier of payment order (cheque)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="DeviceTransaction" xmi:id="5b635669-bda4-e911-8284-062084c0b880" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4695" xmi:type="uml:Comment">
+    <body>
+     The usage of a device
+
+e.g. the issuance of a cheque from a chequebook, the logon to an e-banking application, the usage of a digipass
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DeviceTransactionUsedElement" type="Visibility=public" xmi:id="2d997aa5-bda4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4696" xmi:type="uml:Comment">
+     <body>
+      Reference to an element of a device used in a Device Transaction
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceUsageAmount" type="Visibility=public" xmi:id="a3bc0698-bfa4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4697" xmi:type="uml:Comment">
+     <body>
+      The amount the device is used for
+
+e.g. amount on cheque, amount on card transaction
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="StandingOrderFacilityArrangement" xmi:id="70244c62-05aa-e911-8288-06812ee60d2a" xmi:type="uml:Class">
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen62" xmi:type="uml:Generalization"/>
+   <generalization general="a6ea66b8-8596-e911-823e-062d75b50cca" xmi:id="gen63" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4698" xmi:type="uml:Comment">
+    <body>
+     Arrangement concerning the ability to use the ProducSalesAgreement as a source account for a StandingOrderArrangement.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="DeviceArrangement" xmi:id="2cd1dc8a-85a4-e911-8284-062084c0b880" xmi:type="uml:Class">
+   <generalization general="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:id="gen64" xmi:type="uml:Generalization"/>
+   <generalization general="3fd1b799-fc60-e911-8237-068e13695e26" xmi:id="gen65" xmi:type="uml:Generalization"/>
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen66" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4699" xmi:type="uml:Comment">
+    <body>
+     Arrangement on the provision and use of product instruments.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DeviceFunctionality" type="Visibility=public" xmi:id="76ec60b3-baa4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4700" xmi:type="uml:Comment">
+     <body>
+      The actions that can be taken by using the device(type) to which the arrangement refers to.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceRemuneration" type="Visibility=public" xmi:id="43e87612-bba4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4701" xmi:type="uml:Comment">
+     <body>
+      The fee due for the reception and/or use of the device(type) to which the arrangement refers to.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="WithdrawalInstruction" xmi:id="63628987-10ab-e911-828c-0605e339c9ac" xmi:type="uml:Class">
+   <generalization general="e6304f28-fd60-e911-8237-068e13695e26" xmi:id="gen67" xmi:type="uml:Generalization"/>
+   <generalization general="f0b986ab-7192-e911-823e-0616b0d596e4" xmi:id="gen68" xmi:type="uml:Generalization"/>
+   <generalization general="92910269-8dab-e911-828c-06e8cb19aef2" xmi:id="gen69" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4702" xmi:type="uml:Comment">
+    <body>
+     The instruction concerning to take money from an account.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="WithdrawalTargetReference" type="Visibility=public" xmi:id="594ec4bf-14ab-e911-828c-0605e339c9ac90157202">
+    <ownedComment xmi:id="comm4703" xmi:type="uml:Comment">
+     <body>
+      Reference to how, by whom and in what "materialisation" the withdrawal is performed.
+
+e.g. as a bank cheque, in cash
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WithdrawalType" type="Visibility=public" xmi:id="9d6e3333-15ab-e911-828c-0605e339c9ac90157202">
+    <ownedComment xmi:id="comm4704" xmi:type="uml:Comment">
+     <body>
+      Type of the withdrawal
+e.g. reservation, actual withdrawal ???
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WithdrawalMessage" type="Visibility=public" xmi:id="3baf5487-15ab-e911-828c-0605e339c9ac90157202">
+    <ownedComment xmi:id="comm4705" xmi:type="uml:Comment">
+     <body>
+      Information about the purpose or other reference information accompanying the withdrawal.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WithdrawalAmount" type="Visibility=public" xmi:id="bce6bb3a-16ab-e911-828c-0605e339c9ac90157202">
+    <ownedComment xmi:id="comm4706" xmi:type="uml:Comment">
+     <body>
+      The withdrawn sum.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WithdrawalInstructionDate" type="Visibility=public" xmi:id="4725687e-16ab-e911-828c-0605e339c9ac90157202">
+    <ownedComment xmi:id="comm4707" xmi:type="uml:Comment">
+     <body>
+      The Date(time) on which the withdrawal is initiated.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="StandingOrderAgreement" xmi:id="05a41f61-04aa-e911-8288-06812ee60d2a" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4708" xmi:type="uml:Comment">
+    <body>
+     An agreement concerning the standing order service, where the bank periodically transfers a given amount from a source account to a target account
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="StandingOrderInstruction" xmi:id="cd2b1465-06aa-e911-8288-06812ee60d2a" xmi:type="uml:Class">
+   <generalization general="e6304f28-fd60-e911-8237-068e13695e26" xmi:id="gen70" xmi:type="uml:Generalization"/>
+   <generalization general="92910269-8dab-e911-828c-06e8cb19aef2" xmi:id="gen71" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4709" xmi:type="uml:Comment">
+    <body>
+     A payment Instruction generated by the fulfilment of a Standing OrderrArrangement
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="MoneyTransferTransaction" xmi:id="7314f250-f5a9-e911-8288-06812ee60d2a" xmi:type="uml:Class">
+   <generalization general="a58c8a29-5a96-e911-823e-062d75b50cca" xmi:id="gen72" xmi:type="uml:Generalization"/>
+   <generalization general="5708a70e-fd6f-e911-8237-06309b11004c" xmi:id="gen73" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4710" xmi:type="uml:Comment">
+    <body>
+     Transfer of money between two parties and/or accounts
+    </body>
+   </ownedComment>
+   <ownedAttribute name="MoneyTransferTransaction Amount" type="Visibility=public" xmi:id="f2b83603-0caa-e911-8288-06812ee60d2a90157202">
+    <ownedComment xmi:id="comm4711" xmi:type="uml:Comment">
+     <body>
+      The amount of money transferred from the source to the target.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferTransactionCurrency" type="Visibility=public" xmi:id="8a3fc515-0caa-e911-8288-06812ee60d2a90157202">
+    <ownedComment xmi:id="comm4712" xmi:type="uml:Comment">
+     <body>
+      The currency of the money transfer amount
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferTransactionSourceAccount" type="Visibility=public" xmi:id="1036b526-0caa-e911-8288-06812ee60d2a90157202">
+    <ownedComment xmi:id="comm4713" xmi:type="uml:Comment">
+     <body>
+      The account the money is transferred from.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferTransactionTargetAccount" type="Visibility=public" xmi:id="d238234a-0caa-e911-8288-06812ee60d2a90157202">
+    <ownedComment xmi:id="comm4714" xmi:type="uml:Comment">
+     <body>
+      The account the money is transferred to.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferInstructionReference" type="Visibility=public" xmi:id="1b9a59e4-c7ab-e911-828c-0679464e26a490157202">
+    <ownedComment xmi:id="comm4715" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferUsedMethod" type="Visibility=public" xmi:id="04d1ca9d-c8ab-e911-828c-0679464e26a490157202">
+    <ownedComment xmi:id="comm4716" xmi:type="uml:Comment">
+     <body>
+      The method used to transfer money; Can be a payment network but also something physical.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferValueDate" type="Visibility=public" xmi:id="65c8119a-3dd6-e911-8296-06c6ee6741dc90157202">
+    <ownedComment xmi:id="comm4717" xmi:type="uml:Comment">
+     <body>
+      The date on which the money is considerd to have left/have arrived become active can be used /strats to starts is considerd to be
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="FinancialInstruction" xmi:id="f0b986ab-7192-e911-823e-0616b0d596e4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4718" xmi:type="uml:Comment">
+    <body>
+     An instruction to do something expressed in an amount of money.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Transaction" xmi:id="5708a70e-fd6f-e911-8237-06309b11004c" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4719" xmi:type="uml:Comment">
+    <body>
+     A planned or performed action in the context of concluding or fulfilling an agreement. 
+
+Act to do something.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BillPayMandate" xmi:id="d4dfa812-1eab-e911-828c-0605e339c9ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4720" xmi:type="uml:Comment">
+    <body>
+     A mandate to a third party to pay a partys bills
+    </body>
+   </ownedComment>
+   <ownedAttribute name="BillPayMandateIdentification" type="Visibility=public" xmi:id="15903c67-1eab-e911-828c-0605e339c9ac90157202">
+    <ownedComment xmi:id="comm4721" xmi:type="uml:Comment">
+     <body>
+      Identification of a bill pay mandate
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="BillPayServiceConfiguration" type="Visibility=public" xmi:id="82dccf37-1fab-e911-828c-0605e339c9ac90157202">
+    <ownedComment xmi:id="comm4722" xmi:type="uml:Comment">
+     <body>
+      Modaliteis of a bill pay mandate
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="InstructionRelationship" xmi:id="8caa8f90-eba3-e911-8284-065b2e50bbd8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4723" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="InstructionRelationshipType" type="Visibility=public" xmi:id="08b5600b-eca3-e911-8284-065b2e50bbd890157202">
+    <ownedComment xmi:id="comm4724" xmi:type="uml:Comment">
+     <body>
+      Type of relationship between payment instructions.
+
+e.g. "is original": the payment instruction that was the start of the chain of instructions to intermediate payment service providers
+e.g. "is fee for": relationship from a fee to the instruction it is a fee for
+e.g.: "previous": links succession of instructions in a chain
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="DepositInstruction" xmi:id="7dfa7ee3-10ab-e911-828c-0605e339c9ac" xmi:type="uml:Class">
+   <generalization general="e6304f28-fd60-e911-8237-068e13695e26" xmi:id="gen74" xmi:type="uml:Generalization"/>
+   <generalization general="92910269-8dab-e911-828c-06e8cb19aef2" xmi:id="gen75" xmi:type="uml:Generalization"/>
+   <generalization general="f0b986ab-7192-e911-823e-0616b0d596e4" xmi:id="gen76" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4725" xmi:type="uml:Comment">
+    <body>
+     A financial instruction to fulfill a deposit service arrangement.
+
+An instruction to place money on an account.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DepositSourceReference" type="Visibility=public" xmi:id="b48d1819-15ab-e911-828c-0605e339c9ac90157202">
+    <ownedComment xmi:id="comm4726" xmi:type="uml:Comment">
+     <body>
+      Reference to how, by whom and in what "materialization" the deposit is performed? 
+
+e.g. by cheque, in cash
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DepositType" type="Visibility=public" xmi:id="dbf01f5a-15ab-e911-828c-0605e339c9ac90157202">
+    <ownedComment xmi:id="comm4727" xmi:type="uml:Comment">
+     <body>
+      Type of deposit
+
+e.g. conditional awaiting confirmation of a cheque
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DepositMessage" type="Visibility=public" xmi:id="b584f4c0-15ab-e911-828c-0605e339c9ac90157202">
+    <ownedComment xmi:id="comm4728" xmi:type="uml:Comment">
+     <body>
+      Information about the purpose or other reference information accompanying the deposit
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DepositAmount" type="Visibility=public" xmi:id="a38c6e5c-16ab-e911-828c-0605e339c9ac90157202">
+    <ownedComment xmi:id="comm4729" xmi:type="uml:Comment">
+     <body>
+      the deposited sum
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DepositInstructionDate" type="Visibility=public" xmi:id="de1f60ae-16ab-e911-828c-0605e339c9ac90157202">
+    <ownedComment xmi:id="comm4730" xmi:type="uml:Comment">
+     <body>
+      The Date"time) on which the deposit is initiated
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PaymentServiceArrangement" xmi:id="a6ea66b8-8596-e911-823e-062d75b50cca" xmi:type="uml:Class">
+   <generalization general="c80f2ee6-f097-e911-827a-06d89370a58e" xmi:id="gen77" xmi:type="uml:Generalization"/>
+   <generalization general="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen78" xmi:type="uml:Generalization"/>
+   <generalization general="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:id="gen79" xmi:type="uml:Generalization"/>
+   <generalization general="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:id="gen80" xmi:type="uml:Generalization"/>
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen81" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4731" xmi:type="uml:Comment">
+    <body>
+     An arrangement which specifies the promise to offer the payment service, accompanied by the payment modalities.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PaymentServiceType" type="Visibility=public" xmi:id="af8b00da-8596-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4732" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentDueDate" type="Visibility=public" xmi:id="6ee6a2f6-8696-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm4733" xmi:type="uml:Comment">
+     <body>
+      Due date for the payment. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentPeriod" type="Visibility=public" xmi:id="03a9330f-3298-e911-827a-06b20c6b9b7890157202">
+    <ownedComment xmi:id="comm4734" xmi:type="uml:Comment">
+     <body>
+      Period to which the payment terms apply. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ExpiryDate" type="Visibility=public" xmi:id="077eeae9-9099-e911-827a-063e87e1daa290157202">
+    <ownedComment xmi:id="comm4735" xmi:type="uml:Comment">
+     <body>
+      Date at which the arrangement/obligation will expire. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentPurpose" type="Visibility=public" xmi:id="b2a46715-1b8e-ea11-8295-065d16bc455090157202">
+    <ownedComment xmi:id="comm4736" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="MoneyTransferInstruction" xmi:id="92910269-8dab-e911-828c-06e8cb19aef2" xmi:type="uml:Class">
+   <generalization general="f0b986ab-7192-e911-823e-0616b0d596e4" xmi:id="gen82" xmi:type="uml:Generalization"/>
+   <generalization general="7effad6e-9965-e911-8237-06eba4258fe0" xmi:id="gen83" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4737" xmi:type="uml:Comment">
+    <body>
+     Instruction to execute a payment from a payer to a payee
+    </body>
+   </ownedComment>
+   <ownedAttribute name="MoneyTransferInstructionType" type="Visibility=public" xmi:id="d5c9b69e-8dab-e911-828c-06e8cb19aef290157202">
+    <ownedComment xmi:id="comm4738" xmi:type="uml:Comment">
+     <body>
+      Classification of the Money Transfer Instruction according to the event that lead to the instruction
+
+e.g. withdrawal, interest disbursement, direct debit, card payment.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferInstructionAmount" type="Visibility=public" xmi:id="cbde55b6-c1ab-e911-828c-0679464e26a490157202">
+    <ownedComment xmi:id="comm4739" xmi:type="uml:Comment">
+     <body>
+      Amount of money to be transferred.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferInstructionAmountCurrency" type="Visibility=public" xmi:id="672395ca-c1ab-e911-828c-0679464e26a490157202">
+    <ownedComment xmi:id="comm4740" xmi:type="uml:Comment">
+     <body>
+      Currency in which the transfer amount is expressed.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferInstructionPurpose" type="Visibility=public" xmi:id="889401db-c1ab-e911-828c-0679464e26a490157202">
+    <ownedComment xmi:id="comm4741" xmi:type="uml:Comment">
+     <body>
+      The reason why the instruction is given
+
+can be reference to a lot of information, concerning e.g. a purchase, an arrangement fulfillment event, a billing period...
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferInstructionRequestedMechanism" type="Visibility=public" xmi:id="c0c4b66b-c2ab-e911-828c-0679464e26a490157202">
+    <ownedComment xmi:id="comm4742" xmi:type="uml:Comment">
+     <body>
+      The network to be used for the processing of the money transfer instruction as requested in the instruction.
+e.g. instant SEPA?
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferInstructionStatus" type="Visibility=public" xmi:id="db712661-c3ab-e911-828c-0679464e26a490157202">
+    <ownedComment xmi:id="comm4743" xmi:type="uml:Comment">
+     <body>
+      The processing status of the instruction
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferInstructionChannelReference" type="Visibility=public" xmi:id="18572405-24d6-e911-8296-06c6ee6741dc90157202">
+    <ownedComment xmi:id="comm4744" xmi:type="uml:Comment">
+     <body>
+      Reference to the contact channel that was used to give the money transfer instruction
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="MoneyTransferTransactionInvolvement" xmi:id="116cc96f-c7ab-e911-828c-0679464e26a4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4745" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="MoneyTransferInvolvementType" type="Visibility=public" xmi:id="abd96885-c7ab-e911-828c-0679464e26a490157202">
+    <ownedComment xmi:id="comm4746" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferInvolvedPartyReference" type="Visibility=public" xmi:id="b274b494-c7ab-e911-828c-0679464e26a490157202">
+    <ownedComment xmi:id="comm4747" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferTransactionReference" type="Visibility=public" xmi:id="4c80570f-8aac-e911-828c-0644e8f6f5d290157202">
+    <ownedComment xmi:id="comm4748" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="MoneyTransferInstructionInvolvement" xmi:id="a798d911-8996-e911-823e-066b14f5b0ba" xmi:type="uml:Class">
+   <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen84" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4749" xmi:type="uml:Comment">
+    <body>
+     The specific role that a specific party has in a specific payment instruction
+    </body>
+   </ownedComment>
+   <ownedAttribute name="MoneyTransferInstructionInvolvementType" type="Visibility=public" xmi:id="b695317f-6ea1-e911-827a-06a1ce4f466a90157202">
+    <ownedComment xmi:id="comm4750" xmi:type="uml:Comment">
+     <body>
+      The role a pary plays in a Money Transfer Instruction
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferInstructionInvolvedPartyReference" type="Visibility=public" xmi:id="be60ae0e-eaa3-e911-8284-065b2e50bbd890157202">
+    <ownedComment xmi:id="comm4751" xmi:type="uml:Comment">
+     <body>
+      The party that plays the role in the instruction
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MoneyTransferInstructionReference" type="Visibility=public" xmi:id="ee5973c2-89ac-e911-828c-0644e8f6f5d290157202">
+    <ownedComment xmi:id="comm4752" xmi:type="uml:Comment">
+     <body>
+      Reference to the instruction the party is involved in.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="InstructionAccountRole" xmi:id="3724febb-e2a3-e911-8284-065b2e50bbd8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4753" xmi:type="uml:Comment">
+    <body>
+     The role of an account in a payment instruction
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AccountInstructionRole" type="Visibility=public" xmi:id="c1023aef-e3a3-e911-8284-065b2e50bbd890157202">
+    <ownedComment xmi:id="comm4754" xmi:type="uml:Comment">
+     <body>
+      The use made of an account in an instruction.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionReference" type="Visibility=public" xmi:id="220f8bf8-e3a3-e911-8284-065b2e50bbd890157202">
+    <ownedComment xmi:id="comm4755" xmi:type="uml:Comment">
+     <body>
+      Reference to the instruction that makes use of the account.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InstructionAccountReference" type="Visibility=public" xmi:id="bedd0304-e4a3-e911-8284-065b2e50bbd890157202">
+    <ownedComment xmi:id="comm4756" xmi:type="uml:Comment">
+     <body>
+      Reference to the account used in the instruction.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="AccountEntry" xmi:id="69ad2f0a-0061-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <generalization general="63b22f22-24d3-e911-8296-06b94e7647ce" xmi:id="gen85" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4757" xmi:type="uml:Comment">
+    <body>
+     Entry means Posting to an account that results in an increase or decrease to a balance. (ISO20022)
+
+An entry posted/booked in the account.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AccountEntryAmount" type="Visibility=public" xmi:id="366d8491-799d-e911-827a-06d65798920e90157202">
+    <ownedComment xmi:id="comm4758" xmi:type="uml:Comment">
+     <body>
+      The amount of funds entered on the account
+
+has a plus or minus sign
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccountEntryCurrency" type="Visibility=public" xmi:id="c64cacc6-799d-e911-827a-06d65798920e90157202">
+    <ownedComment xmi:id="comm4759" xmi:type="uml:Comment">
+     <body>
+      The currency in which the AccountEntryAmount is expressed
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccountEntryPurpose" type="Visibility=public" xmi:id="95b1d8aa-14cb-e911-8296-06112f0997f290157202">
+    <ownedComment xmi:id="comm4760" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccountEntryValueDate" type="Visibility=public" xmi:id="cd886cd2-14cb-e911-8296-06112f0997f290157202">
+    <ownedComment xmi:id="comm4761" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AccountEntryStatus" type="Visibility=public" xmi:id="150b68f3-14cb-e911-8296-06112f0997f290157202">
+    <ownedComment xmi:id="comm4762" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="Attribute" type="Visibility=public" xmi:id="25c6dd1e-3ed6-e911-8296-06c6ee6741dc90157202">
+    <ownedComment xmi:id="comm4763" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="LogEntry" xmi:id="63b22f22-24d3-e911-8296-06b94e7647ce" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4764" xmi:type="uml:Comment">
+    <body>
+     Posting events to the log.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="TransactionAccountRole" xmi:id="093f2c3f-e3a3-e911-8284-065b2e50bbd8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4765" xmi:type="uml:Comment">
+    <body>
+     The role of an account in a transaction
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AccountTransactionRole" type="Visibility=public" xmi:id="5786621e-e4a3-e911-8284-065b2e50bbd890157202">
+    <ownedComment xmi:id="comm4766" xmi:type="uml:Comment">
+     <body>
+      The use made of an account in a transaction
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TransactionReference" type="Visibility=public" xmi:id="56935132-e4a3-e911-8284-065b2e50bbd890157202">
+    <ownedComment xmi:id="comm4767" xmi:type="uml:Comment">
+     <body>
+      Reference to the transaction using the account
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TransactionAccountReference" type="Visibility=public" xmi:id="f5979d3b-e4a3-e911-8284-065b2e50bbd890157202">
+    <ownedComment xmi:id="comm4768" xmi:type="uml:Comment">
+     <body>
+      Reference to the account used in the transaction
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="RelevantDateTime" xmi:id="3500ccc6-af9d-e911-827a-06c73ecc951a90157202" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4769" xmi:type="uml:Comment">
+    <body>
+     The meaning of a time indication for an object; E.g. opening data of an account, signing date of an agreement... birth date of a person.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DateTimeRelevanceType" type="Visibility=public" xmi:id="5deb4924-b09d-e911-827a-06c73ecc951a90157202">
+    <ownedComment xmi:id="comm4770" xmi:type="uml:Comment">
+     <body>
+      A classification of the relevance a time indication has for an object.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="AccountShareArrangement" xmi:id="f5bb2666-3b4e-ea11-8289-069813aed0a6" xmi:type="uml:Class">
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen86" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4771" xmi:type="uml:Comment">
+    <body>
+     An arrangement which specifies how the rights and duties are shared between involved parties which are jointly holding a savings account agreement.
+
+eg. how the funds are devided between accountholders, how the profits are shared between beneficiaries, how costs are shared between involved parties of an account. This is all specified in arrangements
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ShareType" type="Visibility=public" xmi:id="6dd00e83-464e-ea11-8289-069813aed0a690157202">
+    <ownedComment xmi:id="comm4772" xmi:type="uml:Comment">
+     <body>
+      A classification value indicating the subject to be shared.
+
+Example: Fund, Profit, Cost, Responsibility etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SharePercentage" type="Visibility=public" xmi:id="bf095f49-484e-ea11-8289-069813aed0a690157202">
+    <ownedComment xmi:id="comm4773" xmi:type="uml:Comment">
+     <body>
+      A percentage indicating the part of the share of a specific account holder
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ShareAmount" type="Visibility=public" xmi:id="78d7cee1-4f4e-ea11-8289-069813aed0a690157202">
+    <ownedComment xmi:id="comm4774" xmi:type="uml:Comment">
+     <body>
+      A amount of the share of a specific account holder
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CorrespondenceArrangement" xmi:id="dabdcda0-7c4e-ea11-8289-06e6d0546392" xmi:type="uml:Class">
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen87" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4775" xmi:type="uml:Comment">
+    <body>
+     An Arrangement specifying to who and where information needs to be send to.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Location" xmi:id="063a0dcf-0561-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4776" xmi:type="uml:Comment">
+    <body>
+     The definition of an addressable space/position both in real and virtual environments with associated uses and entitlements
+    </body>
+   </ownedComment>
+   <ownedAttribute name="LocationDescription" type="Visibility=public" xmi:id="e731883b-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm4777" xmi:type="uml:Comment">
+     <body>
+      A description of the property, particularly if it has landmark characteristics.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationDateTime" type="Visibility=public" xmi:id="8048356c-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm4778" xmi:type="uml:Comment">
+     <body>
+      Key dates associated with the directory entry (e.g. open date, refresh date).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationStatus" type="Visibility=public" xmi:id="0095b775-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm4779" xmi:type="uml:Comment">
+     <body>
+      The tracked status (e.g. under construction or repair, inhabited, vacant).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationType" type="Visibility=public" xmi:id="c8da42a8-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm4780" xmi:type="uml:Comment">
+     <body>
+      Type of location (e.g. building, point of interest, virtual location/device).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationZoningType" type="Visibility=public" xmi:id="f8d2c2b9-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm4781" xmi:type="uml:Comment">
+     <body>
+      The planning or zoning status (e.g. residential, commercial, industrial).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationNeighborhoodType" type="Visibility=public" xmi:id="1f5d9cc2-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm4782" xmi:type="uml:Comment">
+     <body>
+      The general purpose and neighborhood of the property  (e.g. residential, industrial, commercial).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationConstructionType" type="Visibility=public" xmi:id="1736d338-d1d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm4783" xmi:type="uml:Comment">
+     <body>
+      The construction approach for a property at the location (e.g. era and architecture as might be used in valuation).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationOccupancyType" type="Visibility=public" xmi:id="f2546806-d2d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm4784" xmi:type="uml:Comment">
+     <body>
+      The type of occupancy (e.g. residency, business, retail, entertainment).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationValue" type="Visibility=public" xmi:id="715fcc33-d2d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm4785" xmi:type="uml:Comment">
+     <body>
+      The estimated (book) value of the property at the location - rental and purchase as appropriate.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationCapacity" type="Visibility=public" xmi:id="368c7152-d2d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm4786" xmi:type="uml:Comment">
+     <body>
+      An indication of the size or scale of the property where appropriate (e.g. 4 bedroom, 600 seat auditorium, 40 cover restaurant).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationIdentification" type="Visibility=public" xmi:id="51262755-cd48-ea11-8289-064c9ffef37a90157202">
+    <ownedComment xmi:id="comm4787" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationAddress" type="Visibility=public" xmi:id="01683582-cf48-ea11-8289-064c9ffef37a90157202">
+    <ownedComment xmi:id="comm4788" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Correspondence" xmi:id="983b78e0-03c8-e911-8296-065c48f41faa" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4789" xmi:type="uml:Comment">
+    <body>
+     The rendering of a document to a medium and the transmission of the rendering via a communication channel.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CorrespondenceType" type="Visibility=public" xmi:id="787727e3-06c8-e911-8296-065c48f41faa90157202">
+    <ownedComment xmi:id="comm4790" xmi:type="uml:Comment">
+     <body>
+      The type of correspondence (e.g. confirmation note, mail shot)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CorrespondenceAddress" type="Visibility=public" xmi:id="839577f0-06c8-e911-8296-065c48f41faa90157202">
+    <ownedComment xmi:id="comm4791" xmi:type="uml:Comment">
+     <body>
+      The address for message delivery (needs to match channel selection)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CorrespondenceDateTime" type="Visibility=public" xmi:id="889577f0-06c8-e911-8296-065c48f41faa90157202">
+    <ownedComment xmi:id="comm4792" xmi:type="uml:Comment">
+     <body>
+      Key dates used for the correspondence (e.g. generation date, mailing date, receipt confirmation date, re-send date)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CorrespondenceContent" type="Visibility=public" xmi:id="97dd22b5-80c9-e911-8296-06780660052890157202">
+    <ownedComment xmi:id="comm4793" xmi:type="uml:Comment">
+     <body>
+      The message content (aligned to template as appropriate)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CorrespondenceTemplate" type="Visibility=public" xmi:id="e713f8ea-93f2-ea11-82be-06b80843e3ff90157202">
+    <ownedComment xmi:id="comm4794" xmi:type="uml:Comment">
+     <body>
+      Template used to assemble standard format correspondence (can be supplied with the correspondence or maintained within the Correspondence service domain as appropriate)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="DateTimeRelevanceTypeValues" xmi:id="bcecf5ed-3650-ea11-8289-06b8c2aff486" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="Opening Date" xmi:id="5ca6e433-3750-ea11-8289-06b8c2aff486">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Closing Date" xmi:id="5ea6e433-3750-ea11-8289-06b8c2aff486">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Blocking Date" xmi:id="5fa6e433-3750-ea11-8289-06b8c2aff486">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Sending Date" xmi:id="60a6e433-3750-ea11-8289-06b8c2aff486">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Receiving Date" xmi:id="61a6e433-3750-ea11-8289-06b8c2aff486">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Signing Date" xmi:id="62a6e433-3750-ea11-8289-06b8c2aff486">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Valid From Date" xmi:id="c1f04199-3950-ea11-8289-06b8c2aff486">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Valid To Date" xmi:id="0ca8bea3-3950-ea11-8289-06b8c2aff486">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="DebitCardArrangement" xmi:id="936e04c2-144f-ea11-8289-069412ea7938" xmi:type="uml:Class">
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen88" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4795" xmi:type="uml:Comment">
+    <body>
+     An Arrangement specifying that a Debit Card to access the services will be provided.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DebitCardArrangementLifeCyclePhase" type="Visibility=public" xmi:id="8f7afa89-3d4f-ea11-8289-068e9caac6f690157202">
+    <ownedComment xmi:id="comm4796" xmi:type="uml:Comment">
+     <body>
+      A lifecycle status indicating the stage in the fulfillment of the arrangement
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="Opening Date" xmi:id="5ca6e433-3750-ea11-8289-06b8c2aff486">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Closing Date" xmi:id="5ea6e433-3750-ea11-8289-06b8c2aff486">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Blocking Date" xmi:id="5fa6e433-3750-ea11-8289-06b8c2aff486">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Sending Date" xmi:id="60a6e433-3750-ea11-8289-06b8c2aff486">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Receiving Date" xmi:id="61a6e433-3750-ea11-8289-06b8c2aff486">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Signing Date" xmi:id="62a6e433-3750-ea11-8289-06b8c2aff486">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Valid From Date" xmi:id="c1f04199-3950-ea11-8289-06b8c2aff486">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Valid To Date" xmi:id="0ca8bea3-3950-ea11-8289-06b8c2aff486">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="LimitArrangement" xmi:id="d16b937e-8ad1-ea11-82b1-061e3979cf2c" xmi:type="uml:Class">
+   <generalization general="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen89" xmi:type="uml:Generalization"/>
+   <generalization general="8563d786-6ca9-ea11-829f-06478228ed28" xmi:id="gen90" xmi:type="uml:Generalization"/>
+   <generalization general="d579f82c-0cd6-e911-8296-0612a84747f6" xmi:id="gen91" xmi:type="uml:Generalization"/>
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen92" xmi:type="uml:Generalization"/>
+   <generalization general="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:id="gen93" xmi:type="uml:Generalization"/>
+   <generalization general="9b6243fa-53b5-ea11-829f-06ddb95e6bc8" xmi:id="gen94" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4797" xmi:type="uml:Comment">
+    <body>
+     An arrangement to limit something
+e.g., the number of transaction per week, the amount of money allowed to withdraw per week/day and etc.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="LimitType" type="Visibility=public" xmi:id="05954e85-8ed1-ea11-82b1-061e3979cf2c90157202">
+    <ownedComment xmi:id="comm4798" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LimitCurrency" type="Visibility=public" xmi:id="9003b98d-8ed1-ea11-82b1-061e3979cf2c90157202">
+    <ownedComment xmi:id="comm4799" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LimitValidityPeriod" type="Visibility=public" xmi:id="356996ba-9dd1-ea11-82b1-061e3979cf2c90157202">
+    <ownedComment xmi:id="comm4800" xmi:type="uml:Comment">
+     <body>
+      Period at which the limit is effective. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LimitAmount" type="Visibility=public" xmi:id="3dce80fb-9dd1-ea11-82b1-061e3979cf2c90157202">
+    <ownedComment xmi:id="comm4801" xmi:type="uml:Comment">
+     <body>
+      Amount of money of the limit, expressed in a currency. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LimitStatus" type="Visibility=public" xmi:id="5872b81d-9ed1-ea11-82b1-061e3979cf2c90157202">
+    <ownedComment xmi:id="comm4802" xmi:type="uml:Comment">
+     <body>
+      THe status of Limit e.g., Enabled, Disabled, Deleted and Requested.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="InvestmentAccountArrangement" xmi:id="8563d786-6ca9-ea11-829f-06478228ed28" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4803" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ProductSalesArrangement" xmi:id="9b6243fa-53b5-ea11-829f-06ddb95e6bc8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4804" xmi:type="uml:Comment">
+    <body>
+     An arrangement within the product sales agreement
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

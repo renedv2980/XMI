@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Brand Management BOM SD" visibility="public" xmi:id="362ef246-4a89-ea11-8291-063dd8250e84" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="f4416361-c995-ea11-8295-06710fa33e76" xmi:type="uml:Association">
+   <ownedEnd association="f4416361-c995-ea11-8295-06710fa33e76" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="4c2f9452-c995-ea11-8295-06710fa33e76" visibility="public" xmi:id="5c15a830-c495-ea11-8295-06710fa33e76a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="f4416361-c995-ea11-8295-06710fa33e76" isUnique="true" name="" type="5c15a830-c495-ea11-8295-06710fa33e76" visibility="public" xmi:id="5c15a830-c495-ea11-8295-06710fa33e76b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="b67997da-c495-ea11-8295-06710fa33e76a 7966d6b9-ca95-ea11-8295-06710fa33e76b" name="" navigableOwnedEnd="7966d6b9-ca95-ea11-8295-06710fa33e76b" xmi:id="d330fc58-cb95-ea11-8295-06710fa33e76" xmi:type="uml:Association">
+   <ownedEnd association="d330fc58-cb95-ea11-8295-06710fa33e76" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="b67997da-c495-ea11-8295-06710fa33e76" visibility="public" xmi:id="b67997da-c495-ea11-8295-06710fa33e76a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="d330fc58-cb95-ea11-8295-06710fa33e76" isUnique="true" name="" type="7966d6b9-ca95-ea11-8295-06710fa33e76" visibility="public" xmi:id="7966d6b9-ca95-ea11-8295-06710fa33e76b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="b67997da-c495-ea11-8295-06710fa33e76a b00c5eb3-ca95-ea11-8295-06710fa33e76b" name="" navigableOwnedEnd="b00c5eb3-ca95-ea11-8295-06710fa33e76b" xmi:id="f6404351-cb95-ea11-8295-06710fa33e76" xmi:type="uml:Association">
+   <ownedEnd association="f6404351-cb95-ea11-8295-06710fa33e76" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="b67997da-c495-ea11-8295-06710fa33e76" visibility="public" xmi:id="b67997da-c495-ea11-8295-06710fa33e76a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="f6404351-cb95-ea11-8295-06710fa33e76" isUnique="true" name="" type="b00c5eb3-ca95-ea11-8295-06710fa33e76" visibility="public" xmi:id="b00c5eb3-ca95-ea11-8295-06710fa33e76b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="e2d9d830-cd95-ea11-8295-06710fa33e76" xmi:type="uml:Association">
+   <ownedEnd association="e2d9d830-cd95-ea11-8295-06710fa33e76" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="7966d6b9-ca95-ea11-8295-06710fa33e76" visibility="public" xmi:id="cd75370f-cd95-ea11-8295-06710fa33e76a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="e2d9d830-cd95-ea11-8295-06710fa33e76" isUnique="true" name="Addressed
+Issue" type="cd75370f-cd95-ea11-8295-06710fa33e76" visibility="public" xmi:id="cd75370f-cd95-ea11-8295-06710fa33e76b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="55e7010f-c595-ea11-8295-06710fa33e76" xmi:type="uml:Association">
+   <ownedEnd association="55e7010f-c595-ea11-8295-06710fa33e76" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="5c15a830-c495-ea11-8295-06710fa33e76" visibility="public" xmi:id="b67997da-c495-ea11-8295-06710fa33e76a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="55e7010f-c595-ea11-8295-06710fa33e76" isUnique="true" name="" type="b67997da-c495-ea11-8295-06710fa33e76" visibility="public" xmi:id="b67997da-c495-ea11-8295-06710fa33e76b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="BrandImpactEvent" xmi:id="cd75370f-cd95-ea11-8295-06710fa33e76" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10036" xmi:type="uml:Comment">
+    <body>
+     An event that threatens the brand
+    </body>
+   </ownedComment>
+   <ownedAttribute name="BrandImpactEventType" type="Visibility=public" xmi:id="de37ab70-cd95-ea11-8295-06710fa33e7690157202">
+    <ownedComment xmi:id="comm10037" xmi:type="uml:Comment">
+     <body>
+      The type of event that threatens the brand (e.g. production issue, legal issue, employee action, marketing conflict)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="BrandImpactEventDescription" type="Visibility=public" xmi:id="600e7a8b-cd95-ea11-8295-06710fa33e7690157202">
+    <ownedComment xmi:id="comm10038" xmi:type="uml:Comment">
+     <body>
+      Detailed description of the event and situation leading to the brand exposure
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ResponseSchedule" type="Visibility=public" xmi:id="b6b4fca4-cd95-ea11-8295-06710fa33e7690157202">
+    <ownedComment xmi:id="comm10039" xmi:type="uml:Comment">
+     <body>
+      Schedule of actions taken to mitigate the event (plan and actual)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ResponseAction" type="Visibility=public" xmi:id="5a2cddc8-cd95-ea11-8295-06710fa33e7690157202">
+    <ownedComment xmi:id="comm10040" xmi:type="uml:Comment">
+     <body>
+      Actions taken to mitigate the event (e.g. press release, other communications, corrective/compensatory actions
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="BrandAdvice" xmi:id="b00c5eb3-ca95-ea11-8295-06710fa33e76" xmi:type="uml:Class">
+   <generalization general="97698d8d-6675-e911-823e-064d1e9fbc72" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm10041" xmi:type="uml:Comment">
+    <body>
+     Advice and guidance on leveraging the brand in business development activities
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ManagementPlan" xmi:id="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <generalization general="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm10042" xmi:type="uml:Comment">
+    <body>
+     The course of action to realize goals (of an operational unit of an enterprise).
+
+The management and oversight while running an operational unit of an enterprise. (Generic Artifact)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ManagementPlanPeriod" type="Visibility=public" xmi:id="d9d5a7a3-1757-ea11-8289-06a605eb4d6490157202">
+    <ownedComment xmi:id="comm10043" xmi:type="uml:Comment">
+     <body>
+      The time period addressed by the management plan.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ManagementPlanGoal" type="Visibility=public" xmi:id="9b86d8bd-1757-ea11-8289-06a605eb4d6490157202">
+    <ownedComment xmi:id="comm10044" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ManagementPlanType" type="Visibility=public" xmi:id="0e5ac279-d5e2-ea11-82b8-068800dddbf790157202">
+    <ownedComment xmi:id="comm10045" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="Management Plan Description" type="Visibility=public" xmi:id="38856e94-d5e2-ea11-82b8-068800dddbf790157202">
+    <ownedComment xmi:id="comm10046" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Plan" xmi:id="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10047" xmi:type="uml:Comment">
+    <body>
+     A method for doing or achieving something, usually involving a series of actions or stages, or something you have arranged to do. (Cambridge Dictionary)
+
+A plan is a set of intended actions, through which one intends to achieve a goal.
+
+"Course of action" is a synonym for Plan.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BrandManagementPlan" xmi:id="b67997da-c495-ea11-8295-06710fa33e76" xmi:type="uml:Class">
+   <generalization general="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm10048" xmi:type="uml:Comment">
+    <body>
+     A management plan for maintaining, improving, and upholding a brand
+
+
+Brand management is a function of marketing that uses techniques to increase the perceived value of a product line or brand over time (Investopedia).
+https://www.investopedia.com/terms/b/brand-management.asp
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BrandImpactTroubleshooting" xmi:id="7966d6b9-ca95-ea11-8295-06710fa33e76" xmi:type="uml:Class">
+   <generalization general="97698d8d-6675-e911-823e-064d1e9fbc72" xmi:id="gen4" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm10049" xmi:type="uml:Comment">
+    <body>
+     Assess brand impact and define and execute mitigating actions for production issues that expose the brand
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BrandValueAssessment" xmi:id="4c2f9452-c995-ea11-8295-06710fa33e76" xmi:type="uml:Class">
+   <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen5" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm10050" xmi:type="uml:Comment">
+    <body>
+     An analysis of the brand value based on comparative market research
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Brand" xmi:id="5c15a830-c495-ea11-8295-06710fa33e76" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10051" xmi:type="uml:Comment">
+    <body>
+     A brand is an identifying symbol, mark, logo, name, word, and/or sentence that companies use to distinguish their product from others (Investopedia)
+
+https://www.investopedia.com/terms/b/brand.asp
+    </body>
+   </ownedComment>
+   <ownedAttribute name="BrandDefinition" type="Visibility=public" xmi:id="a71b96a6-c995-ea11-8295-06710fa33e7690157202">
+    <ownedComment xmi:id="comm10052" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Duty" xmi:id="97698d8d-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10053" xmi:type="uml:Comment">
+    <body>
+     A responsibility of task (under management).
+
+Duties are a collection of one or more responsibilities or tasks under management. (Behavior Qualifier Type)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="WorkTaskType" type="Visibility=public" xmi:id="6e430280-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm10054" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskDescription" type="Visibility=public" xmi:id="5ebf7d88-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm10055" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskResult" type="Visibility=public" xmi:id="e3abda96-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm10056" xmi:type="uml:Comment">
+     <body>
+      The outcome or result of the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskDateTime" type="Visibility=public" xmi:id="ff3c149f-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm10057" xmi:type="uml:Comment">
+     <body>
+      Key dates associated with the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskWorkProduct" type="Visibility=public" xmi:id="0b594fb2-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm10058" xmi:type="uml:Comment">
+     <body>
+      File of consolidated notes, evaluations and recommendations for the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Assessment" xmi:id="ea36f45c-1656-e911-8237-060aad038e48" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10059" xmi:type="uml:Comment">
+    <body>
+     the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AssessmentType" type="Visibility=public" xmi:id="3c005ebe-a272-e911-823e-067c7fd4c97890157202">
+    <ownedComment xmi:id="comm10060" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentMethod" type="Visibility=public" xmi:id="42005ebe-a272-e911-823e-067c7fd4c97890157202">
+    <ownedComment xmi:id="comm10061" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentSchedule" type="Visibility=public" xmi:id="7bdd12c5-0577-e911-823e-0663ff6583c490157202">
+    <ownedComment xmi:id="comm10062" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentDescription" type="Visibility=public" xmi:id="2577ab32-0777-e911-823e-0663ff6583c490157202">
+    <ownedComment xmi:id="comm10063" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentModel" type="Visibility=public" xmi:id="110ee713-0877-e911-823e-0663ff6583c490157202">
+    <ownedComment xmi:id="comm10064" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentDateTime" type="Visibility=public" xmi:id="8626f03d-377d-e911-823e-069ad1a2e64890157202">
+    <ownedComment xmi:id="comm10065" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentResult" type="Visibility=public" xmi:id="1f36dd6d-377d-e911-823e-069ad1a2e64890157202">
+    <ownedComment xmi:id="comm10066" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentSupportingDocument" type="Visibility=public" xmi:id="06b88e61-24a2-e911-8280-068b5ca1cd1a90157202">
+    <ownedComment xmi:id="comm10067" xmi:type="uml:Comment">
+     <body>
+      Document that provides background or corroborating information regarding an assessment(s).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentRepresentingDocument" type="Visibility=public" xmi:id="da6a7970-24a2-e911-8280-068b5ca1cd1a90157202">
+    <ownedComment xmi:id="comm10068" xmi:type="uml:Comment">
+     <body>
+      Document that represents the result of an assessment(s).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentRequiredAdjustment" type="Visibility=public" xmi:id="8c5f059a-24a2-e911-8280-068b5ca1cd1a90157202">
+    <ownedComment xmi:id="comm10069" xmi:type="uml:Comment">
+     <body>
+      Change that the assessment reveals is needed.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentRequirement" type="Visibility=public" xmi:id="0ef47758-2ea2-e911-8280-068b5ca1cd1a90157202">
+    <ownedComment xmi:id="comm10070" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentExpiryDate" type="Visibility=public" xmi:id="2425862b-00bd-e911-8291-066cb8d4b6e890157202">
+    <ownedComment xmi:id="comm10071" xmi:type="uml:Comment">
+     <body>
+      Date when the assessment expires. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

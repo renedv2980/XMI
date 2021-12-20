@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Issued Device Tracking BOM SD" visibility="public" xmi:id="284d6b15-6176-e911-823e-067486981364" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="59aeea62-bba4-e911-8284-062084c0b880" xmi:type="uml:Association">
+   <ownedEnd association="59aeea62-bba4-e911-8284-062084c0b880" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="2711aa0e-baa4-e911-8284-062084c0b880" visibility="public" xmi:id="0263db4b-0761-e911-8237-068e13695e26a">
+    <upperValue xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="59aeea62-bba4-e911-8284-062084c0b880" isUnique="true" name="" type="0263db4b-0761-e911-8237-068e13695e26" visibility="public" xmi:id="0263db4b-0761-e911-8237-068e13695e26b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="18130ffc-bda4-e911-8284-062084c0b880" xmi:type="uml:Association">
+   <ownedEnd association="18130ffc-bda4-e911-8284-062084c0b880" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="ae0d5738-bca4-e911-8284-062084c0b880" visibility="public" xmi:id="5b635669-bda4-e911-8284-062084c0b880a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="18130ffc-bda4-e911-8284-062084c0b880" isUnique="true" name="" type="5b635669-bda4-e911-8284-062084c0b880" visibility="public" xmi:id="5b635669-bda4-e911-8284-062084c0b880b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="ad13e6da-07a7-e911-8288-06c837085cb8" xmi:type="uml:Association">
+   <ownedEnd association="ad13e6da-07a7-e911-8288-06c837085cb8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6fd7342a-138d-e911-823e-067b7da9d714" visibility="public" xmi:id="167aafe9-fba6-e911-8288-06c837085cb8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="ad13e6da-07a7-e911-8288-06c837085cb8" isUnique="true" name="" type="167aafe9-fba6-e911-8288-06c837085cb8" visibility="public" xmi:id="167aafe9-fba6-e911-8288-06c837085cb8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="51223f6c-fca6-e911-8288-06c837085cb8" xmi:type="uml:Association">
+   <ownedEnd association="51223f6c-fca6-e911-8288-06c837085cb8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="ae0d5738-bca4-e911-8284-062084c0b880" visibility="public" xmi:id="167aafe9-fba6-e911-8288-06c837085cb8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="51223f6c-fca6-e911-8288-06c837085cb8" isUnique="true" name="" type="167aafe9-fba6-e911-8288-06c837085cb8" visibility="public" xmi:id="167aafe9-fba6-e911-8288-06c837085cb8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="2a697cf9-e5a6-e911-8288-06c837085cb8" xmi:type="uml:Association">
+   <ownedEnd association="2a697cf9-e5a6-e911-8288-06c837085cb8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="3ff20cc9-4c7d-e911-823e-069ad1a2e648" visibility="public" xmi:id="2cd1dc8a-85a4-e911-8284-062084c0b880a">
+    <upperValue xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="2a697cf9-e5a6-e911-8288-06c837085cb8" isUnique="true" name="" type="2cd1dc8a-85a4-e911-8284-062084c0b880" visibility="public" xmi:id="2cd1dc8a-85a4-e911-8284-062084c0b880b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="94b2ddee-f9a6-e911-8288-06c837085cb8" xmi:type="uml:Association">
+   <ownedEnd association="94b2ddee-f9a6-e911-8288-06c837085cb8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="ae0d5738-bca4-e911-8284-062084c0b880" visibility="public" xmi:id="d47b801b-f9a6-e911-8288-06c837085cb8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="94b2ddee-f9a6-e911-8288-06c837085cb8" isUnique="true" name="" type="d47b801b-f9a6-e911-8288-06c837085cb8" visibility="public" xmi:id="d47b801b-f9a6-e911-8288-06c837085cb8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="2b9514fb-f9a6-e911-8288-06c837085cb8" xmi:type="uml:Association">
+   <ownedEnd association="2b9514fb-f9a6-e911-8288-06c837085cb8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="2cd1dc8a-85a4-e911-8284-062084c0b880" visibility="public" xmi:id="d47b801b-f9a6-e911-8288-06c837085cb8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="2b9514fb-f9a6-e911-8288-06c837085cb8" isUnique="true" name="" type="d47b801b-f9a6-e911-8288-06c837085cb8" visibility="public" xmi:id="d47b801b-f9a6-e911-8288-06c837085cb8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="66f1d387-bca4-e911-8284-062084c0b880" xmi:type="uml:Association">
+   <ownedEnd association="66f1d387-bca4-e911-8284-062084c0b880" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="0263db4b-0761-e911-8237-068e13695e26" visibility="public" xmi:id="ae0d5738-bca4-e911-8284-062084c0b880a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="66f1d387-bca4-e911-8284-062084c0b880" isUnique="true" name="" type="ae0d5738-bca4-e911-8284-062084c0b880" visibility="public" xmi:id="ae0d5738-bca4-e911-8284-062084c0b880b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="IssuedDeviceMeasurement" xmi:id="167aafe9-fba6-e911-8288-06c837085cb8" xmi:type="uml:Class">
+   <generalization general="f60da226-fe76-e911-823e-0663ff6583c4" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm3633" xmi:type="uml:Comment">
+    <body>
+     Tracking of the state and/or activities of a device
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DeviceMeasurementDateTime" type="Visibility=public" xmi:id="ac257b3d-fca6-e911-8288-06c837085cb890157202">
+    <ownedComment xmi:id="comm3634" xmi:type="uml:Comment">
+     <body>
+      Date/Time on which the Measurement of the issued Device took place
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceMeasurementDetails" type="Visibility=public" xmi:id="f7a15b55-fca6-e911-8288-06c837085cb890157202">
+    <ownedComment xmi:id="comm3635" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceMeasurementResult" type="Visibility=public" xmi:id="cc83495f-fca6-e911-8288-06c837085cb890157202">
+    <ownedComment xmi:id="comm3636" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="InformationFeedReference" type="Visibility=public" xmi:id="3b26577b-fca6-e911-8288-06c837085cb890157202">
+    <ownedComment xmi:id="comm3637" xmi:type="uml:Comment">
+     <body>
+      Reference of the source of the issued device measurement
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="IssuedDeviceAgreementAllocation" xmi:id="d47b801b-f9a6-e911-8288-06c837085cb8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3638" xmi:type="uml:Comment">
+    <body>
+     The allocation of a Device to a ProductSalesAgreement
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DeviceAgreementAllocationStatus" type="Visibility=public" xmi:id="d51695cb-0da7-e911-8288-06c837085cb890157202">
+    <ownedComment xmi:id="comm3639" xmi:type="uml:Comment">
+     <body>
+      Status of the allocation of a device to a ProductSalesAgreement 
+
+e.g. an electronic banking application can be denied or granted access to insurance agreements
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceAgreementFunctionality" type="Visibility=public" xmi:id="2e2d5110-78a7-e911-8288-06eb4e507c7890157202">
+    <ownedComment xmi:id="comm3640" xmi:type="uml:Comment">
+     <body>
+      The functionality the device is allowed to support for the agreement
+
+e.g. authenticate involved party, authorize transaction, provide access, be carrier of payment order (cheque)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="DeviceType" xmi:id="2711aa0e-baa4-e911-8284-062084c0b880" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3641" xmi:type="uml:Comment">
+    <body>
+     A taxonomical classification of device, according to its characteristics as an item.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DeviceTypeDescription" type="Visibility=public" xmi:id="6add3a96-baa4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm3642" xmi:type="uml:Comment">
+     <body>
+      Characteristics of the item that can be used as device
+
+a device has the characteristics of the device type it belongs to,possibly specifiede.g. . a device of the type "cheque book" will have cheques. The device specifies how many and what the number range is.e.g. an electronic banking app consists of software modules, the device specifies what version
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="DeviceArrangement" xmi:id="2cd1dc8a-85a4-e911-8284-062084c0b880" xmi:type="uml:Class">
+   <generalization general="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <generalization general="3fd1b799-fc60-e911-8237-068e13695e26" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <generalization general="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:id="gen4" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm3643" xmi:type="uml:Comment">
+    <body>
+     Arrangement on the provision and use of product instruments.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DeviceFunctionality" type="Visibility=public" xmi:id="76ec60b3-baa4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm3644" xmi:type="uml:Comment">
+     <body>
+      The actions that can be taken by using the device(type) to which the arrangement refers to.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceRemuneration" type="Visibility=public" xmi:id="43e87612-bba4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm3645" xmi:type="uml:Comment">
+     <body>
+      The fee due for the reception and/or use of the device(type) to which the arrangement refers to.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="LoanArrangement" xmi:id="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3646" xmi:type="uml:Comment">
+    <body>
+     An arrangement defining the applicable features for a loan account agreement.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CardPaymentArrangement" xmi:id="3fd1b799-fc60-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3647" xmi:type="uml:Comment">
+    <body>
+     An agreement established among the card holder and the card issuer to use the payment card for payment
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="SavingsAccountArrangement" xmi:id="53777ee2-6a9e-e911-827a-06e8627b9e66" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3648" xmi:type="uml:Comment">
+    <body>
+     An arrangement defining the applicable features for a savings account agreement. 
+
+The arrangement type is one of those possible/mandatory for the sale of a savings account product. The actual arrangements are a selection of those offered under the savings account product.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="IssuedDevice" xmi:id="ae0d5738-bca4-e911-8284-062084c0b880" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3649" xmi:type="uml:Comment">
+    <body>
+     The allocation of a device to a party
+    </body>
+   </ownedComment>
+   <ownedAttribute name="IssuedDevicetatus" type="Visibility=public" xmi:id="8da509e2-bca4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm3650" xmi:type="uml:Comment">
+     <body>
+      The status of an issued device 
+e.g. issued but not activated, activate, suspended, retrieved,
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="IssuedDevicePartyReference" type="Visibility=public" xmi:id="4416603a-bda4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm3651" xmi:type="uml:Comment">
+     <body>
+      Party to whom the device is issued
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="IssuedDeviceConfiguration" type="Visibility=public" xmi:id="9102d2a9-f0a6-e911-8288-06c837085cb890157202">
+    <ownedComment xmi:id="comm3652" xmi:type="uml:Comment">
+     <body>
+      Specific characteristics of an issued device 
+
+e.g. installed software, number-range of cheques, personification of card lay-ou
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="IssuedDeviceReference" type="Visibility=public" xmi:id="040411e7-04a7-e911-8288-06c837085cb890157202">
+    <ownedComment xmi:id="comm3653" xmi:type="uml:Comment">
+     <body>
+      Reference to the device that is issued
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Device" xmi:id="0263db4b-0761-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3654" xmi:type="uml:Comment">
+    <body>
+     An item created to serve a particular need, such as a credit card, a smart phone, an electronic signature, an electronic key, etc.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DeviceIdentification" type="Visibility=public" xmi:id="d87e94b2-b9a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm3655" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceType" type="Visibility=public" xmi:id="a372c5da-b9a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm3656" xmi:type="uml:Comment">
+     <body>
+      Reference to the device type of the device
+
+A device has the characteristics of the device type it belongs to possibly specified
+e.g. a device of the type "cheque book" will have cheques. The device specifies how many and what the number range is.
+e.g. an electronic banking app consists of software modules, the device specifies what version
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceProperty" type="Visibility=public" xmi:id="a70d33c5-bda4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm3657" xmi:type="uml:Comment">
+     <body>
+      Property of a device relevant for its use.
+
+A device has the characteristics of the device type it belongs to,possibly specified
+e.g. . a device of the type "cheque book" will have cheques. The device specifies how many and what the number range is.
+e.g. an electronic banking app consists of software modules, the device specifies what version
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceElement" type="Visibility=public" xmi:id="c99ad9e9-bfa4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm3658" xmi:type="uml:Comment">
+     <body>
+      An element of the device that can be used independently and is individually identified
+
+e.g. a cheque in a chequebook
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceStatus" type="Visibility=public" xmi:id="f108fea3-efa6-e911-8288-06c837085cb890157202">
+    <ownedComment xmi:id="comm3659" xmi:type="uml:Comment">
+     <body>
+      The life cycle stage of a device
+
+e.g. active, defect
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceVersion" type="Visibility=public" xmi:id="04fa505a-96c5-e911-8296-06227606fcb690157202">
+    <ownedComment xmi:id="comm3660" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceDateTime" type="Visibility=public" xmi:id="16dabb60-96c5-e911-8296-06227606fcb690157202">
+    <ownedComment xmi:id="comm3661" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceDescription" type="Visibility=public" xmi:id="317799d8-96c5-e911-8296-06227606fcb690157202">
+    <ownedComment xmi:id="comm3662" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ProductSalesAgreement" xmi:id="3ff20cc9-4c7d-e911-823e-069ad1a2e648" xmi:type="uml:Class">
+   <generalization general="67df07ad-1981-e911-823e-06e233b9c772" xmi:id="gen5" xmi:type="uml:Generalization"/>
+   <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen6" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm3663" xmi:type="uml:Comment">
+    <body>
+     An agreement between a bank and its customer for a sold product.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BankingProductAgreement" xmi:id="67df07ad-1981-e911-823e-06e233b9c772" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3664" xmi:type="uml:Comment">
+    <body>
+     An agreement with subject matter banking services.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Agreement" xmi:id="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3665" xmi:type="uml:Comment">
+    <body>
+     A formal or informal common understanding between two or more (legal competent) parties concerning one or more subject matters expressed in a set of arrangements, terms and conditions. (adapted from Legal System and FIBO)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Measurement" xmi:id="f60da226-fe76-e911-823e-0663ff6583c4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3666" xmi:type="uml:Comment">
+    <body>
+     Measurement as Generic Artifact: A mechanism to track and report on the state or dynamic property of some item or activity.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="System" xmi:id="6fd7342a-138d-e911-823e-067b7da9d714" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3667" xmi:type="uml:Comment">
+    <body>
+     Set of integrated applications that provides centralised services such as clearing, netting, reconciliation, trading and/or settlement. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="SystemAccessSchedule" type="Visibility=public" xmi:id="22c2144f-c296-e911-823e-063411acec0a90157202">
+    <ownedComment xmi:id="comm3668" xmi:type="uml:Comment">
+     <body>
+      The time schedule that system services are available for use.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SystemType" type="Visibility=public" xmi:id="9aa9cc3d-2fa3-e911-8280-06dae144dffa90157202">
+    <ownedComment xmi:id="comm3669" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="DeviceTransaction" xmi:id="5b635669-bda4-e911-8284-062084c0b880" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3670" xmi:type="uml:Comment">
+    <body>
+     The usage of a device
+
+e.g. the issuance of a cheque from a chequebook, the logon to an e-banking application, the usage of a digipass
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DeviceTransactionUsedElement" type="Visibility=public" xmi:id="2d997aa5-bda4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm3671" xmi:type="uml:Comment">
+     <body>
+      Reference to an element of a device used in a Device Transaction
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceUsageAmount" type="Visibility=public" xmi:id="a3bc0698-bfa4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm3672" xmi:type="uml:Comment">
+     <body>
+      The amount the device is used for
+
+e.g. amount on cheque, amount on card transaction
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

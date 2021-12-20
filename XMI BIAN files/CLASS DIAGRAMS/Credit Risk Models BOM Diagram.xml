@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Credit Risk Models BOM SD" visibility="public" xmi:id="c29e82f1-ce01-eb11-82be-068d3e7acd11" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="243f0905-c2ae-e911-828c-06d72c197ec4" xmi:type="uml:Association">
+   <ownedEnd association="243f0905-c2ae-e911-828c-06d72c197ec4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="e48b3c8e-b4ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="a2ab1ae9-c1ae-e911-828c-06d72c197ec4a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="243f0905-c2ae-e911-828c-06d72c197ec4" isUnique="true" name="" type="a2ab1ae9-c1ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="a2ab1ae9-c1ae-e911-828c-06d72c197ec4b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="a7f7f0e1-b7ae-e911-828c-06d72c197ec4a 312ae26c-baae-e911-828c-06d72c197ec4b" name="" navigableOwnedEnd="312ae26c-baae-e911-828c-06d72c197ec4b" xmi:id="3fbb0577-baae-e911-828c-06d72c197ec4" xmi:type="uml:Association">
+   <ownedEnd association="3fbb0577-baae-e911-828c-06d72c197ec4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="a7f7f0e1-b7ae-e911-828c-06d72c197ec4" visibility="public" xmi:id="a7f7f0e1-b7ae-e911-828c-06d72c197ec4a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="3fbb0577-baae-e911-828c-06d72c197ec4" isUnique="true" name="" type="312ae26c-baae-e911-828c-06d72c197ec4" visibility="public" xmi:id="312ae26c-baae-e911-828c-06d72c197ec4b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="3d95bbc3-fb3a-eb11-82e3-06a412e5ead5" xmi:type="uml:Association">
+   <ownedEnd association="3d95bbc3-fb3a-eb11-82e3-06a412e5ead5" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="11326aba-fb3a-eb11-82e3-06a412e5ead5" visibility="public" xmi:id="2bc3e6a9-f33a-eb11-82e3-06a412e5ead5a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="3d95bbc3-fb3a-eb11-82e3-06a412e5ead5" isUnique="true" name="" type="2bc3e6a9-f33a-eb11-82e3-06a412e5ead5" visibility="public" xmi:id="2bc3e6a9-f33a-eb11-82e3-06a412e5ead5b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="82e79635-fd3a-eb11-82e3-06a412e5ead5" xmi:type="uml:Association">
+   <ownedEnd association="82e79635-fd3a-eb11-82e3-06a412e5ead5" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="69f3e1de-0577-e911-823e-0663ff6583c4" visibility="public" xmi:id="2bc3e6a9-f33a-eb11-82e3-06a412e5ead5a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="82e79635-fd3a-eb11-82e3-06a412e5ead5" isUnique="true" name="UsedModel
+ForAssessment" type="2bc3e6a9-f33a-eb11-82e3-06a412e5ead5" visibility="public" xmi:id="2bc3e6a9-f33a-eb11-82e3-06a412e5ead5b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="ee575575-f43a-eb11-82e3-06a412e5ead5" xmi:type="uml:Association">
+   <ownedEnd association="ee575575-f43a-eb11-82e3-06a412e5ead5" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="2bc3e6a9-f33a-eb11-82e3-06a412e5ead5" visibility="public" xmi:id="bbc8b42d-f43a-eb11-82e3-06a412e5ead5a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="ee575575-f43a-eb11-82e3-06a412e5ead5" isUnique="true" name="" type="bbc8b42d-f43a-eb11-82e3-06a412e5ead5" visibility="public" xmi:id="bbc8b42d-f43a-eb11-82e3-06a412e5ead5b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="Model" xmi:id="e48b3c8e-b4ae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm2585" xmi:type="uml:Comment">
+    <body>
+     A simplified representation of reality.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ModelType" type="Visibility=public" xmi:id="5b2920c4-bdae-e911-828c-06d72c197ec490157202">
+    <ownedComment xmi:id="comm2586" xmi:type="uml:Comment">
+     <body>
+      The type or category of model
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ModelPurpose" type="Visibility=public" xmi:id="d0c9a8cb-bdae-e911-828c-06d72c197ec490157202">
+    <ownedComment xmi:id="comm2587" xmi:type="uml:Comment">
+     <body>
+      A description of the model that clarifies the intended analysis/insights provided
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ModelVersion" type="Visibility=public" xmi:id="25f6410f-beae-e911-828c-06d72c197ec490157202">
+    <ownedComment xmi:id="comm2588" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="DesignSpecification" xmi:id="a7f7f0e1-b7ae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm2589" xmi:type="uml:Comment">
+    <body>
+     A specification providing information about a designed object (e.g. product, service, process, procedure, model) covering all aspects required for its use.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DesignSpecificationStatus" type="Visibility=public" xmi:id="830f51f5-2c44-ea11-8289-068ff87429a490157202">
+    <ownedComment xmi:id="comm2590" xmi:type="uml:Comment">
+     <body>
+      The operational and development status of a design specification (e.g. under development, available, in-use under review)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DesignSpecificationVersion" type="Visibility=public" xmi:id="838b2d70-2d44-ea11-8289-068ff87429a490157202">
+    <ownedComment xmi:id="comm2591" xmi:type="uml:Comment">
+     <body>
+      Release version of the available design specification plus version history as appropriate
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DesignSpecificationType" type="Visibility=public" xmi:id="eaefe761-25e9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm2592" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DesignSpecificationDescription" type="Visibility=public" xmi:id="fd26d3b6-27e9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm2593" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerCreditRatingAssessment" xmi:id="69f3e1de-0577-e911-823e-0663ff6583c4" xmi:type="uml:Class">
+   <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm2594" xmi:type="uml:Comment">
+    <body>
+     An evaluation of the credit rating for a customer.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Assessment" xmi:id="ea36f45c-1656-e911-8237-060aad038e48" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm2595" xmi:type="uml:Comment">
+    <body>
+     the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CreditRiskModelDesignSpecification" xmi:id="bbc8b42d-f43a-eb11-82e3-06a412e5ead5" xmi:type="uml:Class">
+   <generalization general="a2ab1ae9-c1ae-e911-828c-06d72c197ec4" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm2596" xmi:type="uml:Comment">
+    <body>
+     A design specification defined for a Credit Risk Model
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CreditRisk" xmi:id="11326aba-fb3a-eb11-82e3-06a412e5ead5" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm2597" xmi:type="uml:Comment">
+    <body>
+     The possibility of a loss resulting from a borrower's failure to repay a loan or meet contractual obligations. (Investopedia)
+https://www.investopedia.com/terms/c/creditrisk.asp
+
+
+Credit risk, or default risk, is the risk that a financial loss will be incurred if a counterparty to a (derivatives) transaction does not fulfil its financial obligations in a timely manner. 
+https://www.risk.net/definition/credit-risk
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ModelDesignSpecification" xmi:id="a2ab1ae9-c1ae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+   <generalization general="a7f7f0e1-b7ae-e911-828c-06d72c197ec4" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm2598" xmi:type="uml:Comment">
+    <body>
+     A design specification defined for a model (e.g. Fraud Model, Customer Behaviour Model, Credit Risk Model)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ModelDesignSpecificationType" type="Visibility=public" xmi:id="414360b9-5465-eb11-82ee-06b6c49a40d990157202">
+    <ownedComment xmi:id="comm2599" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="DesignSpecificationAspect" xmi:id="312ae26c-baae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm2600" xmi:type="uml:Comment">
+    <body>
+     An aspect of the specification for a designed object
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DesignSpecificationAspectType" type="Visibility=public" xmi:id="d8afaee1-25e9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm2601" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CreditRiskModel" xmi:id="2bc3e6a9-f33a-eb11-82e3-06a412e5ead5" xmi:type="uml:Class">
+   <generalization general="e48b3c8e-b4ae-e911-828c-06d72c197ec4" xmi:id="gen4" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm2602" xmi:type="uml:Comment">
+    <body>
+     A model used to determine the level of credit risk associated with extending credit to a borrower.
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

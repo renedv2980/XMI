@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Knowledge Exchange BOM SD" visibility="public" xmi:id="bd92b10d-2002-eb11-82be-0632752cdf09" xmi:type="uml:Package">
+  <packagedElement memberEnd="cb9e2d6a-e5af-ea11-829f-0681374b35cca 30a4d16d-6080-e911-823e-061de61e9206b" name="" navigableOwnedEnd="30a4d16d-6080-e911-823e-061de61e9206b" xmi:id="fd5b44a4-e5af-ea11-829f-0681374b35cc" xmi:type="uml:Association">
+   <ownedEnd association="fd5b44a4-e5af-ea11-829f-0681374b35cc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="cb9e2d6a-e5af-ea11-829f-0681374b35cc" visibility="public" xmi:id="cb9e2d6a-e5af-ea11-829f-0681374b35cca">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="fd5b44a4-e5af-ea11-829f-0681374b35cc" isUnique="true" name="Intangible
+Asset" type="30a4d16d-6080-e911-823e-061de61e9206" visibility="public" xmi:id="30a4d16d-6080-e911-823e-061de61e9206b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="e2b5a4e7-2f54-eb11-82e3-06d9eff808b9a 425f334d-2f54-eb11-82e3-06d9eff808b9b" name="" navigableOwnedEnd="425f334d-2f54-eb11-82e3-06d9eff808b9b" xmi:id="7e60da1a-3054-eb11-82e3-06d9eff808b9" xmi:type="uml:Association">
+   <ownedEnd association="7e60da1a-3054-eb11-82e3-06d9eff808b9" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="e2b5a4e7-2f54-eb11-82e3-06d9eff808b9" visibility="public" xmi:id="e2b5a4e7-2f54-eb11-82e3-06d9eff808b9a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="7e60da1a-3054-eb11-82e3-06d9eff808b9" isUnique="true" name="" type="425f334d-2f54-eb11-82e3-06d9eff808b9" visibility="public" xmi:id="425f334d-2f54-eb11-82e3-06d9eff808b9b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="058ad8da-e9af-ea11-829f-0681374b35cc" xmi:type="uml:Association">
+   <ownedEnd association="058ad8da-e9af-ea11-829f-0681374b35cc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="cb9e2d6a-e5af-ea11-829f-0681374b35cc" visibility="public" xmi:id="ba9abd47-c656-e911-8237-06ecaacb4c68a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="058ad8da-e9af-ea11-829f-0681374b35cc" isUnique="true" name="" type="ba9abd47-c656-e911-8237-06ecaacb4c68" visibility="public" xmi:id="ba9abd47-c656-e911-8237-06ecaacb4c68b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="4f834258-2f54-eb11-82e3-06d9eff808b9" xmi:type="uml:Association">
+   <ownedEnd association="4f834258-2f54-eb11-82e3-06d9eff808b9" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="cb9e2d6a-e5af-ea11-829f-0681374b35cc" visibility="public" xmi:id="e2b5a4e7-2f54-eb11-82e3-06d9eff808b9a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="4f834258-2f54-eb11-82e3-06d9eff808b9" isUnique="true" name="" type="e2b5a4e7-2f54-eb11-82e3-06d9eff808b9" visibility="public" xmi:id="e2b5a4e7-2f54-eb11-82e3-06d9eff808b9b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="7c1554c8-e6af-ea11-829f-0681374b35cc" xmi:type="uml:Association">
+   <ownedEnd association="7c1554c8-e6af-ea11-829f-0681374b35cc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="de2498cb-6188-e911-823e-06b09c770f0c" visibility="public" xmi:id="cb9e2d6a-e5af-ea11-829f-0681374b35cca">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="7c1554c8-e6af-ea11-829f-0681374b35cc" isUnique="true" name="" type="cb9e2d6a-e5af-ea11-829f-0681374b35cc" visibility="public" xmi:id="cb9e2d6a-e5af-ea11-829f-0681374b35ccb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="6fd7342a-138d-e911-823e-067b7da9d714a f5145a15-138d-e911-823e-067b7da9d714b" name="" navigableOwnedEnd="f5145a15-138d-e911-823e-067b7da9d714b" xmi:id="fa4e56c7-168d-e911-823e-067b7da9d714" xmi:type="uml:Association">
+   <ownedEnd association="fa4e56c7-168d-e911-823e-067b7da9d714" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="SystemIn
+Session" type="6fd7342a-138d-e911-823e-067b7da9d714" visibility="public" xmi:id="6fd7342a-138d-e911-823e-067b7da9d714a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="fa4e56c7-168d-e911-823e-067b7da9d714" isUnique="true" name="Operating
+Session" type="f5145a15-138d-e911-823e-067b7da9d714" visibility="public" xmi:id="f5145a15-138d-e911-823e-067b7da9d714b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="IntellectualProperty" xmi:id="cb9e2d6a-e5af-ea11-829f-0681374b35cc" xmi:type="uml:Class">
+   <generalization general="30a4d16d-6080-e911-823e-061de61e9206" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm1799" xmi:type="uml:Comment">
+    <body>
+     A set of intangible assets 
+
+Any intangible asset that consists of human knowledge and ideas. Some examples are patents, copyrights, trademarks and software.
+Read more: http://www.investorwords.com/2526/intellectual_property.html#ixzz6PXktqBt7
+
+Comment:
+- Intellectual property is an umbrella term for a set of intangible assets or assets that are not physical in nature.
+- Intellectual property is owned and legally protected by a company from outside use or implementation without consent.
+- Intellectual property can consist of many types of assets, including trademarks, patents and copyrights.
+https://www.investopedia.com/terms/i/intellectualproperty.asp
+    </body>
+   </ownedComment>
+   <ownedAttribute name="IntellectualPropertyType" type="Visibility=public" xmi:id="f1274941-e6af-ea11-829f-0681374b35cc90157202">
+    <ownedComment xmi:id="comm1800" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="IntellectualPropertyDescription" type="Visibility=public" xmi:id="3d64b64c-e6af-ea11-829f-0681374b35cc90157202">
+    <ownedComment xmi:id="comm1801" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="IntellectualPropertyTitle" type="Visibility=public" xmi:id="29e5dd57-e6af-ea11-829f-0681374b35cc90157202">
+    <ownedComment xmi:id="comm1802" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="IntellectualPropertyValuation" type="Visibility=public" xmi:id="cde16965-e6af-ea11-829f-0681374b35cc90157202">
+    <ownedComment xmi:id="comm1803" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="IntellectualPropertyDate" type="Visibility=public" xmi:id="990bb181-e6af-ea11-829f-0681374b35cc90157202">
+    <ownedComment xmi:id="comm1804" xmi:type="uml:Comment">
+     <body>
+      Key dates and times associated with the intellectual property asset (e.g. creation date, assignment date, valid until/expiry date)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Document" xmi:id="ba9abd47-c656-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1805" xmi:type="uml:Comment">
+    <body>
+     Something tangible that records something, such as a recording or a photograph, or a writing that can be used to furnish evidence or information (FIBO)
+
+Definition: A physical or digital representation of something meaningful to the audience.
+
+Comment: 
+1.Technical: Manuals, instructions, tutorials, procedures, specifications, etc., that accompany a piece of equipment or software, and provide guidance for its proper use and maintenance.
+2.Trading: Preparation of a set of commercial and financial documents that record or support a business transaction. International trade documentations include air waybill, bill of exchange, bill of lading, certificate of inspection, certificate of insurance, certificate of origin, commercial invoice, and consular invoice.
+
+
+Read more: http://www.businessdictionary.com/definition/documentation.html#ixzz3EQGRGC4W
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DocumentIdentifer" type="Visibility=public" xmi:id="83be2d6b-6d80-e911-823e-061de61e920690157202">
+    <ownedComment xmi:id="comm1806" xmi:type="uml:Comment">
+     <body>
+      An identifier that allows to uniquely refer to an instance of a Document.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentVersion" type="Visibility=public" xmi:id="40e4a0f4-80c9-e911-8296-06780660052890157202">
+    <ownedComment xmi:id="comm1807" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentType" type="Visibility=public" xmi:id="57831409-81c9-e911-8296-06780660052890157202">
+    <ownedComment xmi:id="comm1808" xmi:type="uml:Comment">
+     <body>
+      Specifies the type of the document, for example commercial invoice. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentStatus" type="Visibility=public" xmi:id="8012da19-81c9-e911-8296-06780660052890157202">
+    <ownedComment xmi:id="comm1809" xmi:type="uml:Comment">
+     <body>
+      Status of the document (e.g. delivered, paid, etc.). ISO20022
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentDateTime" type="Visibility=public" xmi:id="6f891d23-81c9-e911-8296-06780660052890157202">
+    <ownedComment xmi:id="comm1810" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentName" type="Visibility=public" xmi:id="90114332-58ca-e911-8296-0635f2119d8290157202">
+    <ownedComment xmi:id="comm1811" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentDateTimeType" type="Visibility=public" xmi:id="17c0a341-58ca-e911-8296-0635f2119d8290157202">
+    <ownedComment xmi:id="comm1812" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentPurpose" type="Visibility=public" xmi:id="f746a91d-59ca-e911-8296-0635f2119d8290157202">
+    <ownedComment xmi:id="comm1813" xmi:type="uml:Comment">
+     <body>
+      Specifies the function of the document. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentFormat" type="Visibility=public" xmi:id="c4e34489-59ca-e911-8296-0635f2119d8290157202">
+    <ownedComment xmi:id="comm1814" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentSubject" type="Visibility=public" xmi:id="af2e7816-5aca-e911-8296-0635f2119d8290157202">
+    <ownedComment xmi:id="comm1815" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DocumentDescription" type="Visibility=public" xmi:id="f4259bc1-c7f1-ea11-82b8-06a3e705455d90157202">
+    <ownedComment xmi:id="comm1816" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Asset" xmi:id="30a4d16d-6080-e911-823e-061de61e9206" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1817" xmi:type="uml:Comment">
+    <body>
+     An object classified as something of value.
+It is some tangible or intangible thing that the bank has ownership and/or influence over and has one or more inherent uses or purposes that create commercial value
+Comment
+BIAN has defined the likely assets found in any bank and uses this approach to isolate the specific types of asset that are acted on by the ServiceDomains. The role or purpose of each and every ServiceDomain is to apply its specific functional pattern to instances of one type of asset.
+Is the tangible or intangible item that can have associated 'replacement' value/worth and purpose/use for which the bank has ownership or some level of control. It is exploited/leveraged in the execution of business through the application of some business behavior/control as effected by a ServiceDomain. Some asset types are obvious - for example a machine or building, some are intangible but easily identified such as knowhow, knowledge, relationships, reputation. Some are less obvious - most common is the 'capacity to perform' type which applies to many BIAN Service Domains. For example in the case of product fulfillment and support activities like party authentication the asset is the bank's possession of the capacity to perform these activities - the combination of the people/processes/systems to execute if you will...
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AssetProperties" type="Visibility=public" xmi:id="1b79d3fd-6680-e911-823e-061de61e920690157202">
+    <ownedComment xmi:id="comm1818" xmi:type="uml:Comment">
+     <body>
+      Describing elements expressing valuation of the object classified as something that has value.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssetTitle" type="Visibility=public" xmi:id="d3dff671-6780-e911-823e-061de61e920690157202">
+    <ownedComment xmi:id="comm1819" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssetIdentification" type="Visibility=public" xmi:id="93842273-7d80-e911-823e-061de61e920690157202">
+    <ownedComment xmi:id="comm1820" xmi:type="uml:Comment">
+     <body>
+      An identifier that allows to uniquely refer to an instance of an Asset.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssetType" type="Visibility=public" xmi:id="295637a5-ce80-e911-823e-065e8061d7e690157202">
+    <ownedComment xmi:id="comm1821" xmi:type="uml:Comment">
+     <body>
+      classification of an asset according to a specific Asset classification hierarchy
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssetDescription" type="Visibility=public" xmi:id="46827629-40ce-e911-8296-066680ee926890157202">
+    <ownedComment xmi:id="comm1822" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssetStatus" type="Visibility=public" xmi:id="26483f25-10cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm1823" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Jurisdiction" xmi:id="de2498cb-6188-e911-823e-06b09c770f0c" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1824" xmi:type="uml:Comment">
+    <body>
+     Jurisdiction that will be assigned in case of legal dispute.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="Attribute" type="Visibility=public" xmi:id="1c54e384-3e9d-eb11-8314-06c820334ddb90157202">
+    <ownedComment xmi:id="comm1825" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="IntellectualPropertyExchangeSystem" xmi:id="e2b5a4e7-2f54-eb11-82e3-06d9eff808b9" xmi:type="uml:Class">
+   <generalization general="6fd7342a-138d-e911-823e-067b7da9d714" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm1826" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Session" xmi:id="f5145a15-138d-e911-823e-067b7da9d714" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1827" xmi:type="uml:Comment">
+    <body>
+     The operation of a system -- typically an automated system -- for a bounded period of time.
+
+Semi-permanent container of state for an information exchange with a system.
+
+Time-bounded, temporal unit of context and continuity, identifying a unit of work.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="SessionDuration" type="Visibility=public" xmi:id="90da8134-73d1-e911-8296-06e952cbc5d090157202">
+    <ownedComment xmi:id="comm1828" xmi:type="uml:Comment">
+     <body>
+      The time the session was active
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SessionDateTime" type="Visibility=public" xmi:id="449ecb21-7ef2-ea11-82be-06b80843e3ff90157202">
+    <ownedComment xmi:id="comm1829" xmi:type="uml:Comment">
+     <body>
+      Key dates and times for the session
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="System" xmi:id="6fd7342a-138d-e911-823e-067b7da9d714" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm1830" xmi:type="uml:Comment">
+    <body>
+     Set of integrated applications that provides centralised services such as clearing, netting, reconciliation, trading and/or settlement. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="SystemAccessSchedule" type="Visibility=public" xmi:id="22c2144f-c296-e911-823e-063411acec0a90157202">
+    <ownedComment xmi:id="comm1831" xmi:type="uml:Comment">
+     <body>
+      The time schedule that system services are available for use.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SystemType" type="Visibility=public" xmi:id="9aa9cc3d-2fa3-e911-8280-06dae144dffa90157202">
+    <ownedComment xmi:id="comm1832" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="IntellectualPropertyExchangeSession" xmi:id="425f334d-2f54-eb11-82e3-06d9eff808b9" xmi:type="uml:Class">
+   <generalization general="f5145a15-138d-e911-823e-067b7da9d714" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm1833" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

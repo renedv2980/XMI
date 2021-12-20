@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Product Broker Agreement BOM SD" visibility="public" xmi:id="c2941661-94d7-e911-82a8-0667cb2841e8" xmi:type="uml:Package">
+  <packagedElement memberEnd="b2f7829a-0a68-e911-8237-06dd5e24f7bca dd3cc0aa-0a68-e911-8237-06dd5e24f7bcb" name="" navigableOwnedEnd="dd3cc0aa-0a68-e911-8237-06dd5e24f7bcb" xmi:id="f5e1d9dc-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Association">
+   <ownedEnd association="f5e1d9dc-0a68-e911-8237-06dd5e24f7bc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="b2f7829a-0a68-e911-8237-06dd5e24f7bc" visibility="public" xmi:id="b2f7829a-0a68-e911-8237-06dd5e24f7bca">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="f5e1d9dc-0a68-e911-8237-06dd5e24f7bc" isUnique="true" name="" type="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" visibility="public" xmi:id="dd3cc0aa-0a68-e911-8237-06dd5e24f7bcb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="ebeb0527-95d7-e911-82a8-0667cb2841e8" xmi:type="uml:Association">
+   <ownedEnd association="ebeb0527-95d7-e911-82a8-0667cb2841e8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="4f59189b-94d7-e911-82a8-0667cb2841e8" visibility="public" xmi:id="7cb6e31c-95d7-e911-82a8-0667cb2841e8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="ebeb0527-95d7-e911-82a8-0667cb2841e8" isUnique="true" name="" type="7cb6e31c-95d7-e911-82a8-0667cb2841e8" visibility="public" xmi:id="7cb6e31c-95d7-e911-82a8-0667cb2841e8b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="e96b3145-97d7-e911-82a8-0667cb2841e8" xmi:type="uml:Association">
+   <ownedEnd association="e96b3145-97d7-e911-82a8-0667cb2841e8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="2b65393d-97d7-e911-82a8-0667cb2841e8" visibility="public" xmi:id="7cb6e31c-95d7-e911-82a8-0667cb2841e8a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="e96b3145-97d7-e911-82a8-0667cb2841e8" isUnique="true" name="" type="7cb6e31c-95d7-e911-82a8-0667cb2841e8" visibility="public" xmi:id="7cb6e31c-95d7-e911-82a8-0667cb2841e8b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="fb6f5c84-98d7-e911-82a8-0667cb2841e8" xmi:type="uml:Association">
+   <ownedEnd association="fb6f5c84-98d7-e911-82a8-0667cb2841e8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="4f59189b-94d7-e911-82a8-0667cb2841e8" visibility="public" xmi:id="1aeced65-0b68-e911-8237-06dd5e24f7bca">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="fb6f5c84-98d7-e911-82a8-0667cb2841e8" isUnique="true" name="Brokered
+Product" type="1aeced65-0b68-e911-8237-06dd5e24f7bc" visibility="public" xmi:id="1aeced65-0b68-e911-8237-06dd5e24f7bcb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="Agreement" xmi:id="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8453" xmi:type="uml:Comment">
+    <body>
+     A formal or informal common understanding between two or more (legal competent) parties concerning one or more subject matters expressed in a set of arrangements, terms and conditions. (adapted from Legal System and FIBO)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AgreementSignedDate" type="Visibility=public" xmi:id="38d73dbf-7288-e911-823e-06b09c770f0c90157202">
+    <ownedComment xmi:id="comm8454" xmi:type="uml:Comment">
+     <body>
+      Date on which the agreement was signed by all parties. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementType" type="Visibility=public" xmi:id="39d73dbf-7288-e911-823e-06b09c770f0c90157202">
+    <ownedComment xmi:id="comm8455" xmi:type="uml:Comment">
+     <body>
+      Specifies the category of agreement. Agreement type is very often referred to product. But, the term product does not cover all kinds of agreements. An Agreement can be subtyped from the perspective of various aspects of interest. One can classify the agreement from the perspective of format type (e.g., verbal agreement, written agreement). Other one can classify agreement based on duration like short-term agreement or long-term agreement.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementValidityPeriod" type="Visibility=public" xmi:id="a16043ce-7288-e911-823e-06b09c770f0c90157202">
+    <ownedComment xmi:id="comm8456" xmi:type="uml:Comment">
+     <body>
+      Period during which the agreement is valid
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementVersion" type="Visibility=public" xmi:id="a26043ce-7288-e911-823e-06b09c770f0c90157202">
+    <ownedComment xmi:id="comm8457" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementStatus" type="Visibility=public" xmi:id="e76ce121-3250-ea11-8289-06b8c2aff48690157202">
+    <ownedComment xmi:id="comm8458" xmi:type="uml:Comment">
+     <body>
+      LifecycleStatus of agreement (e.g., potential, offered, confirmed, completed, signed, terminated)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementSubjectMatter" type="Visibility=public" xmi:id="b7704e49-7870-eb11-82fd-061e1f234dd590157202">
+    <ownedComment xmi:id="comm8459" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementIdentification" type="Visibility=public" xmi:id="ac6ca285-5777-eb11-8305-06d6e8bf29e790157202">
+    <ownedComment xmi:id="comm8460" xmi:type="uml:Comment">
+     <body>
+      The identifier of agreement like Agreement Number, Contract Number, Contract Registration Number, etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementDate" type="Visibility=public" xmi:id="4d27b628-5977-eb11-8305-06d6e8bf29e790157202">
+    <ownedComment xmi:id="comm8461" xmi:type="uml:Comment">
+     <body>
+      A characteristic of agreement which refers to 1) LifecycleDate of agreement (e.g., SignedDate, TerminatedDate, FulfilledDate) OR 2) ArrangedDate of agreement (e.g., StartingDate, EndingDate, ValidityPeriod, EffectiveDate).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PartyRelationship" xmi:id="fa6490a1-8957-e911-8237-0645314e65ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8462" xmi:type="uml:Comment">
+    <body>
+     A relationship between two or more parties; the parties involved are specified in terms of the roles they play in the relationship.
+
+A Party Relationship is a connection between an instance of a Party and two or more instances of associated objects in the relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="RelationshipType" type="Visibility=public" xmi:id="cec7e43f-39cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm8463" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RelationshipValidityPeriod" type="Visibility=public" xmi:id="735af251-5fd2-e911-8296-0633d5e0e61090157202">
+    <ownedComment xmi:id="comm8464" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ProductBrokerAgreement" xmi:id="4f59189b-94d7-e911-82a8-0667cb2841e8" xmi:type="uml:Class">
+   <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm8465" xmi:type="uml:Comment">
+    <body>
+     An agreement governing the engagement of a party to act as a broker for a product.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ProductBrokerRelationshipInvolvement" xmi:id="2b65393d-97d7-e911-82a8-0667cb2841e8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8466" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific Product Broker Relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ProductBrokerRelationshipInvolvementType" type="Visibility=public" xmi:id="35daaa6e-97d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm8467" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ProductBrokerRelationship" xmi:id="7cb6e31c-95d7-e911-82a8-0667cb2841e8" xmi:type="uml:Class">
+   <generalization general="fa6490a1-8957-e911-8237-0645314e65ac" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm8468" xmi:type="uml:Comment">
+    <body>
+     A party relationship in which one of the parties is a product broker.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BankingProduct" xmi:id="1aeced65-0b68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <generalization general="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm8469" xmi:type="uml:Comment">
+    <body>
+     A package of services and goods, accompanied by term and condition which is offered as a whole to (internal or external) customers.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ProductIdentification" type="Visibility=public" xmi:id="d9550bed-826a-e911-8237-061b75d0d31890157202">
+    <ownedComment xmi:id="comm8470" xmi:type="uml:Comment">
+     <body>
+      The identifier of product e.g. ISIN Code.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductType" type="Visibility=public" xmi:id="8a5e5f87-2f7d-e911-823e-069ad1a2e64890157202">
+    <ownedComment xmi:id="comm8471" xmi:type="uml:Comment">
+     <body>
+      Specifies the category/type/class of product like financial product. Product can be categorized according to different perspectives.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductLifecycleStatus" type="Visibility=public" xmi:id="c5f72c17-307d-e911-823e-069ad1a2e64890157202">
+    <ownedComment xmi:id="comm8472" xmi:type="uml:Comment">
+     <body>
+      Refers to the lifecycle of a product (e.g., initiated, announced, active, obsolete, withdrawn).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductPriority" type="Visibility=public" xmi:id="bf0ea918-b986-e911-823e-062687e6a90490157202">
+    <ownedComment xmi:id="comm8473" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductDescription" type="Visibility=public" xmi:id="34a6446c-2844-ea11-8289-068ff87429a490157202">
+    <ownedComment xmi:id="comm8474" xmi:type="uml:Comment">
+     <body>
+      A detailed explanation or commentary of product.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductVersion" type="Visibility=public" xmi:id="da801270-cc4c-ea11-8289-062dfdfaca5890157202">
+    <ownedComment xmi:id="comm8475" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="FinancialInstrument" xmi:id="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8476" xmi:type="uml:Comment">
+    <body>
+     A contract that gives rise to a financial asset of one entity and a financial liability or equity instrument of another entity. (IFRS)
+https://www.iasplus.com/en/standards/ias/ias32#:~:text=Key%20definitions%20%5BIAS%2032.11%5D,equity%20instrument%20of%20another%20entity
+
+Financial instruments are financial contracts of different nature made between institutional units. These comprise the full range of financial claims and liabilities between institutional units, including contingent liabilities like guarantees, commitments, etc. (ISO 10962)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ProductBrokerRelationshipInvolvementTypeValues" xmi:id="f206ce91-97d7-e911-82a8-0667cb2841e8" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="ProductBroker" xmi:id="f306ce91-97d7-e911-82a8-0667cb2841e8">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A party acting as a broker for a product.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Arrangement" xmi:id="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8477" xmi:type="uml:Comment">
+    <body>
+     An agreed commitment to perform actions that meet obligations under an agreement
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ActionType" type="Visibility=public" xmi:id="b5b2b263-7770-eb11-82fd-061e1f234dd590157202">
+    <ownedComment xmi:id="comm8478" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ArrangementStartDate" type="Visibility=public" xmi:id="7fa0d46b-7770-eb11-82fd-061e1f234dd590157202">
+    <ownedComment xmi:id="comm8479" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ArrangementEndDate" type="Visibility=public" xmi:id="0feec37e-7770-eb11-82fd-061e1f234dd590157202">
+    <ownedComment xmi:id="comm8480" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ArrangementStatus" type="Visibility=public" xmi:id="3bf71a90-a47a-eb11-8305-06377ca422c790157202">
+    <ownedComment xmi:id="comm8481" xmi:type="uml:Comment">
+     <body>
+      A status which refers to the LifecycleStatus of arrangement (e.g., requested, proposed, offered, accepted, cancelled, terminated, fulfilled, etc.);
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Business Unit Management BOM SD" visibility="public" xmi:id="1126ff58-4d89-ea11-8291-063dd8250e84" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="4503bd81-8257-e911-8237-0645314e65ac" xmi:type="uml:Association">
+   <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6f53fd37-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isUnique="true" name="" type="70959fdb-be56-e911-8237-06ecaacb4c68" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="2fcc4deb-eb98-ea11-8295-06e28f66aad4" xmi:type="uml:Association">
+   <ownedEnd association="2fcc4deb-eb98-ea11-8295-06e28f66aad4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="0544b299-05a7-e911-8288-068d1795c1bc" visibility="public" xmi:id="815940e4-eb98-ea11-8295-06e28f66aad4a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="2fcc4deb-eb98-ea11-8295-06e28f66aad4" isUnique="true" name="" type="815940e4-eb98-ea11-8295-06e28f66aad4" visibility="public" xmi:id="815940e4-eb98-ea11-8295-06e28f66aad4b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="a03dec86-6675-e911-823e-064d1e9fbc72a 97698d8d-6675-e911-823e-064d1e9fbc72b" name="" navigableOwnedEnd="97698d8d-6675-e911-823e-064d1e9fbc72b" xmi:id="83e8e4c4-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Association">
+   <ownedEnd association="83e8e4c4-6675-e911-823e-064d1e9fbc72" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="a03dec86-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="a03dec86-6675-e911-823e-064d1e9fbc72a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="83e8e4c4-6675-e911-823e-064d1e9fbc72" isUnique="true" name="" type="97698d8d-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="97698d8d-6675-e911-823e-064d1e9fbc72b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="9763c677-e898-ea11-8295-06e28f66aad4" xmi:type="uml:Association">
+   <ownedEnd association="9763c677-e898-ea11-8295-06e28f66aad4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="cb75411c-e898-ea11-8295-06e28f66aad4" visibility="public" xmi:id="0544b299-05a7-e911-8288-068d1795c1bca">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="9763c677-e898-ea11-8295-06e28f66aad4" isUnique="true" name="" type="0544b299-05a7-e911-8288-068d1795c1bc" visibility="public" xmi:id="0544b299-05a7-e911-8288-068d1795c1bcb">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="cb75411c-e898-ea11-8295-06e28f66aad4a 9f8ce9bb-ea98-ea11-8295-06e28f66aad4b" name="" navigableOwnedEnd="9f8ce9bb-ea98-ea11-8295-06e28f66aad4b" xmi:id="1e57ee2b-eb98-ea11-8295-06e28f66aad4" xmi:type="uml:Association">
+   <ownedEnd association="1e57ee2b-eb98-ea11-8295-06e28f66aad4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="cb75411c-e898-ea11-8295-06e28f66aad4" visibility="public" xmi:id="cb75411c-e898-ea11-8295-06e28f66aad4a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="1e57ee2b-eb98-ea11-8295-06e28f66aad4" isUnique="true" name="" type="9f8ce9bb-ea98-ea11-8295-06e28f66aad4" visibility="public" xmi:id="9f8ce9bb-ea98-ea11-8295-06e28f66aad4b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="cb75411c-e898-ea11-8295-06e28f66aad4a 480275ab-ee98-ea11-8295-06e28f66aad4b" name="" navigableOwnedEnd="480275ab-ee98-ea11-8295-06e28f66aad4b" xmi:id="5795efb2-ee98-ea11-8295-06e28f66aad4" xmi:type="uml:Association">
+   <ownedEnd association="5795efb2-ee98-ea11-8295-06e28f66aad4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="cb75411c-e898-ea11-8295-06e28f66aad4" visibility="public" xmi:id="cb75411c-e898-ea11-8295-06e28f66aad4a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="5795efb2-ee98-ea11-8295-06e28f66aad4" isUnique="true" name="" type="480275ab-ee98-ea11-8295-06e28f66aad4" visibility="public" xmi:id="480275ab-ee98-ea11-8295-06e28f66aad4b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="89aded66-ea98-ea11-8295-06e28f66aad4" xmi:type="uml:Association">
+   <ownedEnd association="89aded66-ea98-ea11-8295-06e28f66aad4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="0544b299-05a7-e911-8288-068d1795c1bc" visibility="public" xmi:id="a89ab5c4-598b-e911-823e-0680522666eca">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="89aded66-ea98-ea11-8295-06e28f66aad4" isUnique="true" name="" type="a89ab5c4-598b-e911-823e-0680522666ec" visibility="public" xmi:id="a89ab5c4-598b-e911-823e-0680522666ecb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="abe2448c-ec98-ea11-8295-06e28f66aad4" xmi:type="uml:Association">
+   <ownedEnd association="abe2448c-ec98-ea11-8295-06e28f66aad4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="ad1f6885-ec98-ea11-8295-06e28f66aad4" visibility="public" xmi:id="cb75411c-e898-ea11-8295-06e28f66aad4a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="abe2448c-ec98-ea11-8295-06e28f66aad4" isUnique="true" name="" type="cb75411c-e898-ea11-8295-06e28f66aad4" visibility="public" xmi:id="cb75411c-e898-ea11-8295-06e28f66aad4b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="a7dd2d35-ed98-ea11-8295-06e28f66aad4" xmi:type="uml:Association">
+   <ownedEnd association="a7dd2d35-ed98-ea11-8295-06e28f66aad4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="70959fdb-be56-e911-8237-06ecaacb4c68" visibility="public" xmi:id="815940e4-eb98-ea11-8295-06e28f66aad4a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="a7dd2d35-ed98-ea11-8295-06e28f66aad4" isUnique="true" name="" type="815940e4-eb98-ea11-8295-06e28f66aad4" visibility="public" xmi:id="815940e4-eb98-ea11-8295-06e28f66aad4b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="cb75411c-e898-ea11-8295-06e28f66aad4a 6fc7de6f-ee98-ea11-8295-06e28f66aad4b" name="" navigableOwnedEnd="6fc7de6f-ee98-ea11-8295-06e28f66aad4b" xmi:id="709be090-ee98-ea11-8295-06e28f66aad4" xmi:type="uml:Association">
+   <ownedEnd association="709be090-ee98-ea11-8295-06e28f66aad4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="cb75411c-e898-ea11-8295-06e28f66aad4" visibility="public" xmi:id="cb75411c-e898-ea11-8295-06e28f66aad4a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="709be090-ee98-ea11-8295-06e28f66aad4" isUnique="true" name="" type="6fc7de6f-ee98-ea11-8295-06e28f66aad4" visibility="public" xmi:id="6fc7de6f-ee98-ea11-8295-06e28f66aad4b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="cb75411c-e898-ea11-8295-06e28f66aad4a 962ccecf-ea98-ea11-8295-06e28f66aad4b" name="" navigableOwnedEnd="962ccecf-ea98-ea11-8295-06e28f66aad4b" xmi:id="4992ef36-eb98-ea11-8295-06e28f66aad4" xmi:type="uml:Association">
+   <ownedEnd association="4992ef36-eb98-ea11-8295-06e28f66aad4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="cb75411c-e898-ea11-8295-06e28f66aad4" visibility="public" xmi:id="cb75411c-e898-ea11-8295-06e28f66aad4a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="4992ef36-eb98-ea11-8295-06e28f66aad4" isUnique="true" name="" type="962ccecf-ea98-ea11-8295-06e28f66aad4" visibility="public" xmi:id="962ccecf-ea98-ea11-8295-06e28f66aad4b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="Duty" xmi:id="97698d8d-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm12479" xmi:type="uml:Comment">
+    <body>
+     A responsibility of task (under management).
+
+Duties are a collection of one or more responsibilities or tasks under management. (Behavior Qualifier Type)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="WorkTaskType" type="Visibility=public" xmi:id="6e430280-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm12480" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskDescription" type="Visibility=public" xmi:id="5ebf7d88-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm12481" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskResult" type="Visibility=public" xmi:id="e3abda96-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm12482" xmi:type="uml:Comment">
+     <body>
+      The outcome or result of the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskDateTime" type="Visibility=public" xmi:id="ff3c149f-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm12483" xmi:type="uml:Comment">
+     <body>
+      Key dates associated with the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskWorkProduct" type="Visibility=public" xmi:id="0b594fb2-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm12484" xmi:type="uml:Comment">
+     <body>
+      File of consolidated notes, evaluations and recommendations for the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="RuleSet" xmi:id="a89ab5c4-598b-e911-823e-0680522666ec" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm12485" xmi:type="uml:Comment">
+    <body>
+     A set of rules (e.g., regulation, policy, law, guideline, principle, standard) to guide, direct or operate a subject matter.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="RuleSetDefinition" type="Visibility=public" xmi:id="987fcf6e-c4cf-e911-8296-06957f3f468a90157202">
+    <ownedComment xmi:id="comm12486" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RuleSetInterpretation" type="Visibility=public" xmi:id="212d1c6a-2fd6-e911-8296-06e1705194c690157202">
+    <ownedComment xmi:id="comm12487" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RuleSetType" type="Visibility=public" xmi:id="1cde0ffd-2fd6-e911-8296-06e1705194c690157202">
+    <ownedComment xmi:id="comm12488" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RuleSetName" type="Visibility=public" xmi:id="547527cd-b97d-eb11-8309-06f448ba770790157202">
+    <ownedComment xmi:id="comm12489" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RuleSetIdentification" type="Visibility=public" xmi:id="9e2d918a-bf7d-eb11-8309-06f448ba770790157202">
+    <ownedComment xmi:id="comm12490" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ManagementPlan" xmi:id="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <generalization general="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm12491" xmi:type="uml:Comment">
+    <body>
+     The course of action to realize goals (of an operational unit of an enterprise).
+
+The management and oversight while running an operational unit of an enterprise. (Generic Artifact)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ManagementPlanPeriod" type="Visibility=public" xmi:id="d9d5a7a3-1757-ea11-8289-06a605eb4d6490157202">
+    <ownedComment xmi:id="comm12492" xmi:type="uml:Comment">
+     <body>
+      The time period addressed by the management plan.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ManagementPlanGoal" type="Visibility=public" xmi:id="9b86d8bd-1757-ea11-8289-06a605eb4d6490157202">
+    <ownedComment xmi:id="comm12493" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ManagementPlanType" type="Visibility=public" xmi:id="0e5ac279-d5e2-ea11-82b8-068800dddbf790157202">
+    <ownedComment xmi:id="comm12494" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="Management Plan Description" type="Visibility=public" xmi:id="38856e94-d5e2-ea11-82b8-068800dddbf790157202">
+    <ownedComment xmi:id="comm12495" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Plan" xmi:id="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm12496" xmi:type="uml:Comment">
+    <body>
+     A method for doing or achieving something, usually involving a series of actions or stages, or something you have arranged to do. (Cambridge Dictionary)
+
+A plan is a set of intended actions, through which one intends to achieve a goal.
+
+"Course of action" is a synonym for Plan.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BusinessUnitOperatingPlan" xmi:id="ad1f6885-ec98-ea11-8295-06e28f66aad4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm12497" xmi:type="uml:Comment">
+    <body>
+     A plan that specifies the target and actual business unit operating schedule - recording planned and actual business activity- and the assigned roles and responsibilities and associated work/delivery responsibilities for the staff making up the business unit
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm12498" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyRoleType" type="Visibility=public" xmi:id="83c28dd9-29e9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm12499" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleName" type="Visibility=public" xmi:id="7ebb122f-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm12500" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleValidityPeriod" type="Visibility=public" xmi:id="fb571d5e-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm12501" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyInvolvementType" type="Visibility=public" xmi:id="c5867926-2de9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm12502" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="BusinessUnit" xmi:id="0544b299-05a7-e911-8288-068d1795c1bc" xmi:type="uml:Class">
+   <generalization general="fbc0b4fa-8257-e911-8237-0645314e65ac" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm12503" xmi:type="uml:Comment">
+    <body>
+     A unit of an organisation that does not have legal standing outside the organisation.
+
+A logical element or segment of a company (such as accounting, production, marketing) representing a specific business function, and a definite place on the organizational chart, under the domain of a manager. Also called department, division, or a functional area. (Business Dictionary)
+
+Read more: http://www.businessdictionary.com/definition/business-unit.html
+    </body>
+   </ownedComment>
+   <ownedAttribute name="BusinessFunction" type="Visibility=public" xmi:id="9fa7188b-a67a-eb11-8305-06377ca422c790157202">
+    <ownedComment xmi:id="comm12504" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="Goal" type="Visibility=public" xmi:id="bdb3bc96-a67a-eb11-8305-06377ca422c790157202">
+    <ownedComment xmi:id="comm12505" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Organisation" xmi:id="fbc0b4fa-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm12506" xmi:type="uml:Comment">
+    <body>
+     structure/make-up of an organizational entity
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BusinessUnitManagementPlan" xmi:id="cb75411c-e898-ea11-8295-06e28f66aad4" xmi:type="uml:Class">
+   <generalization general="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm12507" xmi:type="uml:Comment">
+    <body>
+     A management plan for tracking and reporting on business unit activity and financial performance
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm12508" xmi:type="uml:Comment">
+    <body>
+     A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyName" type="Visibility=public" xmi:id="d8f7f366-21cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm12509" xmi:type="uml:Comment">
+     <body>
+      Name by which a party is known and which is usually used to identify that party. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyType" type="Visibility=public" xmi:id="b1f7b3d8-21cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm12510" xmi:type="uml:Comment">
+     <body>
+      Specifies the type of party in different business contexts. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyDateTime" type="Visibility=public" xmi:id="d6ed5669-40f6-e911-82bd-06a31b9588ce90157202">
+    <ownedComment xmi:id="comm12511" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyIdentification" type="Visibility=public" xmi:id="449e231b-a846-ea11-8289-06f8a6a00ed090157202">
+    <ownedComment xmi:id="comm12512" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="BusinessUnitInvolvement" xmi:id="815940e4-eb98-ea11-8295-06e28f66aad4" xmi:type="uml:Class">
+   <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen4" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm12513" xmi:type="uml:Comment">
+    <body>
+     The assigned roles and responsibilities for the staff making up the business unit
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BusinessUnitTroubleshooting" xmi:id="480275ab-ee98-ea11-8295-06e28f66aad4" xmi:type="uml:Class">
+   <generalization general="97698d8d-6675-e911-823e-064d1e9fbc72" xmi:id="gen5" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm12514" xmi:type="uml:Comment">
+    <body>
+     Direct the resolution of and assess major production issues. Amend the unit operating set-up and operational procedures/priorities as necessary
+    </body>
+   </ownedComment>
+   <ownedAttribute name="BusinessUnitProductionIssue" type="Visibility=public" xmi:id="1a5ea84e-ef98-ea11-8295-06e28f66aad490157202">
+    <ownedComment xmi:id="comm12515" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="BusinessUnitIssueRecommendation" type="Visibility=public" xmi:id="6423b36a-ef98-ea11-8295-06e28f66aad490157202">
+    <ownedComment xmi:id="comm12516" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="BusinessUnitPerformanceAnalysis" xmi:id="6fc7de6f-ee98-ea11-8295-06e28f66aad4" xmi:type="uml:Class">
+   <generalization general="97698d8d-6675-e911-823e-064d1e9fbc72" xmi:id="gen6" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm12517" xmi:type="uml:Comment">
+    <body>
+     Monitor business unit activity, analyze performance and highlight divergence from the business unit management plan. This analysis can lead to re-assignments within the unit.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BusinessUnitResourcePlan" xmi:id="9f8ce9bb-ea98-ea11-8295-06e28f66aad4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm12518" xmi:type="uml:Comment">
+    <body>
+     Details the number and skill profile of the business unit staff (target and actual)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BusinessUnitTrainingPlan" xmi:id="962ccecf-ea98-ea11-8295-06e28f66aad4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm12519" xmi:type="uml:Comment">
+    <body>
+     Details of staff training and certification as appropriate
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Party Lifecycle Management BOM SD" visibility="public" xmi:id="a6cdfe9f-99d7-e911-82a8-0667cb2841e8" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="0e342a46-9cd7-e911-82a8-0667cb2841e8" xmi:type="uml:Association">
+   <ownedEnd association="0e342a46-9cd7-e911-82a8-0667cb2841e8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="fa6490a1-8957-e911-8237-0645314e65ac" visibility="public" xmi:id="ce309a05-9cd7-e911-82a8-0667cb2841e8a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="0e342a46-9cd7-e911-82a8-0667cb2841e8" isUnique="true" name="" type="ce309a05-9cd7-e911-82a8-0667cb2841e8" visibility="public" xmi:id="ce309a05-9cd7-e911-82a8-0667cb2841e8b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="7fa3e892-2b81-e911-823e-06e80039c878a f701c099-2b81-e911-823e-06e80039c878b" name="" navigableOwnedEnd="f701c099-2b81-e911-823e-06e80039c878b" xmi:id="0e41a5a0-2b81-e911-823e-06e80039c878" xmi:type="uml:Association">
+   <ownedEnd association="0e41a5a0-2b81-e911-823e-06e80039c878" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="7fa3e892-2b81-e911-823e-06e80039c878" visibility="public" xmi:id="7fa3e892-2b81-e911-823e-06e80039c878a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="0e41a5a0-2b81-e911-823e-06e80039c878" isUnique="true" name="" type="f701c099-2b81-e911-823e-06e80039c878" visibility="public" xmi:id="f701c099-2b81-e911-823e-06e80039c878b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="4503bd81-8257-e911-8237-0645314e65ac" xmi:type="uml:Association">
+   <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6f53fd37-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isUnique="true" name="" type="70959fdb-be56-e911-8237-06ecaacb4c68" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="c8aeb4b9-38cf-e911-8296-06bf764cb4bc" xmi:type="uml:Association">
+   <ownedEnd association="c8aeb4b9-38cf-e911-8296-06bf764cb4bc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="fa6490a1-8957-e911-8237-0645314e65ac" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="c8aeb4b9-38cf-e911-8296-06bf764cb4bc" isUnique="true" name="" type="70959fdb-be56-e911-8237-06ecaacb4c68" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="9c48c390-9dd7-e911-82a8-0667cb2841e8" xmi:type="uml:Association">
+   <ownedEnd association="9c48c390-9dd7-e911-82a8-0667cb2841e8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="fa6490a1-8957-e911-8237-0645314e65ac" visibility="public" xmi:id="5bec4388-9dd7-e911-82a8-0667cb2841e8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="9c48c390-9dd7-e911-82a8-0667cb2841e8" isUnique="true" name="" type="5bec4388-9dd7-e911-82a8-0667cb2841e8" visibility="public" xmi:id="5bec4388-9dd7-e911-82a8-0667cb2841e8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="Workstep" xmi:id="f701c099-2b81-e911-823e-06e80039c878" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3719" xmi:type="uml:Comment">
+    <body>
+     A course of action must be followed to execute the procedure. 
+
+Worksteps as Behaviour Qualifier Type: The main worksteps to be followed in the execution of the procedure
+    </body>
+   </ownedComment>
+   <ownedAttribute name="WorkstepResult" type="Visibility=public" xmi:id="87be2a29-3581-e911-823e-06e80039c87890157202">
+    <ownedComment xmi:id="comm3720" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkstepType" type="Visibility=public" xmi:id="93264abb-2d8c-e911-823e-061d8abd002690157202">
+    <ownedComment xmi:id="comm3721" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkstepDescription" type="Visibility=public" xmi:id="78723a2b-2e8c-e911-823e-061d8abd002690157202">
+    <ownedComment xmi:id="comm3722" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkstepDateTime" type="Visibility=public" xmi:id="84a4bf4c-e553-ea11-8289-0686d9afb78890157202">
+    <ownedComment xmi:id="comm3723" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkstepStatus" type="Visibility=public" xmi:id="4be4f5a2-fb11-eb11-82c5-06dd7fab9bf590157202">
+    <ownedComment xmi:id="comm3724" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Procedure" xmi:id="7fa3e892-2b81-e911-823e-06e80039c878" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3725" xmi:type="uml:Comment">
+    <body>
+     A step-by-step sequence of activities or course of action to perform a supporting office activity within the enterprise.
+
+A procedure is a series of steps, taken together, to achieve a desired result. 
+
+Procedure as Generic Artifact: The performance of a supporting office activity within the enterprise (not product/service fulfillment specific)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ProcedureType" type="Visibility=public" xmi:id="d9615215-89b7-e911-8291-0657c6eca57a90157202">
+    <ownedComment xmi:id="comm3726" xmi:type="uml:Comment">
+     <body>
+      A Classification value that distinguishes between the type of process undertaken within Procedure
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProcedureDateTime" type="Visibility=public" xmi:id="8a08481e-89b7-e911-8291-0657c6eca57a90157202">
+    <ownedComment xmi:id="comm3727" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProcedureRequest" type="Visibility=public" xmi:id="0680c8ba-fa11-eb11-82c5-06dd7fab9bf590157202">
+    <ownedComment xmi:id="comm3728" xmi:type="uml:Comment">
+     <body>
+      Request to process something (most refers to Asset Type)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProcedureSchedule" type="Visibility=public" xmi:id="943281e2-fa11-eb11-82c5-06dd7fab9bf590157202">
+    <ownedComment xmi:id="comm3729" xmi:type="uml:Comment">
+     <body>
+      Timetable to process something (most refers to the Asset Type)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProcedureStatus" type="Visibility=public" xmi:id="376cae7c-fb11-eb11-82c5-06dd7fab9bf590157202">
+    <ownedComment xmi:id="comm3730" xmi:type="uml:Comment">
+     <body>
+      The status of  Procedure
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3731" xmi:type="uml:Comment">
+    <body>
+     A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyName" type="Visibility=public" xmi:id="d8f7f366-21cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm3732" xmi:type="uml:Comment">
+     <body>
+      Name by which a party is known and which is usually used to identify that party. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyType" type="Visibility=public" xmi:id="b1f7b3d8-21cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm3733" xmi:type="uml:Comment">
+     <body>
+      Specifies the type of party in different business contexts. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyDateTime" type="Visibility=public" xmi:id="d6ed5669-40f6-e911-82bd-06a31b9588ce90157202">
+    <ownedComment xmi:id="comm3734" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyIdentification" type="Visibility=public" xmi:id="449e231b-a846-ea11-8289-06f8a6a00ed090157202">
+    <ownedComment xmi:id="comm3735" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3736" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyRoleType" type="Visibility=public" xmi:id="83c28dd9-29e9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm3737" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleName" type="Visibility=public" xmi:id="7ebb122f-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm3738" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleValidityPeriod" type="Visibility=public" xmi:id="fb571d5e-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm3739" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyInvolvementType" type="Visibility=public" xmi:id="c5867926-2de9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm3740" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PartyRelationshipLifecyclePhase" xmi:id="5bec4388-9dd7-e911-82a8-0667cb2841e8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3741" xmi:type="uml:Comment">
+    <body>
+     Specifies a series of stages that characterize the course of existence of a party relationship in a specific context.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="Description" type="Visibility=public" xmi:id="67d92ebf-9dd7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3742" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="IsCurrentPhase" type="Visibility=public" xmi:id="d6825fc8-9dd7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3743" xmi:type="uml:Comment">
+     <body>
+      Specifies whether the phase is the current phase of the party relationship.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PhaseName" type="Visibility=public" xmi:id="416143e2-9dd7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3744" xmi:type="uml:Comment">
+     <body>
+      The name of the phase of the relationship, such as prospect, contracted, on-board, etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PhaseStatus" type="Visibility=public" xmi:id="88694df8-9dd7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3745" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PhasePeriod" type="Visibility=public" xmi:id="16290418-9ed7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3746" xmi:type="uml:Comment">
+     <body>
+      The period of time during which the phase was the current phase of the party relationship.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PartyRelationshipManagement" xmi:id="ce309a05-9cd7-e911-82a8-0667cb2841e8" xmi:type="uml:Class">
+   <generalization general="7fa3e892-2b81-e911-823e-06e80039c878" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm3747" xmi:type="uml:Comment">
+    <body>
+     Management process governing the handling of party relationships.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRelationship" xmi:id="fa6490a1-8957-e911-8237-0645314e65ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3748" xmi:type="uml:Comment">
+    <body>
+     A relationship between two or more parties; the parties involved are specified in terms of the roles they play in the relationship.
+
+A Party Relationship is a connection between an instance of a Party and two or more instances of associated objects in the relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="RelationshipType" type="Visibility=public" xmi:id="cec7e43f-39cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm3749" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RelationshipValidityPeriod" type="Visibility=public" xmi:id="735af251-5fd2-e911-8296-0633d5e0e61090157202">
+    <ownedComment xmi:id="comm3750" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>
