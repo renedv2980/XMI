@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Human Resource BOM Overview SD" visibility="public" xmi:id="a75ea2c9-21f7-e911-82bd-06554362bd22" xmi:type="uml:Package">
+  <packagedElement memberEnd="94885b0f-22f7-e911-82bd-06554362bd22a b5e4b61f-6afa-e911-82bd-060c1aa554c0b" name="" navigableOwnedEnd="b5e4b61f-6afa-e911-82bd-060c1aa554c0b" xmi:id="9507a48b-6bfa-e911-82bd-060c1aa554c0" xmi:type="uml:Association">
+   <ownedEnd association="9507a48b-6bfa-e911-82bd-060c1aa554c0" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="94885b0f-22f7-e911-82bd-06554362bd22" visibility="public" xmi:id="94885b0f-22f7-e911-82bd-06554362bd22a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="9507a48b-6bfa-e911-82bd-060c1aa554c0" isUnique="true" name="" type="b5e4b61f-6afa-e911-82bd-060c1aa554c0" visibility="public" xmi:id="b5e4b61f-6afa-e911-82bd-060c1aa554c0b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="94885b0f-22f7-e911-82bd-06554362bd22a 6a51e05c-2ef7-e911-82bd-06554362bd22b" name="" navigableOwnedEnd="6a51e05c-2ef7-e911-82bd-06554362bd22b" xmi:id="243b6284-6afa-e911-82bd-060c1aa554c0" xmi:type="uml:Association">
+   <ownedEnd association="243b6284-6afa-e911-82bd-060c1aa554c0" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="94885b0f-22f7-e911-82bd-06554362bd22" visibility="public" xmi:id="94885b0f-22f7-e911-82bd-06554362bd22a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="243b6284-6afa-e911-82bd-060c1aa554c0" isUnique="true" name="" type="6a51e05c-2ef7-e911-82bd-06554362bd22" visibility="public" xmi:id="6a51e05c-2ef7-e911-82bd-06554362bd22b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="94885b0f-22f7-e911-82bd-06554362bd22a a9d93263-2ff7-e911-82bd-06554362bd22b" name="" navigableOwnedEnd="a9d93263-2ff7-e911-82bd-06554362bd22b" xmi:id="e0457b99-6bfa-e911-82bd-060c1aa554c0" xmi:type="uml:Association">
+   <ownedEnd association="e0457b99-6bfa-e911-82bd-060c1aa554c0" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="94885b0f-22f7-e911-82bd-06554362bd22" visibility="public" xmi:id="94885b0f-22f7-e911-82bd-06554362bd22a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="e0457b99-6bfa-e911-82bd-060c1aa554c0" isUnique="true" name="" type="a9d93263-2ff7-e911-82bd-06554362bd22" visibility="public" xmi:id="a9d93263-2ff7-e911-82bd-06554362bd22b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="98fefe6f-3ffa-e911-82bd-06e507138132" xmi:type="uml:Association">
+   <ownedEnd association="98fefe6f-3ffa-e911-82bd-06e507138132" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c412fec5-26f7-e911-82bd-06554362bd22" visibility="public" xmi:id="94885b0f-22f7-e911-82bd-06554362bd22a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="98fefe6f-3ffa-e911-82bd-06e507138132" isUnique="true" name="" type="94885b0f-22f7-e911-82bd-06554362bd22" visibility="public" xmi:id="94885b0f-22f7-e911-82bd-06554362bd22b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="e0b86713-42fa-e911-82bd-06e507138132" xmi:type="uml:Association">
+   <ownedEnd association="e0b86713-42fa-e911-82bd-06e507138132" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c412fec5-26f7-e911-82bd-06554362bd22" visibility="public" xmi:id="1fa3dd1a-2bf7-e911-82bd-06554362bd22a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="e0b86713-42fa-e911-82bd-06e507138132" isUnique="true" name="" type="1fa3dd1a-2bf7-e911-82bd-06554362bd22" visibility="public" xmi:id="1fa3dd1a-2bf7-e911-82bd-06554362bd22b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="85598476-4afa-e911-82bd-06e507138132" xmi:type="uml:Association">
+   <ownedEnd association="85598476-4afa-e911-82bd-06e507138132" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="d53aa669-4afa-e911-82bd-06e507138132" visibility="public" xmi:id="47bc25fe-49fa-e911-82bd-06e507138132a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="85598476-4afa-e911-82bd-06e507138132" isUnique="true" name="" type="47bc25fe-49fa-e911-82bd-06e507138132" visibility="public" xmi:id="47bc25fe-49fa-e911-82bd-06e507138132b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="b7b89b1b-42fa-e911-82bd-06e507138132" xmi:type="uml:Association">
+   <ownedEnd association="b7b89b1b-42fa-e911-82bd-06e507138132" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c412fec5-26f7-e911-82bd-06554362bd22" visibility="public" xmi:id="ae015f0d-2bf7-e911-82bd-06554362bd22a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="b7b89b1b-42fa-e911-82bd-06e507138132" isUnique="true" name="" type="ae015f0d-2bf7-e911-82bd-06554362bd22" visibility="public" xmi:id="ae015f0d-2bf7-e911-82bd-06554362bd22b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="12692d48-6cfa-e911-82bd-060c1aa554c0" xmi:type="uml:Association">
+   <ownedEnd association="12692d48-6cfa-e911-82bd-060c1aa554c0" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="2d905b3f-6cfa-e911-82bd-060c1aa554c0" visibility="public" xmi:id="c412fec5-26f7-e911-82bd-06554362bd22a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="12692d48-6cfa-e911-82bd-060c1aa554c0" isUnique="true" name="" type="c412fec5-26f7-e911-82bd-06554362bd22" visibility="public" xmi:id="c412fec5-26f7-e911-82bd-06554362bd22b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="d8efdc59-4efa-e911-82bd-06e507138132a e7ee84d3-73fa-e911-82bd-060c1aa554c0b" name="" navigableOwnedEnd="e7ee84d3-73fa-e911-82bd-060c1aa554c0b" xmi:id="7261101f-74fa-e911-82bd-060c1aa554c0" xmi:type="uml:Association">
+   <ownedEnd association="7261101f-74fa-e911-82bd-060c1aa554c0" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="d8efdc59-4efa-e911-82bd-06e507138132" visibility="public" xmi:id="d8efdc59-4efa-e911-82bd-06e507138132a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="7261101f-74fa-e911-82bd-060c1aa554c0" isUnique="true" name="" type="e7ee84d3-73fa-e911-82bd-060c1aa554c0" visibility="public" xmi:id="e7ee84d3-73fa-e911-82bd-060c1aa554c0b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="b0b50a6f-02fb-e911-82bd-067729125860" xmi:type="uml:Association">
+   <ownedEnd association="b0b50a6f-02fb-e911-82bd-067729125860" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c7f32ee2-78fa-e911-82bd-060c1aa554c0" visibility="public" xmi:id="80d9294d-02fb-e911-82bd-067729125860a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="b0b50a6f-02fb-e911-82bd-067729125860" isUnique="true" name="" type="80d9294d-02fb-e911-82bd-067729125860" visibility="public" xmi:id="80d9294d-02fb-e911-82bd-067729125860b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="0b3e544f-6efa-e911-82bd-060c1aa554c0" xmi:type="uml:Association">
+   <ownedEnd association="0b3e544f-6efa-e911-82bd-060c1aa554c0" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="d6e6bdc1-6dfa-e911-82bd-060c1aa554c0" visibility="public" xmi:id="021de562-50fa-e911-82bd-06e507138132a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="0b3e544f-6efa-e911-82bd-060c1aa554c0" isUnique="true" name="" type="021de562-50fa-e911-82bd-06e507138132" visibility="public" xmi:id="021de562-50fa-e911-82bd-06e507138132b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="f2b7db32-41fa-e911-82bd-06e507138132" xmi:type="uml:Association">
+   <ownedEnd association="f2b7db32-41fa-e911-82bd-06e507138132" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c412fec5-26f7-e911-82bd-06554362bd22" visibility="public" xmi:id="5b5afda9-27f7-e911-82bd-06554362bd22a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="f2b7db32-41fa-e911-82bd-06e507138132" isUnique="true" name="" type="5b5afda9-27f7-e911-82bd-06554362bd22" visibility="public" xmi:id="5b5afda9-27f7-e911-82bd-06554362bd22b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="b4af9afd-4ffa-e911-82bd-06e507138132" xmi:type="uml:Association">
+   <ownedEnd association="b4af9afd-4ffa-e911-82bd-06e507138132" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c412fec5-26f7-e911-82bd-06554362bd22" visibility="public" xmi:id="5fe59fe3-4ffa-e911-82bd-06e507138132a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="b4af9afd-4ffa-e911-82bd-06e507138132" isUnique="true" name="" type="5fe59fe3-4ffa-e911-82bd-06e507138132" visibility="public" xmi:id="5fe59fe3-4ffa-e911-82bd-06e507138132b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="7422d229-74fa-e911-82bd-060c1aa554c0" xmi:type="uml:Association">
+   <ownedEnd association="7422d229-74fa-e911-82bd-060c1aa554c0" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c412fec5-26f7-e911-82bd-06554362bd22" visibility="public" xmi:id="e7ee84d3-73fa-e911-82bd-060c1aa554c0a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="7422d229-74fa-e911-82bd-060c1aa554c0" isUnique="true" name="" type="e7ee84d3-73fa-e911-82bd-060c1aa554c0" visibility="public" xmi:id="e7ee84d3-73fa-e911-82bd-060c1aa554c0b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="8e48d266-3ffa-e911-82bd-06e507138132" xmi:type="uml:Association">
+   <ownedEnd association="8e48d266-3ffa-e911-82bd-06e507138132" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c412fec5-26f7-e911-82bd-06554362bd22" visibility="public" xmi:id="da39738d-3efa-e911-82bd-06e507138132a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="8e48d266-3ffa-e911-82bd-06e507138132" isUnique="true" name="" type="da39738d-3efa-e911-82bd-06e507138132" visibility="public" xmi:id="da39738d-3efa-e911-82bd-06e507138132b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="EmployeeRelationship" xmi:id="c412fec5-26f7-e911-82bd-06554362bd22" xmi:type="uml:Class">
+   <generalization general="fa6490a1-8957-e911-8237-0645314e65ac" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm384" xmi:type="uml:Comment">
+    <body>
+     A relationship between an employer and its employee focused on enabling employee to collaborate on typical managerial tasks with its employer.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="EmployeeRiskCheck" xmi:id="1fa3dd1a-2bf7-e911-82bd-06554362bd22" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm385" xmi:type="uml:Comment">
+    <body>
+     An assessment of employee's qualifications and skills
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="TerminationArrangement" xmi:id="a9d93263-2ff7-e911-82bd-06554362bd22" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm386" xmi:type="uml:Comment">
+    <body>
+     An arrangement to terminate the employee relationship.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BenefitArrangement" xmi:id="bcfa91dd-2ff7-e911-82bd-06554362bd22" xmi:type="uml:Class">
+   <generalization general="6a51e05c-2ef7-e911-82bd-06554362bd22" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm387" xmi:type="uml:Comment">
+    <body>
+     An arrangement/promise to pay human capital benefits including, but not limited to, medical, dental, disability, insurance, leave and vision care.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="EmployeeRelationshipInvolvement" xmi:id="da39738d-3efa-e911-82bd-06e507138132" xmi:type="uml:Class">
+   <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm388" xmi:type="uml:Comment">
+    <body>
+     A specific party who plays a specific role in a specific employee relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="EmployeeRelationshipInvolvementType" type="Visibility=public" xmi:id="850041bd-3efa-e911-82bd-06e50713813290157202">
+    <ownedComment xmi:id="comm389" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="EmployeeRelationshipLifecyclePhase" xmi:id="5b5afda9-27f7-e911-82bd-06554362bd22" xmi:type="uml:Class">
+   <generalization general="5bec4388-9dd7-e911-82a8-0667cb2841e8" xmi:id="gen4" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm390" xmi:type="uml:Comment">
+    <body>
+     Specifies a series of stages that characterize the course of existence of an employee relationship including five stages: Recruitment, Onboarding, Development, Retention, and Exit/Separation/Offboarding.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRelationshipLifecyclePhase" xmi:id="5bec4388-9dd7-e911-82a8-0667cb2841e8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm391" xmi:type="uml:Comment">
+    <body>
+     Specifies a series of stages that characterize the course of existence of a party relationship in a specific context.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRelationship" xmi:id="fa6490a1-8957-e911-8237-0645314e65ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm392" xmi:type="uml:Comment">
+    <body>
+     A relationship between two or more parties; the parties involved are specified in terms of the roles they play in the relationship.
+
+A Party Relationship is a connection between an instance of a Party and two or more instances of associated objects in the relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="RelationshipType" type="Visibility=public" xmi:id="cec7e43f-39cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm393" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RelationshipValidityPeriod" type="Visibility=public" xmi:id="735af251-5fd2-e911-8296-0633d5e0e61090157202">
+    <ownedComment xmi:id="comm394" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="RecruitmentLifecyclePhase" xmi:id="47bc25fe-49fa-e911-82bd-06e507138132" xmi:type="uml:Class">
+   <generalization general="5b5afda9-27f7-e911-82bd-06554362bd22" xmi:id="gen5" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm395" xmi:type="uml:Comment">
+    <body>
+     This stage includes all the processes leading up to and including the hiring of a new employee.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="EmployeeRecruitment" xmi:id="d53aa669-4afa-e911-82bd-06e507138132" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm396" xmi:type="uml:Comment">
+    <body>
+     The process of finding and hiring the best-qualified candidate (from within or outside of an organization) for a job opening, in a timely and cost effective manner. (Business Dictionary)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="SalaryArrangement" xmi:id="981f6e23-2df7-e911-82bd-06554362bd22" xmi:type="uml:Class">
+   <generalization general="6a51e05c-2ef7-e911-82bd-06554362bd22" xmi:id="gen6" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm397" xmi:type="uml:Comment">
+    <body>
+     Arrangement to pay a fixed amount of money or compensation to an employee
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CommissionArrangement" xmi:id="7fe6c8c1-4dfa-e911-82bd-06e507138132" xmi:type="uml:Class">
+   <generalization general="6a51e05c-2ef7-e911-82bd-06554362bd22" xmi:id="gen7" xmi:type="uml:Generalization"/>
+   <generalization general="c80f2ee6-f097-e911-827a-06d89370a58e" xmi:id="gen8" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm398" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ServiceArrangement" xmi:id="c80f2ee6-f097-e911-827a-06d89370a58e" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm399" xmi:type="uml:Comment">
+    <body>
+     An arrangement into which is promised to deliver a specific service.
+
+Comment: Most service arrangements are instantiations of Product Services
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="IncentiveArrangement" xmi:id="07076ed9-4dfa-e911-82bd-06e507138132" xmi:type="uml:Class">
+   <generalization general="6a51e05c-2ef7-e911-82bd-06554362bd22" xmi:id="gen9" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm400" xmi:type="uml:Comment">
+    <body>
+     An arrangement/promise to do a thing that motivates or encourages the employee.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Employee Agreement" xmi:id="94885b0f-22f7-e911-82bd-06554362bd22" xmi:type="uml:Class">
+   <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen10" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm401" xmi:type="uml:Comment">
+    <body>
+     A formal agreement that specifies the terms and conditions of the relationship between an employee and an employer including compensation and expectations. (Business Dictionary)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="EmployeePerformanceCheck" xmi:id="ae015f0d-2bf7-e911-82bd-06554362bd22" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm402" xmi:type="uml:Comment">
+    <body>
+     A fact based assessment of employee performance
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="RemunerationArrangement" xmi:id="6a51e05c-2ef7-e911-82bd-06554362bd22" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm403" xmi:type="uml:Comment">
+    <body>
+     An arrangement/promise to pay the regular remuneration paid to human resources.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="EmployeeRelationshipInvolvementTypeValues" xmi:id="a60a8947-3ffa-e911-82bd-06e507138132" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="Employee" xmi:id="a70a8947-3ffa-e911-82bd-06e507138132">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Employer" xmi:id="6d00eb50-3ffa-e911-82bd-06e507138132">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="RelationshipManager" xmi:id="6e00eb50-3ffa-e911-82bd-06e507138132">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="DevelopmentLifecyclePhase" xmi:id="8d2ecfa9-5dfa-e911-82bd-061ae500ecdc" xmi:type="uml:Class">
+   <generalization general="5b5afda9-27f7-e911-82bd-06554362bd22" xmi:id="gen11" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm404" xmi:type="uml:Comment">
+    <body>
+     This stage includes all the processes in which employees are given feedback for their work through performance reviews, one-on-one check-ins and meetings.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm405" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyRoleType" type="Visibility=public" xmi:id="83c28dd9-29e9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm406" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleName" type="Visibility=public" xmi:id="7ebb122f-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm407" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleValidityPeriod" type="Visibility=public" xmi:id="fb571d5e-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm408" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyInvolvementType" type="Visibility=public" xmi:id="c5867926-2de9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm409" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Agreement" xmi:id="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm410" xmi:type="uml:Comment">
+    <body>
+     A formal or informal common understanding between two or more (legal competent) parties concerning one or more subject matters expressed in a set of arrangements, terms and conditions. (adapted from Legal System and FIBO)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AgreementSignedDate" type="Visibility=public" xmi:id="38d73dbf-7288-e911-823e-06b09c770f0c90157202">
+    <ownedComment xmi:id="comm411" xmi:type="uml:Comment">
+     <body>
+      Date on which the agreement was signed by all parties. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementType" type="Visibility=public" xmi:id="39d73dbf-7288-e911-823e-06b09c770f0c90157202">
+    <ownedComment xmi:id="comm412" xmi:type="uml:Comment">
+     <body>
+      Specifies the category of agreement. Agreement type is very often referred to product. But, the term product does not cover all kinds of agreements. An Agreement can be subtyped from the perspective of various aspects of interest. One can classify the agreement from the perspective of format type (e.g., verbal agreement, written agreement). Other one can classify agreement based on duration like short-term agreement or long-term agreement.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementValidityPeriod" type="Visibility=public" xmi:id="a16043ce-7288-e911-823e-06b09c770f0c90157202">
+    <ownedComment xmi:id="comm413" xmi:type="uml:Comment">
+     <body>
+      Period during which the agreement is valid
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementVersion" type="Visibility=public" xmi:id="a26043ce-7288-e911-823e-06b09c770f0c90157202">
+    <ownedComment xmi:id="comm414" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementStatus" type="Visibility=public" xmi:id="e76ce121-3250-ea11-8289-06b8c2aff48690157202">
+    <ownedComment xmi:id="comm415" xmi:type="uml:Comment">
+     <body>
+      LifecycleStatus of agreement (e.g., potential, offered, confirmed, completed, signed, terminated)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementSubjectMatter" type="Visibility=public" xmi:id="b7704e49-7870-eb11-82fd-061e1f234dd590157202">
+    <ownedComment xmi:id="comm416" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementIdentification" type="Visibility=public" xmi:id="ac6ca285-5777-eb11-8305-06d6e8bf29e790157202">
+    <ownedComment xmi:id="comm417" xmi:type="uml:Comment">
+     <body>
+      The identifier of agreement like Agreement Number, Contract Number, Contract Registration Number, etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AgreementDate" type="Visibility=public" xmi:id="4d27b628-5977-eb11-8305-06d6e8bf29e790157202">
+    <ownedComment xmi:id="comm418" xmi:type="uml:Comment">
+     <body>
+      A characteristic of agreement which refers to 1) LifecycleDate of agreement (e.g., SignedDate, TerminatedDate, FulfilledDate) OR 2) ArrangedDate of agreement (e.g., StartingDate, EndingDate, ValidityPeriod, EffectiveDate).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="OnboardingLifecyclePhase" xmi:id="a15e35b9-5bfa-e911-82bd-061ae500ecdc" xmi:type="uml:Class">
+   <generalization general="5b5afda9-27f7-e911-82bd-06554362bd22" xmi:id="gen12" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm419" xmi:type="uml:Comment">
+    <body>
+     At this stage, employees who have accepted job offers become part of the company's workforce. (giving a new hire the information and tools needed to start working).
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="OffboardingLifecyclePhase" xmi:id="5139c7f9-60fa-e911-82bd-060c1aa554c0" xmi:type="uml:Class">
+   <generalization general="5b5afda9-27f7-e911-82bd-06554362bd22" xmi:id="gen13" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm420" xmi:type="uml:Comment">
+    <body>
+     This is the final stage of the employee life cycle, wherein the employee leaves due to a new job, retirement, layoffs, personal reasons or termination for violating company policy.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="RetentionLifecyclePhase" xmi:id="2ad4259a-5ffa-e911-82bd-060c1aa554c0" xmi:type="uml:Class">
+   <generalization general="5b5afda9-27f7-e911-82bd-06554362bd22" xmi:id="gen14" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm421" xmi:type="uml:Comment">
+    <body>
+     This stage is about retaining the worker and ensuring continued employee development. Continuous evaluation, recognition and training are crucial at this stage for sustaining employee engagement and retaining the employee.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="EmployeeExpense" xmi:id="5fe59fe3-4ffa-e911-82bd-06e507138132" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm422" xmi:type="uml:Comment">
+    <body>
+     Money spent or cost by the employee which will be paid back to the employee afterwards.
+
+Expenses are amounts of money that the employee spend while doing something in the course of work, which will be paid back to the employee afterwards.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="AssignmentLifecyclePhase" xmi:id="021de562-50fa-e911-82bd-06e507138132" xmi:type="uml:Class">
+   <generalization general="a15e35b9-5bfa-e911-82bd-061ae500ecdc" xmi:id="gen15" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm423" xmi:type="uml:Comment">
+    <body>
+     At this stage, work tasks and positions are being assigned to the employee.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="EmployeeSalary" xmi:id="e7ee84d3-73fa-e911-82bd-060c1aa554c0" xmi:type="uml:Class">
+   <generalization general="7314f250-f5a9-e911-8288-06812ee60d2a" xmi:id="gen16" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm424" xmi:type="uml:Comment">
+    <body>
+     A form of payment which is a fixed amount of money or compensation paid to an employee by an employer in return for work performed
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="MoneyTransferTransaction" xmi:id="7314f250-f5a9-e911-8288-06812ee60d2a" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm425" xmi:type="uml:Comment">
+    <body>
+     Transfer of money between two parties and/or accounts
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ProbationaryArrangement" xmi:id="b5e4b61f-6afa-e911-82bd-060c1aa554c0" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm426" xmi:type="uml:Comment">
+    <body>
+     An arrangement to specify the probationary period, rights and obligations for the employee (relating to a process of testing or observing the character or abilities of a person who is new to a role or job.)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="EmployeeAssignment" xmi:id="d6e6bdc1-6dfa-e911-82bd-060c1aa554c0" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm427" xmi:type="uml:Comment">
+    <body>
+     Allocation of staff to assigned positions for both permanent and project based roles.
+
+Assignment of individuals and groups to work tasks and positions.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="EmployeeCertificateCheck" xmi:id="2d905b3f-6cfa-e911-82bd-060c1aa554c0" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm428" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="EmployeePayroll" xmi:id="d8efdc59-4efa-e911-82bd-06e507138132" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm429" xmi:type="uml:Comment">
+    <body>
+     A list of a company's employees and the amount of money they are to be paid.
+
+Total amount required to pay workers and employees during a week, month or other period. (Business Dictionary)
+
+Payroll is the total of all compensation a business must pay to its employees for a set period of time or on a given date. (Investopedia)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="EmployeeTraining" xmi:id="c7f32ee2-78fa-e911-82bd-060c1aa554c0" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm430" xmi:type="uml:Comment">
+    <body>
+     A program that is designed to increase the technical skills, knowledge, efficiency, and value creation of employee to do any specific job in a much better way. .
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="TrainingLifecyclePhase" xmi:id="80d9294d-02fb-e911-82bd-067729125860" xmi:type="uml:Class">
+   <generalization general="2ad4259a-5ffa-e911-82bd-060c1aa554c0" xmi:id="gen17" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm431" xmi:type="uml:Comment">
+    <body>
+     At this stage, the employee receives training.
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

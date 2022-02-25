@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Legal Compliance BOM SD" visibility="public" xmi:id="8c67d615-2d8a-ea11-8295-068b94ab5512" xmi:type="uml:Package">
+  <packagedElement name="Assessment Helper SD" visibility="public" xmi:id="b5e905ea-2ba2-e911-8280-068b5ca1cd1a" xmi:type="uml:Package">
+   <packagedElement memberEnd="ea36f45c-1656-e911-8237-060aad038e48a cf97fd7e-ff76-e911-823e-0663ff6583c4b" name="" navigableOwnedEnd="cf97fd7e-ff76-e911-823e-0663ff6583c4b" xmi:id="4ea05e93-ff76-e911-823e-0663ff6583c4" xmi:type="uml:Association">
+    <ownedEnd association="4ea05e93-ff76-e911-823e-0663ff6583c4" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="ea36f45c-1656-e911-8237-060aad038e48" visibility="public" xmi:id="ea36f45c-1656-e911-8237-060aad038e48a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="4ea05e93-ff76-e911-823e-0663ff6583c4" isUnique="true" name="" type="cf97fd7e-ff76-e911-823e-0663ff6583c4" visibility="public" xmi:id="cf97fd7e-ff76-e911-823e-0663ff6583c4b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="4503bd81-8257-e911-8237-0645314e65ac" xmi:type="uml:Association">
+    <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6f53fd37-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isUnique="true" name="" type="70959fdb-be56-e911-8237-06ecaacb4c68" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="0e6eea3b-4494-ea11-8295-06a5be9987fe" xmi:type="uml:Association">
+    <ownedEnd association="0e6eea3b-4494-ea11-8295-06a5be9987fe" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="818dfa4c-3d94-ea11-8295-06a5be9987fe" visibility="public" xmi:id="11510b17-4494-ea11-8295-06a5be9987fea">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="0e6eea3b-4494-ea11-8295-06a5be9987fe" isUnique="true" name="" type="11510b17-4494-ea11-8295-06a5be9987fe" visibility="public" xmi:id="11510b17-4494-ea11-8295-06a5be9987feb">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="883e7ac2-3e94-ea11-8295-06a5be9987fe" xmi:type="uml:Association">
+    <ownedEnd association="883e7ac2-3e94-ea11-8295-06a5be9987fe" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="31b6446f-3e94-ea11-8295-06a5be9987fe" visibility="public" xmi:id="818dfa4c-3d94-ea11-8295-06a5be9987fea">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="883e7ac2-3e94-ea11-8295-06a5be9987fe" isUnique="true" name="" type="818dfa4c-3d94-ea11-8295-06a5be9987fe" visibility="public" xmi:id="818dfa4c-3d94-ea11-8295-06a5be9987feb">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="182f5ca8-3e94-ea11-8295-06a5be9987fe" xmi:type="uml:Association">
+    <ownedEnd association="182f5ca8-3e94-ea11-8295-06a5be9987fe" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="Confirmed
+Law" type="41e81f1a-22a7-e911-8288-06c837085cb8" visibility="public" xmi:id="31b6446f-3e94-ea11-8295-06a5be9987fea">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="182f5ca8-3e94-ea11-8295-06a5be9987fe" isUnique="true" name="" type="31b6446f-3e94-ea11-8295-06a5be9987fe" visibility="public" xmi:id="31b6446f-3e94-ea11-8295-06a5be9987feb">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="bbe4dc20-24a7-e911-8288-06c837085cb8" xmi:type="uml:Association">
+    <ownedEnd association="bbe4dc20-24a7-e911-8288-06c837085cb8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="Legal
+Jurisdiction" type="de2498cb-6188-e911-823e-06b09c770f0c" visibility="public" xmi:id="41e81f1a-22a7-e911-8288-06c837085cb8a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="bbe4dc20-24a7-e911-8288-06c837085cb8" isUnique="true" name="" type="41e81f1a-22a7-e911-8288-06c837085cb8" visibility="public" xmi:id="41e81f1a-22a7-e911-8288-06c837085cb8b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="Audit" xmi:id="b5e905ea-2ba2-e911-8280-068b5ca1cd1a" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen1" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21703" xmi:type="uml:Comment">
+     <body>
+      Systematic examination and verification of a firm's books of account, transaction records, other relevant documents, and physical inspection of inventory by qualified accountants (called auditors) . BusinessDictionary
+
+An examination and verification of a company's financial and accounting records and supporting documents by a professional, such as a Certified Public Accountant. (Read more: http://www.investorwords.com/324/audit.html#ixzz5tAeSPyMC)
+
+
+The term audit usually refers to a financial statement audit. A financial audit is an objective examination and evaluation of the financial statements of an organization to make sure that the financial records are a fair and accurate representation of the transactions they claim to represent. The audit can be conducted internally by employees of the organization or externally by an outside Certified Public Accountant (CPA) firm. (Investopedia)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Assessment" xmi:id="ea36f45c-1656-e911-8237-060aad038e48" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21704" xmi:type="uml:Comment">
+     <body>
+      the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Test" xmi:id="cf97fd7e-ff76-e911-823e-0663ff6583c4" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21705" xmi:type="uml:Comment">
+     <body>
+      A measure taken  to check the quality, performance, or reliability of (something), especially before putting it into widespread use or practice
+
+Tests are a collection of one or more tests evaluations that can be made to certify a subject. (Behavior Qualifier Type)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductMatching" xmi:id="85239d30-a486-e911-823e-062687e6a904" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen2" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21706" xmi:type="uml:Comment">
+     <body>
+      An evaluation for matching products to a customer. 
+
+An evaluation for mapping of available products (and product combinations) to a customer based on conditions like customer type/characteristics, the context for the request and desired product/service features.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Document" xmi:id="ba9abd47-c656-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21707" xmi:type="uml:Comment">
+     <body>
+      Something tangible that records something, such as a recording or a photograph, or a writing that can be used to furnish evidence or information (FIBO)
+
+Definition: A physical or digital representation of something meaningful to the audience.
+
+Comment: 
+1.Technical: Manuals, instructions, tutorials, procedures, specifications, etc., that accompany a piece of equipment or software, and provide guidance for its proper use and maintenance.
+2.Trading: Preparation of a set of commercial and financial documents that record or support a business transaction. International trade documentations include air waybill, bill of exchange, bill of lading, certificate of inspection, certificate of insurance, certificate of origin, commercial invoice, and consular invoice.
+
+
+Read more: http://www.businessdictionary.com/definition/documentation.html#ixzz3EQGRGC4W
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="LegalComplianceCheck" xmi:id="818dfa4c-3d94-ea11-8295-06a5be9987fe" xmi:type="uml:Class">
+    <generalization general="bbdee486-984d-ea11-8289-065500ef61d8" xmi:id="gen3" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21708" xmi:type="uml:Comment">
+     <body>
+      An assessment to check the Legal Compliance for the bank 
+
+Comment:
+This includes interpreting the laws that govern the bank's operations and determining which laws apply in specific circumstances across the enterprise.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="GuidelineComplianceCheck" xmi:id="ea29b2f8-2ca2-e911-8280-068b5ca1cd1a" xmi:type="uml:Class">
+    <generalization general="bbdee486-984d-ea11-8289-065500ef61d8" xmi:id="gen4" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21709" xmi:type="uml:Comment">
+     <body>
+      An assessment to check the Guideline Compliance for the bank
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="RegulatoryComplianceCheck" xmi:id="83f1ba60-1fa2-e911-8280-068b5ca1cd1a" xmi:type="uml:Class">
+    <generalization general="bbdee486-984d-ea11-8289-065500ef61d8" xmi:id="gen5" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21710" xmi:type="uml:Comment">
+     <body>
+      An assessment to check the Regulation Compliance for the bank
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Authentication" xmi:id="11b0a31a-0991-e911-823e-06f3e7d1f9c0" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen6" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21711" xmi:type="uml:Comment">
+     <body>
+      An evaluation whether a party or system is what it claims to be.
+
+A security mechanism for verifying: 1) the identity of an individual or other entity (including verification by means of a computer or computer application); and 2) the level of authority of that person or entity (i.e. the ability of that person or entity to perform specific tasks or activities). (ECB)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ComplianceCheck" xmi:id="bbdee486-984d-ea11-8289-065500ef61d8" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen7" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21712" xmi:type="uml:Comment">
+     <body>
+      An assessment to check the compliance
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Authorisation" xmi:id="df4e3cdd-1fb5-e911-828c-06363e70c8fa" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen8" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21713" xmi:type="uml:Comment">
+     <body>
+      An evaluation whether a party or system is allowed to do something.
+
+The consent given by a participant (or a third party acting on behalf of that participant) in order to transfer funds or securities. (ECB)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductQualityAssurance" xmi:id="95698957-ab64-eb11-82e9-06f39716fe97" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen9" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21714" xmi:type="uml:Comment">
+     <body>
+      An assessment used to determine if a product or service meets quality standards
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="AssetValuation" xmi:id="d5fe9f6e-7b80-e911-823e-061de61e9206" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen10" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21715" xmi:type="uml:Comment">
+     <body>
+      The result of a valuation of some aspect of an Asset.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="RuleSet Helper SD" visibility="public" xmi:id="a89ab5c4-598b-e911-823e-0680522666ec" xmi:type="uml:Package">
+   <packagedElement name="RuleSet" xmi:id="a89ab5c4-598b-e911-823e-0680522666ec" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21716" xmi:type="uml:Comment">
+     <body>
+      A set of rules (e.g., regulation, policy, law, guideline, principle, standard) to guide, direct or operate a subject matter.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Policy" xmi:id="c812ebb2-22a7-e911-8288-06c837085cb8" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen11" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21717" xmi:type="uml:Comment">
+     <body>
+      Rule that governs business execution.
+
+The set of basic principles and associated guidelines, formulated and enforced by the governing body of an organization, to direct and limit its actions in pursuit of long-term goals. (Business Dictionary)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="RuleSetInvolvement" xmi:id="432d495b-30d6-e911-8296-06e1705194c6" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21718" xmi:type="uml:Comment">
+     <body>
+      A specific party who plays a specific role in a specific rule set like Publication Agency, Regulatory Authority and etc.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Guideline" xmi:id="06f0124e-2da2-e911-8280-068b5ca1cd1a" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen12" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21719" xmi:type="uml:Comment">
+     <body>
+      A recommended practice (adapted from Business Dictionary)
+A general rule, principle, or piece of advice.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Regulation" xmi:id="21527d12-20a2-e911-8280-068b5ca1cd1a" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen13" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21720" xmi:type="uml:Comment">
+     <body>
+      A rule used to carry out a law (FIBO)
+
+Business Dictionary: a rule (with or without the coercive power of law) employed in controlling, directing, or managing an activity, organization, or system. 
+
+The set of rules and legislation governing certain actions. 
+https://financial-dictionary.thefreedictionary.com/Regulatory
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Criterion" xmi:id="c16435c2-0958-ea11-8289-060c7a9911f6" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen14" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21721" xmi:type="uml:Comment">
+     <body>
+      A principle or standard by which something may be judged or decided.
+
+Read more: http://www.businessdictionary.com/definition/criterion.html
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Standard" xmi:id="e42f60da-2b54-eb11-82e3-06d9eff808b9" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen15" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21722" xmi:type="uml:Comment">
+     <body>
+      A rule considered by an authority or by general consent as a basis of comparison
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Law" xmi:id="41e81f1a-22a7-e911-8288-06c837085cb8" xmi:type="uml:Class">
+    <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen16" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21723" xmi:type="uml:Comment">
+     <body>
+      A binding rule that the courts will enforce.
+A system of rules and guidelines which are enforced through social institutions to govern behavior. (FIBO)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Jurisdiction" xmi:id="de2498cb-6188-e911-823e-06b09c770f0c" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21724" xmi:type="uml:Comment">
+     <body>
+      Jurisdiction that will be assigned in case of legal dispute.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Party Helper SD" visibility="public" xmi:id="d4d0de74-94f1-e911-82b5-06f9534b74c8" xmi:type="uml:Package">
+   <packagedElement name="PartyRelationshipAgreement" xmi:id="d4d0de74-94f1-e911-82b5-06f9534b74c8" xmi:type="uml:Class">
+    <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen17" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21725" xmi:type="uml:Comment">
+     <body>
+      An agreement that outlines the terms and conditions of the relationship between the two or more parties. An agreement has arrangements which are the cause of the relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Person" xmi:id="04c123f4-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <generalization general="6f53fd37-8257-e911-8237-0645314e65ac" xmi:id="gen18" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21726" xmi:type="uml:Comment">
+     <body>
+      Human entity, as distinguished from a corporate entity (which is sometimes referred to as an 'artificial person'). ISO20022
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21727" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyLocation" xmi:id="6499694e-619e-e911-827a-06e8627b9e66" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21728" xmi:type="uml:Comment">
+     <body>
+      A place to locate a party.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Organisation" xmi:id="fbc0b4fa-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <generalization general="6f53fd37-8257-e911-8237-0645314e65ac" xmi:id="gen19" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21729" xmi:type="uml:Comment">
+     <body>
+      structure/make-up of an organizational entity
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ContactPoint" xmi:id="5f9548fc-e277-e911-823e-067f69a9229a" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21730" xmi:type="uml:Comment">
+     <body>
+      Number, physical or virtual address, used for communication.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Location" xmi:id="063a0dcf-0561-e911-8237-068e13695e26" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21731" xmi:type="uml:Comment">
+     <body>
+      The definition of an addressable space/position both in real and virtual environments with associated uses and entitlements
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21732" xmi:type="uml:Comment">
+     <body>
+      A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PowerOfAttorney" xmi:id="31cfdbdc-61d2-e911-8296-0633d5e0e610" xmi:type="uml:Class">
+    <generalization general="852a0fc0-7188-e911-823e-06b09c770f0c" xmi:id="gen20" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21733" xmi:type="uml:Comment">
+     <body>
+      A written authorization that transfers specific rights from a party to another party.
+
+Document that transfers specific rights from a party to another party. ISO20022
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRelationship" xmi:id="fa6490a1-8957-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21734" xmi:type="uml:Comment">
+     <body>
+      A relationship between two or more parties; the parties involved are specified in terms of the roles they play in the relationship.
+
+A Party Relationship is a connection between an instance of a Party and two or more instances of associated objects in the relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Document" xmi:id="ba9abd47-c656-e911-8237-06ecaacb4c6890393005" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21735" xmi:type="uml:Comment">
+     <body>
+      Something tangible that records something, such as a recording or a photograph, or a writing that can be used to furnish evidence or information (FIBO)
+
+Definition: A physical or digital representation of something meaningful to the audience.
+
+Comment: 
+1.Technical: Manuals, instructions, tutorials, procedures, specifications, etc., that accompany a piece of equipment or software, and provide guidance for its proper use and maintenance.
+2.Trading: Preparation of a set of commercial and financial documents that record or support a business transaction. International trade documentations include air waybill, bill of exchange, bill of lading, certificate of inspection, certificate of insurance, certificate of origin, commercial invoice, and consular invoice.
+
+
+Read more: http://www.businessdictionary.com/definition/documentation.html#ixzz3EQGRGC4W
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyCertificate" xmi:id="2f325852-a2f1-e911-82b5-06f9534b74c8" xmi:type="uml:Class">
+    <generalization general="ba9abd47-c656-e911-8237-06ecaacb4c68" xmi:id="gen21" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21736" xmi:type="uml:Comment">
+     <body>
+      A certification issued for a party. 
+
+An issued document to certify a party.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyProfile" xmi:id="abe83556-95f1-e911-82b5-06f9534b74c8" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21737" xmi:type="uml:Comment">
+     <body>
+      A set of information giving a description of a person or organization.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Assessment" xmi:id="ea36f45c-1656-e911-8237-060aad038e4890393005" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21738" xmi:type="uml:Comment">
+    <body>
+     the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AssessmentType" type="Visibility=public" xmi:id="3c005ebe-a272-e911-823e-067c7fd4c97890393005">
+    <ownedComment xmi:id="comm21739" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentMethod" type="Visibility=public" xmi:id="42005ebe-a272-e911-823e-067c7fd4c97890393005">
+    <ownedComment xmi:id="comm21740" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentSchedule" type="Visibility=public" xmi:id="7bdd12c5-0577-e911-823e-0663ff6583c490393005">
+    <ownedComment xmi:id="comm21741" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentDescription" type="Visibility=public" xmi:id="2577ab32-0777-e911-823e-0663ff6583c490393005">
+    <ownedComment xmi:id="comm21742" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentModel" type="Visibility=public" xmi:id="110ee713-0877-e911-823e-0663ff6583c490393005">
+    <ownedComment xmi:id="comm21743" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentDateTime" type="Visibility=public" xmi:id="8626f03d-377d-e911-823e-069ad1a2e64890393005">
+    <ownedComment xmi:id="comm21744" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentResult" type="Visibility=public" xmi:id="1f36dd6d-377d-e911-823e-069ad1a2e64890393005">
+    <ownedComment xmi:id="comm21745" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentSupportingDocument" type="Visibility=public" xmi:id="06b88e61-24a2-e911-8280-068b5ca1cd1a90393005">
+    <ownedComment xmi:id="comm21746" xmi:type="uml:Comment">
+     <body>
+      Document that provides background or corroborating information regarding an assessment(s).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentRepresentingDocument" type="Visibility=public" xmi:id="da6a7970-24a2-e911-8280-068b5ca1cd1a90393005">
+    <ownedComment xmi:id="comm21747" xmi:type="uml:Comment">
+     <body>
+      Document that represents the result of an assessment(s).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentRequiredAdjustment" type="Visibility=public" xmi:id="8c5f059a-24a2-e911-8280-068b5ca1cd1a90393005">
+    <ownedComment xmi:id="comm21748" xmi:type="uml:Comment">
+     <body>
+      Change that the assessment reveals is needed.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentRequirement" type="Visibility=public" xmi:id="0ef47758-2ea2-e911-8280-068b5ca1cd1a90393005">
+    <ownedComment xmi:id="comm21749" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentExpiryDate" type="Visibility=public" xmi:id="2425862b-00bd-e911-8291-066cb8d4b6e890393005">
+    <ownedComment xmi:id="comm21750" xmi:type="uml:Comment">
+     <body>
+      Date when the assessment expires. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Agreement" xmi:id="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21751" xmi:type="uml:Comment">
+    <body>
+     A formal or informal common understanding between two or more (legal competent) parties concerning one or more subject matters expressed in a set of arrangements, terms and conditions. (adapted from Legal System and FIBO)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Mandate" xmi:id="852a0fc0-7188-e911-823e-06b09c770f0c" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21752" xmi:type="uml:Comment">
+    <body>
+     An agreement that authorises a party (holding party) to act on behalf of a principal party.
+
+Authorisation given by an issuing party to a holder party to act on the issuer's behalf. (ISO20022)
+
+Written authorization and/or command by a person, group, or organization (the 'mandator') to another (the 'mandatary') to take a certain course of action.  (Business Dictionary)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Document" xmi:id="ba9abd47-c656-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21753" xmi:type="uml:Comment">
+    <body>
+     Something tangible that records something, such as a recording or a photograph, or a writing that can be used to furnish evidence or information (FIBO)
+
+Definition: A physical or digital representation of something meaningful to the audience.
+
+Comment: 
+1.Technical: Manuals, instructions, tutorials, procedures, specifications, etc., that accompany a piece of equipment or software, and provide guidance for its proper use and maintenance.
+2.Trading: Preparation of a set of commercial and financial documents that record or support a business transaction. International trade documentations include air waybill, bill of exchange, bill of lading, certificate of inspection, certificate of insurance, certificate of origin, commercial invoice, and consular invoice.
+
+
+Read more: http://www.businessdictionary.com/definition/documentation.html#ixzz3EQGRGC4W
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ComplianceCheck" xmi:id="bbdee486-984d-ea11-8289-065500ef61d890393005" xmi:type="uml:Class">
+   <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen22" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm21754" xmi:type="uml:Comment">
+    <body>
+     An assessment to check the compliance
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ComplianceCheckType" type="Visibility=public" xmi:id="aae22681-1fab-ea11-829f-0691f30ba14c90393005">
+    <ownedComment xmi:id="comm21755" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="LegalComplianceCheck" xmi:id="818dfa4c-3d94-ea11-8295-06a5be9987fe90393005" xmi:type="uml:Class">
+   <generalization general="bbdee486-984d-ea11-8289-065500ef61d8" xmi:id="gen23" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm21756" xmi:type="uml:Comment">
+    <body>
+     An assessment to check the Legal Compliance for the bank 
+
+Comment:
+This includes interpreting the laws that govern the bank's operations and determining which laws apply in specific circumstances across the enterprise.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="LegalComplianceCheckType" type="Visibility=public" xmi:id="50a8954f-4294-ea11-8295-06a5be9987fe90393005">
+    <ownedComment xmi:id="comm21757" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="LegalCompliance" xmi:id="31b6446f-3e94-ea11-8295-06a5be9987fe" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21758" xmi:type="uml:Comment">
+    <body>
+     Conforming to a law
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="RuleSet" xmi:id="a89ab5c4-598b-e911-823e-0680522666ec90393005" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21759" xmi:type="uml:Comment">
+    <body>
+     A set of rules (e.g., regulation, policy, law, guideline, principle, standard) to guide, direct or operate a subject matter.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="RuleSetDefinition" type="Visibility=public" xmi:id="987fcf6e-c4cf-e911-8296-06957f3f468a90393005">
+    <ownedComment xmi:id="comm21760" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RuleSetInterpretation" type="Visibility=public" xmi:id="212d1c6a-2fd6-e911-8296-06e1705194c690393005">
+    <ownedComment xmi:id="comm21761" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RuleSetType" type="Visibility=public" xmi:id="1cde0ffd-2fd6-e911-8296-06e1705194c690393005">
+    <ownedComment xmi:id="comm21762" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RuleSetName" type="Visibility=public" xmi:id="547527cd-b97d-eb11-8309-06f448ba770790393005">
+    <ownedComment xmi:id="comm21763" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RuleSetIdentification" type="Visibility=public" xmi:id="9e2d918a-bf7d-eb11-8309-06f448ba770790393005">
+    <ownedComment xmi:id="comm21764" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Test" xmi:id="cf97fd7e-ff76-e911-823e-0663ff6583c490393005" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21765" xmi:type="uml:Comment">
+    <body>
+     A measure taken  to check the quality, performance, or reliability of (something), especially before putting it into widespread use or practice
+
+Tests are a collection of one or more tests evaluations that can be made to certify a subject. (Behavior Qualifier Type)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="TestResult" type="Visibility=public" xmi:id="ae15267c-9d92-e911-823e-06332a9c23ba90393005">
+    <ownedComment xmi:id="comm21766" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TestGuidance" type="Visibility=public" xmi:id="cbe0da62-6393-e911-823e-065576aa37f890393005">
+    <ownedComment xmi:id="comm21767" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TestType" type="Visibility=public" xmi:id="17bfac43-4cb5-ea11-829f-06ddb95e6bc890393005">
+    <ownedComment xmi:id="comm21768" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TestDescription" type="Visibility=public" xmi:id="7cd07857-4cb5-ea11-829f-06ddb95e6bc890393005">
+    <ownedComment xmi:id="comm21769" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Jurisdiction" xmi:id="de2498cb-6188-e911-823e-06b09c770f0c90393005" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21770" xmi:type="uml:Comment">
+    <body>
+     Jurisdiction that will be assigned in case of legal dispute.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="Attribute" type="Visibility=public" xmi:id="1c54e384-3e9d-eb11-8314-06c820334ddb90393005">
+    <ownedComment xmi:id="comm21771" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Law" xmi:id="41e81f1a-22a7-e911-8288-06c837085cb890393005" xmi:type="uml:Class">
+   <generalization general="a89ab5c4-598b-e911-823e-0680522666ec" xmi:id="gen24" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm21772" xmi:type="uml:Comment">
+    <body>
+     A binding rule that the courts will enforce.
+A system of rules and guidelines which are enforced through social institutions to govern behavior. (FIBO)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="LawType" type="Visibility=public" xmi:id="86096862-4294-ea11-8295-06a5be9987fe90393005">
+    <ownedComment xmi:id="comm21773" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LawDescription" type="Visibility=public" xmi:id="a58848f7-4294-ea11-8295-06a5be9987fe90393005">
+    <ownedComment xmi:id="comm21774" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LegalPenalty" type="Visibility=public" xmi:id="a619e005-4394-ea11-8295-06a5be9987fe90393005">
+    <ownedComment xmi:id="comm21775" xmi:type="uml:Comment">
+     <body>
+      the possible implications of breaking the law
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LegalGuideline" type="Visibility=public" xmi:id="7f7e1d46-4394-ea11-8295-06a5be9987fe90393005">
+    <ownedComment xmi:id="comm21776" xmi:type="uml:Comment">
+     <body>
+      A guidelines and requirement for following the law
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c6890393005" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21777" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyRoleType" type="Visibility=public" xmi:id="83c28dd9-29e9-ea11-82b8-0621c7360a1390393005">
+    <ownedComment xmi:id="comm21778" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleName" type="Visibility=public" xmi:id="7ebb122f-2ce9-ea11-82b8-0621c7360a1390393005">
+    <ownedComment xmi:id="comm21779" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleValidityPeriod" type="Visibility=public" xmi:id="fb571d5e-2ce9-ea11-82b8-0621c7360a1390393005">
+    <ownedComment xmi:id="comm21780" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyInvolvementType" type="Visibility=public" xmi:id="c5867926-2de9-ea11-82b8-0621c7360a1390393005">
+    <ownedComment xmi:id="comm21781" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac90393005" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21782" xmi:type="uml:Comment">
+    <body>
+     A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyName" type="Visibility=public" xmi:id="d8f7f366-21cf-e911-8296-06bf764cb4bc90393005">
+    <ownedComment xmi:id="comm21783" xmi:type="uml:Comment">
+     <body>
+      Name by which a party is known and which is usually used to identify that party. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyType" type="Visibility=public" xmi:id="b1f7b3d8-21cf-e911-8296-06bf764cb4bc90393005">
+    <ownedComment xmi:id="comm21784" xmi:type="uml:Comment">
+     <body>
+      Specifies the type of party in different business contexts. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyDateTime" type="Visibility=public" xmi:id="d6ed5669-40f6-e911-82bd-06a31b9588ce90393005">
+    <ownedComment xmi:id="comm21785" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyIdentification" type="Visibility=public" xmi:id="449e231b-a846-ea11-8289-06f8a6a00ed090393005">
+    <ownedComment xmi:id="comm21786" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="LegalComplianceCheckInvolvement" xmi:id="11510b17-4494-ea11-8295-06a5be9987fe" xmi:type="uml:Class">
+   <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen25" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm21787" xmi:type="uml:Comment">
+    <body>
+     A role that is played by a specific party for Legal Compliance Check
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

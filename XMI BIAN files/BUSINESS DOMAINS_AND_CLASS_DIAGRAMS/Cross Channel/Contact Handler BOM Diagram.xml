@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Contact Handler BOM SD" visibility="public" xmi:id="f2aa641b-6176-e911-823e-067486981364" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="b8513ef2-3cb4-e911-828c-0615b1d713aa" xmi:type="uml:Association">
+   <ownedEnd association="b8513ef2-3cb4-e911-828c-0615b1d713aa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="72f082d3-3cb4-e911-828c-0615b1d713aa" visibility="public" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="b8513ef2-3cb4-e911-828c-0615b1d713aa" isUnique="true" name="ActiveContact" type="56af07d7-8575-e911-823e-064d1e9fbc72" visibility="public" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="feea4bd2-58a9-e911-8288-061bf39b9564" xmi:type="uml:Association">
+   <ownedEnd association="feea4bd2-58a9-e911-8288-061bf39b9564" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="ContactDevice" type="0263db4b-0761-e911-8237-068e13695e26" visibility="public" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="feea4bd2-58a9-e911-8288-061bf39b9564" isUnique="true" name="" type="56af07d7-8575-e911-823e-064d1e9fbc72" visibility="public" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="c5cca205-c1b2-e911-828c-06ffbf0a45b8" xmi:type="uml:Association">
+   <ownedEnd association="c5cca205-c1b2-e911-828c-06ffbf0a45b8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="InboundContact" type="56af07d7-8575-e911-823e-064d1e9fbc72" visibility="public" xmi:id="b88c4aeb-c0b2-e911-828c-06ffbf0a45b8a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="c5cca205-c1b2-e911-828c-06ffbf0a45b8" isUnique="true" name="" type="b88c4aeb-c0b2-e911-828c-06ffbf0a45b8" visibility="public" xmi:id="b88c4aeb-c0b2-e911-828c-06ffbf0a45b8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="5a0999c1-f09b-e911-827a-06f79ea59412a 525ff2e7-ee9b-e911-827a-06f79ea59412b" name="" navigableOwnedEnd="525ff2e7-ee9b-e911-827a-06f79ea59412b" xmi:id="2f64dbfb-f09b-e911-827a-06f79ea59412" xmi:type="uml:Association">
+   <ownedEnd association="2f64dbfb-f09b-e911-827a-06f79ea59412" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="5a0999c1-f09b-e911-827a-06f79ea59412" visibility="public" xmi:id="5a0999c1-f09b-e911-827a-06f79ea59412a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="2f64dbfb-f09b-e911-827a-06f79ea59412" isUnique="true" name="LogEntry" type="525ff2e7-ee9b-e911-827a-06f79ea59412" visibility="public" xmi:id="525ff2e7-ee9b-e911-827a-06f79ea59412b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="4f8ccfbf-fe9b-e911-827a-06f79ea59412" xmi:type="uml:Association">
+   <ownedEnd association="4f8ccfbf-fe9b-e911-827a-06f79ea59412" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="8b771fe4-d79b-e911-827a-06f79ea59412" visibility="public" xmi:id="525ff2e7-ee9b-e911-827a-06f79ea59412a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="4f8ccfbf-fe9b-e911-827a-06f79ea59412" isUnique="true" name="SessionEvent" type="525ff2e7-ee9b-e911-827a-06f79ea59412" visibility="public" xmi:id="525ff2e7-ee9b-e911-827a-06f79ea59412b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="1bc3a0ce-d79b-e911-827a-06f79ea59412a 8b771fe4-d79b-e911-827a-06f79ea59412b" name="" navigableOwnedEnd="8b771fe4-d79b-e911-827a-06f79ea59412b" xmi:id="d33b18f2-d79b-e911-827a-06f79ea59412" xmi:type="uml:Association">
+   <ownedEnd association="d33b18f2-d79b-e911-827a-06f79ea59412" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="SystemInSession" type="1bc3a0ce-d79b-e911-827a-06f79ea59412" visibility="public" xmi:id="1bc3a0ce-d79b-e911-827a-06f79ea59412a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="d33b18f2-d79b-e911-827a-06f79ea59412" isUnique="true" name="OperatingSession" type="8b771fe4-d79b-e911-827a-06f79ea59412" visibility="public" xmi:id="8b771fe4-d79b-e911-827a-06f79ea59412b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="d0fc44e7-1f8d-e911-823e-067b7da9d714" xmi:type="uml:Association">
+   <ownedEnd association="d0fc44e7-1f8d-e911-823e-067b7da9d714" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="DialogueSession
+WithinContact" type="b000c71e-178d-e911-823e-067b7da9d714" visibility="public" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="d0fc44e7-1f8d-e911-823e-067b7da9d714" isUnique="true" name="Structured
+Interaction" type="56af07d7-8575-e911-823e-064d1e9fbc72" visibility="public" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="4503bd81-8257-e911-8237-0645314e65ac" xmi:type="uml:Association">
+   <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6f53fd37-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isUnique="true" name="" type="70959fdb-be56-e911-8237-06ecaacb4c68" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="5308e2b6-68a9-e911-8288-061bf39b9564a 4d1d92d5-68a9-e911-8288-061bf39b9564b" name="" navigableOwnedEnd="4d1d92d5-68a9-e911-8288-061bf39b9564b" xmi:id="21028859-69a9-e911-8288-061bf39b9564" xmi:type="uml:Association">
+   <ownedEnd association="21028859-69a9-e911-8288-061bf39b9564" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="5308e2b6-68a9-e911-8288-061bf39b9564" visibility="public" xmi:id="5308e2b6-68a9-e911-8288-061bf39b9564a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="21028859-69a9-e911-8288-061bf39b9564" isUnique="true" name="LogEntry" type="4d1d92d5-68a9-e911-8288-061bf39b9564" visibility="public" xmi:id="4d1d92d5-68a9-e911-8288-061bf39b9564b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="9434b090-00aa-e911-8288-0674300188c0" xmi:type="uml:Association">
+   <ownedEnd association="9434b090-00aa-e911-8288-0674300188c0" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="ActiveContact" type="56af07d7-8575-e911-823e-064d1e9fbc72" visibility="public" xmi:id="4d1d92d5-68a9-e911-8288-061bf39b9564a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="9434b090-00aa-e911-8288-0674300188c0" isUnique="true" name="ExecutedAction
+UsingChannel" type="4d1d92d5-68a9-e911-8288-061bf39b9564" visibility="public" xmi:id="4d1d92d5-68a9-e911-8288-061bf39b9564b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="ed22e11f-59a9-e911-8288-061bf39b9564" xmi:type="uml:Association">
+   <ownedEnd association="ed22e11f-59a9-e911-8288-061bf39b9564" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="Contact
+Authentication" type="11b0a31a-0991-e911-823e-06f3e7d1f9c0" visibility="public" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="ed22e11f-59a9-e911-8288-061bf39b9564" isUnique="true" name="" type="56af07d7-8575-e911-823e-064d1e9fbc72" visibility="public" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="1a303b66-259c-e911-827a-06f79ea59412" xmi:type="uml:Association">
+   <ownedEnd association="1a303b66-259c-e911-827a-06f79ea59412" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="HandlingPoS" type="1bc3a0ce-d79b-e911-827a-06f79ea59412" visibility="public" xmi:id="b000c71e-178d-e911-823e-067b7da9d714a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="1a303b66-259c-e911-827a-06f79ea59412" isUnique="true" name="CustomerInteractionSession
+HandledByPoS" type="b000c71e-178d-e911-823e-067b7da9d714" visibility="public" xmi:id="b000c71e-178d-e911-823e-067b7da9d714b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="117e8b22-f590-e911-823e-06f3e7d1f9c0" xmi:type="uml:Association">
+   <ownedEnd association="117e8b22-f590-e911-823e-06f3e7d1f9c0" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="Operational
+Function" type="6b0bd834-f290-e911-823e-06f3e7d1f9c0" visibility="public" xmi:id="f5145a15-138d-e911-823e-067b7da9d714a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="117e8b22-f590-e911-823e-06f3e7d1f9c0" isUnique="true" name="" type="f5145a15-138d-e911-823e-067b7da9d714" visibility="public" xmi:id="f5145a15-138d-e911-823e-067b7da9d714b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="b000c71e-178d-e911-823e-067b7da9d714a 861533f6-2ba9-e911-8288-061bf39b9564b" name="" navigableOwnedEnd="861533f6-2ba9-e911-8288-061bf39b9564b" xmi:id="3bba2523-2ca9-e911-8288-061bf39b9564" xmi:type="uml:Association">
+   <ownedEnd association="3bba2523-2ca9-e911-8288-061bf39b9564" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="b000c71e-178d-e911-823e-067b7da9d714" visibility="public" xmi:id="b000c71e-178d-e911-823e-067b7da9d714a">
+    <upperValue xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="3bba2523-2ca9-e911-8288-061bf39b9564" isUnique="true" name="" type="861533f6-2ba9-e911-8288-061bf39b9564" visibility="public" xmi:id="861533f6-2ba9-e911-8288-061bf39b9564b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="7ca66bda-b0a4-e911-8284-06aa98c8c004a 861533f6-2ba9-e911-8288-061bf39b9564b" name="" navigableOwnedEnd="861533f6-2ba9-e911-8288-061bf39b9564b" xmi:id="a28cb60e-2ca9-e911-8288-061bf39b9564" xmi:type="uml:Association">
+   <ownedEnd association="a28cb60e-2ca9-e911-8288-061bf39b9564" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="7ca66bda-b0a4-e911-8284-06aa98c8c004" visibility="public" xmi:id="7ca66bda-b0a4-e911-8284-06aa98c8c004a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="a28cb60e-2ca9-e911-8288-061bf39b9564" isUnique="true" name="LogEntry" type="861533f6-2ba9-e911-8288-061bf39b9564" visibility="public" xmi:id="861533f6-2ba9-e911-8288-061bf39b9564b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="dfe17e18-57a9-e911-8288-061bf39b9564" xmi:type="uml:Association">
+   <ownedEnd association="dfe17e18-57a9-e911-8288-061bf39b9564" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="56af07d7-8575-e911-823e-064d1e9fbc72" visibility="public" xmi:id="afba3cc0-56a9-e911-8288-061bf39b9564a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="dfe17e18-57a9-e911-8288-061bf39b9564" isUnique="true" name="" type="afba3cc0-56a9-e911-8288-061bf39b9564" visibility="public" xmi:id="afba3cc0-56a9-e911-8288-061bf39b9564b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="6fd7342a-138d-e911-823e-067b7da9d714a f5145a15-138d-e911-823e-067b7da9d714b" name="" navigableOwnedEnd="f5145a15-138d-e911-823e-067b7da9d714b" xmi:id="fa4e56c7-168d-e911-823e-067b7da9d714" xmi:type="uml:Association">
+   <ownedEnd association="fa4e56c7-168d-e911-823e-067b7da9d714" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="SystemIn
+Session" type="6fd7342a-138d-e911-823e-067b7da9d714" visibility="public" xmi:id="6fd7342a-138d-e911-823e-067b7da9d714a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="fa4e56c7-168d-e911-823e-067b7da9d714" isUnique="true" name="Operating
+Session" type="f5145a15-138d-e911-823e-067b7da9d714" visibility="public" xmi:id="f5145a15-138d-e911-823e-067b7da9d714b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="CustomerContacSession" xmi:id="72f082d3-3cb4-e911-828c-0615b1d713aa" xmi:type="uml:Class">
+   <generalization general="f5145a15-138d-e911-823e-067b7da9d714" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4037" xmi:type="uml:Comment">
+    <body>
+     A session involving contact between a customer and a financial institution.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4038" xmi:type="uml:Comment">
+    <body>
+     A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyName" type="Visibility=public" xmi:id="d8f7f366-21cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm4039" xmi:type="uml:Comment">
+     <body>
+      Name by which a party is known and which is usually used to identify that party. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyType" type="Visibility=public" xmi:id="b1f7b3d8-21cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm4040" xmi:type="uml:Comment">
+     <body>
+      Specifies the type of party in different business contexts. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyDateTime" type="Visibility=public" xmi:id="d6ed5669-40f6-e911-82bd-06a31b9588ce90157202">
+    <ownedComment xmi:id="comm4041" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyIdentification" type="Visibility=public" xmi:id="449e231b-a846-ea11-8289-06f8a6a00ed090157202">
+    <ownedComment xmi:id="comm4042" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ServicingEventLog" xmi:id="5a0999c1-f09b-e911-827a-06f79ea59412" xmi:type="uml:Class">
+   <generalization general="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4043" xmi:type="uml:Comment">
+    <body>
+     A record of servicing events.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Log" xmi:id="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4044" xmi:type="uml:Comment">
+    <body>
+     A record of events/entries.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerContactSystem" xmi:id="c31ac845-178d-e911-823e-067b7da9d714" xmi:type="uml:Class">
+   <generalization general="6fd7342a-138d-e911-823e-067b7da9d714" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4045" xmi:type="uml:Comment">
+    <body>
+     A system for managing contact between a customer and a financial institution from beginning till finish.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PointOfService" xmi:id="1bc3a0ce-d79b-e911-827a-06f79ea59412" xmi:type="uml:Class">
+   <generalization general="6fd7342a-138d-e911-823e-067b7da9d714" xmi:id="gen4" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4046" xmi:type="uml:Comment">
+    <body>
+     Point at which a service is offered and/or fulfilled.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerDialogueSession" xmi:id="b000c71e-178d-e911-823e-067b7da9d714" xmi:type="uml:Class">
+   <generalization general="f5145a15-138d-e911-823e-067b7da9d714" xmi:id="gen5" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4047" xmi:type="uml:Comment">
+    <body>
+     A session for managing dialogues with a customer in an active contact.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CustomerContactReference" type="Visibility=public" xmi:id="fe717bed-b1d0-e911-8296-0616e6ad87a890157202">
+    <ownedComment xmi:id="comm4048" xmi:type="uml:Comment">
+     <body>
+      Reference to the customer Contact the ContactDialogueSession is part of
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SessionDialogueContent" type="Visibility=public" xmi:id="455ebbc3-bdd0-e911-8296-0616e6ad87a890157202">
+    <ownedComment xmi:id="comm4049" xmi:type="uml:Comment">
+     <body>
+      Payload of the exchange.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerContact" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <generalization general="904758f4-6180-e911-823e-066c44d66510" xmi:id="gen6" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4050" xmi:type="uml:Comment">
+    <body>
+     An (structured) interaction between a customer and a financial institution.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ContactType" type="Visibility=public" xmi:id="a12364bb-1b76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm4051" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactDateTIme" type="Visibility=public" xmi:id="4ea52f7b-1c76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm4052" xmi:type="uml:Comment">
+     <body>
+      The start and end date times for the contact
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactLocation" type="Visibility=public" xmi:id="793a179b-1c76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm4053" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactSchedule" type="Visibility=public" xmi:id="d6b2a1e2-1c76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm4054" xmi:type="uml:Comment">
+     <body>
+      The schedule of past and planned customer contacts
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactResult" type="Visibility=public" xmi:id="caa5ed0a-1d76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm4055" xmi:type="uml:Comment">
+     <body>
+      The interpreted result of the contact (e.g. completed, customer terminated, timed-out)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactPurpose" type="Visibility=public" xmi:id="b81ee44e-8080-e911-823e-066c44d6651090157202">
+    <ownedComment xmi:id="comm4056" xmi:type="uml:Comment">
+     <body>
+      The reason and or purpose for the contact (e.g. review, issue, product sales, advice, customer enquiry)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactDevice" type="Visibility=public" xmi:id="bb297476-8080-e911-823e-066c44d6651090157202">
+    <ownedComment xmi:id="comm4057" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactIndicator" type="Visibility=public" xmi:id="bd3cc978-49a9-e911-8288-061bf39b956490157202">
+    <ownedComment xmi:id="comm4058" xmi:type="uml:Comment">
+     <body>
+      Indicates whether this is an inbound or outbound contact (inbound is customer initiated, outbound is servicing resource initiated).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactContent" type="Visibility=public" xmi:id="985c86dc-f0d2-e911-8296-06b94e7647ce90157202">
+    <ownedComment xmi:id="comm4059" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerEvent" xmi:id="904758f4-6180-e911-823e-066c44d66510" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4060" xmi:type="uml:Comment">
+    <body>
+     Event related to a specific Customer or Customer Relationship.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="System" xmi:id="6fd7342a-138d-e911-823e-067b7da9d714" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4061" xmi:type="uml:Comment">
+    <body>
+     Set of integrated applications that provides centralised services such as clearing, netting, reconciliation, trading and/or settlement. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="SystemAccessSchedule" type="Visibility=public" xmi:id="22c2144f-c296-e911-823e-063411acec0a90157202">
+    <ownedComment xmi:id="comm4062" xmi:type="uml:Comment">
+     <body>
+      The time schedule that system services are available for use.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SystemType" type="Visibility=public" xmi:id="9aa9cc3d-2fa3-e911-8280-06dae144dffa90157202">
+    <ownedComment xmi:id="comm4063" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Session" xmi:id="f5145a15-138d-e911-823e-067b7da9d714" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4064" xmi:type="uml:Comment">
+    <body>
+     The operation of a system -- typically an automated system -- for a bounded period of time.
+
+Semi-permanent container of state for an information exchange with a system.
+
+Time-bounded, temporal unit of context and continuity, identifying a unit of work.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="SessionDuration" type="Visibility=public" xmi:id="90da8134-73d1-e911-8296-06e952cbc5d090157202">
+    <ownedComment xmi:id="comm4065" xmi:type="uml:Comment">
+     <body>
+      The time the session was active
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SessionDateTime" type="Visibility=public" xmi:id="449ecb21-7ef2-ea11-82be-06b80843e3ff90157202">
+    <ownedComment xmi:id="comm4066" xmi:type="uml:Comment">
+     <body>
+      Key dates and times for the session
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="RoutingSelection" xmi:id="b88c4aeb-c0b2-e911-828c-06ffbf0a45b8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4067" xmi:type="uml:Comment">
+    <body>
+     A decision to identify the most suitable servicing position to route the contact
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="SessionDialogueLogEntry" xmi:id="861533f6-2ba9-e911-8288-061bf39b9564" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4068" xmi:type="uml:Comment">
+    <body>
+     Posting a contact dialogue to the log
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ServicingEvent" xmi:id="525ff2e7-ee9b-e911-827a-06f79ea59412" xmi:type="uml:Class">
+   <generalization general="904758f4-6180-e911-823e-066c44d66510" xmi:id="gen7" xmi:type="uml:Generalization"/>
+   <generalization general="66bab5d1-0056-e911-8237-060aad038e48" xmi:id="gen8" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4069" xmi:type="uml:Comment">
+    <body>
+     Event which is the result of fulfilling a servicing arrangement.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ServicingEventType" type="Visibility=public" xmi:id="59493f26-1295-ea11-8295-06c610ca3b4490157202">
+    <ownedComment xmi:id="comm4070" xmi:type="uml:Comment">
+     <body>
+      The type of servicing event/activity e.g. self service, contact center assisted,  ATM access
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Event" xmi:id="66bab5d1-0056-e911-8237-060aad038e48" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4071" xmi:type="uml:Comment">
+    <body>
+     Something that happens, has happened, can happen or is planned to happen.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4072" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyRoleType" type="Visibility=public" xmi:id="83c28dd9-29e9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm4073" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleName" type="Visibility=public" xmi:id="7ebb122f-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm4074" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleValidityPeriod" type="Visibility=public" xmi:id="fb571d5e-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm4075" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyInvolvementType" type="Visibility=public" xmi:id="c5867926-2de9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm4076" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PointOfServiceSession" xmi:id="8b771fe4-d79b-e911-827a-06f79ea59412" xmi:type="uml:Class">
+   <generalization general="f5145a15-138d-e911-823e-067b7da9d714" xmi:id="gen9" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4077" xmi:type="uml:Comment">
+    <body>
+     The operation of a Point of Service for a bounded period of time.
+A servicing session.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ContactInvolvementTypeValues" xmi:id="a61e5a5d-57a9-e911-8288-061bf39b9564" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="CustomerContactPerson" xmi:id="7cbb106a-57a9-e911-8288-061bf39b9564">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Contact person for a customer in a relationship with a financial institution.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerServiceAgent" xmi:id="8509899e-81b3-e911-828c-065ecea6983a">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A person playing the role of customer service agent representing a financial institution.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Authentication" xmi:id="11b0a31a-0991-e911-823e-06f3e7d1f9c0" xmi:type="uml:Class">
+   <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen10" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4078" xmi:type="uml:Comment">
+    <body>
+     An evaluation whether a party or system is what it claims to be.
+
+A security mechanism for verifying: 1) the identity of an individual or other entity (including verification by means of a computer or computer application); and 2) the level of authority of that person or entity (i.e. the ability of that person or entity to perform specific tasks or activities). (ECB)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AuthenticationLevel" type="Visibility=public" xmi:id="704b8b32-59a9-e911-8288-061bf39b956490157202">
+    <ownedComment xmi:id="comm4079" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AuthenticationEntity" type="Visibility=public" xmi:id="9c614475-b5d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm4080" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AuthenticationMethodType" type="Visibility=public" xmi:id="abc0c512-b6d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm4081" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Assessment" xmi:id="ea36f45c-1656-e911-8237-060aad038e48" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4082" xmi:type="uml:Comment">
+    <body>
+     the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ChannelActivityLog" xmi:id="5308e2b6-68a9-e911-8288-061bf39b9564" xmi:type="uml:Class">
+   <generalization general="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:id="gen11" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4083" xmi:type="uml:Comment">
+    <body>
+     A record of channel activities.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Device" xmi:id="0263db4b-0761-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4084" xmi:type="uml:Comment">
+    <body>
+     An item created to serve a particular need, such as a credit card, a smart phone, an electronic signature, an electronic key, etc.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DeviceIdentification" type="Visibility=public" xmi:id="d87e94b2-b9a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4085" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceType" type="Visibility=public" xmi:id="a372c5da-b9a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4086" xmi:type="uml:Comment">
+     <body>
+      Reference to the device type of the device
+
+A device has the characteristics of the device type it belongs to possibly specified
+e.g. a device of the type "cheque book" will have cheques. The device specifies how many and what the number range is.
+e.g. an electronic banking app consists of software modules, the device specifies what version
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceProperty" type="Visibility=public" xmi:id="a70d33c5-bda4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4087" xmi:type="uml:Comment">
+     <body>
+      Property of a device relevant for its use.
+
+A device has the characteristics of the device type it belongs to,possibly specified
+e.g. . a device of the type "cheque book" will have cheques. The device specifies how many and what the number range is.
+e.g. an electronic banking app consists of software modules, the device specifies what version
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceElement" type="Visibility=public" xmi:id="c99ad9e9-bfa4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm4088" xmi:type="uml:Comment">
+     <body>
+      An element of the device that can be used independently and is individually identified
+
+e.g. a cheque in a chequebook
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceStatus" type="Visibility=public" xmi:id="f108fea3-efa6-e911-8288-06c837085cb890157202">
+    <ownedComment xmi:id="comm4089" xmi:type="uml:Comment">
+     <body>
+      The life cycle stage of a device
+
+e.g. active, defect
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceVersion" type="Visibility=public" xmi:id="04fa505a-96c5-e911-8296-06227606fcb690157202">
+    <ownedComment xmi:id="comm4090" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceDateTime" type="Visibility=public" xmi:id="16dabb60-96c5-e911-8296-06227606fcb690157202">
+    <ownedComment xmi:id="comm4091" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceDescription" type="Visibility=public" xmi:id="317799d8-96c5-e911-8296-06227606fcb690157202">
+    <ownedComment xmi:id="comm4092" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ContactInvolvement" xmi:id="afba3cc0-56a9-e911-8288-061bf39b9564" xmi:type="uml:Class">
+   <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen12" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4093" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party involved in the customer contact.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ContactInvolvementType" type="Visibility=public" xmi:id="f71aea28-57a9-e911-8288-061bf39b956490157202">
+    <ownedComment xmi:id="comm4094" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="SessionDialogueLog" xmi:id="7ca66bda-b0a4-e911-8284-06aa98c8c004" xmi:type="uml:Class">
+   <generalization general="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:id="gen13" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4095" xmi:type="uml:Comment">
+    <body>
+     A record of contact dialogue log entries.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ChannelActivity" xmi:id="4d1d92d5-68a9-e911-8288-061bf39b9564" xmi:type="uml:Class">
+   <generalization general="ba9240b3-0056-e911-8237-060aad038e48" xmi:id="gen14" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm4096" xmi:type="uml:Comment">
+    <body>
+     Action of a customer using the channel in an active contact.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Action" xmi:id="ba9240b3-0056-e911-8237-060aad038e48" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4097" xmi:type="uml:Comment">
+    <body>
+     An event related to the behaviour performed by an actor. 
+
+Comment:
+An actor can be a party or a machine
+An action Includes various types of requests, orders and financial transactions. Includes responses where appropriate.
+An action is an event which means that the concept describes the result of acting.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Function" xmi:id="6b0bd834-f290-e911-823e-06f3e7d1f9c0" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm4098" xmi:type="uml:Comment">
+    <body>
+     A kind of action.
+
+Functions as Behaviour Qualifier: The collection of operational services/functions offered by the operational facility.
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

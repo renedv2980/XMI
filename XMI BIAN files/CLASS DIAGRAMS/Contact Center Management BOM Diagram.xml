@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Contact Center Management BOM SD" visibility="public" xmi:id="89210958-88ee-e911-82b5-063154845300" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="d655951f-41ef-e911-82b5-06766225a0aa" xmi:type="uml:Association">
+   <ownedEnd association="d655951f-41ef-e911-82b5-06766225a0aa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c105d8d0-90ee-e911-82b5-063154845300" visibility="public" xmi:id="70a78445-90ee-e911-82b5-063154845300a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="d655951f-41ef-e911-82b5-06766225a0aa" isUnique="true" name="" type="70a78445-90ee-e911-82b5-063154845300" visibility="public" xmi:id="70a78445-90ee-e911-82b5-063154845300b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="a03dec86-6675-e911-823e-064d1e9fbc72a 97698d8d-6675-e911-823e-064d1e9fbc72b" name="" navigableOwnedEnd="97698d8d-6675-e911-823e-064d1e9fbc72b" xmi:id="83e8e4c4-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Association">
+   <ownedEnd association="83e8e4c4-6675-e911-823e-064d1e9fbc72" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="a03dec86-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="a03dec86-6675-e911-823e-064d1e9fbc72a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="83e8e4c4-6675-e911-823e-064d1e9fbc72" isUnique="true" name="" type="97698d8d-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="97698d8d-6675-e911-823e-064d1e9fbc72b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="Duty" xmi:id="97698d8d-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10390" xmi:type="uml:Comment">
+    <body>
+     A responsibility of task (under management).
+
+Duties are a collection of one or more responsibilities or tasks under management. (Behavior Qualifier Type)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="WorkTaskType" type="Visibility=public" xmi:id="6e430280-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm10391" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskDescription" type="Visibility=public" xmi:id="5ebf7d88-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm10392" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskResult" type="Visibility=public" xmi:id="e3abda96-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm10393" xmi:type="uml:Comment">
+     <body>
+      The outcome or result of the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskDateTime" type="Visibility=public" xmi:id="ff3c149f-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm10394" xmi:type="uml:Comment">
+     <body>
+      Key dates associated with the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskWorkProduct" type="Visibility=public" xmi:id="0b594fb2-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm10395" xmi:type="uml:Comment">
+     <body>
+      File of consolidated notes, evaluations and recommendations for the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ManagementPlan" xmi:id="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <generalization general="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm10396" xmi:type="uml:Comment">
+    <body>
+     The course of action to realize goals (of an operational unit of an enterprise).
+
+The management and oversight while running an operational unit of an enterprise. (Generic Artifact)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ManagementPlanPeriod" type="Visibility=public" xmi:id="d9d5a7a3-1757-ea11-8289-06a605eb4d6490157202">
+    <ownedComment xmi:id="comm10397" xmi:type="uml:Comment">
+     <body>
+      The time period addressed by the management plan.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ManagementPlanGoal" type="Visibility=public" xmi:id="9b86d8bd-1757-ea11-8289-06a605eb4d6490157202">
+    <ownedComment xmi:id="comm10398" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ManagementPlanType" type="Visibility=public" xmi:id="0e5ac279-d5e2-ea11-82b8-068800dddbf790157202">
+    <ownedComment xmi:id="comm10399" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="Management Plan Description" type="Visibility=public" xmi:id="38856e94-d5e2-ea11-82b8-068800dddbf790157202">
+    <ownedComment xmi:id="comm10400" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Plan" xmi:id="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10401" xmi:type="uml:Comment">
+    <body>
+     A method for doing or achieving something, usually involving a series of actions or stages, or something you have arranged to do. (Cambridge Dictionary)
+
+A plan is a set of intended actions, through which one intends to achieve a goal.
+
+"Course of action" is a synonym for Plan.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ContactCenterManagementPlan" xmi:id="70a78445-90ee-e911-82b5-063154845300" xmi:type="uml:Class">
+   <generalization general="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm10402" xmi:type="uml:Comment">
+    <body>
+     A plan to manage the customer contact center. 
+- to manage the assignment of contact center resources to different contact traffic types (e.g. product/segment/issue).
+- to re-assign servicing positions in response to service loading and customer wait times
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerContactCenter" xmi:id="c105d8d0-90ee-e911-82b5-063154845300" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10403" xmi:type="uml:Comment">
+    <body>
+     A central point from which all customer contacts are managed.
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Brand Management BOM SD" visibility="public" xmi:id="362ef246-4a89-ea11-8291-063dd8250e84" xmi:type="uml:Package">
+  <packagedElement name="Assessment Helper SD" visibility="public" xmi:id="b5e905ea-2ba2-e911-8280-068b5ca1cd1a" xmi:type="uml:Package">
+   <packagedElement name="" xmi:id="f4416361-c995-ea11-8295-06710fa33e76" xmi:type="uml:Association">
+    <ownedEnd association="f4416361-c995-ea11-8295-06710fa33e76" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="4c2f9452-c995-ea11-8295-06710fa33e76" visibility="public" xmi:id="5c15a830-c495-ea11-8295-06710fa33e76a">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="f4416361-c995-ea11-8295-06710fa33e76" isUnique="true" name="" type="5c15a830-c495-ea11-8295-06710fa33e76" visibility="public" xmi:id="5c15a830-c495-ea11-8295-06710fa33e76b">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement memberEnd="b67997da-c495-ea11-8295-06710fa33e76a 7966d6b9-ca95-ea11-8295-06710fa33e76b" name="" navigableOwnedEnd="7966d6b9-ca95-ea11-8295-06710fa33e76b" xmi:id="d330fc58-cb95-ea11-8295-06710fa33e76" xmi:type="uml:Association">
+    <ownedEnd association="d330fc58-cb95-ea11-8295-06710fa33e76" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="b67997da-c495-ea11-8295-06710fa33e76" visibility="public" xmi:id="b67997da-c495-ea11-8295-06710fa33e76a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="d330fc58-cb95-ea11-8295-06710fa33e76" isUnique="true" name="" type="7966d6b9-ca95-ea11-8295-06710fa33e76" visibility="public" xmi:id="7966d6b9-ca95-ea11-8295-06710fa33e76b">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement memberEnd="b67997da-c495-ea11-8295-06710fa33e76a b00c5eb3-ca95-ea11-8295-06710fa33e76b" name="" navigableOwnedEnd="b00c5eb3-ca95-ea11-8295-06710fa33e76b" xmi:id="f6404351-cb95-ea11-8295-06710fa33e76" xmi:type="uml:Association">
+    <ownedEnd association="f6404351-cb95-ea11-8295-06710fa33e76" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="b67997da-c495-ea11-8295-06710fa33e76" visibility="public" xmi:id="b67997da-c495-ea11-8295-06710fa33e76a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="f6404351-cb95-ea11-8295-06710fa33e76" isUnique="true" name="" type="b00c5eb3-ca95-ea11-8295-06710fa33e76" visibility="public" xmi:id="b00c5eb3-ca95-ea11-8295-06710fa33e76b">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="e2d9d830-cd95-ea11-8295-06710fa33e76" xmi:type="uml:Association">
+    <ownedEnd association="e2d9d830-cd95-ea11-8295-06710fa33e76" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="7966d6b9-ca95-ea11-8295-06710fa33e76" visibility="public" xmi:id="cd75370f-cd95-ea11-8295-06710fa33e76a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="e2d9d830-cd95-ea11-8295-06710fa33e76" isUnique="true" name="Addressed
+Issue" type="cd75370f-cd95-ea11-8295-06710fa33e76" visibility="public" xmi:id="cd75370f-cd95-ea11-8295-06710fa33e76b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="55e7010f-c595-ea11-8295-06710fa33e76" xmi:type="uml:Association">
+    <ownedEnd association="55e7010f-c595-ea11-8295-06710fa33e76" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="5c15a830-c495-ea11-8295-06710fa33e76" visibility="public" xmi:id="b67997da-c495-ea11-8295-06710fa33e76a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="55e7010f-c595-ea11-8295-06710fa33e76" isUnique="true" name="" type="b67997da-c495-ea11-8295-06710fa33e76" visibility="public" xmi:id="b67997da-c495-ea11-8295-06710fa33e76b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="Audit" xmi:id="b5e905ea-2ba2-e911-8280-068b5ca1cd1a" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen1" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21479" xmi:type="uml:Comment">
+     <body>
+      Systematic examination and verification of a firm's books of account, transaction records, other relevant documents, and physical inspection of inventory by qualified accountants (called auditors) . BusinessDictionary
+
+An examination and verification of a company's financial and accounting records and supporting documents by a professional, such as a Certified Public Accountant. (Read more: http://www.investorwords.com/324/audit.html#ixzz5tAeSPyMC)
+
+
+The term audit usually refers to a financial statement audit. A financial audit is an objective examination and evaluation of the financial statements of an organization to make sure that the financial records are a fair and accurate representation of the transactions they claim to represent. The audit can be conducted internally by employees of the organization or externally by an outside Certified Public Accountant (CPA) firm. (Investopedia)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Assessment" xmi:id="ea36f45c-1656-e911-8237-060aad038e48" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21480" xmi:type="uml:Comment">
+     <body>
+      the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Test" xmi:id="cf97fd7e-ff76-e911-823e-0663ff6583c4" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21481" xmi:type="uml:Comment">
+     <body>
+      A measure taken  to check the quality, performance, or reliability of (something), especially before putting it into widespread use or practice
+
+Tests are a collection of one or more tests evaluations that can be made to certify a subject. (Behavior Qualifier Type)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductMatching" xmi:id="85239d30-a486-e911-823e-062687e6a904" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen2" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21482" xmi:type="uml:Comment">
+     <body>
+      An evaluation for matching products to a customer. 
+
+An evaluation for mapping of available products (and product combinations) to a customer based on conditions like customer type/characteristics, the context for the request and desired product/service features.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Document" xmi:id="ba9abd47-c656-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21483" xmi:type="uml:Comment">
+     <body>
+      Something tangible that records something, such as a recording or a photograph, or a writing that can be used to furnish evidence or information (FIBO)
+
+Definition: A physical or digital representation of something meaningful to the audience.
+
+Comment: 
+1.Technical: Manuals, instructions, tutorials, procedures, specifications, etc., that accompany a piece of equipment or software, and provide guidance for its proper use and maintenance.
+2.Trading: Preparation of a set of commercial and financial documents that record or support a business transaction. International trade documentations include air waybill, bill of exchange, bill of lading, certificate of inspection, certificate of insurance, certificate of origin, commercial invoice, and consular invoice.
+
+
+Read more: http://www.businessdictionary.com/definition/documentation.html#ixzz3EQGRGC4W
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="LegalComplianceCheck" xmi:id="818dfa4c-3d94-ea11-8295-06a5be9987fe" xmi:type="uml:Class">
+    <generalization general="bbdee486-984d-ea11-8289-065500ef61d8" xmi:id="gen3" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21484" xmi:type="uml:Comment">
+     <body>
+      An assessment to check the Legal Compliance for the bank 
+
+Comment:
+This includes interpreting the laws that govern the bank's operations and determining which laws apply in specific circumstances across the enterprise.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="GuidelineComplianceCheck" xmi:id="ea29b2f8-2ca2-e911-8280-068b5ca1cd1a" xmi:type="uml:Class">
+    <generalization general="bbdee486-984d-ea11-8289-065500ef61d8" xmi:id="gen4" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21485" xmi:type="uml:Comment">
+     <body>
+      An assessment to check the Guideline Compliance for the bank
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="RegulatoryComplianceCheck" xmi:id="83f1ba60-1fa2-e911-8280-068b5ca1cd1a" xmi:type="uml:Class">
+    <generalization general="bbdee486-984d-ea11-8289-065500ef61d8" xmi:id="gen5" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21486" xmi:type="uml:Comment">
+     <body>
+      An assessment to check the Regulation Compliance for the bank
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Authentication" xmi:id="11b0a31a-0991-e911-823e-06f3e7d1f9c0" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen6" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21487" xmi:type="uml:Comment">
+     <body>
+      An evaluation whether a party or system is what it claims to be.
+
+A security mechanism for verifying: 1) the identity of an individual or other entity (including verification by means of a computer or computer application); and 2) the level of authority of that person or entity (i.e. the ability of that person or entity to perform specific tasks or activities). (ECB)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ComplianceCheck" xmi:id="bbdee486-984d-ea11-8289-065500ef61d8" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen7" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21488" xmi:type="uml:Comment">
+     <body>
+      An assessment to check the compliance
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Authorisation" xmi:id="df4e3cdd-1fb5-e911-828c-06363e70c8fa" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen8" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21489" xmi:type="uml:Comment">
+     <body>
+      An evaluation whether a party or system is allowed to do something.
+
+The consent given by a participant (or a third party acting on behalf of that participant) in order to transfer funds or securities. (ECB)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductQualityAssurance" xmi:id="95698957-ab64-eb11-82e9-06f39716fe97" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen9" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21490" xmi:type="uml:Comment">
+     <body>
+      An assessment used to determine if a product or service meets quality standards
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="AssetValuation" xmi:id="d5fe9f6e-7b80-e911-823e-061de61e9206" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen10" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21491" xmi:type="uml:Comment">
+     <body>
+      The result of a valuation of some aspect of an Asset.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Plan Helper SD" visibility="public" xmi:id="0c462ee4-a167-eb11-82f6-06f5e4900cbd" xmi:type="uml:Package">
+   <packagedElement name="PlanInvolvement" xmi:id="0c462ee4-a167-eb11-82f6-06f5e4900cbd" xmi:type="uml:Class">
+    <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen11" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21492" xmi:type="uml:Comment">
+     <body>
+      A PartyRole involved in a Plan
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21493" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PlannedAction" xmi:id="5536bb98-a367-eb11-82f6-06f5e4900cbd" xmi:type="uml:Class">
+    <generalization general="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen12" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21494" xmi:type="uml:Comment">
+     <body>
+      An action that is arranged in a plan for doing or achieving something
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Arrangement" xmi:id="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21495" xmi:type="uml:Comment">
+     <body>
+      An agreed commitment to perform actions that meet obligations under an agreement
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21496" xmi:type="uml:Comment">
+     <body>
+      A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Goal" xmi:id="8806b58b-fc94-ea11-8295-06c610ca3b44" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21497" xmi:type="uml:Comment">
+     <body>
+      A goal represents a high-level statement of intent, direction, or desired end state for an organization and its stakeholders. (ArchiMate 3.1)
+
+An observable and measurable end result having one or more objectives to be achieved within a more or less fixed timeframe.
+
+Read more: http://www.businessdictionary.com/definition/goal.html
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="BudgetArrangement" xmi:id="14db05d8-8375-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <generalization general="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen13" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21498" xmi:type="uml:Comment">
+     <body>
+      An arrangement which is specifying an estimate of costs, revenues, and resources over a specified period, reflecting a reading of future financial conditions and goals. (adapted from Business Dictionary)
+
+Read more: http://www.businessdictionary.com/definition/budget.html
+
+
+A budget is an estimation of revenue and expenses over a specified future period of time and is utilized by governments, businesses, and individuals.
+A budget is basically a financial plan for a defined period, normally a year that is known to greatly enhance the success of any financial undertaking. (Investopedia)
+
+https://www.investopedia.com/terms/b/budget.asp
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Plan" xmi:id="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:type="uml:Class">
+    <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen14" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21499" xmi:type="uml:Comment">
+     <body>
+      A method for doing or achieving something, usually involving a series of actions or stages, or something you have arranged to do. (Cambridge Dictionary)
+
+A plan is a set of intended actions, through which one intends to achieve a goal.
+
+"Course of action" is a synonym for Plan.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Account" xmi:id="9fe05cf9-fd60-e911-8237-068e13695e26" xmi:type="uml:Class">
+    <generalization general="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:id="gen15" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21500" xmi:type="uml:Comment">
+     <body>
+      A measuring state on which movements in value or amounts of assets, rights and obligations are registered.
+
+Comment: 
+It is a bookkeeping instrument holding the amount or value of something by registering the movements in plus and min when events happen which have an impact on the position.
+The term "account" is usually associated to an accounting or bookkeeping concept to hold the financial or stock state of a business concept. An account will typically group the debit and credit entries for a specific aspect of the business resulting from transactions,
+Often accounts are represented as a T-account which is a visual aid used to depict an account. Above the top portion of the T would be the account title. On the left-side of the base of the T would be any debit amounts; on the right-side would be the credit amounts.
+A commonly used bookkeeping method is the double-entry method. This means that every transaction has at least 2 movements. If a customer pays 100 € in cash, there is
+a decrease in the amount that the customer owes to the company (the customer position is decreased)
+an increase in the amount that the company has in cash (the cash position is increased)
+
+An account can be assigning to one or more ledgers. A ledger is a group of accounts for a certain purpose. If there is need for multiple ledgers because of multiple purpose, an account can perfectly well assigned to multiple ledgers. When Ledgers are in real physical books, this is not possible. When ledgers are digital, accounts can be grouped into multiple groups at the same time. This practice is very rarely taught into courses for accounting, but in digital accounting, it is common practice.
+
+Examples: 
+stock account of a shop, cash register, bank account, financial accounting account, customer account, supplier account, ...
+Bank Account BE12 1234 5678 9012: is an individual banking account
+Accounts Payable, is a collective account keeping the balance of the amounts to pay by the organisation to its suppliers. The balance is the result of the financial movements related to suppliers. This account is managed usually in a General Ledger 
+Supplier Account X, is an individual account keeping the balance of the amounts to pay by the organisation to an individual supplier. The balance is the result of the financial movements related to an individual supplier. This account is managed usually in a sub-ledger.
+Stock Account x, is an individual account keeping the balance of the amounts in stock of a specific good.
+A payment service to take fund out of an account.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Service" xmi:id="0cbfb7fb-5997-e911-823e-065ba593ba6e" xmi:type="uml:Class">
+    <generalization general="64fe5512-598d-eb11-8310-068d732c0449" xmi:id="gen16" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21501" xmi:type="uml:Comment">
+     <body>
+      An exposed function (an externalized functionality) that is able to deliver a certain value/benefit (a proposed definition adapted from Archimate).
+
+A unit of functionality that a system exposes to its environment, while hiding internal operations, which provides a certain value (monetary or otherwise). 
+
+
+Comment:
+
+A Service is something that is done by an actor for the benefit of an actor in the environment.
+
+A system is the broad sense of the word. Means Business Service, Application Service, Technology Service, "huppeldepup" Service
+ 
+
+
+Characteristics of a service:
+
+A system (The Service Domain)
+Functionality is exposed (Action Term)
+It provides a certain value (monetary or otherwise) 
+
+
+Exposing functionality means that the internals of realizing the service is hidden for the beneficiary of the Service.
+ 
+
+
+In BIAN a "Service Operation" is visualized as a "Business Service" , the "System" refers to the  "Service Domain"  
+
+The name of a Service Operation is composed of an "Action Term" + "Subject Matter" which is the "Control Record" or the "Behaviour Qualifier".
+
+
+Service is the intangible equivalent of a good. (ISO20022). 
+
+A type of economic activity that is intangible, is not stored and does not result in ownership; a service is consumed at the point of sale (FIBO &amp; Business Dictionary)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Agreement" xmi:id="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21502" xmi:type="uml:Comment">
+     <body>
+      A formal or informal common understanding between two or more (legal competent) parties concerning one or more subject matters expressed in a set of arrangements, terms and conditions. (adapted from Legal System and FIBO)
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Management Plan Helper SD" visibility="public" xmi:id="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Package">
+   <packagedElement name="ManagementPlan" xmi:id="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <generalization general="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:id="gen17" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21503" xmi:type="uml:Comment">
+     <body>
+      The course of action to realize goals (of an operational unit of an enterprise).
+
+The management and oversight while running an operational unit of an enterprise. (Generic Artifact)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Duty" xmi:id="97698d8d-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm21504" xmi:type="uml:Comment">
+     <body>
+      A responsibility of task (under management).
+
+Duties are a collection of one or more responsibilities or tasks under management. (Behavior Qualifier Type)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Plan" xmi:id="6472836c-9c67-eb11-82f6-06f5e4900cbd90393005" xmi:type="uml:Class">
+    <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen18" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm21505" xmi:type="uml:Comment">
+     <body>
+      A method for doing or achieving something, usually involving a series of actions or stages, or something you have arranged to do. (Cambridge Dictionary)
+
+A plan is a set of intended actions, through which one intends to achieve a goal.
+
+"Course of action" is a synonym for Plan.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="BrandImpactEvent" xmi:id="cd75370f-cd95-ea11-8295-06710fa33e76" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21506" xmi:type="uml:Comment">
+    <body>
+     An event that threatens the brand
+    </body>
+   </ownedComment>
+   <ownedAttribute name="BrandImpactEventType" type="Visibility=public" xmi:id="de37ab70-cd95-ea11-8295-06710fa33e7690393005">
+    <ownedComment xmi:id="comm21507" xmi:type="uml:Comment">
+     <body>
+      The type of event that threatens the brand (e.g. production issue, legal issue, employee action, marketing conflict)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="BrandImpactEventDescription" type="Visibility=public" xmi:id="600e7a8b-cd95-ea11-8295-06710fa33e7690393005">
+    <ownedComment xmi:id="comm21508" xmi:type="uml:Comment">
+     <body>
+      Detailed description of the event and situation leading to the brand exposure
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ResponseSchedule" type="Visibility=public" xmi:id="b6b4fca4-cd95-ea11-8295-06710fa33e7690393005">
+    <ownedComment xmi:id="comm21509" xmi:type="uml:Comment">
+     <body>
+      Schedule of actions taken to mitigate the event (plan and actual)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ResponseAction" type="Visibility=public" xmi:id="5a2cddc8-cd95-ea11-8295-06710fa33e7690393005">
+    <ownedComment xmi:id="comm21510" xmi:type="uml:Comment">
+     <body>
+      Actions taken to mitigate the event (e.g. press release, other communications, corrective/compensatory actions
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ComplianceCheck" xmi:id="bbdee486-984d-ea11-8289-065500ef61d8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21511" xmi:type="uml:Comment">
+    <body>
+     An assessment to check the compliance
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21512" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific relationship.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Arrangement" xmi:id="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21513" xmi:type="uml:Comment">
+    <body>
+     An agreed commitment to perform actions that meet obligations under an agreement
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Agreement" xmi:id="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21514" xmi:type="uml:Comment">
+    <body>
+     A formal or informal common understanding between two or more (legal competent) parties concerning one or more subject matters expressed in a set of arrangements, terms and conditions. (adapted from Legal System and FIBO)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Log" xmi:id="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21515" xmi:type="uml:Comment">
+    <body>
+     A record of events/entries.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Feature" xmi:id="64fe5512-598d-eb11-8310-068d732c0449" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21516" xmi:type="uml:Comment">
+    <body>
+     a distinctive attribute or aspect of something.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Plan" xmi:id="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21517" xmi:type="uml:Comment">
+    <body>
+     A method for doing or achieving something, usually involving a series of actions or stages, or something you have arranged to do. (Cambridge Dictionary)
+
+A plan is a set of intended actions, through which one intends to achieve a goal.
+
+"Course of action" is a synonym for Plan.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BrandAdvice" xmi:id="b00c5eb3-ca95-ea11-8295-06710fa33e76" xmi:type="uml:Class">
+   <generalization general="97698d8d-6675-e911-823e-064d1e9fbc72" xmi:id="gen19" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm21518" xmi:type="uml:Comment">
+    <body>
+     Advice and guidance on leveraging the brand in business development activities
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ManagementPlan" xmi:id="a03dec86-6675-e911-823e-064d1e9fbc7290393005" xmi:type="uml:Class">
+   <generalization general="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:id="gen20" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm21519" xmi:type="uml:Comment">
+    <body>
+     The course of action to realize goals (of an operational unit of an enterprise).
+
+The management and oversight while running an operational unit of an enterprise. (Generic Artifact)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ManagementPlanPeriod" type="Visibility=public" xmi:id="d9d5a7a3-1757-ea11-8289-06a605eb4d6490393005">
+    <ownedComment xmi:id="comm21520" xmi:type="uml:Comment">
+     <body>
+      The time period addressed by the management plan.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ManagementPlanGoal" type="Visibility=public" xmi:id="9b86d8bd-1757-ea11-8289-06a605eb4d6490393005">
+    <ownedComment xmi:id="comm21521" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ManagementPlanType" type="Visibility=public" xmi:id="0e5ac279-d5e2-ea11-82b8-068800dddbf790393005">
+    <ownedComment xmi:id="comm21522" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="Management Plan Description" type="Visibility=public" xmi:id="38856e94-d5e2-ea11-82b8-068800dddbf790393005">
+    <ownedComment xmi:id="comm21523" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="BrandManagementPlan" xmi:id="b67997da-c495-ea11-8295-06710fa33e76" xmi:type="uml:Class">
+   <generalization general="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:id="gen21" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm21524" xmi:type="uml:Comment">
+    <body>
+     A management plan for maintaining, improving, and upholding a brand
+
+
+Brand management is a function of marketing that uses techniques to increase the perceived value of a product line or brand over time (Investopedia).
+https://www.investopedia.com/terms/b/brand-management.asp
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BrandImpactTroubleshooting" xmi:id="7966d6b9-ca95-ea11-8295-06710fa33e76" xmi:type="uml:Class">
+   <generalization general="97698d8d-6675-e911-823e-064d1e9fbc72" xmi:id="gen22" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm21525" xmi:type="uml:Comment">
+    <body>
+     Assess brand impact and define and execute mitigating actions for production issues that expose the brand
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BrandValueAssessment" xmi:id="4c2f9452-c995-ea11-8295-06710fa33e76" xmi:type="uml:Class">
+   <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen23" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm21526" xmi:type="uml:Comment">
+    <body>
+     An analysis of the brand value based on comparative market research
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Brand" xmi:id="5c15a830-c495-ea11-8295-06710fa33e76" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21527" xmi:type="uml:Comment">
+    <body>
+     A brand is an identifying symbol, mark, logo, name, word, and/or sentence that companies use to distinguish their product from others (Investopedia)
+
+https://www.investopedia.com/terms/b/brand.asp
+    </body>
+   </ownedComment>
+   <ownedAttribute name="BrandDefinition" type="Visibility=public" xmi:id="a71b96a6-c995-ea11-8295-06710fa33e7690393005">
+    <ownedComment xmi:id="comm21528" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Duty" xmi:id="97698d8d-6675-e911-823e-064d1e9fbc7290393005" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21529" xmi:type="uml:Comment">
+    <body>
+     A responsibility of task (under management).
+
+Duties are a collection of one or more responsibilities or tasks under management. (Behavior Qualifier Type)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="WorkTaskType" type="Visibility=public" xmi:id="6e430280-2c5a-ea11-8290-06eaa2e1840690393005">
+    <ownedComment xmi:id="comm21530" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskDescription" type="Visibility=public" xmi:id="5ebf7d88-2c5a-ea11-8290-06eaa2e1840690393005">
+    <ownedComment xmi:id="comm21531" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskResult" type="Visibility=public" xmi:id="e3abda96-2c5a-ea11-8290-06eaa2e1840690393005">
+    <ownedComment xmi:id="comm21532" xmi:type="uml:Comment">
+     <body>
+      The outcome or result of the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskDateTime" type="Visibility=public" xmi:id="ff3c149f-2c5a-ea11-8290-06eaa2e1840690393005">
+    <ownedComment xmi:id="comm21533" xmi:type="uml:Comment">
+     <body>
+      Key dates associated with the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskWorkProduct" type="Visibility=public" xmi:id="0b594fb2-2c5a-ea11-8290-06eaa2e1840690393005">
+    <ownedComment xmi:id="comm21534" xmi:type="uml:Comment">
+     <body>
+      File of consolidated notes, evaluations and recommendations for the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Assessment" xmi:id="ea36f45c-1656-e911-8237-060aad038e4890393005" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm21535" xmi:type="uml:Comment">
+    <body>
+     the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AssessmentType" type="Visibility=public" xmi:id="3c005ebe-a272-e911-823e-067c7fd4c97890393005">
+    <ownedComment xmi:id="comm21536" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentMethod" type="Visibility=public" xmi:id="42005ebe-a272-e911-823e-067c7fd4c97890393005">
+    <ownedComment xmi:id="comm21537" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentSchedule" type="Visibility=public" xmi:id="7bdd12c5-0577-e911-823e-0663ff6583c490393005">
+    <ownedComment xmi:id="comm21538" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentDescription" type="Visibility=public" xmi:id="2577ab32-0777-e911-823e-0663ff6583c490393005">
+    <ownedComment xmi:id="comm21539" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentModel" type="Visibility=public" xmi:id="110ee713-0877-e911-823e-0663ff6583c490393005">
+    <ownedComment xmi:id="comm21540" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentDateTime" type="Visibility=public" xmi:id="8626f03d-377d-e911-823e-069ad1a2e64890393005">
+    <ownedComment xmi:id="comm21541" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentResult" type="Visibility=public" xmi:id="1f36dd6d-377d-e911-823e-069ad1a2e64890393005">
+    <ownedComment xmi:id="comm21542" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentSupportingDocument" type="Visibility=public" xmi:id="06b88e61-24a2-e911-8280-068b5ca1cd1a90393005">
+    <ownedComment xmi:id="comm21543" xmi:type="uml:Comment">
+     <body>
+      Document that provides background or corroborating information regarding an assessment(s).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentRepresentingDocument" type="Visibility=public" xmi:id="da6a7970-24a2-e911-8280-068b5ca1cd1a90393005">
+    <ownedComment xmi:id="comm21544" xmi:type="uml:Comment">
+     <body>
+      Document that represents the result of an assessment(s).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentRequiredAdjustment" type="Visibility=public" xmi:id="8c5f059a-24a2-e911-8280-068b5ca1cd1a90393005">
+    <ownedComment xmi:id="comm21545" xmi:type="uml:Comment">
+     <body>
+      Change that the assessment reveals is needed.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentRequirement" type="Visibility=public" xmi:id="0ef47758-2ea2-e911-8280-068b5ca1cd1a90393005">
+    <ownedComment xmi:id="comm21546" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AssessmentExpiryDate" type="Visibility=public" xmi:id="2425862b-00bd-e911-8291-066cb8d4b6e890393005">
+    <ownedComment xmi:id="comm21547" xmi:type="uml:Comment">
+     <body>
+      Date when the assessment expires. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

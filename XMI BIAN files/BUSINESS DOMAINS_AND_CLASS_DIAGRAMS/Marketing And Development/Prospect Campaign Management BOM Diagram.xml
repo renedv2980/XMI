@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Prospect Campaign Management BOM SD" visibility="public" xmi:id="71cf0c68-d857-ea11-8289-060c7a9911f6" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="32845532-a88f-ea11-8295-06a675516730" xmi:type="uml:Association">
+   <ownedEnd association="32845532-a88f-ea11-8295-06a675516730" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="d6bc4925-a88f-ea11-8295-06a675516730" visibility="public" xmi:id="166d8bea-d757-ea11-8289-060c7a9911f6a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="32845532-a88f-ea11-8295-06a675516730" isUnique="true" name="" type="166d8bea-d757-ea11-8289-060c7a9911f6" visibility="public" xmi:id="166d8bea-d757-ea11-8289-060c7a9911f6b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="abaaf39e-a4d7-e911-82a8-0667cb2841e8" xmi:type="uml:Association">
+   <ownedEnd association="abaaf39e-a4d7-e911-82a8-0667cb2841e8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="1803596c-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="aab25f63-a4d7-e911-82a8-0667cb2841e8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="abaaf39e-a4d7-e911-82a8-0667cb2841e8" isUnique="true" name="" type="aab25f63-a4d7-e911-82a8-0667cb2841e8" visibility="public" xmi:id="aab25f63-a4d7-e911-82a8-0667cb2841e8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="4e83ec62-aa8f-ea11-8295-06a675516730" xmi:type="uml:Association">
+   <ownedEnd association="4e83ec62-aa8f-ea11-8295-06a675516730" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="758bb043-aa8f-ea11-8295-06a675516730" visibility="public" xmi:id="d6bc4925-a88f-ea11-8295-06a675516730a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="4e83ec62-aa8f-ea11-8295-06a675516730" isUnique="true" name="" type="d6bc4925-a88f-ea11-8295-06a675516730" visibility="public" xmi:id="d6bc4925-a88f-ea11-8295-06a675516730b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="0270e680-5190-ea11-8295-062b57ab2c80" xmi:type="uml:Association">
+   <ownedEnd association="0270e680-5190-ea11-8295-062b57ab2c80" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="PartyRole" type="f3df3b6b-5190-ea11-8295-062b57ab2c80" visibility="public" xmi:id="166d8bea-d757-ea11-8289-060c7a9911f6a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="0270e680-5190-ea11-8295-062b57ab2c80" isUnique="true" name="" type="166d8bea-d757-ea11-8289-060c7a9911f6" visibility="public" xmi:id="166d8bea-d757-ea11-8289-060c7a9911f6b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="7e0f04ff-d757-ea11-8289-060c7a9911f6" xmi:type="uml:Association">
+   <ownedEnd association="7e0f04ff-d757-ea11-8289-060c7a9911f6" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="166d8bea-d757-ea11-8289-060c7a9911f6" visibility="public" xmi:id="139d0fb3-d757-ea11-8289-060c7a9911f6a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="7e0f04ff-d757-ea11-8289-060c7a9911f6" isUnique="true" name="ProspectInCampaign" type="139d0fb3-d757-ea11-8289-060c7a9911f6" visibility="public" xmi:id="139d0fb3-d757-ea11-8289-060c7a9911f6b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="4503bd81-8257-e911-8237-0645314e65ac" xmi:type="uml:Association">
+   <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6f53fd37-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isUnique="true" name="" type="70959fdb-be56-e911-8237-06ecaacb4c68" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="8f8fe8b0-9f8f-ea11-8295-06a675516730" xmi:type="uml:Association">
+   <ownedEnd association="8f8fe8b0-9f8f-ea11-8295-06a675516730" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="4c1fc05a-9f8f-ea11-8295-06a675516730" visibility="public" xmi:id="166d8bea-d757-ea11-8289-060c7a9911f6a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="8f8fe8b0-9f8f-ea11-8295-06a675516730" isUnique="true" name="" type="166d8bea-d757-ea11-8289-060c7a9911f6" visibility="public" xmi:id="166d8bea-d757-ea11-8289-060c7a9911f6b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="25aa5f77-a98f-ea11-8295-06a675516730" xmi:type="uml:Association">
+   <ownedEnd association="25aa5f77-a98f-ea11-8295-06a675516730" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="UsedToAssess" type="91e57b08-d353-ea11-8289-0686d9afb788" visibility="public" xmi:id="d6bc4925-a88f-ea11-8295-06a675516730a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="25aa5f77-a98f-ea11-8295-06a675516730" isUnique="true" name="" type="d6bc4925-a88f-ea11-8295-06a675516730" visibility="public" xmi:id="d6bc4925-a88f-ea11-8295-06a675516730b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="f23fc1de-a98f-ea11-8295-06a675516730" xmi:type="uml:Association">
+   <ownedEnd association="f23fc1de-a98f-ea11-8295-06a675516730" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="UsedToAssess" type="628428f3-2a5a-ea11-8290-06eaa2e18406" visibility="public" xmi:id="d6bc4925-a88f-ea11-8295-06a675516730a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="f23fc1de-a98f-ea11-8295-06a675516730" isUnique="true" name="" type="d6bc4925-a88f-ea11-8295-06a675516730" visibility="public" xmi:id="d6bc4925-a88f-ea11-8295-06a675516730b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="a51a74c1-a98f-ea11-8295-06a675516730" xmi:type="uml:Association">
+   <ownedEnd association="a51a74c1-a98f-ea11-8295-06a675516730" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="UsedToAssess" type="ba4cfa5d-3976-e911-823e-065f1d1f71b2" visibility="public" xmi:id="d6bc4925-a88f-ea11-8295-06a675516730a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="a51a74c1-a98f-ea11-8295-06a675516730" isUnique="true" name="" type="d6bc4925-a88f-ea11-8295-06a675516730" visibility="public" xmi:id="d6bc4925-a88f-ea11-8295-06a675516730b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="4c1fc05a-9f8f-ea11-8295-06a675516730a c6ab3390-a38f-ea11-8295-06a675516730b" name="" navigableOwnedEnd="c6ab3390-a38f-ea11-8295-06a675516730b" xmi:id="696596bd-a38f-ea11-8295-06a675516730" xmi:type="uml:Association">
+   <ownedEnd association="696596bd-a38f-ea11-8295-06a675516730" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="4c1fc05a-9f8f-ea11-8295-06a675516730" visibility="public" xmi:id="4c1fc05a-9f8f-ea11-8295-06a675516730a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="696596bd-a38f-ea11-8295-06a675516730" isUnique="true" name="" type="c6ab3390-a38f-ea11-8295-06a675516730" visibility="public" xmi:id="c6ab3390-a38f-ea11-8295-06a675516730b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="ProspectCampaignManagementPlan" xmi:id="4c1fc05a-9f8f-ea11-8295-06a675516730" xmi:type="uml:Class">
+   <generalization general="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm9980" xmi:type="uml:Comment">
+    <body>
+     The management of the portfolio of prospect campaigns including assessing overall coverage and impact and directing campaign design and deployment
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ManagementPlan" xmi:id="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <generalization general="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm9981" xmi:type="uml:Comment">
+    <body>
+     The course of action to realize goals (of an operational unit of an enterprise).
+
+The management and oversight while running an operational unit of an enterprise. (Generic Artifact)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ManagementPlanPeriod" type="Visibility=public" xmi:id="d9d5a7a3-1757-ea11-8289-06a605eb4d6490157202">
+    <ownedComment xmi:id="comm9982" xmi:type="uml:Comment">
+     <body>
+      The time period addressed by the management plan.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ManagementPlanGoal" type="Visibility=public" xmi:id="9b86d8bd-1757-ea11-8289-06a605eb4d6490157202">
+    <ownedComment xmi:id="comm9983" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ManagementPlanType" type="Visibility=public" xmi:id="0e5ac279-d5e2-ea11-82b8-068800dddbf790157202">
+    <ownedComment xmi:id="comm9984" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="Management Plan Description" type="Visibility=public" xmi:id="38856e94-d5e2-ea11-82b8-068800dddbf790157202">
+    <ownedComment xmi:id="comm9985" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Plan" xmi:id="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm9986" xmi:type="uml:Comment">
+    <body>
+     A method for doing or achieving something, usually involving a series of actions or stages, or something you have arranged to do. (Cambridge Dictionary)
+
+A plan is a set of intended actions, through which one intends to achieve a goal.
+
+"Course of action" is a synonym for Plan.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Duty" xmi:id="97698d8d-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm9987" xmi:type="uml:Comment">
+    <body>
+     A responsibility of task (under management).
+
+Duties are a collection of one or more responsibilities or tasks under management. (Behavior Qualifier Type)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="WorkTaskType" type="Visibility=public" xmi:id="6e430280-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm9988" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskDescription" type="Visibility=public" xmi:id="5ebf7d88-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm9989" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskResult" type="Visibility=public" xmi:id="e3abda96-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm9990" xmi:type="uml:Comment">
+     <body>
+      The outcome or result of the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskDateTime" type="Visibility=public" xmi:id="ff3c149f-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm9991" xmi:type="uml:Comment">
+     <body>
+      Key dates associated with the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskWorkProduct" type="Visibility=public" xmi:id="0b594fb2-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm9992" xmi:type="uml:Comment">
+     <body>
+      File of consolidated notes, evaluations and recommendations for the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ProspectCampaignManagementDuty" xmi:id="c6ab3390-a38f-ea11-8295-06a675516730" xmi:type="uml:Class">
+   <generalization general="97698d8d-6675-e911-823e-064d1e9fbc72" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm9993" xmi:type="uml:Comment">
+    <body>
+     Duty to manage/assess the prospect campaign
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ProspectCampaignManagementWorkTaskType" type="Visibility=public" xmi:id="a91390df-a48f-ea11-8295-06a67551673090157202">
+    <ownedComment xmi:id="comm9994" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="MarketResearch" xmi:id="ba4cfa5d-3976-e911-823e-065f1d1f71b2" xmi:type="uml:Class">
+   <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen4" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm9995" xmi:type="uml:Comment">
+    <body>
+     The action or activity of gathering information about target markets or customers.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="MarketResearchSource" type="Visibility=public" xmi:id="1142cb0a-3b76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm9996" xmi:type="uml:Comment">
+     <body>
+      Refers to information (e.g. Market research report) used in the Market Research
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MarketResearchViewpoint" type="Visibility=public" xmi:id="42409203-7fd1-e911-8296-06e952cbc5d090157202">
+    <ownedComment xmi:id="comm9997" xmi:type="uml:Comment">
+     <body>
+      Refers to the viewpoint used in the market research
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MarketResearchApproach" type="Visibility=public" xmi:id="40910025-7fd1-e911-8296-06e952cbc5d090157202">
+    <ownedComment xmi:id="comm9998" xmi:type="uml:Comment">
+     <body>
+      Refers to the approach used in the market research
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MarketResearchPeriod" type="Visibility=public" xmi:id="c8cfe15f-7fd1-e911-8296-06e952cbc5d090157202">
+    <ownedComment xmi:id="comm9999" xmi:type="uml:Comment">
+     <body>
+      Period covered by the market research
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ResearchedMarket" type="Visibility=public" xmi:id="9c524c78-7fd1-e911-8296-06e952cbc5d090157202">
+    <ownedComment xmi:id="comm10000" xmi:type="uml:Comment">
+     <body>
+      Market that is subject of the market research
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Assessment" xmi:id="ea36f45c-1656-e911-8237-060aad038e48" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10001" xmi:type="uml:Comment">
+    <body>
+     the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10002" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyRoleType" type="Visibility=public" xmi:id="83c28dd9-29e9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm10003" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleName" type="Visibility=public" xmi:id="7ebb122f-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm10004" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleValidityPeriod" type="Visibility=public" xmi:id="fb571d5e-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm10005" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyInvolvementType" type="Visibility=public" xmi:id="c5867926-2de9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm10006" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ProspectCampaignManagementWorkTaskType" xmi:id="b3244f80-a58f-ea11-8295-06a675516730" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="MarketTracking" xmi:id="dd4c5c8b-a58f-ea11-8295-06a675516730">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Tracking multiple sources of intelligence that is used to assess the competitive coverage and performance of the prospect campaign portfolio
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="PerformanceAssessment" xmi:id="cf9407ac-a58f-ea11-8295-06a675516730">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Performance assessment of the prospect campaigns making up the portfolio
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="CampaignDirection" xmi:id="3b5834c5-a58f-ea11-8295-06a675516730">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Direct prospect campaign design and execution activity (based on market insights and assessed performance)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Campaign" xmi:id="4a934e40-a5d7-e911-82a8-0667cb2841e8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10007" xmi:type="uml:Comment">
+    <body>
+     A series of organized actions which are done for one purpose.
+
+A systemic course of actions formulated to achieve defined objectives.
+
+campaign. BusinessDictionary.com. Retrieved August 23, 2018, from BusinessDictionary.com website: http://www.businessdictionary.com/definition/campaign.html
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CampaignType" type="Visibility=public" xmi:id="68cd7b8f-add7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm10008" xmi:type="uml:Comment">
+     <body>
+      Type of campaign.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CampaignVersion" type="Visibility=public" xmi:id="5f8f4b9c-add7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm10009" xmi:type="uml:Comment">
+     <body>
+      The version of campaign.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CampaignDescription" type="Visibility=public" xmi:id="f719e2c9-f598-ea11-8295-06e28f66aad490157202">
+    <ownedComment xmi:id="comm10010" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CampaignPeriod" type="Visibility=public" xmi:id="dc51a891-fb98-ea11-8295-06e28f66aad490157202">
+    <ownedComment xmi:id="comm10011" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ProspectCampaign" xmi:id="166d8bea-d757-ea11-8289-060c7a9911f6" xmi:type="uml:Class">
+   <generalization general="4a934e40-a5d7-e911-82a8-0667cb2841e8" xmi:id="gen5" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm10012" xmi:type="uml:Comment">
+    <body>
+     A campaign to target prospects (potentialt customers) to identify market opportunities and threats.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ProspectCampaignAssessment" xmi:id="d6bc4925-a88f-ea11-8295-06a675516730" xmi:type="uml:Class">
+   <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen6" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm10013" xmi:type="uml:Comment">
+    <body>
+     A evaluation to assess the impact of the prospect campaign.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ProspectCampaignInvolvement" xmi:id="f3df3b6b-5190-ea11-8295-062b57ab2c80" xmi:type="uml:Class">
+   <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen7" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm10014" xmi:type="uml:Comment">
+    <body>
+     Role which is played by a party in a specific prospect campaign like Campaign Designer or the business unit responsible for the campaign execution.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CompetitorAnalysis" xmi:id="628428f3-2a5a-ea11-8290-06eaa2e18406" xmi:type="uml:Class">
+   <generalization general="6aa1554b-7675-e911-823e-064d1e9fbc72" xmi:id="gen8" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm10015" xmi:type="uml:Comment">
+    <body>
+     An assessment of the strengths and weaknesses of current and potential competitors
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Analysis" xmi:id="6aa1554b-7675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10016" xmi:type="uml:Comment">
+    <body>
+     Def.1 The insights derived from an analysis applied to an entity using specific models/evaluation methods
+
+Def.2 A detailed examination of anything complex
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerRelationship" xmi:id="1803596c-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <generalization general="7ef3c45c-6675-e911-823e-064d1e9fbc72" xmi:id="gen9" xmi:type="uml:Generalization"/>
+   <generalization general="fa6490a1-8957-e911-8237-0645314e65ac" xmi:id="gen10" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm10017" xmi:type="uml:Comment">
+    <body>
+     A specific relationship between a specific Bank (= party acting as a supplier of banking services) and one or more other involved parties acting as (potential) consumers of banking services as agreed in one or more banking product or service offerings and/or agreements.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BankingRelationship" xmi:id="7ef3c45c-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10018" xmi:type="uml:Comment">
+    <body>
+     A specific Relationship (= an instance of a Relationship Class) between a specific party acting as the Bank and one or more other specific involved Parties.
+A Relationship is a logical unit of collaboration between two or more involved Parties.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRelationship" xmi:id="fa6490a1-8957-e911-8237-0645314e65ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10019" xmi:type="uml:Comment">
+    <body>
+     A relationship between two or more parties; the parties involved are specified in terms of the roles they play in the relationship.
+
+A Party Relationship is a connection between an instance of a Party and two or more instances of associated objects in the relationship.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerSurvey" xmi:id="91e57b08-d353-ea11-8289-0686d9afb788" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10020" xmi:type="uml:Comment">
+    <body>
+     Customer polling to identify their level of satisfaction with an existing product/service, relationship and etc. 
+
+Customer polling to identify their level of satisfaction with an existing product, and to discover their express and hidden needs and expectations for new or proposed product(s).
+
+Read more: http://www.businessdictionary.com/definition/customer-survey.html
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CustomerSurveyType" type="Visibility=public" xmi:id="25525473-d353-ea11-8289-0686d9afb78890157202">
+    <ownedComment xmi:id="comm10021" xmi:type="uml:Comment">
+     <body>
+      The type or category of customer survey (e.g. questionnaire, in context solicitation, focus group)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerSurveyDescription" type="Visibility=public" xmi:id="bc763193-d653-ea11-8289-0686d9afb78890157202">
+    <ownedComment xmi:id="comm10022" xmi:type="uml:Comment">
+     <body>
+      A description of the customer survey that clarifies the sought customer insights, survey mechanism and target reviewers
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerSurveyVersion" type="Visibility=public" xmi:id="436ae713-d853-ea11-8289-0686d9afb78890157202">
+    <ownedComment xmi:id="comm10023" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerSurveyDateTime" type="Visibility=public" xmi:id="3f632e26-d853-ea11-8289-0686d9afb78890157202">
+    <ownedComment xmi:id="comm10024" xmi:type="uml:Comment">
+     <body>
+      Key dates associated with the customer survey (e.g. initiation date, version revision date, completion date)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ProspectCampaignMetric" xmi:id="758bb043-aa8f-ea11-8295-06a675516730" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10025" xmi:type="uml:Comment">
+    <body>
+     Metric that is defined to assess the target and actual impact of the campaign
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ProspectCampaignMetricDefinition" type="Visibility=public" xmi:id="5bd62e7a-aa8f-ea11-8295-06a67551673090157202">
+    <ownedComment xmi:id="comm10026" xmi:type="uml:Comment">
+     <body>
+      A description of the metric, defining how it is to be measured in deployment
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProspectCampaignMetricGoal" type="Visibility=public" xmi:id="0c38dca1-aa8f-ea11-8295-06a67551673090157202">
+    <ownedComment xmi:id="comm10027" xmi:type="uml:Comment">
+     <body>
+      A description of the target performance for the metric that can be defined for different usage scenarios as appropriate
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerRelationshipLifecyclePhase" xmi:id="aab25f63-a4d7-e911-82a8-0667cb2841e8" xmi:type="uml:Class">
+   <generalization general="5bec4388-9dd7-e911-82a8-0667cb2841e8" xmi:id="gen11" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm10028" xmi:type="uml:Comment">
+    <body>
+     A stage of a customer relationship, such as lead, prospect, and full-blown customer.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRelationshipLifecyclePhase" xmi:id="5bec4388-9dd7-e911-82a8-0667cb2841e8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10029" xmi:type="uml:Comment">
+    <body>
+     Specifies a series of stages that characterize the course of existence of a party relationship in a specific context.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Prospect" xmi:id="139d0fb3-d757-ea11-8289-060c7a9911f6" xmi:type="uml:Class">
+   <generalization general="aab25f63-a4d7-e911-82a8-0667cb2841e8" xmi:id="gen12" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm10030" xmi:type="uml:Comment">
+    <body>
+     A potential customer
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10031" xmi:type="uml:Comment">
+    <body>
+     A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyName" type="Visibility=public" xmi:id="d8f7f366-21cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm10032" xmi:type="uml:Comment">
+     <body>
+      Name by which a party is known and which is usually used to identify that party. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyType" type="Visibility=public" xmi:id="b1f7b3d8-21cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm10033" xmi:type="uml:Comment">
+     <body>
+      Specifies the type of party in different business contexts. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyDateTime" type="Visibility=public" xmi:id="d6ed5669-40f6-e911-82bd-06a31b9588ce90157202">
+    <ownedComment xmi:id="comm10034" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyIdentification" type="Visibility=public" xmi:id="449e231b-a846-ea11-8289-06f8a6a00ed090157202">
+    <ownedComment xmi:id="comm10035" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

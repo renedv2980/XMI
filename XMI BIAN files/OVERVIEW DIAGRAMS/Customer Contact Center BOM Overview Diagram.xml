@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Customer Contact Center BOM Overview SD" visibility="public" xmi:id="8733a003-2eef-e911-82b5-06766225a0aa" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="a9f7e4b1-ee9b-e911-827a-06f79ea59412" xmi:type="uml:Association">
+   <ownedEnd association="a9f7e4b1-ee9b-e911-827a-06f79ea59412" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="0cbfb7fb-5997-e911-823e-065ba593ba6e" visibility="public" xmi:id="1bc3a0ce-d79b-e911-827a-06f79ea59412a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="a9f7e4b1-ee9b-e911-827a-06f79ea59412" isUnique="true" name="" type="1bc3a0ce-d79b-e911-827a-06f79ea59412" visibility="public" xmi:id="1bc3a0ce-d79b-e911-827a-06f79ea59412b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="7ad003c2-30ef-e911-82b5-06766225a0aa" xmi:type="uml:Association">
+   <ownedEnd association="7ad003c2-30ef-e911-82b5-06766225a0aa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c105d8d0-90ee-e911-82b5-063154845300" visibility="public" xmi:id="5e65899d-30ef-e911-82b5-06766225a0aaa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="7ad003c2-30ef-e911-82b5-06766225a0aa" isUnique="true" name="" type="5e65899d-30ef-e911-82b5-06766225a0aa" visibility="public" xmi:id="5e65899d-30ef-e911-82b5-06766225a0aab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="634a474e-2eef-e911-82b5-06766225a0aa" xmi:type="uml:Association">
+   <ownedEnd association="634a474e-2eef-e911-82b5-06766225a0aa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c105d8d0-90ee-e911-82b5-063154845300" visibility="public" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="634a474e-2eef-e911-82b5-06766225a0aa" isUnique="true" name="InboundContact " type="56af07d7-8575-e911-823e-064d1e9fbc72" visibility="public" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="d1526e26-30ef-e911-82b5-06766225a0aa" xmi:type="uml:Association">
+   <ownedEnd association="d1526e26-30ef-e911-82b5-06766225a0aa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c105d8d0-90ee-e911-82b5-063154845300" visibility="public" xmi:id="0858d1e2-0891-e911-823e-06f3e7d1f9c0a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="d1526e26-30ef-e911-82b5-06766225a0aa" isUnique="true" name="" type="0858d1e2-0891-e911-823e-06f3e7d1f9c0" visibility="public" xmi:id="0858d1e2-0891-e911-823e-06f3e7d1f9c0b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="8324da84-2eef-e911-82b5-06766225a0aa" xmi:type="uml:Association">
+   <ownedEnd association="8324da84-2eef-e911-82b5-06766225a0aa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c105d8d0-90ee-e911-82b5-063154845300" visibility="public" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="8324da84-2eef-e911-82b5-06766225a0aa" isUnique="true" name="OutboundContact " type="56af07d7-8575-e911-823e-064d1e9fbc72" visibility="public" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="539e890e-4aef-e911-82b5-06766225a0aa" xmi:type="uml:Association">
+   <ownedEnd association="539e890e-4aef-e911-82b5-06766225a0aa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c105d8d0-90ee-e911-82b5-063154845300" visibility="public" xmi:id="1bc3a0ce-d79b-e911-827a-06f79ea59412a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="539e890e-4aef-e911-82b5-06766225a0aa" isUnique="true" name="ServicingPosition" type="1bc3a0ce-d79b-e911-827a-06f79ea59412" visibility="public" xmi:id="1bc3a0ce-d79b-e911-827a-06f79ea59412b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="1ffcf85f-56ef-e911-82b5-06766225a0aa" xmi:type="uml:Association">
+   <ownedEnd association="1ffcf85f-56ef-e911-82b5-06766225a0aa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="HandlingCenter" type="c105d8d0-90ee-e911-82b5-063154845300" visibility="public" xmi:id="d557a9ce-8ad8-e911-82a8-06d35e1e0220a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="1ffcf85f-56ef-e911-82b5-06766225a0aa" isUnique="true" name="" type="d557a9ce-8ad8-e911-82a8-06d35e1e0220" visibility="public" xmi:id="d557a9ce-8ad8-e911-82a8-06d35e1e0220b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="e1b50d3a-3def-e911-82b5-06766225a0aa" xmi:type="uml:Association">
+   <ownedEnd association="e1b50d3a-3def-e911-82b5-06766225a0aa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="HandlingCenter" type="c105d8d0-90ee-e911-82b5-063154845300" visibility="public" xmi:id="8b6a1333-3def-e911-82b5-06766225a0aaa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="e1b50d3a-3def-e911-82b5-06766225a0aa" isUnique="true" name="" type="8b6a1333-3def-e911-82b5-06766225a0aa" visibility="public" xmi:id="8b6a1333-3def-e911-82b5-06766225a0aab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="d655951f-41ef-e911-82b5-06766225a0aa" xmi:type="uml:Association">
+   <ownedEnd association="d655951f-41ef-e911-82b5-06766225a0aa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c105d8d0-90ee-e911-82b5-063154845300" visibility="public" xmi:id="70a78445-90ee-e911-82b5-063154845300a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="d655951f-41ef-e911-82b5-06766225a0aa" isUnique="true" name="" type="70a78445-90ee-e911-82b5-063154845300" visibility="public" xmi:id="70a78445-90ee-e911-82b5-063154845300b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="e01fe931-41ef-e911-82b5-06766225a0aa" xmi:type="uml:Association">
+   <ownedEnd association="e01fe931-41ef-e911-82b5-06766225a0aa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="c105d8d0-90ee-e911-82b5-063154845300" visibility="public" xmi:id="90f79517-41ef-e911-82b5-06766225a0aaa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="e01fe931-41ef-e911-82b5-06766225a0aa" isUnique="true" name="" type="90f79517-41ef-e911-82b5-06766225a0aa" visibility="public" xmi:id="90f79517-41ef-e911-82b5-06766225a0aab">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm624" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyRoleType" type="Visibility=public" xmi:id="83c28dd9-29e9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm625" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleName" type="Visibility=public" xmi:id="7ebb122f-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm626" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleValidityPeriod" type="Visibility=public" xmi:id="fb571d5e-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm627" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyInvolvementType" type="Visibility=public" xmi:id="c5867926-2de9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm628" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerContact" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <generalization general="904758f4-6180-e911-823e-066c44d66510" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm629" xmi:type="uml:Comment">
+    <body>
+     An (structured) interaction between a customer and a financial institution.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ContactType" type="Visibility=public" xmi:id="a12364bb-1b76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm630" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactDateTIme" type="Visibility=public" xmi:id="4ea52f7b-1c76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm631" xmi:type="uml:Comment">
+     <body>
+      The start and end date times for the contact
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactLocation" type="Visibility=public" xmi:id="793a179b-1c76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm632" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactSchedule" type="Visibility=public" xmi:id="d6b2a1e2-1c76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm633" xmi:type="uml:Comment">
+     <body>
+      The schedule of past and planned customer contacts
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactResult" type="Visibility=public" xmi:id="caa5ed0a-1d76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm634" xmi:type="uml:Comment">
+     <body>
+      The interpreted result of the contact (e.g. completed, customer terminated, timed-out)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactPurpose" type="Visibility=public" xmi:id="b81ee44e-8080-e911-823e-066c44d6651090157202">
+    <ownedComment xmi:id="comm635" xmi:type="uml:Comment">
+     <body>
+      The reason and or purpose for the contact (e.g. review, issue, product sales, advice, customer enquiry)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactDevice" type="Visibility=public" xmi:id="bb297476-8080-e911-823e-066c44d6651090157202">
+    <ownedComment xmi:id="comm636" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactIndicator" type="Visibility=public" xmi:id="bd3cc978-49a9-e911-8288-061bf39b956490157202">
+    <ownedComment xmi:id="comm637" xmi:type="uml:Comment">
+     <body>
+      Indicates whether this is an inbound or outbound contact (inbound is customer initiated, outbound is servicing resource initiated).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactContent" type="Visibility=public" xmi:id="985c86dc-f0d2-e911-8296-06b94e7647ce90157202">
+    <ownedComment xmi:id="comm638" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerEvent" xmi:id="904758f4-6180-e911-823e-066c44d66510" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm639" xmi:type="uml:Comment">
+    <body>
+     Event related to a specific Customer or Customer Relationship.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerContactCenterInvolvementTypeValues" xmi:id="0d17f133-31ef-e911-82b5-06766225a0aa" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="Customer" xmi:id="0e17f133-31ef-e911-82b5-06766225a0aa">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="ContactCenterAgent" xmi:id="f45ff53c-31ef-e911-82b5-06766225a0aa">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerServiceRepresentative" xmi:id="5a1893af-49ef-e911-82b5-06766225a0aa">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Customer service representatives interact with customers on behalf of an organization. They provide information about products and services, take orders, respond to customer complaints, and process returns. Many customer service representatives work in customer contact centers.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Service" xmi:id="0cbfb7fb-5997-e911-823e-065ba593ba6e" xmi:type="uml:Class">
+   <generalization general="64fe5512-598d-eb11-8310-068d732c0449" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm640" xmi:type="uml:Comment">
+    <body>
+     An exposed function (an externalized functionality) that is able to deliver a certain value/benefit (a proposed definition adapted from Archimate).
+
+A unit of functionality that a system exposes to its environment, while hiding internal operations, which provides a certain value (monetary or otherwise). 
+
+
+Comment:
+
+A Service is something that is done by an actor for the benefit of an actor in the environment.
+
+A system is the broad sense of the word. Means Business Service, Application Service, Technology Service, "huppeldepup" Service
+ 
+
+
+Characteristics of a service:
+
+A system (The Service Domain)
+Functionality is exposed (Action Term)
+It provides a certain value (monetary or otherwise) 
+
+
+Exposing functionality means that the internals of realizing the service is hidden for the beneficiary of the Service.
+ 
+
+
+In BIAN a "Service Operation" is visualized as a "Business Service" , the "System" refers to the  "Service Domain"  
+
+The name of a Service Operation is composed of an "Action Term" + "Subject Matter" which is the "Control Record" or the "Behaviour Qualifier".
+
+
+Service is the intangible equivalent of a good. (ISO20022). 
+
+A type of economic activity that is intangible, is not stored and does not result in ownership; a service is consumed at the point of sale (FIBO &amp; Business Dictionary)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ServiceName" type="Visibility=public" xmi:id="680df662-c472-eb11-8305-06e7df9dc07990157202">
+    <ownedComment xmi:id="comm641" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ServiceDescription" type="Visibility=public" xmi:id="d80df662-c472-eb11-8305-06e7df9dc07990157202">
+    <ownedComment xmi:id="comm642" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ServiceType" type="Visibility=public" xmi:id="2b3fce71-c472-eb11-8305-06e7df9dc07990157202">
+    <ownedComment xmi:id="comm643" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Feature" xmi:id="64fe5512-598d-eb11-8310-068d732c0449" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm644" xmi:type="uml:Comment">
+    <body>
+     a distinctive attribute or aspect of something.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CommunicationChannel" xmi:id="0858d1e2-0891-e911-823e-06f3e7d1f9c0" xmi:type="uml:Class">
+   <generalization general="6fd7342a-138d-e911-823e-067b7da9d714" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <generalization general="153e71ae-c762-ea11-8290-0614a0f38526" xmi:id="gen4" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm645" xmi:type="uml:Comment">
+    <body>
+     A pathway established via a communication medium.
+A contact point by which the bank interacts with parties.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="System" xmi:id="6fd7342a-138d-e911-823e-067b7da9d714" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm646" xmi:type="uml:Comment">
+    <body>
+     Set of integrated applications that provides centralised services such as clearing, netting, reconciliation, trading and/or settlement. (ISO20022)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Channel" xmi:id="153e71ae-c762-ea11-8290-0614a0f38526" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm647" xmi:type="uml:Comment">
+    <body>
+     An interface through which parties can communicate or exchange goods or services.  
+
+Comment: A channel can be internal or external.
+Channel identifies the different delivery and communications mechanisms through which products, and services are made available to parties and by which the parties communicate with each other. 
+
+Examples: Shop, a web shop, email, television screens in the shops, servicedesk, e-mail, phone,  …
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ContactCenterManagementPlan" xmi:id="70a78445-90ee-e911-82b5-063154845300" xmi:type="uml:Class">
+   <generalization general="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:id="gen5" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm648" xmi:type="uml:Comment">
+    <body>
+     A plan to manage the customer contact center. 
+- to manage the assignment of contact center resources to different contact traffic types (e.g. product/segment/issue).
+- to re-assign servicing positions in response to service loading and customer wait times
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ManagementPlan" xmi:id="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm649" xmi:type="uml:Comment">
+    <body>
+     The course of action to realize goals (of an operational unit of an enterprise).
+
+The management and oversight while running an operational unit of an enterprise. (Generic Artifact)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerContactCenterInvolvement" xmi:id="5e65899d-30ef-e911-82b5-06766225a0aa" xmi:type="uml:Class">
+   <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen6" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm650" xmi:type="uml:Comment">
+    <body>
+     Party who plays a role in the contact center like customer or contact center agent.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CustomerContactCenterInvolvementType" type="Visibility=public" xmi:id="29b30b06-31ef-e911-82b5-06766225a0aa90157202">
+    <ownedComment xmi:id="comm651" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PointOfService" xmi:id="1bc3a0ce-d79b-e911-827a-06f79ea59412" xmi:type="uml:Class">
+   <generalization general="6fd7342a-138d-e911-823e-067b7da9d714" xmi:id="gen7" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm652" xmi:type="uml:Comment">
+    <body>
+     Point at which a service is offered and/or fulfilled.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerContactCenter" xmi:id="c105d8d0-90ee-e911-82b5-063154845300" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm653" xmi:type="uml:Comment">
+    <body>
+     A central point from which all customer contacts are managed.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ServicingResource" xmi:id="d557a9ce-8ad8-e911-82a8-06d35e1e0220" xmi:type="uml:Class">
+   <generalization general="c484df1b-1e91-e911-823e-06f3e7d1f9c0" xmi:id="gen8" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm654" xmi:type="uml:Comment">
+    <body>
+     A resource that is required for servicing a customer.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Resource" xmi:id="c484df1b-1e91-e911-823e-06f3e7d1f9c0" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm655" xmi:type="uml:Comment">
+    <body>
+     An object, mechanism, or collection of objects that either exists naturally or is created or assembled by people or by systems.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ContactCenterAdministrativePlan" xmi:id="90f79517-41ef-e911-82b5-06766225a0aa" xmi:type="uml:Class">
+   <generalization general="a2167574-8f80-e911-823e-061de61e9206" xmi:id="gen9" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm656" xmi:type="uml:Comment">
+    <body>
+     A plan to administer the day to day activity in the contact center 
+- to administer the assignment of individuals to servicing positions in compliance with the service configuration determined by Contact Center Management
+- to track staff availability and utilization during the servicing session and making necessary assignment adjustments to deal with servicing load
+- to re-assign staff to servicing positions to deal with peak loading for a specific product or service type
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="AdministrativePlan" xmi:id="a2167574-8f80-e911-823e-061de61e9206" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm657" xmi:type="uml:Comment">
+    <body>
+     The plan that defines clerical support for an operational unit/function of an enterprise. (BIAN Service Landscape -Generic Artifact)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerContactService" xmi:id="8b6a1333-3def-e911-82b5-06766225a0aa" xmi:type="uml:Class">
+   <generalization general="0cbfb7fb-5997-e911-823e-065ba593ba6e" xmi:id="gen10" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm658" xmi:type="uml:Comment">
+    <body>
+     A service for supporting the communication with the customer including
+- VoIP Telephone Services
+- Email
+- Text Chat
+- Fax services
+- Direct Website Interface
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

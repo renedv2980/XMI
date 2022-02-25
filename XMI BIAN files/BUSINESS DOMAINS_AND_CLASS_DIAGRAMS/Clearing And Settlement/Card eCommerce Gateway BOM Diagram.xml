@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Card eCommerce Gateway BOM SD" visibility="public" xmi:id="5a1b0583-06b5-e911-828c-06363e70c8fa" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="b4fe4e79-15b5-e911-828c-06363e70c8fa" xmi:type="uml:Association">
+   <ownedEnd association="b4fe4e79-15b5-e911-828c-06363e70c8fa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="075e9516-f560-e911-8237-068e13695e26" visibility="public" xmi:id="a8799b93-07b5-e911-828c-06363e70c8faa">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="b4fe4e79-15b5-e911-828c-06363e70c8fa" isUnique="true" name="" type="a8799b93-07b5-e911-828c-06363e70c8fa" visibility="public" xmi:id="a8799b93-07b5-e911-828c-06363e70c8fab">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="af236366-7b6a-e911-8237-061b75d0d318" xmi:type="uml:Association">
+   <ownedEnd association="af236366-7b6a-e911-8237-061b75d0d318" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="18be1517-756a-e911-8237-061b75d0d318" visibility="public" xmi:id="9c3b00ce-7a6a-e911-8237-061b75d0d318a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="af236366-7b6a-e911-8237-061b75d0d318" isUnique="true" name="" type="9c3b00ce-7a6a-e911-8237-061b75d0d318" visibility="public" xmi:id="9c3b00ce-7a6a-e911-8237-061b75d0d318b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="3f3e0dc7-17b5-e911-828c-06363e70c8fa" xmi:type="uml:Association">
+   <ownedEnd association="3f3e0dc7-17b5-e911-828c-06363e70c8fa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="UsedCard" type="f7aeaa41-0761-e911-8237-068e13695e26" visibility="public" xmi:id="18be1517-756a-e911-8237-061b75d0d318a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="3f3e0dc7-17b5-e911-828c-06363e70c8fa" isUnique="true" name="" type="18be1517-756a-e911-8237-061b75d0d318" visibility="public" xmi:id="18be1517-756a-e911-8237-061b75d0d318b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="a8799b93-07b5-e911-828c-06363e70c8faa baeb22b8-07b5-e911-828c-06363e70c8fab" name="" navigableOwnedEnd="baeb22b8-07b5-e911-828c-06363e70c8fab" xmi:id="116ccfcf-07b5-e911-828c-06363e70c8fa" xmi:type="uml:Association">
+   <ownedEnd association="116ccfcf-07b5-e911-828c-06363e70c8fa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="SystemInSession" type="a8799b93-07b5-e911-828c-06363e70c8fa" visibility="public" xmi:id="a8799b93-07b5-e911-828c-06363e70c8faa">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="116ccfcf-07b5-e911-828c-06363e70c8fa" isUnique="true" name="OperationSession" type="baeb22b8-07b5-e911-828c-06363e70c8fa" visibility="public" xmi:id="baeb22b8-07b5-e911-828c-06363e70c8fab">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="a446668c-15b5-e911-828c-06363e70c8fa" xmi:type="uml:Association">
+   <ownedEnd association="a446668c-15b5-e911-828c-06363e70c8fa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="075e9516-f560-e911-8237-068e13695e26" visibility="public" xmi:id="18be1517-756a-e911-8237-061b75d0d318a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="a446668c-15b5-e911-828c-06363e70c8fa" isUnique="true" name="" type="18be1517-756a-e911-8237-061b75d0d318" visibility="public" xmi:id="18be1517-756a-e911-8237-061b75d0d318b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="18be1517-756a-e911-8237-061b75d0d318a 9a76e71a-20b5-e911-828c-06363e70c8fab" name="" navigableOwnedEnd="9a76e71a-20b5-e911-828c-06363e70c8fab" xmi:id="48825f33-20b5-e911-828c-06363e70c8fa" xmi:type="uml:Association">
+   <ownedEnd association="48825f33-20b5-e911-828c-06363e70c8fa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="18be1517-756a-e911-8237-061b75d0d318" visibility="public" xmi:id="18be1517-756a-e911-8237-061b75d0d318a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="48825f33-20b5-e911-828c-06363e70c8fa" isUnique="true" name="" type="9a76e71a-20b5-e911-828c-06363e70c8fa" visibility="public" xmi:id="9a76e71a-20b5-e911-828c-06363e70c8fab">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="6a66843d-1fb5-e911-828c-06363e70c8fa" xmi:type="uml:Association">
+   <ownedEnd association="6a66843d-1fb5-e911-828c-06363e70c8fa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="3a88c81e-1fb5-e911-828c-06363e70c8fa" visibility="public" xmi:id="18be1517-756a-e911-8237-061b75d0d318a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="6a66843d-1fb5-e911-828c-06363e70c8fa" isUnique="true" name="" type="18be1517-756a-e911-8237-061b75d0d318" visibility="public" xmi:id="18be1517-756a-e911-8237-061b75d0d318b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="35e58b3f-20b5-e911-828c-06363e70c8fa" xmi:type="uml:Association">
+   <ownedEnd association="35e58b3f-20b5-e911-828c-06363e70c8fa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="9d176f0a-20b5-e911-828c-06363e70c8fa" visibility="public" xmi:id="18be1517-756a-e911-8237-061b75d0d318a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="35e58b3f-20b5-e911-828c-06363e70c8fa" isUnique="true" name="" type="18be1517-756a-e911-8237-061b75d0d318" visibility="public" xmi:id="18be1517-756a-e911-8237-061b75d0d318b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="2a61eb72-f9c3-e911-8296-06a2f1a2eb58" xmi:type="uml:Association">
+   <ownedEnd association="2a61eb72-f9c3-e911-8296-06a2f1a2eb58" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="18be1517-756a-e911-8237-061b75d0d318" visibility="public" xmi:id="1aeced65-0b68-e911-8237-06dd5e24f7bca">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="2a61eb72-f9c3-e911-8296-06a2f1a2eb58" isUnique="true" name="PurchasedProduct" type="1aeced65-0b68-e911-8237-06dd5e24f7bc" visibility="public" xmi:id="1aeced65-0b68-e911-8237-06dd5e24f7bcb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="485fe659-7d6a-e911-8237-061b75d0d318" xmi:type="uml:Association">
+   <ownedEnd association="485fe659-7d6a-e911-8237-061b75d0d318" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="18be1517-756a-e911-8237-061b75d0d318" visibility="public" xmi:id="063a0dcf-0561-e911-8237-068e13695e26a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="485fe659-7d6a-e911-8237-061b75d0d318" isUnique="true" name="" type="063a0dcf-0561-e911-8237-068e13695e26" visibility="public" xmi:id="063a0dcf-0561-e911-8237-068e13695e26b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="4503bd81-8257-e911-8237-0645314e65ac" xmi:type="uml:Association">
+   <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6f53fd37-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isUnique="true" name="" type="70959fdb-be56-e911-8237-06ecaacb4c68" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="PaymentTransaction" xmi:id="e00fb730-fd60-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <generalization general="a58c8a29-5a96-e911-823e-062d75b50cca" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <generalization general="7314f250-f5a9-e911-8288-06812ee60d2a" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <generalization general="5708a70e-fd6f-e911-8237-06309b11004c" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm14560" xmi:type="uml:Comment">
+    <body>
+     An act, initiated by the payer or payee, of placing, transferring or withdrawing funds, irrespective of any underlying obligations between the payer and payee (a proposed definition for BIAN BOM adapted from PSD)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PaymentTransactionType" type="Visibility=public" xmi:id="13e877cd-1368-e911-8237-06dd5e24f7bc90157202">
+    <ownedComment xmi:id="comm14561" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionAmount" type="Visibility=public" xmi:id="a9ebda1e-1468-e911-8237-06dd5e24f7bc90157202">
+    <ownedComment xmi:id="comm14562" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionIdentifier" type="Visibility=public" xmi:id="678e5b63-1468-e911-8237-06dd5e24f7bc90157202">
+    <ownedComment xmi:id="comm14563" xmi:type="uml:Comment">
+     <body>
+      An identifier that allows to uniquely refer to a Payment Transaction.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionUsedMechanism" type="Visibility=public" xmi:id="d3e1f83d-8a96-e911-823e-062d75b50cca90157202">
+    <ownedComment xmi:id="comm14564" xmi:type="uml:Comment">
+     <body>
+      The payment mechanism the bank decides to use in the transaction to execute a payment instruction
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionDateTime" type="Visibility=public" xmi:id="184e4746-24aa-e911-8288-0674300188c090157202">
+    <ownedComment xmi:id="comm14565" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionPurpose" type="Visibility=public" xmi:id="99ecca6c-24aa-e911-8288-0674300188c090157202">
+    <ownedComment xmi:id="comm14566" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionStatus" type="Visibility=public" xmi:id="2a0978ea-24aa-e911-8288-0674300188c090157202">
+    <ownedComment xmi:id="comm14567" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionAppliedFee" type="Visibility=public" xmi:id="2f54fa43-fabc-e911-8291-066cb8d4b6e890157202">
+    <ownedComment xmi:id="comm14568" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentTransactionCurrency" type="Visibility=public" xmi:id="dbb75fe4-1f8e-ea11-8295-065d16bc455090157202">
+    <ownedComment xmi:id="comm14569" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="FinancialTransaction" xmi:id="a58c8a29-5a96-e911-823e-062d75b50cca" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm14570" xmi:type="uml:Comment">
+    <body>
+     A transaction that changes the financial position (the status of the finances) of involved party.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="MoneyTransferTransaction" xmi:id="7314f250-f5a9-e911-8288-06812ee60d2a" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm14571" xmi:type="uml:Comment">
+    <body>
+     Transfer of money between two parties and/or accounts
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Transaction" xmi:id="5708a70e-fd6f-e911-8237-06309b11004c" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm14572" xmi:type="uml:Comment">
+    <body>
+     A planned or performed action in the context of concluding or fulfilling an agreement. 
+
+Act to do something.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CardPaymentInvolvement" xmi:id="9c3b00ce-7a6a-e911-8237-061b75d0d318" xmi:type="uml:Class">
+   <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen4" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm14573" xmi:type="uml:Comment">
+    <body>
+     A specific Party who plays a specific role in the card payment transaction.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CardPaymentInvolvementType" type="Visibility=public" xmi:id="3a5f2c08-14b5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14574" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ECommerceGatewaySession" xmi:id="baeb22b8-07b5-e911-828c-06363e70c8fa" xmi:type="uml:Class">
+   <generalization general="f5145a15-138d-e911-823e-067b7da9d714" xmi:id="gen5" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm14575" xmi:type="uml:Comment">
+    <body>
+     The operation of e-commerce Gateway Service/System for a bounded period of time.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PaymentService" xmi:id="ca197cf7-e497-e911-827a-06d89370a58e" xmi:type="uml:Class">
+   <generalization general="0cbfb7fb-5997-e911-823e-065ba593ba6e" xmi:id="gen6" xmi:type="uml:Generalization"/>
+   <generalization general="f629d849-639e-e911-827a-06e8627b9e66" xmi:id="gen7" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm14576" xmi:type="uml:Comment">
+    <body>
+     According to the payment services directive (PSD), the following activities, when carried out as a regular occupation or business activity, are payment services:
+1. Services enabling cash to be placed on a payment account and all of the operations required for operating a payment account; 
+2. Services enabling cash withdrawals from a payment account and all of the operations required for operating a payment account; 
+3. The execution of the following types of payment transaction:
+- direct debits, including one-off direct debits; 
+- payment transactions executed through a payment card or a similar device; 
+- credit transfers, including standing orders; 
+4. The execution of the following types of payment transaction where the funds are covered by a credit line for the payment service user: 
+- direct debits, including one-off direct debits; 
+- payment transactions executed through a payment card or a similar device; 
+- credit transfers, including standing orders; 
+5. Issuing payment instruments or acquiring payment transactions; 
+6. Money remittance; 
+7. The execution of payment transactions where the consent of the payer to execute the payment transaction is given by means of any telecommunication, digital or IT device and the payment is made to the telecommunication, IT system or network operator acting only as an intermediary between the payment service user and the supplier of the goods or services.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PaymentServiceType" type="Visibility=public" xmi:id="ac5b2720-f697-e911-827a-06d89370a58e90157202">
+    <ownedComment xmi:id="comm14577" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PaymentServiceDefinition" type="Visibility=public" xmi:id="80bb1429-f697-e911-827a-06d89370a58e90157202">
+    <ownedComment xmi:id="comm14578" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="SavingsAccountProductFeature" xmi:id="f629d849-639e-e911-827a-06e8627b9e66" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm14579" xmi:type="uml:Comment">
+    <body>
+     An subject matter about which arrangements should or can be made when selling a savings account product.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CardPaymentTransaction" xmi:id="18be1517-756a-e911-8237-061b75d0d318" xmi:type="uml:Class">
+   <generalization general="e00fb730-fd60-e911-8237-068e13695e26" xmi:id="gen8" xmi:type="uml:Generalization"/>
+   <generalization general="7314f250-f5a9-e911-8288-06812ee60d2a" xmi:id="gen9" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm14580" xmi:type="uml:Comment">
+    <body>
+     A payment transaction initiated by a payment card. 
+
+'Card-based payment transaction means a service based on a payment card scheme's infrastructure and business rules to make a payment transaction by means of any card, telecommunication, digital or IT device or software if this results in a debit or a credit card transaction. Card-based payment transactions exclude transactions based on other kinds of payment services. (PSD)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CashBackAmount" type="Visibility=public" xmi:id="89988ce9-7c6a-e911-8237-061b75d0d31890157202">
+    <ownedComment xmi:id="comm14581" xmi:type="uml:Comment">
+     <body>
+      Amount added to the total price of the transaction and received in cash by the customer. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MerchantLocation" type="Visibility=public" xmi:id="b5c6bc42-7d6a-e911-8237-061b75d0d31890157202">
+    <ownedComment xmi:id="comm14582" xmi:type="uml:Comment">
+     <body>
+      Place where the merchant actually performed the transaction. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DebitCreditDirection" type="Visibility=public" xmi:id="7a06fb19-0bb5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14583" xmi:type="uml:Comment">
+     <body>
+      Specifies the direction of a payment. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TransactionChannel" type="Visibility=public" xmi:id="a5cd3a28-0cb5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14584" xmi:type="uml:Comment">
+     <body>
+      Identifies the type of the communication channels used by the cardholder to the acceptor system. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PointOfInteraction" type="Visibility=public" xmi:id="3d5c2146-0cb5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14585" xmi:type="uml:Comment">
+     <body>
+      Describes the Point of Interaction through which the payment by card was initiated. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TransactionDateTime" type="Visibility=public" xmi:id="080f14f8-0cb5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14586" xmi:type="uml:Comment">
+     <body>
+      Local date and time of the transaction assigned by the POI (Point Of Interaction). (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="TransactionEnvironmentType" type="Visibility=public" xmi:id="89b0624e-11b5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14587" xmi:type="uml:Comment">
+     <body>
+      Indicates the environment of the transaction like Merchant, Private, Public, Branch.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MerchantCountry" type="Visibility=public" xmi:id="325335c1-11b5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14588" xmi:type="uml:Comment">
+     <body>
+      Country of the merchant where the transaction took place. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CardNetwork" type="Visibility=public" xmi:id="37fbc4ac-7ab7-e911-8291-0657c6eca57a90157202">
+    <ownedComment xmi:id="comm14589" xmi:type="uml:Comment">
+     <body>
+      Network used for handling the card payment transaction.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PaymentCard" xmi:id="f7aeaa41-0761-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <generalization general="0263db4b-0761-e911-8237-068e13695e26" xmi:id="gen10" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm14590" xmi:type="uml:Comment">
+    <body>
+     A device (payment instrument) that can be used by its holder to pay for goods and services or to withdraw money. (The dictionary of ECB)
+
+Electronic money product that provides the cardholder with a portable and specialised computer device that typically contains a microprocessor. (ISO20022)
+
+Payment Card means a category of payment instrument that enables the payer to initiate a debit or credit card transaction. (PSD)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CardType" type="Visibility=public" xmi:id="53a84b90-19b5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14591" xmi:type="uml:Comment">
+     <body>
+      Type of card, e.g., credit card. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CardNumber" type="Visibility=public" xmi:id="722338a1-19b5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14592" xmi:type="uml:Comment">
+     <body>
+      Number embossed on a card that links the card to the account owner and account servicer (sometimes called personal account number or PAN). (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CardStartDate" type="Visibility=public" xmi:id="9badc1c8-19b5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14593" xmi:type="uml:Comment">
+     <body>
+      Year and month the card is available for use. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CardExpiryDate" type="Visibility=public" xmi:id="38afa896-1bb5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14594" xmi:type="uml:Comment">
+     <body>
+      Year and month the card expires. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CardSecurityCode" type="Visibility=public" xmi:id="59b64cee-1bb5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14595" xmi:type="uml:Comment">
+     <body>
+      Security code written on the card, sometimes called card security code (CSC). (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CardVerificationValue" type="Visibility=public" xmi:id="39fb211c-01bd-e911-8291-066cb8d4b6e890157202">
+    <ownedComment xmi:id="comm14596" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="BankIdentificationNumber" type="Visibility=public" xmi:id="7a3e24a6-01bd-e911-8291-066cb8d4b6e890157202">
+    <ownedComment xmi:id="comm14597" xmi:type="uml:Comment">
+     <body>
+      The bank identification number uniquely identifies the institution issuing the card. The BIN is key in the process of matching transactions to the issuer of the charge card.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Session" xmi:id="f5145a15-138d-e911-823e-067b7da9d714" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm14598" xmi:type="uml:Comment">
+    <body>
+     The operation of a system -- typically an automated system -- for a bounded period of time.
+
+Semi-permanent container of state for an information exchange with a system.
+
+Time-bounded, temporal unit of context and continuity, identifying a unit of work.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="SessionDuration" type="Visibility=public" xmi:id="90da8134-73d1-e911-8296-06e952cbc5d090157202">
+    <ownedComment xmi:id="comm14599" xmi:type="uml:Comment">
+     <body>
+      The time the session was active
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SessionDateTime" type="Visibility=public" xmi:id="449ecb21-7ef2-ea11-82be-06b80843e3ff90157202">
+    <ownedComment xmi:id="comm14600" xmi:type="uml:Comment">
+     <body>
+      Key dates and times for the session
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ECommerceGateway" xmi:id="a8799b93-07b5-e911-828c-06363e70c8fa" xmi:type="uml:Class">
+   <generalization general="6fd7342a-138d-e911-823e-067b7da9d714" xmi:id="gen11" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm14601" xmi:type="uml:Comment">
+    <body>
+     A system for processing of e-commerce transactions for authentication, authorization and capture of the financial transactions.
+
+An ecommerce payment gateway is a service that authorizes credit card payments and processes them securely with a users merchant account.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CardPaymentService" xmi:id="075e9516-f560-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <generalization general="ca197cf7-e497-e911-827a-06d89370a58e" xmi:id="gen12" xmi:type="uml:Generalization"/>
+   <generalization general="9e6e153d-5997-e911-823e-065ba593ba6e" xmi:id="gen13" xmi:type="uml:Generalization"/>
+   <generalization general="1aeced65-0b68-e911-8237-06dd5e24f7bc" xmi:id="gen14" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm14602" xmi:type="uml:Comment">
+    <body>
+     A payment service to execute payment transactions through a payment card, including online payments. (Adapted from PSD)
+
+A service that offers customers the use of payment cards.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CardPaymentServiceIdentifier" type="Visibility=public" xmi:id="15436146-f560-e911-8237-068e13695e2690157202">
+    <ownedComment xmi:id="comm14603" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CardPaymentServiceType" type="Visibility=public" xmi:id="d38f3e10-0e61-e911-8237-068e13695e2690157202">
+    <ownedComment xmi:id="comm14604" xmi:type="uml:Comment">
+     <body>
+      Type of payment card as a product.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CardPaymentServiceConfiguration" type="Visibility=public" xmi:id="d6199de9-1561-e911-8237-068e13695e2690157202">
+    <ownedComment xmi:id="comm14605" xmi:type="uml:Comment">
+     <body>
+      Configuration specified for the payment card product.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CardPaymentInvolvementTypeValues" xmi:id="be8cf75e-1db5-e911-828c-06363e70c8fa" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="CardHolder" xmi:id="bf8cf75e-1db5-e911-828c-06363e70c8fa">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A person to whom a payment card is issued and who is authorised to use that card. (a proposed definition for BIAN BOM adapted from ECB)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="CardIssuer" xmi:id="263b2874-1db5-e911-828c-06363e70c8fa">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A financial institution that makes payment cards available to cardholders, authorises transactions at point-of-sale (POS) terminals or automated teller machines (ATMs) and guarantees payment to the acquirer for transactions that are in conformity with the rules of the relevant scheme. (a proposed definition for BIAN BOM adapted from ECB)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="CardAcceptor" xmi:id="18ca8d87-1db5-e911-828c-06363e70c8fa">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Entity accepting payment related cards. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="CardAcquirer" xmi:id="0409c99d-1db5-e911-828c-06363e70c8fa">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Entity acquiring card payment transactions. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Merchant" xmi:id="2cb10fa8-1eb5-e911-828c-06363e70c8fa">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Party performing the card payment transaction. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="CardNetwork" xmi:id="7da15ff4-8fb7-e911-8291-0657c6eca57a">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Network for handling the card-based transaction (e.g. Visa, MC, AMEX, Diners, etc.)
+
+A card network are networks of issuing and acquiring banks through which payment cards of some certain brand are processed. two types of card networks can be pointed out, namely, credit card associations (Visa, MasterCard, Discover, Amex, etc.) and PINless debit card networks (NYCE, PULSE, Maestro, Interlink, Cirrus, etc.).
+
+Card networks are financial services companies that enables, processes and settles payments between card issuing banks and merchant banks worldwide. Examples are Visa, MasterCard, Discover, RuPay etc.
+
+A card network is a system of connecting merchants and card issuers.  A middle person that collects funds from card issuer and pays it to the merchant.  Visa and MasterCard are examples of card networks.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="System" xmi:id="6fd7342a-138d-e911-823e-067b7da9d714" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm14606" xmi:type="uml:Comment">
+    <body>
+     Set of integrated applications that provides centralised services such as clearing, netting, reconciliation, trading and/or settlement. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="SystemAccessSchedule" type="Visibility=public" xmi:id="22c2144f-c296-e911-823e-063411acec0a90157202">
+    <ownedComment xmi:id="comm14607" xmi:type="uml:Comment">
+     <body>
+      The time schedule that system services are available for use.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SystemType" type="Visibility=public" xmi:id="9aa9cc3d-2fa3-e911-8280-06dae144dffa90157202">
+    <ownedComment xmi:id="comm14608" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Device" xmi:id="0263db4b-0761-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm14609" xmi:type="uml:Comment">
+    <body>
+     An item created to serve a particular need, such as a credit card, a smart phone, an electronic signature, an electronic key, etc.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="DeviceIdentification" type="Visibility=public" xmi:id="d87e94b2-b9a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm14610" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceType" type="Visibility=public" xmi:id="a372c5da-b9a4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm14611" xmi:type="uml:Comment">
+     <body>
+      Reference to the device type of the device
+
+A device has the characteristics of the device type it belongs to possibly specified
+e.g. a device of the type "cheque book" will have cheques. The device specifies how many and what the number range is.
+e.g. an electronic banking app consists of software modules, the device specifies what version
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceProperty" type="Visibility=public" xmi:id="a70d33c5-bda4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm14612" xmi:type="uml:Comment">
+     <body>
+      Property of a device relevant for its use.
+
+A device has the characteristics of the device type it belongs to,possibly specified
+e.g. . a device of the type "cheque book" will have cheques. The device specifies how many and what the number range is.
+e.g. an electronic banking app consists of software modules, the device specifies what version
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceElement" type="Visibility=public" xmi:id="c99ad9e9-bfa4-e911-8284-062084c0b88090157202">
+    <ownedComment xmi:id="comm14613" xmi:type="uml:Comment">
+     <body>
+      An element of the device that can be used independently and is individually identified
+
+e.g. a cheque in a chequebook
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceStatus" type="Visibility=public" xmi:id="f108fea3-efa6-e911-8288-06c837085cb890157202">
+    <ownedComment xmi:id="comm14614" xmi:type="uml:Comment">
+     <body>
+      The life cycle stage of a device
+
+e.g. active, defect
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceVersion" type="Visibility=public" xmi:id="04fa505a-96c5-e911-8296-06227606fcb690157202">
+    <ownedComment xmi:id="comm14615" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceDateTime" type="Visibility=public" xmi:id="16dabb60-96c5-e911-8296-06227606fcb690157202">
+    <ownedComment xmi:id="comm14616" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="DeviceDescription" type="Visibility=public" xmi:id="317799d8-96c5-e911-8296-06227606fcb690157202">
+    <ownedComment xmi:id="comm14617" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CardPaymentAuthorisation" xmi:id="9d176f0a-20b5-e911-828c-06363e70c8fa" xmi:type="uml:Class">
+   <generalization general="df4e3cdd-1fb5-e911-828c-06363e70c8fa" xmi:id="gen15" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm14618" xmi:type="uml:Comment">
+    <body>
+     Authorisation of a card payment instruction or transaction.
+
+Once the card and the cardholder have been successfully authenticated,
+authorisation is usually requested. However, this stage may be skipped in
+some cases (e.g. for transactions below a certain value), at the risk of the card acceptor. The terminal forwards the request for authorisation to the acquirer, to the acquirers processor or to the card scheme. If the acquirer and the issuer are one and the same, such transactions are referred to as on-us transactions and the acquiring bank carries out the authorisation itself. For transactions other than on-us transactions (i.e. where the issuer and the acquirer are not the same), authorisation may be obtained offline or online. In offline authorisations, the request is handled directly by the card acceptors terminal. In most cases, however, the authorisation is online and the request passes from the terminal to
+the acquirer. The acquirer may directly authorise or refuse the transaction, but will in most cases pass the transaction to a switching centre. The switching centre transfers the authorisation request and transaction information to the appropriate issuer or the authorisation platform (which may be the card scheme or a third-party service provider). The authorisation process usually includes checking the card details against a list of cards that have been reported as having been lost,
+stolen, used fraudulently or counterfeited. Checks on balances and card limits (i.e. daily and monthly limits) are usually also carried out. (Payment System ECB)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="TransactionSuccess" type="Visibility=public" xmi:id="4c960e9b-21b5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14619" xmi:type="uml:Comment">
+     <body>
+      Outcome of the transaction at the acceptor. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="MerchantOverride" type="Visibility=public" xmi:id="6121e6ae-21b5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14620" xmi:type="uml:Comment">
+     <body>
+      Indicate that the acceptor has forced the transaction in spite of the authorisation result (online or offline), or incident to complete the transaction. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ValidityDate" type="Visibility=public" xmi:id="b78143e9-21b5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14621" xmi:type="uml:Comment">
+     <body>
+      Transaction authorisation deadline to complete the related payment. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="Response" type="Visibility=public" xmi:id="da211ff8-21b5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14622" xmi:type="uml:Comment">
+     <body>
+      Response to an authorisation request. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AuthorisationCode" type="Visibility=public" xmi:id="14e89039-22b5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14623" xmi:type="uml:Comment">
+     <body>
+      Value assigned by the authorising party. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CardholderAddressVerificationResult" type="Visibility=public" xmi:id="6f1ced6c-22b5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14624" xmi:type="uml:Comment">
+     <body>
+      Result of the cardholder verification address checks on the street number and the postal code. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CSCResult" type="Visibility=public" xmi:id="708ff1c8-22b5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14625" xmi:type="uml:Comment">
+     <body>
+      Result of the printed CSC (Card Security Code) validation. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ElectronicCommerceAuthenticationResult" type="Visibility=public" xmi:id="6c8616e3-22b5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14626" xmi:type="uml:Comment">
+     <body>
+      Result of an e-commerce authentication process. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="FailureReason" type="Visibility=public" xmi:id="200d1b03-23b5-e911-828c-06363e70c8fa90157202">
+    <ownedComment xmi:id="comm14627" xmi:type="uml:Comment">
+     <body>
+      Incident occurring during the transaction. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CardPaymentAuthentication" xmi:id="9a76e71a-20b5-e911-828c-06363e70c8fa" xmi:type="uml:Class">
+   <generalization general="11b0a31a-0991-e911-823e-06f3e7d1f9c0" xmi:id="gen16" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm14628" xmi:type="uml:Comment">
+    <body>
+     Authentication of card payment instruction or transaction.
+
+
+Once the transaction has been initiated, the card and cardholder need to be authenticated. Authentication of the card usually involves reading the magnetic strip or chip, or checking the CVC/CVV2 (a three-digit code printed without relief on the back of the card, data which is not included in the magnetic strip) for card-not-present transactions. The cardholders identity is usually authenticated using a PIN code or a signature. (Payment System ECB)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CardHolder" type="Visibility=public" xmi:id="77f5d07a-0abd-e911-8291-066cb8d4b6e890157202">
+    <ownedComment xmi:id="comm14629" xmi:type="uml:Comment">
+     <body>
+      Cardholder for which an authentication is provided (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AuthenticationMethod" type="Visibility=public" xmi:id="cdcdd08b-0abd-e911-8291-066cb8d4b6e890157202">
+    <ownedComment xmi:id="comm14630" xmi:type="uml:Comment">
+     <body>
+      Method used to authenticate a person. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AuthenticationEntity" type="Visibility=public" xmi:id="e704d9ad-0abd-e911-8291-066cb8d4b6e890157202">
+    <ownedComment xmi:id="comm14631" xmi:type="uml:Comment">
+     <body>
+      Entity or object in charge of verifying the person authenticity. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AuthenticationValue" type="Visibility=public" xmi:id="3d9a2cf7-0abd-e911-8291-066cb8d4b6e890157202">
+    <ownedComment xmi:id="comm14632" xmi:type="uml:Comment">
+     <body>
+      Value used to authenticate the owner of the payment card. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PINFormat" type="Visibility=public" xmi:id="f8173e18-0bbd-e911-8291-066cb8d4b6e890157202">
+    <ownedComment xmi:id="comm14633" xmi:type="uml:Comment">
+     <body>
+      Encrypted personal identification number (PIN) format.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PIN" type="Visibility=public" xmi:id="dbd6aa35-0bbd-e911-8291-066cb8d4b6e890157202">
+    <ownedComment xmi:id="comm14634" xmi:type="uml:Comment">
+     <body>
+      Personal Identification Number (PIN) for authentication. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AuthenticationResult" type="Visibility=public" xmi:id="9821a880-0bbd-e911-8291-066cb8d4b6e890157202">
+    <ownedComment xmi:id="comm14635" xmi:type="uml:Comment">
+     <body>
+      Specifies the result of the authentication. 
+e.g. Denial, NonParticipation,     
+UnableToAuthenticate, WithCryptogram, WithoutCryptogram, ...
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Authentication" xmi:id="11b0a31a-0991-e911-823e-06f3e7d1f9c0" xmi:type="uml:Class">
+   <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen17" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm14636" xmi:type="uml:Comment">
+    <body>
+     An evaluation whether a party or system is what it claims to be.
+
+A security mechanism for verifying: 1) the identity of an individual or other entity (including verification by means of a computer or computer application); and 2) the level of authority of that person or entity (i.e. the ability of that person or entity to perform specific tasks or activities). (ECB)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AuthenticationLevel" type="Visibility=public" xmi:id="704b8b32-59a9-e911-8288-061bf39b956490157202">
+    <ownedComment xmi:id="comm14637" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AuthenticationEntity" type="Visibility=public" xmi:id="9c614475-b5d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm14638" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="AuthenticationMethodType" type="Visibility=public" xmi:id="abc0c512-b6d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm14639" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ProductService" xmi:id="9e6e153d-5997-e911-823e-065ba593ba6e" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm14640" xmi:type="uml:Comment">
+    <body>
+     A service offered as a feature of a product.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Assessment" xmi:id="ea36f45c-1656-e911-8237-060aad038e48" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm14641" xmi:type="uml:Comment">
+    <body>
+     the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="TransactionBatch" xmi:id="3a88c81e-1fb5-e911-828c-06363e70c8fa" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm14642" xmi:type="uml:Comment">
+    <body>
+     A set of transactions to be executed in one time.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="BatchTransactionDateTime" type="Visibility=public" xmi:id="9b18db3e-c9c4-e911-8296-063f46cce09490157202">
+    <ownedComment xmi:id="comm14643" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm14644" xmi:type="uml:Comment">
+    <body>
+     A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyName" type="Visibility=public" xmi:id="d8f7f366-21cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm14645" xmi:type="uml:Comment">
+     <body>
+      Name by which a party is known and which is usually used to identify that party. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyType" type="Visibility=public" xmi:id="b1f7b3d8-21cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm14646" xmi:type="uml:Comment">
+     <body>
+      Specifies the type of party in different business contexts. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyDateTime" type="Visibility=public" xmi:id="d6ed5669-40f6-e911-82bd-06a31b9588ce90157202">
+    <ownedComment xmi:id="comm14647" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyIdentification" type="Visibility=public" xmi:id="449e231b-a846-ea11-8289-06f8a6a00ed090157202">
+    <ownedComment xmi:id="comm14648" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Location" xmi:id="063a0dcf-0561-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm14649" xmi:type="uml:Comment">
+    <body>
+     The definition of an addressable space/position both in real and virtual environments with associated uses and entitlements
+    </body>
+   </ownedComment>
+   <ownedAttribute name="LocationDescription" type="Visibility=public" xmi:id="e731883b-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm14650" xmi:type="uml:Comment">
+     <body>
+      A description of the property, particularly if it has landmark characteristics.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationDateTime" type="Visibility=public" xmi:id="8048356c-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm14651" xmi:type="uml:Comment">
+     <body>
+      Key dates associated with the directory entry (e.g. open date, refresh date).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationStatus" type="Visibility=public" xmi:id="0095b775-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm14652" xmi:type="uml:Comment">
+     <body>
+      The tracked status (e.g. under construction or repair, inhabited, vacant).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationType" type="Visibility=public" xmi:id="c8da42a8-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm14653" xmi:type="uml:Comment">
+     <body>
+      Type of location (e.g. building, point of interest, virtual location/device).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationZoningType" type="Visibility=public" xmi:id="f8d2c2b9-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm14654" xmi:type="uml:Comment">
+     <body>
+      The planning or zoning status (e.g. residential, commercial, industrial).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationNeighborhoodType" type="Visibility=public" xmi:id="1f5d9cc2-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm14655" xmi:type="uml:Comment">
+     <body>
+      The general purpose and neighborhood of the property  (e.g. residential, industrial, commercial).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationConstructionType" type="Visibility=public" xmi:id="1736d338-d1d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm14656" xmi:type="uml:Comment">
+     <body>
+      The construction approach for a property at the location (e.g. era and architecture as might be used in valuation).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationOccupancyType" type="Visibility=public" xmi:id="f2546806-d2d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm14657" xmi:type="uml:Comment">
+     <body>
+      The type of occupancy (e.g. residency, business, retail, entertainment).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationValue" type="Visibility=public" xmi:id="715fcc33-d2d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm14658" xmi:type="uml:Comment">
+     <body>
+      The estimated (book) value of the property at the location - rental and purchase as appropriate.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationCapacity" type="Visibility=public" xmi:id="368c7152-d2d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm14659" xmi:type="uml:Comment">
+     <body>
+      An indication of the size or scale of the property where appropriate (e.g. 4 bedroom, 600 seat auditorium, 40 cover restaurant).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationIdentification" type="Visibility=public" xmi:id="51262755-cd48-ea11-8289-064c9ffef37a90157202">
+    <ownedComment xmi:id="comm14660" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationAddress" type="Visibility=public" xmi:id="01683582-cf48-ea11-8289-064c9ffef37a90157202">
+    <ownedComment xmi:id="comm14661" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm14662" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyRoleType" type="Visibility=public" xmi:id="83c28dd9-29e9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm14663" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleName" type="Visibility=public" xmi:id="7ebb122f-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm14664" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleValidityPeriod" type="Visibility=public" xmi:id="fb571d5e-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm14665" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyInvolvementType" type="Visibility=public" xmi:id="c5867926-2de9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm14666" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Authorisation" xmi:id="df4e3cdd-1fb5-e911-828c-06363e70c8fa" xmi:type="uml:Class">
+   <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen18" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm14667" xmi:type="uml:Comment">
+    <body>
+     An evaluation whether a party or system is allowed to do something.
+
+The consent given by a participant (or a third party acting on behalf of that participant) in order to transfer funds or securities. (ECB)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="AuthorisationDateTime" type="Visibility=public" xmi:id="ff00e938-aac5-e911-8296-06227606fcb690157202">
+    <ownedComment xmi:id="comm14668" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="BankingProduct" xmi:id="1aeced65-0b68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <generalization general="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:id="gen19" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm14669" xmi:type="uml:Comment">
+    <body>
+     A package of services and goods, accompanied by term and condition which is offered as a whole to (internal or external) customers.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ProductIdentification" type="Visibility=public" xmi:id="d9550bed-826a-e911-8237-061b75d0d31890157202">
+    <ownedComment xmi:id="comm14670" xmi:type="uml:Comment">
+     <body>
+      The identifier of product e.g. ISIN Code.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductType" type="Visibility=public" xmi:id="8a5e5f87-2f7d-e911-823e-069ad1a2e64890157202">
+    <ownedComment xmi:id="comm14671" xmi:type="uml:Comment">
+     <body>
+      Specifies the category/type/class of product like financial product. Product can be categorized according to different perspectives.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductLifecycleStatus" type="Visibility=public" xmi:id="c5f72c17-307d-e911-823e-069ad1a2e64890157202">
+    <ownedComment xmi:id="comm14672" xmi:type="uml:Comment">
+     <body>
+      Refers to the lifecycle of a product (e.g., initiated, announced, active, obsolete, withdrawn).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductPriority" type="Visibility=public" xmi:id="bf0ea918-b986-e911-823e-062687e6a90490157202">
+    <ownedComment xmi:id="comm14673" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductDescription" type="Visibility=public" xmi:id="34a6446c-2844-ea11-8289-068ff87429a490157202">
+    <ownedComment xmi:id="comm14674" xmi:type="uml:Comment">
+     <body>
+      A detailed explanation or commentary of product.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductVersion" type="Visibility=public" xmi:id="da801270-cc4c-ea11-8289-062dfdfaca5890157202">
+    <ownedComment xmi:id="comm14675" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="FinancialInstrument" xmi:id="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm14676" xmi:type="uml:Comment">
+    <body>
+     A contract that gives rise to a financial asset of one entity and a financial liability or equity instrument of another entity. (IFRS)
+https://www.iasplus.com/en/standards/ias/ias32#:~:text=Key%20definitions%20%5BIAS%2032.11%5D,equity%20instrument%20of%20another%20entity
+
+Financial instruments are financial contracts of different nature made between institutional units. These comprise the full range of financial claims and liabilities between institutional units, including contingent liabilities like guarantees, commitments, etc. (ISO 10962)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Service" xmi:id="0cbfb7fb-5997-e911-823e-065ba593ba6e" xmi:type="uml:Class">
+   <generalization general="64fe5512-598d-eb11-8310-068d732c0449" xmi:id="gen20" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm14677" xmi:type="uml:Comment">
+    <body>
+     An exposed function (an externalized functionality) that is able to deliver a certain value/benefit (a proposed definition adapted from Archimate).
+
+A unit of functionality that a system exposes to its environment, while hiding internal operations, which provides a certain value (monetary or otherwise). 
+
+
+Comment:
+
+A Service is something that is done by an actor for the benefit of an actor in the environment.
+
+A system is the broad sense of the word. Means Business Service, Application Service, Technology Service, "huppeldepup" Service
+ 
+
+
+Characteristics of a service:
+
+A system (The Service Domain)
+Functionality is exposed (Action Term)
+It provides a certain value (monetary or otherwise) 
+
+
+Exposing functionality means that the internals of realizing the service is hidden for the beneficiary of the Service.
+ 
+
+
+In BIAN a "Service Operation" is visualized as a "Business Service" , the "System" refers to the  "Service Domain"  
+
+The name of a Service Operation is composed of an "Action Term" + "Subject Matter" which is the "Control Record" or the "Behaviour Qualifier".
+
+
+Service is the intangible equivalent of a good. (ISO20022). 
+
+A type of economic activity that is intangible, is not stored and does not result in ownership; a service is consumed at the point of sale (FIBO &amp; Business Dictionary)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ServiceName" type="Visibility=public" xmi:id="680df662-c472-eb11-8305-06e7df9dc07990157202">
+    <ownedComment xmi:id="comm14678" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ServiceDescription" type="Visibility=public" xmi:id="d80df662-c472-eb11-8305-06e7df9dc07990157202">
+    <ownedComment xmi:id="comm14679" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ServiceType" type="Visibility=public" xmi:id="2b3fce71-c472-eb11-8305-06e7df9dc07990157202">
+    <ownedComment xmi:id="comm14680" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Feature" xmi:id="64fe5512-598d-eb11-8310-068d732c0449" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm14681" xmi:type="uml:Comment">
+    <body>
+     a distinctive attribute or aspect of something.
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

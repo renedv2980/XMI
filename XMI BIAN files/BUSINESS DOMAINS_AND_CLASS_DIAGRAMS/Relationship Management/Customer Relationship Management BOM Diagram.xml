@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Customer Relationship Management BOM SD" visibility="public" xmi:id="39605ac9-5f75-e911-823e-064d1e9fbc72" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="7a9f3dd8-1876-e911-823e-065f1d1f71b2" xmi:type="uml:Association">
+   <ownedEnd association="7a9f3dd8-1876-e911-823e-065f1d1f71b2" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="56af07d7-8575-e911-823e-064d1e9fbc72" visibility="public" xmi:id="1803596c-6675-e911-823e-064d1e9fbc72a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="7a9f3dd8-1876-e911-823e-065f1d1f71b2" isUnique="true" name="" type="1803596c-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="1803596c-6675-e911-823e-064d1e9fbc72b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="4503bd81-8257-e911-8237-0645314e65ac" xmi:type="uml:Association">
+   <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6f53fd37-8257-e911-8237-0645314e65ac" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="4503bd81-8257-e911-8237-0645314e65ac" isUnique="true" name="" type="70959fdb-be56-e911-8237-06ecaacb4c68" visibility="public" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="cf4fe2ef-2176-e911-823e-065f1d1f71b2" xmi:type="uml:Association">
+   <ownedEnd association="cf4fe2ef-2176-e911-823e-065f1d1f71b2" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="1803596c-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="7d149499-2076-e911-823e-065f1d1f71b2a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="cf4fe2ef-2176-e911-823e-065f1d1f71b2" isUnique="true" name="" type="7d149499-2076-e911-823e-065f1d1f71b2" visibility="public" xmi:id="7d149499-2076-e911-823e-065f1d1f71b2b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="b26cfdf8-6675-e911-823e-064d1e9fbc72a 0926d59c-8375-e911-823e-064d1e9fbc72b" name="" navigableOwnedEnd="0926d59c-8375-e911-823e-064d1e9fbc72b" xmi:id="c1cf003e-8475-e911-823e-064d1e9fbc72" xmi:type="uml:Association">
+   <ownedEnd association="c1cf003e-8475-e911-823e-064d1e9fbc72" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="b26cfdf8-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="b26cfdf8-6675-e911-823e-064d1e9fbc72a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="c1cf003e-8475-e911-823e-064d1e9fbc72" isUnique="true" name="" type="0926d59c-8375-e911-823e-064d1e9fbc72" visibility="public" xmi:id="0926d59c-8375-e911-823e-064d1e9fbc72b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="00bb8be0-7d75-e911-823e-064d1e9fbc72" xmi:type="uml:Association">
+   <ownedEnd association="00bb8be0-7d75-e911-823e-064d1e9fbc72" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="79b6536c-7675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="1803596c-6675-e911-823e-064d1e9fbc72a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="00bb8be0-7d75-e911-823e-064d1e9fbc72" isUnique="true" name="" type="1803596c-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="1803596c-6675-e911-823e-064d1e9fbc72b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="32dc2518-6775-e911-823e-064d1e9fbc72" xmi:type="uml:Association">
+   <ownedEnd association="32dc2518-6775-e911-823e-064d1e9fbc72" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="b26cfdf8-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="1803596c-6675-e911-823e-064d1e9fbc72a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="32dc2518-6775-e911-823e-064d1e9fbc72" isUnique="true" name="" type="1803596c-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="1803596c-6675-e911-823e-064d1e9fbc72b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="b26cfdf8-6675-e911-823e-064d1e9fbc72a d4e5f9d2-8675-e911-823e-064d1e9fbc72b" name="" navigableOwnedEnd="d4e5f9d2-8675-e911-823e-064d1e9fbc72b" xmi:id="2650093d-9075-e911-823e-064d1e9fbc72" xmi:type="uml:Association">
+   <ownedEnd association="2650093d-9075-e911-823e-064d1e9fbc72" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="b26cfdf8-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="b26cfdf8-6675-e911-823e-064d1e9fbc72a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="2650093d-9075-e911-823e-064d1e9fbc72" isUnique="true" name="" type="d4e5f9d2-8675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="d4e5f9d2-8675-e911-823e-064d1e9fbc72b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="064b7e20-1876-e911-823e-065f1d1f71b2" xmi:type="uml:Association">
+   <ownedEnd association="064b7e20-1876-e911-823e-065f1d1f71b2" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="eb9fe33f-9475-e911-823e-064d1e9fbc72" visibility="public" xmi:id="1803596c-6675-e911-823e-064d1e9fbc72a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="064b7e20-1876-e911-823e-065f1d1f71b2" isUnique="true" name="" type="1803596c-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="1803596c-6675-e911-823e-064d1e9fbc72b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="b8ec3799-8075-e911-823e-064d1e9fbc72" xmi:type="uml:Association">
+   <ownedEnd association="b8ec3799-8075-e911-823e-064d1e9fbc72" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="1803596c-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="0a0b83c5-7f75-e911-823e-064d1e9fbc72a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="b8ec3799-8075-e911-823e-064d1e9fbc72" isUnique="true" name="" type="0a0b83c5-7f75-e911-823e-064d1e9fbc72" visibility="public" xmi:id="0a0b83c5-7f75-e911-823e-064d1e9fbc72b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="48d51abe-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Association">
+   <ownedEnd association="48d51abe-6675-e911-823e-064d1e9fbc72" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="1803596c-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="bd51787a-6675-e911-823e-064d1e9fbc72a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="48d51abe-6675-e911-823e-064d1e9fbc72" isUnique="true" name="" type="bd51787a-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="bd51787a-6675-e911-823e-064d1e9fbc72b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="a03dec86-6675-e911-823e-064d1e9fbc72a 97698d8d-6675-e911-823e-064d1e9fbc72b" name="" navigableOwnedEnd="97698d8d-6675-e911-823e-064d1e9fbc72b" xmi:id="83e8e4c4-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Association">
+   <ownedEnd association="83e8e4c4-6675-e911-823e-064d1e9fbc72" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="a03dec86-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="a03dec86-6675-e911-823e-064d1e9fbc72a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="83e8e4c4-6675-e911-823e-064d1e9fbc72" isUnique="true" name="" type="97698d8d-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="97698d8d-6675-e911-823e-064d1e9fbc72b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="CustomerContact" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <generalization general="904758f4-6180-e911-823e-066c44d66510" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm7997" xmi:type="uml:Comment">
+    <body>
+     An (structured) interaction between a customer and a financial institution.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ContactType" type="Visibility=public" xmi:id="a12364bb-1b76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm7998" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactDateTIme" type="Visibility=public" xmi:id="4ea52f7b-1c76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm7999" xmi:type="uml:Comment">
+     <body>
+      The start and end date times for the contact
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactLocation" type="Visibility=public" xmi:id="793a179b-1c76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm8000" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactSchedule" type="Visibility=public" xmi:id="d6b2a1e2-1c76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm8001" xmi:type="uml:Comment">
+     <body>
+      The schedule of past and planned customer contacts
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactResult" type="Visibility=public" xmi:id="caa5ed0a-1d76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm8002" xmi:type="uml:Comment">
+     <body>
+      The interpreted result of the contact (e.g. completed, customer terminated, timed-out)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactPurpose" type="Visibility=public" xmi:id="b81ee44e-8080-e911-823e-066c44d6651090157202">
+    <ownedComment xmi:id="comm8003" xmi:type="uml:Comment">
+     <body>
+      The reason and or purpose for the contact (e.g. review, issue, product sales, advice, customer enquiry)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactDevice" type="Visibility=public" xmi:id="bb297476-8080-e911-823e-066c44d6651090157202">
+    <ownedComment xmi:id="comm8004" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactIndicator" type="Visibility=public" xmi:id="bd3cc978-49a9-e911-8288-061bf39b956490157202">
+    <ownedComment xmi:id="comm8005" xmi:type="uml:Comment">
+     <body>
+      Indicates whether this is an inbound or outbound contact (inbound is customer initiated, outbound is servicing resource initiated).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ContactContent" type="Visibility=public" xmi:id="985c86dc-f0d2-e911-8296-06b94e7647ce90157202">
+    <ownedComment xmi:id="comm8006" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerEvent" xmi:id="904758f4-6180-e911-823e-066c44d66510" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8007" xmi:type="uml:Comment">
+    <body>
+     Event related to a specific Customer or Customer Relationship.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerRelationshipManagementPlan" xmi:id="b26cfdf8-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <generalization general="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm8008" xmi:type="uml:Comment">
+    <body>
+     The management plan for a specific customer relationship.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BankingRelationship" xmi:id="7ef3c45c-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8009" xmi:type="uml:Comment">
+    <body>
+     A specific Relationship (= an instance of a Relationship Class) between a specific party acting as the Bank and one or more other specific involved Parties.
+A Relationship is a logical unit of collaboration between two or more involved Parties.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerInsight" xmi:id="79b6536c-7675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8010" xmi:type="uml:Comment">
+    <body>
+     An interpretation/observation on the customer's behaviour.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CustomerInsightType" type="Visibility=public" xmi:id="61b4e35e-3076-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm8011" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerInsightAlgorithm" type="Visibility=public" xmi:id="4fd37865-3076-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm8012" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerInsightValue" type="Visibility=public" xmi:id="1ae21e6c-3076-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm8013" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerInsightCalculationDate" type="Visibility=public" xmi:id="d7392180-3076-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm8014" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerInsightDescription" type="Visibility=public" xmi:id="06e79301-c07b-e911-823e-061c465efe2490157202">
+    <ownedComment xmi:id="comm8015" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerRating" xmi:id="0a0b83c5-7f75-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <generalization general="3bb93032-8580-e911-823e-066c44d66510" xmi:id="gen3" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm8016" xmi:type="uml:Comment">
+    <body>
+     Rating of the Customer or Customer Relationship for value, credit, risk and etc.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CustomerRatingType" type="Visibility=public" xmi:id="ae819b62-8075-e911-823e-064d1e9fbc7290157202">
+    <ownedComment xmi:id="comm8017" xmi:type="uml:Comment">
+     <body>
+      A Classification Hierarchy that distinguishes between Customer Ratings according to the aspect concerned with. 
+Example values are: Customer Credit Risk, Customer Profitability, Customer Loyalty etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerRatingValue" type="Visibility=public" xmi:id="3da0490d-4b76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm8018" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerRatingDescription" type="Visibility=public" xmi:id="6cf55a98-907c-e911-823e-06546fdb754690157202">
+    <ownedComment xmi:id="comm8019" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerRatingValueDate" type="Visibility=public" xmi:id="e6d1bcb1-907c-e911-823e-06546fdb754690157202">
+    <ownedComment xmi:id="comm8020" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerRatingValidityPeriod" type="Visibility=public" xmi:id="c574812d-528c-e911-823e-061d8abd002690157202">
+    <ownedComment xmi:id="comm8021" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CreditPositionMeasurement" xmi:id="3bb93032-8580-e911-823e-066c44d66510" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8022" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ManagementPlan" xmi:id="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <generalization general="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:id="gen4" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm8023" xmi:type="uml:Comment">
+    <body>
+     The course of action to realize goals (of an operational unit of an enterprise).
+
+The management and oversight while running an operational unit of an enterprise. (Generic Artifact)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ManagementPlanPeriod" type="Visibility=public" xmi:id="d9d5a7a3-1757-ea11-8289-06a605eb4d6490157202">
+    <ownedComment xmi:id="comm8024" xmi:type="uml:Comment">
+     <body>
+      The time period addressed by the management plan.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ManagementPlanGoal" type="Visibility=public" xmi:id="9b86d8bd-1757-ea11-8289-06a605eb4d6490157202">
+    <ownedComment xmi:id="comm8025" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ManagementPlanType" type="Visibility=public" xmi:id="0e5ac279-d5e2-ea11-82b8-068800dddbf790157202">
+    <ownedComment xmi:id="comm8026" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="Management Plan Description" type="Visibility=public" xmi:id="38856e94-d5e2-ea11-82b8-068800dddbf790157202">
+    <ownedComment xmi:id="comm8027" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Plan" xmi:id="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8028" xmi:type="uml:Comment">
+    <body>
+     A method for doing or achieving something, usually involving a series of actions or stages, or something you have arranged to do. (Cambridge Dictionary)
+
+A plan is a set of intended actions, through which one intends to achieve a goal.
+
+"Course of action" is a synonym for Plan.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerRelationshipDevelopment" xmi:id="d4e5f9d2-8675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8029" xmi:type="uml:Comment">
+    <body>
+     The action/task which is planned to develop the customer relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CustomerRelationshipDevelopmentTaskType" type="Visibility=public" xmi:id="65c790e7-1977-e911-823e-0663ff6583c490157202">
+    <ownedComment xmi:id="comm8030" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerRelationshipDevelopmentTaskDescription" type="Visibility=public" xmi:id="a65ff4ee-1977-e911-823e-0663ff6583c490157202">
+    <ownedComment xmi:id="comm8031" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerRelationshipDevelopmentTaskResult" type="Visibility=public" xmi:id="7139a446-1a77-e911-823e-0663ff6583c490157202">
+    <ownedComment xmi:id="comm8032" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerRelationship" xmi:id="1803596c-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <generalization general="7ef3c45c-6675-e911-823e-064d1e9fbc72" xmi:id="gen5" xmi:type="uml:Generalization"/>
+   <generalization general="fa6490a1-8957-e911-8237-0645314e65ac" xmi:id="gen6" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm8033" xmi:type="uml:Comment">
+    <body>
+     A specific relationship between a specific Bank (= party acting as a supplier of banking services) and one or more other involved parties acting as (potential) consumers of banking services as agreed in one or more banking product or service offerings and/or agreements.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Duty" xmi:id="97698d8d-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8034" xmi:type="uml:Comment">
+    <body>
+     A responsibility of task (under management).
+
+Duties are a collection of one or more responsibilities or tasks under management. (Behavior Qualifier Type)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="WorkTaskType" type="Visibility=public" xmi:id="6e430280-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm8035" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskDescription" type="Visibility=public" xmi:id="5ebf7d88-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm8036" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskResult" type="Visibility=public" xmi:id="e3abda96-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm8037" xmi:type="uml:Comment">
+     <body>
+      The outcome or result of the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskDateTime" type="Visibility=public" xmi:id="ff3c149f-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm8038" xmi:type="uml:Comment">
+     <body>
+      Key dates associated with the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="WorkTaskWorkProduct" type="Visibility=public" xmi:id="0b594fb2-2c5a-ea11-8290-06eaa2e1840690157202">
+    <ownedComment xmi:id="comm8039" xmi:type="uml:Comment">
+     <body>
+      File of consolidated notes, evaluations and recommendations for the work task
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerRelationshipInvolvement" xmi:id="bd51787a-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen7" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm8040" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific Customer Relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CustomerRelationshipInvolvementType" type="Visibility=public" xmi:id="ac1844a2-5288-e911-823e-06b09c770f0c90157202">
+    <ownedComment xmi:id="comm8041" xmi:type="uml:Comment">
+     <body>
+      A Functional Classification Hierarchy that distinguishes between roles/responsibilities involved in the customer relationship like Customer, Supplier/Bank, the relationship manager.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerRelationshipBudget" xmi:id="0926d59c-8375-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8042" xmi:type="uml:Comment">
+    <body>
+     The budget which is planned to spend for a specific customer relationship.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerProductProfileTypeValues" xmi:id="71ef5d25-4288-e911-823e-06b09c770f0c" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="CustomerProductEligibilityProfile" xmi:id="5e0ecc3a-4288-e911-823e-06b09c770f0c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A value of Customer Product Profile Type whereby customer product eligibility will be defined.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerProductUsageProfile" xmi:id="26080546-4288-e911-823e-06b09c770f0c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A value of Customer Product Profile Type whereby customer product usage will be measured.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerProductCoverageProfile" xmi:id="f4dee5f2-4688-e911-823e-06b09c770f0c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A value of Customer Product Profile Type whereby customer product coverage will be assessed.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerProductSaleProfile" xmi:id="1b859f7d-4788-e911-823e-06b09c770f0c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A value of Customer Product Profile Type whereby customer product sale will be assessed.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PartyRelationship" xmi:id="fa6490a1-8957-e911-8237-0645314e65ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8043" xmi:type="uml:Comment">
+    <body>
+     A relationship between two or more parties; the parties involved are specified in terms of the roles they play in the relationship.
+
+A Party Relationship is a connection between an instance of a Party and two or more instances of associated objects in the relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="RelationshipType" type="Visibility=public" xmi:id="cec7e43f-39cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm8044" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RelationshipValidityPeriod" type="Visibility=public" xmi:id="735af251-5fd2-e911-8296-0633d5e0e61090157202">
+    <ownedComment xmi:id="comm8045" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerIncident" xmi:id="eb9fe33f-9475-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8046" xmi:type="uml:Comment">
+    <body>
+     Unplanned interruption to a service, a reduction in the quality of a service or an event that has not yet impacted the service to the customer where this customer relationship is impacted.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CustomerIncidentType" type="Visibility=public" xmi:id="1b9a14a7-1a76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm8047" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerIncidentSource" type="Visibility=public" xmi:id="db519ab2-1a76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm8048" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerIncidentDescription" type="Visibility=public" xmi:id="c1cddec8-1a76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm8049" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerIncidentResolution" type="Visibility=public" xmi:id="5aa5c0e5-1a76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm8050" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerRelationshipInvolvementTypeValues" xmi:id="a5da52f6-5288-e911-823e-06b09c770f0c" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="Customer/Employee" xmi:id="4ab47100-5388-e911-823e-06b09c770f0c">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Supplier/Bank/Employer" xmi:id="4cb47100-5388-e911-823e-06b09c770f0c">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="RelationshipManager" xmi:id="469cb40b-5388-e911-823e-06b09c770f0c">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerContactPerson" xmi:id="a28ca02e-b3d7-e911-82a8-0667cb2841e8">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Contact person for a customer in a relationship with a financial institution.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerProductProfile" xmi:id="7d149499-2076-e911-823e-065f1d1f71b2" xmi:type="uml:Class">
+   <generalization general="af9552c0-6f92-e911-823e-06332a9c23ba" xmi:id="gen8" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm8051" xmi:type="uml:Comment">
+    <body>
+     The product/service profile for a specific customer or customer relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CustomerProductProfileType" type="Visibility=public" xmi:id="5a1d600a-4a76-e911-823e-065f1d1f71b290157202">
+    <ownedComment xmi:id="comm8052" xmi:type="uml:Comment">
+     <body>
+      A Functional Classification Hierarchy that distinguishes between Customer Product Profiles according to the aspect that is profiled.
+Example values are Product Eligibility, Product Usage, Product Coverage, Product Sale and etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Profile" xmi:id="af9552c0-6f92-e911-823e-06332a9c23ba" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8053" xmi:type="uml:Comment">
+    <body>
+     A brief description of the characteristics of something or someone. (Business Dictionary)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerRatingTypeValues" xmi:id="80a846ab-4e88-e911-823e-06b09c770f0c" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="CustomerProfitability" xmi:id="829facc7-4e88-e911-823e-06b09c770f0c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A value of Customer Rating Type whereby customer profitability is measured.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerCreditRating" xmi:id="9b0f3fd9-4e88-e911-823e-06b09c770f0c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A value of Customer Rating Type whereby customer creditability is measured.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8054" xmi:type="uml:Comment">
+    <body>
+     A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyName" type="Visibility=public" xmi:id="d8f7f366-21cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm8055" xmi:type="uml:Comment">
+     <body>
+      Name by which a party is known and which is usually used to identify that party. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyType" type="Visibility=public" xmi:id="b1f7b3d8-21cf-e911-8296-06bf764cb4bc90157202">
+    <ownedComment xmi:id="comm8056" xmi:type="uml:Comment">
+     <body>
+      Specifies the type of party in different business contexts. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyDateTime" type="Visibility=public" xmi:id="d6ed5669-40f6-e911-82bd-06a31b9588ce90157202">
+    <ownedComment xmi:id="comm8057" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyIdentification" type="Visibility=public" xmi:id="449e231b-a846-ea11-8289-06f8a6a00ed090157202">
+    <ownedComment xmi:id="comm8058" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm8059" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PartyRoleType" type="Visibility=public" xmi:id="83c28dd9-29e9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm8060" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleName" type="Visibility=public" xmi:id="7ebb122f-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm8061" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyRoleValidityPeriod" type="Visibility=public" xmi:id="fb571d5e-2ce9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm8062" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PartyInvolvementType" type="Visibility=public" xmi:id="c5867926-2de9-ea11-82b8-0621c7360a1390157202">
+    <ownedComment xmi:id="comm8063" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Account Data Type Landscape SD" visibility="public" xmi:id="0eb64d4f-8279-ea11-828d-065e1ffb056c" xmi:type="uml:Package">
+  <packagedElement name="AccountBalanceTypeValues" xmi:id="545a0927-0948-ea11-8289-062ea3b80f12" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body>
+     Specifies the nature of the balance.
+https://www.iso20022.org/standardsrepository/type/BalanceTypeCode
+    </body>
+   </ownedComment>
+   <ownedAttribute name="OpeningBalance" xmi:id="9f78a931-0948-ea11-8289-062ea3b80f12">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Book balance of the account at the beginning of the account servicer's business day. It always equals the closing book balance from the previous business day. Note: the available balance at the beginning of the account servicer's business day may be different from the closing book balance from the previous business day. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="ClosingBalance" xmi:id="2e07db44-0948-ea11-8289-062ea3b80f12">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Balance of the account at the end of the account servicer's business day. It is the sum of the opening balance at the beginning of the day and all entries booked to the account during the account servicer's business day. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="CurrentBalance" xmi:id="84ba747f-0a48-ea11-8289-062ea3b80f12">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Balance of the account at a precise moment in time. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="AvailableBalance" xmi:id="408e7aa8-0a48-ea11-8289-062ea3b80f12">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Balance of money or securities that is at the disposal of the account owner on the date specified. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="LedgerBalance" xmi:id="686bc722-1d48-ea11-8289-062ea3b80f12">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Ledger balance refers to posted transactions (e.g. limit authorisation amount - posted transactions). (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="ReserveBalance" xmi:id="d9a91b6f-1d48-ea11-8289-062ea3b80f12">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="FreeBalance" xmi:id="914d6e93-1d48-ea11-8289-062ea3b80f12">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="PrincipalBalance" xmi:id="9680a842-0571-eb11-82fd-06e9e7239879">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="AccountCurrencyTypeValues" xmi:id="23352ade-7dba-e911-8291-062b31ab758a" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="AccountBaseCurrency" xmi:id="24352ade-7dba-e911-8291-062b31ab758a">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Base currency of the account. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="AccountReportingCurrency" xmi:id="79bf96f4-7dba-e911-8291-062b31ab758a">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Currency used to calculate and report the balance and related entries of an account. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="AccountSecondaryCurrency" xmi:id="6f25b40b-7eba-e911-8291-062b31ab758a">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="AccountDateTypeValues" xmi:id="03716973-2e94-e911-823e-069871e4ec9c" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="OpeningDate" xmi:id="f44d7084-2e94-e911-823e-069871e4ec9c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Date on which the account and related basic services are effectively operational for the account owner. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="ClosingDate" xmi:id="9ce9b894-2e94-e911-823e-069871e4ec9c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Date on which the account and related services cease effectively to be operational for the account owner. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="BlockingDate" xmi:id="f991ee2a-8679-ea11-828d-065e1ffb056c">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="AccountTypeValues" xmi:id="1b1a87d5-8a99-e911-827a-063e87e1daa2" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="Debit Account" xmi:id="1c1a87d5-8a99-e911-827a-063e87e1daa2">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Credit Account" xmi:id="0c327ef3-8a99-e911-827a-063e87e1daa2">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Vostro Acount" xmi:id="b81f82fb-8a99-e911-827a-063e87e1daa2">
+    <ownedComment xmi:id="commentid">
+     <body>
+      In correspondent banking, an account held by one bank on behalf of another bank (the customer bank); the customer bank regards this account as its nostro account. (ECB)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Nostro Account" xmi:id="74b32403-8b99-e911-827a-063e87e1daa2">
+    <ownedComment xmi:id="commentid">
+     <body>
+      In correspondent banking, an account held by a customer bank on the books of another bank acting as a service provider. The other bank regards this account as a loro account. (ECB)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Payment Account" xmi:id="bcd54d0a-8b99-e911-827a-063e87e1daa2">
+    <ownedComment xmi:id="commentid">
+     <body/>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Settlement Account" xmi:id="1676850c-8f7d-eb11-8309-06f448ba7707">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A specific purpose account used to post debit and credit entries as a result of the transaction. (ISO20022)
+
+Account which is used for settlement. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="AccountIdentificationTypeValues" xmi:id="dac054e1-2394-e911-823e-069871e4ec9c" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="BBAN" xmi:id="7e1e0eff-2394-e911-823e-069871e4ec9c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Basic Bank Account Number (BBAN) - identifier used nationally by financial institutions, ie, in individual countries, generally as part of a National Account Numbering Scheme(s), to uniquely identify the account of a customer. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="IBAN" xmi:id="31d4820b-2494-e911-823e-069871e4ec9c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      International Bank Account Number (IBAN) - identifier used internationally by financial institutions to uniquely identify the account of a customer. Further specifications of the format and content of the IBAN can be found in the standard ISO 13616 "Banking and related financial services - International Bank Account Number (IBAN)" version 1997-10-01, or later revisions. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="UPIC" xmi:id="85afbb3c-2494-e911-823e-069871e4ec9c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Universal Payment Identification Code (UPIC) - identifier used by the New York Clearing House to mask confidential data, such as bank accounts and bank routing numbers. UPIC numbers remain with business customers, regardless of banking relationship changes. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="Account Number" xmi:id="7bb62460-2494-e911-823e-069871e4ec9c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      String of characters (mainly numbers) used to identify an account.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="AccountInvolvementTypeValues" xmi:id="ab464743-2294-e911-823e-069871e4ec9c" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="AccountOwner" xmi:id="ac464743-2294-e911-823e-069871e4ec9c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Party that legally owns the account. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="AccountServicer" xmi:id="183f514d-2294-e911-823e-069871e4ec9c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      Party that manages the account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account. (ISO20022)
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

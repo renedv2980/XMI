@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="System Development BOM SD" visibility="public" xmi:id="b4a2829b-a68b-ea11-8295-06e7a30f2f68" xmi:type="uml:Package">
+  <packagedElement name="" xmi:id="f5be4be1-5ab5-ea11-829f-06ddb95e6bc8" xmi:type="uml:Association">
+   <ownedEnd association="f5be4be1-5ab5-ea11-829f-06ddb95e6bc8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="440a93de-49b5-ea11-829f-06ddb95e6bc8" visibility="public" xmi:id="85d78b16-59b5-ea11-829f-06ddb95e6bc8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="f5be4be1-5ab5-ea11-829f-06ddb95e6bc8" isUnique="true" name="" type="85d78b16-59b5-ea11-829f-06ddb95e6bc8" visibility="public" xmi:id="85d78b16-59b5-ea11-829f-06ddb95e6bc8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="85d78b16-59b5-ea11-829f-06ddb95e6bc8a a88b4526-5ab5-ea11-829f-06ddb95e6bc8b" name="" navigableOwnedEnd="a88b4526-5ab5-ea11-829f-06ddb95e6bc8b" xmi:id="15c8132e-5ab5-ea11-829f-06ddb95e6bc8" xmi:type="uml:Association">
+   <ownedEnd association="15c8132e-5ab5-ea11-829f-06ddb95e6bc8" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="85d78b16-59b5-ea11-829f-06ddb95e6bc8" visibility="public" xmi:id="85d78b16-59b5-ea11-829f-06ddb95e6bc8a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="15c8132e-5ab5-ea11-829f-06ddb95e6bc8" isUnique="true" name="" type="a88b4526-5ab5-ea11-829f-06ddb95e6bc8" visibility="public" xmi:id="a88b4526-5ab5-ea11-829f-06ddb95e6bc8b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="fb61a357-9f51-ea11-8289-06269fe19394a 5be8a55c-a051-ea11-8289-06269fe19394b" name="" navigableOwnedEnd="5be8a55c-a051-ea11-8289-06269fe19394b" xmi:id="b3e4f664-a051-ea11-8289-06269fe19394" xmi:type="uml:Association">
+   <ownedEnd association="b3e4f664-a051-ea11-8289-06269fe19394" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="fb61a357-9f51-ea11-8289-06269fe19394" visibility="public" xmi:id="fb61a357-9f51-ea11-8289-06269fe19394a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="b3e4f664-a051-ea11-8289-06269fe19394" isUnique="true" name="" type="5be8a55c-a051-ea11-8289-06269fe19394" visibility="public" xmi:id="5be8a55c-a051-ea11-8289-06269fe19394b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="Project" xmi:id="fb61a357-9f51-ea11-8289-06269fe19394" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm19958" xmi:type="uml:Comment">
+    <body>
+     details of a project with defined deliverables, finite duration, budget and allocated resources
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ProjectName" type="Visibility=public" xmi:id="124aa6ac-a151-ea11-8289-06269fe1939490157202">
+    <ownedComment xmi:id="comm19959" xmi:type="uml:Comment">
+     <body>
+      The name of project
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProjectType" type="Visibility=public" xmi:id="24c607b3-a151-ea11-8289-06269fe1939490157202">
+    <ownedComment xmi:id="comm19960" xmi:type="uml:Comment">
+     <body>
+      A classification of the project
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProjectDescription" type="Visibility=public" xmi:id="5cf8c9c2-a151-ea11-8289-06269fe1939490157202">
+    <ownedComment xmi:id="comm19961" xmi:type="uml:Comment">
+     <body>
+      A description of the scope, goal and make-up of the project
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProjectOrganisation" type="Visibility=public" xmi:id="b6b1e586-59b5-ea11-829f-06ddb95e6bc890157202">
+    <ownedComment xmi:id="comm19962" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProjectSchedule" type="Visibility=public" xmi:id="7577f2b5-59b5-ea11-829f-06ddb95e6bc890157202">
+    <ownedComment xmi:id="comm19963" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProjectDateTime" type="Visibility=public" xmi:id="e7603ec2-59b5-ea11-829f-06ddb95e6bc890157202">
+    <ownedComment xmi:id="comm19964" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ITSystemDevelopmentProject" xmi:id="85d78b16-59b5-ea11-829f-06ddb95e6bc8" xmi:type="uml:Class">
+   <generalization general="fb61a357-9f51-ea11-8289-06269fe19394" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm19965" xmi:type="uml:Comment">
+    <body>
+     A project to develop an IT system.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Deliverable" xmi:id="5be8a55c-a051-ea11-8289-06269fe19394" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm19966" xmi:type="uml:Comment">
+    <body>
+     An tangible or intangible thing that must be provided upon the completion of a project.
+
+Deliverables as Behaviour Qualifier Type: A collection of one or more deliverables that may be further defined in terms of an approach to be followed to create them.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ITSystem" xmi:id="440a93de-49b5-ea11-829f-06ddb95e6bc8" xmi:type="uml:Class">
+   <generalization general="6fd7342a-138d-e911-823e-067b7da9d714" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm19967" xmi:type="uml:Comment">
+    <body>
+     A computer system or set of components for collecting, creating, storing, processing, and distributing information, typically including hardware and software, system users, and the data itself
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="System" xmi:id="6fd7342a-138d-e911-823e-067b7da9d714" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm19968" xmi:type="uml:Comment">
+    <body>
+     Set of integrated applications that provides centralised services such as clearing, netting, reconciliation, trading and/or settlement. (ISO20022)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ITSystemDevelopmentDeliverable" xmi:id="a88b4526-5ab5-ea11-829f-06ddb95e6bc8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm19969" xmi:type="uml:Comment">
+    <body>
+     A deliverable of the development project for an IT system
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

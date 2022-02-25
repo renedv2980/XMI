@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Interactive Help BOM SD" visibility="public" xmi:id="ee8e8af3-248a-ea11-8295-068b94ab5512" xmi:type="uml:Package">
+  <packagedElement memberEnd="6fd7342a-138d-e911-823e-067b7da9d714a 8e5ac3ee-f490-e911-823e-06f3e7d1f9c0b" name="" navigableOwnedEnd="8e5ac3ee-f490-e911-823e-06f3e7d1f9c0b" xmi:id="4503ae00-f590-e911-823e-06f3e7d1f9c0" xmi:type="uml:Association">
+   <ownedEnd association="4503ae00-f590-e911-823e-06f3e7d1f9c0" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6fd7342a-138d-e911-823e-067b7da9d714" visibility="public" xmi:id="6fd7342a-138d-e911-823e-067b7da9d714a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="4503ae00-f590-e911-823e-06f3e7d1f9c0" isUnique="true" name="Feature" type="8e5ac3ee-f490-e911-823e-06f3e7d1f9c0" visibility="public" xmi:id="8e5ac3ee-f490-e911-823e-06f3e7d1f9c0b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="8e5ac3ee-f490-e911-823e-06f3e7d1f9c0a 6b0bd834-f290-e911-823e-06f3e7d1f9c0b" name="" navigableOwnedEnd="6b0bd834-f290-e911-823e-06f3e7d1f9c0b" xmi:id="908cea91-2fa3-e911-8280-06dae144dffa" xmi:type="uml:Association">
+   <ownedEnd association="908cea91-2fa3-e911-8280-06dae144dffa" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="Type" type="8e5ac3ee-f490-e911-823e-06f3e7d1f9c0" visibility="public" xmi:id="8e5ac3ee-f490-e911-823e-06f3e7d1f9c0a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="908cea91-2fa3-e911-8280-06dae144dffa" isUnique="true" name="Instance" type="6b0bd834-f290-e911-823e-06f3e7d1f9c0" visibility="public" xmi:id="6b0bd834-f290-e911-823e-06f3e7d1f9c0b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="fdc6a261-eba4-ea11-829f-0660fb1fa966a a651f754-eca4-ea11-829f-0660fb1fa966b" name="" navigableOwnedEnd="a651f754-eca4-ea11-829f-0660fb1fa966b" xmi:id="244b646d-eca4-ea11-829f-0660fb1fa966" xmi:type="uml:Association">
+   <ownedEnd association="244b646d-eca4-ea11-829f-0660fb1fa966" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="fdc6a261-eba4-ea11-829f-0660fb1fa966" visibility="public" xmi:id="fdc6a261-eba4-ea11-829f-0660fb1fa966a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd aggregation="composite" association="244b646d-eca4-ea11-829f-0660fb1fa966" isUnique="true" name="" type="a651f754-eca4-ea11-829f-0660fb1fa966" visibility="public" xmi:id="a651f754-eca4-ea11-829f-0660fb1fa966b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="117e8b22-f590-e911-823e-06f3e7d1f9c0" xmi:type="uml:Association">
+   <ownedEnd association="117e8b22-f590-e911-823e-06f3e7d1f9c0" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="Operational
+Function" type="6b0bd834-f290-e911-823e-06f3e7d1f9c0" visibility="public" xmi:id="f5145a15-138d-e911-823e-067b7da9d714a">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="117e8b22-f590-e911-823e-06f3e7d1f9c0" isUnique="true" name="" type="f5145a15-138d-e911-823e-067b7da9d714" visibility="public" xmi:id="f5145a15-138d-e911-823e-067b7da9d714b">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement memberEnd="6fd7342a-138d-e911-823e-067b7da9d714a f5145a15-138d-e911-823e-067b7da9d714b" name="" navigableOwnedEnd="f5145a15-138d-e911-823e-067b7da9d714b" xmi:id="fa4e56c7-168d-e911-823e-067b7da9d714" xmi:type="uml:Association">
+   <ownedEnd association="fa4e56c7-168d-e911-823e-067b7da9d714" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="SystemIn
+Session" type="6fd7342a-138d-e911-823e-067b7da9d714" visibility="public" xmi:id="6fd7342a-138d-e911-823e-067b7da9d714a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="fa4e56c7-168d-e911-823e-067b7da9d714" isUnique="true" name="Operating
+Session" type="f5145a15-138d-e911-823e-067b7da9d714" visibility="public" xmi:id="f5145a15-138d-e911-823e-067b7da9d714b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="System" xmi:id="6fd7342a-138d-e911-823e-067b7da9d714" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10380" xmi:type="uml:Comment">
+    <body>
+     Set of integrated applications that provides centralised services such as clearing, netting, reconciliation, trading and/or settlement. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="SystemAccessSchedule" type="Visibility=public" xmi:id="22c2144f-c296-e911-823e-063411acec0a90157202">
+    <ownedComment xmi:id="comm10381" xmi:type="uml:Comment">
+     <body>
+      The time schedule that system services are available for use.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SystemType" type="Visibility=public" xmi:id="9aa9cc3d-2fa3-e911-8280-06dae144dffa90157202">
+    <ownedComment xmi:id="comm10382" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Function" xmi:id="6b0bd834-f290-e911-823e-06f3e7d1f9c0" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10383" xmi:type="uml:Comment">
+    <body>
+     A kind of action.
+
+Functions as Behaviour Qualifier: The collection of operational services/functions offered by the operational facility.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="InteractiveHelpServiceSession" xmi:id="a651f754-eca4-ea11-829f-0660fb1fa966" xmi:type="uml:Class">
+   <generalization general="f5145a15-138d-e911-823e-067b7da9d714" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm10384" xmi:type="uml:Comment">
+    <body>
+     The operation of an Interactive Help Service for a bounded period of time.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Session" xmi:id="f5145a15-138d-e911-823e-067b7da9d714" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10385" xmi:type="uml:Comment">
+    <body>
+     The operation of a system -- typically an automated system -- for a bounded period of time.
+
+Semi-permanent container of state for an information exchange with a system.
+
+Time-bounded, temporal unit of context and continuity, identifying a unit of work.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="SessionDuration" type="Visibility=public" xmi:id="90da8134-73d1-e911-8296-06e952cbc5d090157202">
+    <ownedComment xmi:id="comm10386" xmi:type="uml:Comment">
+     <body>
+      The time the session was active
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SessionDateTime" type="Visibility=public" xmi:id="449ecb21-7ef2-ea11-82be-06b80843e3ff90157202">
+    <ownedComment xmi:id="comm10387" xmi:type="uml:Comment">
+     <body>
+      Key dates and times for the session
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="SystemService" xmi:id="8e5ac3ee-f490-e911-823e-06f3e7d1f9c0" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm10388" xmi:type="uml:Comment">
+    <body>
+     A function/feature of system.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="InteractiveHelpService" xmi:id="fdc6a261-eba4-ea11-829f-0660fb1fa966" xmi:type="uml:Class">
+   <generalization general="8e5ac3ee-f490-e911-823e-06f3e7d1f9c0" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm10389" xmi:type="uml:Comment">
+    <body>
+     An automated facility that provides interactive context sensitive servicing guidance to employees and self-serve customers
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

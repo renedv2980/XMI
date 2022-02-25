@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Cheque Processing BOM SD" visibility="public" xmi:id="5d3d195f-cd01-eb11-82be-068d3e7acd11" xmi:type="uml:Package">
+  <packagedElement memberEnd="ad7f8d21-7e35-eb11-82df-0608708832ada 1b3a9948-c530-eb11-82d9-061c5848f615b" name="" navigableOwnedEnd="1b3a9948-c530-eb11-82d9-061c5848f615b" xmi:id="560ed84d-7e35-eb11-82df-0608708832ad" xmi:type="uml:Association">
+   <ownedEnd association="560ed84d-7e35-eb11-82df-0608708832ad" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="ad7f8d21-7e35-eb11-82df-0608708832ad" visibility="public" xmi:id="ad7f8d21-7e35-eb11-82df-0608708832ada">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="560ed84d-7e35-eb11-82df-0608708832ad" isUnique="true" name="" type="1b3a9948-c530-eb11-82d9-061c5848f615" visibility="public" xmi:id="1b3a9948-c530-eb11-82d9-061c5848f615b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="38f96dd7-8035-eb11-82df-0608708832ad" xmi:type="uml:Association">
+   <ownedEnd association="38f96dd7-8035-eb11-82df-0608708832ad" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="917b1127-c730-eb11-82d9-061c5848f615" visibility="public" xmi:id="f1f7d6a0-7f35-eb11-82df-0608708832ada">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="38f96dd7-8035-eb11-82df-0608708832ad" isUnique="true" name="" type="f1f7d6a0-7f35-eb11-82df-0608708832ad" visibility="public" xmi:id="f1f7d6a0-7f35-eb11-82df-0608708832adb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="25918cce-8035-eb11-82df-0608708832ad" xmi:type="uml:Association">
+   <ownedEnd association="25918cce-8035-eb11-82df-0608708832ad" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="917b1127-c730-eb11-82d9-061c5848f615" visibility="public" xmi:id="ad7f8d21-7e35-eb11-82df-0608708832ada">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="25918cce-8035-eb11-82df-0608708832ad" isUnique="true" name="" type="ad7f8d21-7e35-eb11-82df-0608708832ad" visibility="public" xmi:id="ad7f8d21-7e35-eb11-82df-0608708832adb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="Session" xmi:id="f5145a15-138d-e911-823e-067b7da9d714" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm2527" xmi:type="uml:Comment">
+    <body>
+     The operation of a system -- typically an automated system -- for a bounded period of time.
+
+Semi-permanent container of state for an information exchange with a system.
+
+Time-bounded, temporal unit of context and continuity, identifying a unit of work.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="SessionDuration" type="Visibility=public" xmi:id="90da8134-73d1-e911-8296-06e952cbc5d090157202">
+    <ownedComment xmi:id="comm2528" xmi:type="uml:Comment">
+     <body>
+      The time the session was active
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SessionDateTime" type="Visibility=public" xmi:id="449ecb21-7ef2-ea11-82be-06b80843e3ff90157202">
+    <ownedComment xmi:id="comm2529" xmi:type="uml:Comment">
+     <body>
+      Key dates and times for the session
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ChequeProcessingOperatingSession" xmi:id="1b3a9948-c530-eb11-82d9-061c5848f615" xmi:type="uml:Class">
+   <generalization general="f5145a15-138d-e911-823e-067b7da9d714" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm2530" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="System" xmi:id="6fd7342a-138d-e911-823e-067b7da9d714" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm2531" xmi:type="uml:Comment">
+    <body>
+     Set of integrated applications that provides centralised services such as clearing, netting, reconciliation, trading and/or settlement. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="SystemAccessSchedule" type="Visibility=public" xmi:id="22c2144f-c296-e911-823e-063411acec0a90157202">
+    <ownedComment xmi:id="comm2532" xmi:type="uml:Comment">
+     <body>
+      The time schedule that system services are available for use.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="SystemType" type="Visibility=public" xmi:id="9aa9cc3d-2fa3-e911-8280-06dae144dffa90157202">
+    <ownedComment xmi:id="comm2533" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ChequePayment" xmi:id="f1f7d6a0-7f35-eb11-82df-0608708832ad" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm2534" xmi:type="uml:Comment">
+    <body>
+     Payment made by drawing a cheque in order to settle a debt. (ISO20022)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Cheque" xmi:id="917b1127-c730-eb11-82d9-061c5848f615" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm2535" xmi:type="uml:Comment">
+    <body>
+     Negotiable instrument instructing a financial institution to pay a specific amount of a specific currency from the account of the drawer with that institution. (ISO20022)
+
+A check is a written, dated, and signed instrument that directs a bank to pay a specific sum of money to the bearer. (Investopedia)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ChequeProcessingSystem" xmi:id="ad7f8d21-7e35-eb11-82df-0608708832ad" xmi:type="uml:Class">
+   <generalization general="6fd7342a-138d-e911-823e-067b7da9d714" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm2536" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

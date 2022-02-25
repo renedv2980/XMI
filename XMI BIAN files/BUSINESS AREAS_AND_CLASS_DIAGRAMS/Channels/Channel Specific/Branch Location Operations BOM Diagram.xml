@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Branch Location Operations BOM SD" visibility="public" xmi:id="81248775-a725-eb11-82d4-06ebae2b1c25" xmi:type="uml:Package">
+  <packagedElement memberEnd="a2167574-8f80-e911-823e-061de61e9206a 23cc4801-c480-e911-823e-065e8061d7e6b" name="" navigableOwnedEnd="23cc4801-c480-e911-823e-065e8061d7e6b" xmi:id="6069e61a-c480-e911-823e-065e8061d7e6" xmi:type="uml:Association">
+   <ownedEnd association="6069e61a-c480-e911-823e-065e8061d7e6" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="a2167574-8f80-e911-823e-061de61e9206" visibility="public" xmi:id="a2167574-8f80-e911-823e-061de61e9206a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="6069e61a-c480-e911-823e-065e8061d7e6" isUnique="true" name="" type="23cc4801-c480-e911-823e-065e8061d7e6" visibility="public" xmi:id="23cc4801-c480-e911-823e-065e8061d7e6b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="34a078c3-1528-eb11-82d4-06b1e967d8ed" xmi:type="uml:Association">
+   <ownedEnd association="34a078c3-1528-eb11-82d4-06b1e967d8ed" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="291e5767-0e28-eb11-82d4-06b1e967d8ed" visibility="public" xmi:id="eca9e160-f324-eb11-82d4-060d98156e5ba">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="34a078c3-1528-eb11-82d4-06b1e967d8ed" isUnique="true" name="" type="eca9e160-f324-eb11-82d4-060d98156e5b" visibility="public" xmi:id="eca9e160-f324-eb11-82d4-060d98156e5bb">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="770c0eb6-1528-eb11-82d4-06b1e967d8ed" xmi:type="uml:Association">
+   <ownedEnd association="770c0eb6-1528-eb11-82d4-06b1e967d8ed" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="063a0dcf-0561-e911-8237-068e13695e26" visibility="public" xmi:id="eca9e160-f324-eb11-82d4-060d98156e5ba">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="770c0eb6-1528-eb11-82d4-06b1e967d8ed" isUnique="true" name="" type="eca9e160-f324-eb11-82d4-060d98156e5b" visibility="public" xmi:id="eca9e160-f324-eb11-82d4-060d98156e5bb">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="" xmi:id="d94d512d-a825-eb11-82d4-06ebae2b1c25" xmi:type="uml:Association">
+   <ownedEnd association="d94d512d-a825-eb11-82d4-06ebae2b1c25" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="eca9e160-f324-eb11-82d4-060d98156e5b" visibility="public" xmi:id="3f6fadf1-a725-eb11-82d4-06ebae2b1c25a">
+    <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+   <ownedEnd association="d94d512d-a825-eb11-82d4-06ebae2b1c25" isUnique="true" name="" type="3f6fadf1-a725-eb11-82d4-06ebae2b1c25" visibility="public" xmi:id="3f6fadf1-a725-eb11-82d4-06ebae2b1c25b">
+    <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+    <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+   </ownedEnd>
+  </packagedElement>
+  <packagedElement name="Routine" xmi:id="23cc4801-c480-e911-823e-065e8061d7e6" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3081" xmi:type="uml:Comment">
+    <body>
+     A regular course of procedure that is to be followed to administer the operational unit/function.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="RoutineType" type="Visibility=public" xmi:id="233c9b60-2a62-eb11-82e9-06699a15d53390157202">
+    <ownedComment xmi:id="comm3082" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RoutineDefinition" type="Visibility=public" xmi:id="35fcb568-2a62-eb11-82e9-06699a15d53390157202">
+    <ownedComment xmi:id="comm3083" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RoutineDataTime" type="Visibility=public" xmi:id="a70c1c73-2a62-eb11-82e9-06699a15d53390157202">
+    <ownedComment xmi:id="comm3084" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="RoutineStatus" type="Visibility=public" xmi:id="5f84c97d-2a62-eb11-82e9-06699a15d53390157202">
+    <ownedComment xmi:id="comm3085" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Branch" xmi:id="291e5767-0e28-eb11-82d4-06b1e967d8ed" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3086" xmi:type="uml:Comment">
+    <body>
+     A point of representation where a bank or financial institution offers a wide array of face-to-face and automated services to its customers.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BranchLocation" xmi:id="eca9e160-f324-eb11-82d4-060d98156e5b" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3087" xmi:type="uml:Comment">
+    <body>
+     The location of a branch
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BranchLocationAdministrativePlan" xmi:id="3f6fadf1-a725-eb11-82d4-06ebae2b1c25" xmi:type="uml:Class">
+   <generalization general="a2167574-8f80-e911-823e-061de61e9206" xmi:id="gen1" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm3088" xmi:type="uml:Comment">
+    <body>
+     A plan for day to day administration of branch activity, including teller assignment and cash handling oversight
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Location" xmi:id="063a0dcf-0561-e911-8237-068e13695e26" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3089" xmi:type="uml:Comment">
+    <body>
+     The definition of an addressable space/position both in real and virtual environments with associated uses and entitlements
+    </body>
+   </ownedComment>
+   <ownedAttribute name="LocationDescription" type="Visibility=public" xmi:id="e731883b-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3090" xmi:type="uml:Comment">
+     <body>
+      A description of the property, particularly if it has landmark characteristics.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationDateTime" type="Visibility=public" xmi:id="8048356c-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3091" xmi:type="uml:Comment">
+     <body>
+      Key dates associated with the directory entry (e.g. open date, refresh date).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationStatus" type="Visibility=public" xmi:id="0095b775-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3092" xmi:type="uml:Comment">
+     <body>
+      The tracked status (e.g. under construction or repair, inhabited, vacant).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationType" type="Visibility=public" xmi:id="c8da42a8-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3093" xmi:type="uml:Comment">
+     <body>
+      Type of location (e.g. building, point of interest, virtual location/device).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationZoningType" type="Visibility=public" xmi:id="f8d2c2b9-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3094" xmi:type="uml:Comment">
+     <body>
+      The planning or zoning status (e.g. residential, commercial, industrial).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationNeighborhoodType" type="Visibility=public" xmi:id="1f5d9cc2-d0d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3095" xmi:type="uml:Comment">
+     <body>
+      The general purpose and neighborhood of the property  (e.g. residential, industrial, commercial).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationConstructionType" type="Visibility=public" xmi:id="1736d338-d1d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3096" xmi:type="uml:Comment">
+     <body>
+      The construction approach for a property at the location (e.g. era and architecture as might be used in valuation).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationOccupancyType" type="Visibility=public" xmi:id="f2546806-d2d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3097" xmi:type="uml:Comment">
+     <body>
+      The type of occupancy (e.g. residency, business, retail, entertainment).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationValue" type="Visibility=public" xmi:id="715fcc33-d2d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3098" xmi:type="uml:Comment">
+     <body>
+      The estimated (book) value of the property at the location - rental and purchase as appropriate.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationCapacity" type="Visibility=public" xmi:id="368c7152-d2d7-e911-82a8-0667cb2841e890157202">
+    <ownedComment xmi:id="comm3099" xmi:type="uml:Comment">
+     <body>
+      An indication of the size or scale of the property where appropriate (e.g. 4 bedroom, 600 seat auditorium, 40 cover restaurant).
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationIdentification" type="Visibility=public" xmi:id="51262755-cd48-ea11-8289-064c9ffef37a90157202">
+    <ownedComment xmi:id="comm3100" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="LocationAddress" type="Visibility=public" xmi:id="01683582-cf48-ea11-8289-064c9ffef37a90157202">
+    <ownedComment xmi:id="comm3101" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="AdministrativePlan" xmi:id="a2167574-8f80-e911-823e-061de61e9206" xmi:type="uml:Class">
+   <generalization general="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:id="gen2" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm3102" xmi:type="uml:Comment">
+    <body>
+     The plan that defines clerical support for an operational unit/function of an enterprise. (BIAN Service Landscape -Generic Artifact)
+    </body>
+   </ownedComment>
+   <ownedAttribute name="PlanBudget" type="Visibility=public" xmi:id="6f9e9186-2662-eb11-82e9-06699a15d53390157202">
+    <ownedComment xmi:id="comm3103" xmi:type="uml:Comment">
+     <body>
+      An estimate of costs, revenues, and resources  over a specified period which is defined for an Administrative Plan
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PlanInvolvement" type="Visibility=public" xmi:id="f8202a2e-2862-eb11-82e9-06699a15d53390157202">
+    <ownedComment xmi:id="comm3104" xmi:type="uml:Comment">
+     <body>
+      A specific party who plays a specific role in an Administrative Plan
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="PlanDateTime" type="Visibility=public" xmi:id="6f9d0a8e-2a62-eb11-82e9-06699a15d53390157202">
+    <ownedComment xmi:id="comm3105" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="Plan" xmi:id="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm3106" xmi:type="uml:Comment">
+    <body>
+     A method for doing or achieving something, usually involving a series of actions or stages, or something you have arranged to do. (Cambridge Dictionary)
+
+A plan is a set of intended actions, through which one intends to achieve a goal.
+
+"Course of action" is a synonym for Plan.
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>

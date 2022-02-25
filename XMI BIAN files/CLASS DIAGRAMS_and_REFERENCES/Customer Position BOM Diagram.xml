@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model name="Bian" xmi:id="BianID" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+ <eAnnotations source="Objing" xmi:id="AnnotationID">
+  <contents name="exporterVersion" xmi:id="contentID" xmi:type="uml:Property">
+   <defaultValue value="3.0.0" xmi:id="stringID" xmi:type="uml:LiteralString"/>
+  </contents>
+ </eAnnotations>
+ <packagedElement name="Customer Position BOM SD" visibility="public" xmi:id="d85e6fb9-ecce-e911-8296-06bf764cb4bc" xmi:type="uml:Package">
+  <packagedElement name="Product Usage Helper SD" visibility="public" xmi:id="7d149499-2076-e911-823e-065f1d1f71b2" xmi:type="uml:Package">
+   <packagedElement name="" xmi:id="e79bcf8d-3fce-e911-8296-066680ee9268" xmi:type="uml:Association">
+    <ownedEnd association="e79bcf8d-3fce-e911-8296-066680ee9268" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="1803596c-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="b137e2c5-ca80-e911-823e-065e8061d7e6a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="e79bcf8d-3fce-e911-8296-066680ee9268" isUnique="true" name="" type="b137e2c5-ca80-e911-823e-065e8061d7e6" visibility="public" xmi:id="b137e2c5-ca80-e911-823e-065e8061d7e6b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="cf4fe2ef-2176-e911-823e-065f1d1f71b2" xmi:type="uml:Association">
+    <ownedEnd association="cf4fe2ef-2176-e911-823e-065f1d1f71b2" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="1803596c-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="7d149499-2076-e911-823e-065f1d1f71b2a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="cf4fe2ef-2176-e911-823e-065f1d1f71b2" isUnique="true" name="" type="7d149499-2076-e911-823e-065f1d1f71b2" visibility="public" xmi:id="7d149499-2076-e911-823e-065f1d1f71b2b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="53da8bed-4a88-e911-823e-06b09c770f0c" xmi:type="uml:Association">
+    <ownedEnd association="53da8bed-4a88-e911-823e-06b09c770f0c" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="7d149499-2076-e911-823e-065f1d1f71b2" visibility="public" xmi:id="f9de363b-b986-e911-823e-062687e6a904a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="53da8bed-4a88-e911-823e-06b09c770f0c" isUnique="true" name="" type="f9de363b-b986-e911-823e-062687e6a904" visibility="public" xmi:id="f9de363b-b986-e911-823e-062687e6a904b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="90357de8-0ccf-e911-8296-06bf764cb4bc" xmi:type="uml:Association">
+    <ownedEnd association="90357de8-0ccf-e911-8296-06bf764cb4bc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="1b0972bb-fdce-e911-8296-06bf764cb4bc" visibility="public" xmi:id="a5cc4839-fdce-e911-8296-06bf764cb4bca">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="90357de8-0ccf-e911-8296-06bf764cb4bc" isUnique="true" name="" type="a5cc4839-fdce-e911-8296-06bf764cb4bc" visibility="public" xmi:id="a5cc4839-fdce-e911-8296-06bf764cb4bcb">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="67375f59-6280-e911-823e-066c44d66510" xmi:type="uml:Association">
+    <ownedEnd association="67375f59-6280-e911-823e-066c44d66510" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="1803596c-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="904758f4-6180-e911-823e-066c44d66510a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="67375f59-6280-e911-823e-066c44d66510" isUnique="true" name="" type="904758f4-6180-e911-823e-066c44d66510" visibility="public" xmi:id="904758f4-6180-e911-823e-066c44d66510b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement memberEnd="6e3aaae1-3476-e911-823e-065f1d1f71b2a 904758f4-6180-e911-823e-066c44d66510b" name="" navigableOwnedEnd="904758f4-6180-e911-823e-066c44d66510b" xmi:id="8c87420c-0f9c-e911-827a-06f79ea59412" xmi:type="uml:Association">
+    <ownedEnd association="8c87420c-0f9c-e911-827a-06f79ea59412" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6e3aaae1-3476-e911-823e-065f1d1f71b2" visibility="public" xmi:id="6e3aaae1-3476-e911-823e-065f1d1f71b2a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd aggregation="composite" association="8c87420c-0f9c-e911-827a-06f79ea59412" isUnique="true" name="" type="904758f4-6180-e911-823e-066c44d66510" visibility="public" xmi:id="904758f4-6180-e911-823e-066c44d66510b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="cbfc5bf6-0ccf-e911-8296-06bf764cb4bc" xmi:type="uml:Association">
+    <ownedEnd association="cbfc5bf6-0ccf-e911-8296-06bf764cb4bc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="f7b467b5-0ccf-e911-8296-06bf764cb4bc" visibility="public" xmi:id="fe1f2067-0ccf-e911-8296-06bf764cb4bca">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="cbfc5bf6-0ccf-e911-8296-06bf764cb4bc" isUnique="true" name="" type="fe1f2067-0ccf-e911-8296-06bf764cb4bc" visibility="public" xmi:id="fe1f2067-0ccf-e911-8296-06bf764cb4bcb">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="d9f45f54-f6ce-e911-8296-06bf764cb4bc" xmi:type="uml:Association">
+    <ownedEnd association="d9f45f54-f6ce-e911-8296-06bf764cb4bc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6e23c00f-efce-e911-8296-06bf764cb4bc" visibility="public" xmi:id="1e1c74e0-efce-e911-8296-06bf764cb4bca">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="d9f45f54-f6ce-e911-8296-06bf764cb4bc" isUnique="true" name="" type="1e1c74e0-efce-e911-8296-06bf764cb4bc" visibility="public" xmi:id="1e1c74e0-efce-e911-8296-06bf764cb4bcb">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="1afc0a59-f9ce-e911-8296-06bf764cb4bc" xmi:type="uml:Association">
+    <ownedEnd association="1afc0a59-f9ce-e911-8296-06bf764cb4bc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="1e1c74e0-efce-e911-8296-06bf764cb4bc" visibility="public" xmi:id="1803596c-6675-e911-823e-064d1e9fbc72a">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="1afc0a59-f9ce-e911-8296-06bf764cb4bc" isUnique="true" name="" type="1803596c-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="1803596c-6675-e911-823e-064d1e9fbc72b">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="0f4686ee-0ccf-e911-8296-06bf764cb4bc" xmi:type="uml:Association">
+    <ownedEnd association="0f4686ee-0ccf-e911-8296-06bf764cb4bc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="ec591b6b-07cf-e911-8296-06bf764cb4bc" visibility="public" xmi:id="b8baacd1-07cf-e911-8296-06bf764cb4bca">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="0f4686ee-0ccf-e911-8296-06bf764cb4bc" isUnique="true" name="" type="b8baacd1-07cf-e911-8296-06bf764cb4bc" visibility="public" xmi:id="b8baacd1-07cf-e911-8296-06bf764cb4bcb">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement memberEnd="6e23c00f-efce-e911-8296-06bf764cb4bca ec591b6b-07cf-e911-8296-06bf764cb4bcb" name="" navigableOwnedEnd="ec591b6b-07cf-e911-8296-06bf764cb4bcb" xmi:id="f21f6eb6-07cf-e911-8296-06bf764cb4bc" xmi:type="uml:Association">
+    <ownedEnd association="f21f6eb6-07cf-e911-8296-06bf764cb4bc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6e23c00f-efce-e911-8296-06bf764cb4bc" visibility="public" xmi:id="6e23c00f-efce-e911-8296-06bf764cb4bca">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="f21f6eb6-07cf-e911-8296-06bf764cb4bc" isUnique="true" name="" type="ec591b6b-07cf-e911-8296-06bf764cb4bc" visibility="public" xmi:id="ec591b6b-07cf-e911-8296-06bf764cb4bcb">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement memberEnd="6e23c00f-efce-e911-8296-06bf764cb4bca 1b0972bb-fdce-e911-8296-06bf764cb4bcb" name="" navigableOwnedEnd="1b0972bb-fdce-e911-8296-06bf764cb4bcb" xmi:id="4870eff2-fdce-e911-8296-06bf764cb4bc" xmi:type="uml:Association">
+    <ownedEnd association="4870eff2-fdce-e911-8296-06bf764cb4bc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6e23c00f-efce-e911-8296-06bf764cb4bc" visibility="public" xmi:id="6e23c00f-efce-e911-8296-06bf764cb4bca">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="4870eff2-fdce-e911-8296-06bf764cb4bc" isUnique="true" name="" type="1b0972bb-fdce-e911-8296-06bf764cb4bc" visibility="public" xmi:id="1b0972bb-fdce-e911-8296-06bf764cb4bcb">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement memberEnd="6e23c00f-efce-e911-8296-06bf764cb4bca f7b467b5-0ccf-e911-8296-06bf764cb4bcb" name="" navigableOwnedEnd="f7b467b5-0ccf-e911-8296-06bf764cb4bcb" xmi:id="5561e6d8-0ccf-e911-8296-06bf764cb4bc" xmi:type="uml:Association">
+    <ownedEnd association="5561e6d8-0ccf-e911-8296-06bf764cb4bc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="6e23c00f-efce-e911-8296-06bf764cb4bc" visibility="public" xmi:id="6e23c00f-efce-e911-8296-06bf764cb4bca">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="5561e6d8-0ccf-e911-8296-06bf764cb4bc" isUnique="true" name="" type="f7b467b5-0ccf-e911-8296-06bf764cb4bc" visibility="public" xmi:id="f7b467b5-0ccf-e911-8296-06bf764cb4bcb">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="" xmi:id="b8ec3799-8075-e911-823e-064d1e9fbc72" xmi:type="uml:Association">
+    <ownedEnd association="b8ec3799-8075-e911-823e-064d1e9fbc72" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="1803596c-6675-e911-823e-064d1e9fbc72" visibility="public" xmi:id="0a0b83c5-7f75-e911-823e-064d1e9fbc72a">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="1" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="b8ec3799-8075-e911-823e-064d1e9fbc72" isUnique="true" name="" type="0a0b83c5-7f75-e911-823e-064d1e9fbc72" visibility="public" xmi:id="0a0b83c5-7f75-e911-823e-064d1e9fbc72b">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement memberEnd="db6f99fb-eece-e911-8296-06bf764cb4bca 6f241ded-efce-e911-8296-06bf764cb4bcb" name="" navigableOwnedEnd="6f241ded-efce-e911-8296-06bf764cb4bcb" xmi:id="33e9d4f3-efce-e911-8296-06bf764cb4bc" xmi:type="uml:Association">
+    <ownedEnd association="33e9d4f3-efce-e911-8296-06bf764cb4bc" isDerived="false" isNavigable="true" isOrdered="false" isUnique="true" name="" type="db6f99fb-eece-e911-8296-06bf764cb4bc" visibility="public" xmi:id="db6f99fb-eece-e911-8296-06bf764cb4bca">
+     <upperValue value="1" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+    <ownedEnd association="33e9d4f3-efce-e911-8296-06bf764cb4bc" isUnique="true" name="" type="6f241ded-efce-e911-8296-06bf764cb4bc" visibility="public" xmi:id="6f241ded-efce-e911-8296-06bf764cb4bcb">
+     <upperValue value="*" xmi:id="" xmi:type="uml:LiteralUnlimitedNatural"/>
+     <lowerValue value="0" xmi:id="" xmi:type="uml:LiteralInteger"/>
+    </ownedEnd>
+   </packagedElement>
+   <packagedElement name="CustomerProductProfile" xmi:id="7d149499-2076-e911-823e-065f1d1f71b2" xmi:type="uml:Class">
+    <generalization general="af9552c0-6f92-e911-823e-06332a9c23ba" xmi:id="gen1" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30399" xmi:type="uml:Comment">
+     <body>
+      The product/service profile for a specific customer or customer relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRelationship" xmi:id="1803596c-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <generalization general="7ef3c45c-6675-e911-823e-064d1e9fbc72" xmi:id="gen2" xmi:type="uml:Generalization"/>
+    <generalization general="fa6490a1-8957-e911-8237-0645314e65ac" xmi:id="gen3" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30400" xmi:type="uml:Comment">
+     <body>
+      A specific relationship between a specific Bank (= party acting as a supplier of banking services) and one or more other involved parties acting as (potential) consumers of banking services as agreed in one or more banking product or service offerings and/or agreements.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductSalesAgreement" xmi:id="3ff20cc9-4c7d-e911-823e-069ad1a2e648" xmi:type="uml:Class">
+    <generalization general="67df07ad-1981-e911-823e-06e233b9c772" xmi:id="gen4" xmi:type="uml:Generalization"/>
+    <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen5" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30401" xmi:type="uml:Comment">
+     <body>
+      An agreement between a bank and its customer for a sold product.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="BankingProduct" xmi:id="1aeced65-0b68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+    <generalization general="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:id="gen6" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30402" xmi:type="uml:Comment">
+     <body>
+      A package of services and goods, accompanied by term and condition which is offered as a whole to (internal or external) customers.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductUsage" xmi:id="f9de363b-b986-e911-823e-062687e6a904" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30403" xmi:type="uml:Comment">
+     <body>
+      The use of a product by a customer (in a specific customer relationship) over a specified time period.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Customer Product And Service Eligibility BOM SD" visibility="public" xmi:id="ea36f45c-1656-e911-8237-060aad038e48" xmi:type="uml:Package">
+   <packagedElement name="Assessment" xmi:id="ea36f45c-1656-e911-8237-060aad038e48" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30404" xmi:type="uml:Comment">
+     <body>
+      the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerProductProfileAssessment" xmi:id="b1b786e5-b07b-e911-823e-061c465efe24" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen7" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30405" xmi:type="uml:Comment">
+     <body>
+      Evaluation of the product eligibility profile for a specific customer or customer relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Test" xmi:id="cf97fd7e-ff76-e911-823e-0663ff6583c4" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30406" xmi:type="uml:Comment">
+     <body>
+      A measure taken  to check the quality, performance, or reliability of (something), especially before putting it into widespread use or practice
+
+Tests are a collection of one or more tests evaluations that can be made to certify a subject. (Behavior Qualifier Type)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRelationship" xmi:id="1803596c-6675-e911-823e-064d1e9fbc7290314404" xmi:type="uml:Class">
+    <generalization general="7ef3c45c-6675-e911-823e-064d1e9fbc72" xmi:id="gen8" xmi:type="uml:Generalization"/>
+    <generalization general="fa6490a1-8957-e911-8237-0645314e65ac" xmi:id="gen9" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30407" xmi:type="uml:Comment">
+     <body>
+      A specific relationship between a specific Bank (= party acting as a supplier of banking services) and one or more other involved parties acting as (potential) consumers of banking services as agreed in one or more banking product or service offerings and/or agreements.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="BankingProduct" xmi:id="1aeced65-0b68-e911-8237-06dd5e24f7bc90314404" xmi:type="uml:Class">
+    <generalization general="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:id="gen10" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30408" xmi:type="uml:Comment">
+     <body>
+      A package of services and goods, accompanied by term and condition which is offered as a whole to (internal or external) customers.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductTermAndCondition" xmi:id="ff366834-b97b-e911-823e-061c465efe24" xmi:type="uml:Class">
+    <generalization general="823053bb-a486-e911-823e-062687e6a904" xmi:id="gen11" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30409" xmi:type="uml:Comment">
+     <body>
+      Terms and Conditions applicable to an instance of a Banking Product or Service
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerProductProfile" xmi:id="7d149499-2076-e911-823e-065f1d1f71b290314404" xmi:type="uml:Class">
+    <generalization general="af9552c0-6f92-e911-823e-06332a9c23ba" xmi:id="gen12" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30410" xmi:type="uml:Comment">
+     <body>
+      The product/service profile for a specific customer or customer relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductFeature" xmi:id="823053bb-a486-e911-823e-062687e6a904" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30411" xmi:type="uml:Comment">
+     <body>
+      A detailed characteristic of a product expressed in offered services and the terms and conditions applicable to the delivery of the services.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRelationshipInvolvement" xmi:id="bd51787a-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen13" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30412" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific Customer Relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductUsage" xmi:id="f9de363b-b986-e911-823e-062687e6a90490314404" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30413" xmi:type="uml:Comment">
+     <body>
+      The use of a product by a customer (in a specific customer relationship) over a specified time period.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Profile" xmi:id="af9552c0-6f92-e911-823e-06332a9c23ba" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30414" xmi:type="uml:Comment">
+     <body>
+      A brief description of the characteristics of something or someone. (Business Dictionary)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="RelevantDateTime" xmi:id="3500ccc6-af9d-e911-827a-06c73ecc951a" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30415" xmi:type="uml:Comment">
+     <body>
+      The meaning of a time indication for an object; E.g. opening data of an account, signing date of an agreement... birth date of a person.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductSalesAgreement" xmi:id="3ff20cc9-4c7d-e911-823e-069ad1a2e64890314404" xmi:type="uml:Class">
+    <generalization general="67df07ad-1981-e911-823e-06e233b9c772" xmi:id="gen14" xmi:type="uml:Generalization"/>
+    <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen15" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30416" xmi:type="uml:Comment">
+     <body>
+      An agreement between a bank and its customer for a sold product.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerAgreement" xmi:id="a90a7c61-497d-e911-823e-069ad1a2e648" xmi:type="uml:Class">
+    <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen16" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30417" xmi:type="uml:Comment">
+     <body>
+      An agreement between a bank and its customer.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductService" xmi:id="9e6e153d-5997-e911-823e-065ba593ba6e" xmi:type="uml:Class">
+    <generalization general="823053bb-a486-e911-823e-062687e6a904" xmi:id="gen17" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30418" xmi:type="uml:Comment">
+     <body>
+      A service offered as a feature of a product.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Collateral Allocation Management BOM SD" visibility="public" xmi:id="adcd4b41-1981-e911-823e-06e233b9c772" xmi:type="uml:Package">
+   <packagedElement name="PaymentWarrantyArrangement" xmi:id="adcd4b41-1981-e911-823e-06e233b9c772" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30419" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="AssetValuation" xmi:id="d5fe9f6e-7b80-e911-823e-061de61e9206" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen18" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30420" xmi:type="uml:Comment">
+     <body>
+      The result of a valuation of some aspect of an Asset.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CollateralAgreement" xmi:id="5e8ac218-7780-e911-823e-061de61e9206" xmi:type="uml:Class">
+    <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen19" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30421" xmi:type="uml:Comment">
+     <body>
+      An Agreement between two trading parties whereby one or more Assets are provided by a debtor as security for a payment or repayment of one or more obligations. (BIAN)
+
+Comment: The subject matter of the agreement is "securing payment". The most important arrangements are the collateral arrangements. But in the agreement are also price arrangements, period arrangements, fulfillment arrangements etc. agreed.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CollateralAssetArrangement" xmi:id="280f7086-bf56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+    <generalization general="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen20" xmi:type="uml:Generalization"/>
+    <generalization general="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:id="gen21" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30422" xmi:type="uml:Comment">
+     <body>
+      An arrangement within an agreement where an Asset is provided as security for a payment or repayment of an obligation. (BIAN)
+
+
+Agreement between two trading parties that contains information about their relative duties and rights regarding collateral processes. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CollateralAsset" xmi:id="6b37300c-c056-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+    <generalization general="30a4d16d-6080-e911-823e-061de61e9206" xmi:id="gen22" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30423" xmi:type="uml:Comment">
+     <body>
+      Asset provided by a debtor as security for a payment or repayment of an obligation.
+
+
+Financial collateral is an asset provided by a borrower to a lender.
+
+The term collateral refers to an asset that a lender accepts as security for a loan. https://www.investopedia.com/terms/c/collateral.asp
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Agreement" xmi:id="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30424" xmi:type="uml:Comment">
+     <body>
+      A formal or informal common understanding between two or more (legal competent) parties concerning one or more subject matters expressed in a set of arrangements, terms and conditions. (adapted from Legal System and FIBO)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="FinancialInstruction" xmi:id="f0b986ab-7192-e911-823e-0616b0d596e4" xmi:type="uml:Class">
+    <generalization general="7effad6e-9965-e911-8237-06eba4258fe0" xmi:id="gen23" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30425" xmi:type="uml:Comment">
+     <body>
+      An instruction to do something expressed in an amount of money.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CollateralAllocationRequest" xmi:id="3eafdecd-1c81-e911-823e-06e233b9c772" xmi:type="uml:Class">
+    <generalization general="f0b986ab-7192-e911-823e-0616b0d596e4" xmi:id="gen24" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30426" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CollateralAssetAllocation" xmi:id="b137e2c5-ca80-e911-823e-065e8061d7e6" xmi:type="uml:Class">
+    <generalization general="1856b69e-cb80-e911-823e-065e8061d7e6" xmi:id="gen25" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30427" xmi:type="uml:Comment">
+     <body>
+      A reservation of part or whole of the asset value to secure the payment of repayment expressed in a payment obligation.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PaymentObligation" xmi:id="44b91a94-1068-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+    <generalization general="e5593d03-2694-e911-823e-069871e4ec9c" xmi:id="gen26" xmi:type="uml:Generalization"/>
+    <generalization general="3220c939-8e7d-eb11-8309-06f448ba7707" xmi:id="gen27" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30428" xmi:type="uml:Comment">
+     <body>
+      An obligation to do the payment. 
+
+Obligation for the debtor to pay the creditor an amount of cash. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Allocation" xmi:id="1856b69e-cb80-e911-823e-065e8061d7e6" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30429" xmi:type="uml:Comment">
+     <body>
+      The act of assignment or the act of allocating.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Asset" xmi:id="30a4d16d-6080-e911-823e-061de61e9206" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30430" xmi:type="uml:Comment">
+     <body>
+      An object classified as something of value.
+It is some tangible or intangible thing that the bank has ownership and/or influence over and has one or more inherent uses or purposes that create commercial value
+Comment
+BIAN has defined the likely assets found in any bank and uses this approach to isolate the specific types of asset that are acted on by the ServiceDomains. The role or purpose of each and every ServiceDomain is to apply its specific functional pattern to instances of one type of asset.
+Is the tangible or intangible item that can have associated 'replacement' value/worth and purpose/use for which the bank has ownership or some level of control. It is exploited/leveraged in the execution of business through the application of some business behavior/control as effected by a ServiceDomain. Some asset types are obvious - for example a machine or building, some are intangible but easily identified such as knowhow, knowledge, relationships, reputation. Some are less obvious - most common is the 'capacity to perform' type which applies to many BIAN Service Domains. For example in the case of product fulfillment and support activities like party authentication the asset is the bank's possession of the capacity to perform these activities - the combination of the people/processes/systems to execute if you will...
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="BankingProductAgreement" xmi:id="67df07ad-1981-e911-823e-06e233b9c772" xmi:type="uml:Class">
+    <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen28" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30431" xmi:type="uml:Comment">
+     <body>
+      An agreement with subject matter banking services.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Instruction" xmi:id="7effad6e-9965-e911-8237-06eba4258fe0" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30432" xmi:type="uml:Comment">
+     <body>
+      A request to do something.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Customer Credit Rating BOM SD" visibility="public" xmi:id="1803596c-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Package">
+   <packagedElement name="CustomerRelationship" xmi:id="1803596c-6675-e911-823e-064d1e9fbc7290471606" xmi:type="uml:Class">
+    <generalization general="7ef3c45c-6675-e911-823e-064d1e9fbc72" xmi:id="gen29" xmi:type="uml:Generalization"/>
+    <generalization general="fa6490a1-8957-e911-8237-0645314e65ac" xmi:id="gen30" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30433" xmi:type="uml:Comment">
+     <body>
+      A specific relationship between a specific Bank (= party acting as a supplier of banking services) and one or more other involved parties acting as (potential) consumers of banking services as agreed in one or more banking product or service offerings and/or agreements.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="InternalCreditAnalysis" xmi:id="1be88c1d-e77a-e911-823e-06a71c6fe4c8" xmi:type="uml:Class">
+    <generalization general="6aa1554b-7675-e911-823e-064d1e9fbc72" xmi:id="gen31" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30434" xmi:type="uml:Comment">
+     <body>
+      An internal analysis for credit rating focusing on the internal product/service activities of customer.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Signal" xmi:id="d097fd7e-ff76-e911-823e-0663ff6583c4" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30435" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CreditAlert" xmi:id="03949fee-ee7a-e911-823e-06a71c6fe4c8" xmi:type="uml:Class">
+    <generalization general="66bab5d1-0056-e911-8237-060aad038e48" xmi:id="gen32" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30436" xmi:type="uml:Comment">
+     <body>
+      An event/message to notify issues as alerts against a credit rating assessment.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Report" xmi:id="5314d145-3876-e911-823e-065f1d1f71b2" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30437" xmi:type="uml:Comment">
+     <body>
+      A unique and specific set of information containing the content for communications.
+
+The term Report is mostly used as communication about a particular subject matter, often in the form of an official document, after thorough investigation or consideration by an appointed person or body.
+
+A document containing information organized in a narrative, graphic, or tabular form, prepared on ad hoc, periodic, recurring, regular, or as required basis. Reports may refer to specific periods, events, occurrences, or subjects, and may be communicated or presented in oral or written form. (Business Dictionary)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Measurement" xmi:id="f60da226-fe76-e911-823e-0663ff6583c4" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30438" xmi:type="uml:Comment">
+     <body>
+      Measurement as Generic Artifact: A mechanism to track and report on the state or dynamic property of some item or activity.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CreditRatingAgency" xmi:id="b4cb8aee-e27a-e911-823e-06a71c6fe4c8" xmi:type="uml:Class">
+    <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen33" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30439" xmi:type="uml:Comment">
+     <body>
+      An organization which gives a credit rating to the customer.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Analysis" xmi:id="6aa1554b-7675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30440" xmi:type="uml:Comment">
+     <body>
+      Def.1 The insights derived from an analysis applied to an entity using specific models/evaluation methods
+
+Def.2 A detailed examination of anything complex
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30441" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="InternalCreditAnalysisReport" xmi:id="b3de196f-e47a-e911-823e-06a71c6fe4c8" xmi:type="uml:Class">
+    <generalization general="5314d145-3876-e911-823e-065f1d1f71b2" xmi:id="gen34" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30442" xmi:type="uml:Comment">
+     <body>
+      A report which is the result of the internal analysis of credit.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ExternalCreditRatingService" xmi:id="bf5fe725-e77a-e911-823e-06a71c6fe4c8" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30443" xmi:type="uml:Comment">
+     <body>
+      An external service for credit rating.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Assessment" xmi:id="ea36f45c-1656-e911-8237-060aad038e4890471606" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30444" xmi:type="uml:Comment">
+     <body>
+      the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRating" xmi:id="0a0b83c5-7f75-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <generalization general="3bb93032-8580-e911-823e-066c44d66510" xmi:id="gen35" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30445" xmi:type="uml:Comment">
+     <body>
+      Rating of the Customer or Customer Relationship for value, credit, risk and etc.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerActivityReport" xmi:id="1ea432d9-3476-e911-823e-065f1d1f71b2" xmi:type="uml:Class">
+    <generalization general="5314d145-3876-e911-823e-065f1d1f71b2" xmi:id="gen36" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30446" xmi:type="uml:Comment">
+     <body>
+      A report of the customer's (internal) product/service activities.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerCreditRatingMeasurement" xmi:id="f4caa464-5e7d-e911-823e-069ad1a2e648" xmi:type="uml:Class">
+    <generalization general="f60da226-fe76-e911-823e-0663ff6583c4" xmi:id="gen37" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30447" xmi:type="uml:Comment">
+     <body>
+      The application of a measurement to assess the overall credibility of a customer.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Event" xmi:id="66bab5d1-0056-e911-8237-060aad038e48" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30448" xmi:type="uml:Comment">
+     <body>
+      Something that happens, has happened, can happen or is planned to happen.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerCreditRatingAssessment" xmi:id="69f3e1de-0577-e911-823e-0663ff6583c4" xmi:type="uml:Class">
+    <generalization general="ea36f45c-1656-e911-8237-060aad038e48" xmi:id="gen38" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30449" xmi:type="uml:Comment">
+     <body>
+      An evaluation of the credit rating for a customer.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerBehaviorModel" xmi:id="28fa4bba-e17a-e911-823e-06a71c6fe4c8" xmi:type="uml:Class">
+    <generalization general="e48b3c8e-b4ae-e911-828c-06d72c197ec4" xmi:id="gen39" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30450" xmi:type="uml:Comment">
+     <body>
+      A model representing the customer behaviour. 
+
+Model is used to facilitate learning what is known of customer behaviour.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ExternalCreditRatingReport" xmi:id="f72ab425-f67a-e911-823e-06a71c6fe4c8" xmi:type="uml:Class">
+    <generalization general="5314d145-3876-e911-823e-065f1d1f71b2" xmi:id="gen40" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30451" xmi:type="uml:Comment">
+     <body>
+      A report which is the result of the credit rating by an external agency.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30452" xmi:type="uml:Comment">
+     <body>
+      A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Customer Event History BOM SD" visibility="public" xmi:id="904758f4-6180-e911-823e-066c44d66510" xmi:type="uml:Package">
+   <packagedElement name="CustomerEvent" xmi:id="904758f4-6180-e911-823e-066c44d66510" xmi:type="uml:Class">
+    <generalization general="66bab5d1-0056-e911-8237-060aad038e48" xmi:id="gen41" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30453" xmi:type="uml:Comment">
+     <body>
+      Event related to a specific Customer or Customer Relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Event" xmi:id="66bab5d1-0056-e911-8237-060aad038e4890550207" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30454" xmi:type="uml:Comment">
+     <body>
+      Something that happens, has happened, can happen or is planned to happen.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="SalesLead" xmi:id="eea85ac9-6b80-e911-823e-066c44d66510" xmi:type="uml:Class">
+    <generalization general="aab25f63-a4d7-e911-82a8-0667cb2841e8" xmi:id="gen42" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30455" xmi:type="uml:Comment">
+     <body>
+      Phase in a customer relationship in which a party has been identified as a possible target for a sale.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c6890550207" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30456" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="SalesIntermediaryAgreement" xmi:id="6cdc9a73-2281-e911-823e-06e80039c878" xmi:type="uml:Class">
+    <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen43" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30457" xmi:type="uml:Comment">
+     <body>
+      A type or contract, whereby a person or company acts as a sales intermediary on behalf of the exporting company (principal), introducing its products to potential buyers in the external market, in exchange for a commission based on the value of the business deals arranged and paid to the principal.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerContact" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <generalization general="904758f4-6180-e911-823e-066c44d66510" xmi:id="gen44" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30458" xmi:type="uml:Comment">
+     <body>
+      An (structured) interaction between a customer and a financial institution.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="EventInvolvement" xmi:id="c35cdbed-6380-e911-823e-066c44d66510" xmi:type="uml:Class">
+    <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen45" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30459" xmi:type="uml:Comment">
+     <body>
+      The involvement (role) of an instance of a party in an instance of an event.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="FraudCase" xmi:id="8376cb1e-7c80-e911-823e-066c44d66510" xmi:type="uml:Class">
+    <generalization general="be9acfc4-7880-e911-823e-066c44d66510" xmi:id="gen46" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30460" xmi:type="uml:Comment">
+     <body>
+      A case that specifies the fraud related to a specific Customer or Customer Relationship. 
+A case specifies fraudulent transactions/activities for a specific customer relationship which are detected during the production processing.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerEventLog" xmi:id="6e3aaae1-3476-e911-823e-065f1d1f71b2" xmi:type="uml:Class">
+    <generalization general="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:id="gen47" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30461" xmi:type="uml:Comment">
+     <body>
+      A record of the customer's events.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRelationship" xmi:id="1803596c-6675-e911-823e-064d1e9fbc7290550207" xmi:type="uml:Class">
+    <generalization general="7ef3c45c-6675-e911-823e-064d1e9fbc72" xmi:id="gen48" xmi:type="uml:Generalization"/>
+    <generalization general="fa6490a1-8957-e911-8237-0645314e65ac" xmi:id="gen49" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30462" xmi:type="uml:Comment">
+     <body>
+      A specific relationship between a specific Bank (= party acting as a supplier of banking services) and one or more other involved parties acting as (potential) consumers of banking services as agreed in one or more banking product or service offerings and/or agreements.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductUsage" xmi:id="f9de363b-b986-e911-823e-062687e6a90490550207" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30463" xmi:type="uml:Comment">
+     <body>
+      The use of a product by a customer (in a specific customer relationship) over a specified time period.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Log" xmi:id="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30464" xmi:type="uml:Comment">
+     <body>
+      A record of events/entries.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ServicingEvent" xmi:id="525ff2e7-ee9b-e911-827a-06f79ea59412" xmi:type="uml:Class">
+    <generalization general="904758f4-6180-e911-823e-066c44d66510" xmi:id="gen50" xmi:type="uml:Generalization"/>
+    <generalization general="66bab5d1-0056-e911-8237-060aad038e48" xmi:id="gen51" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30465" xmi:type="uml:Comment">
+     <body>
+      Event which is the result of fulfilling a servicing arrangement.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac90550207" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30466" xmi:type="uml:Comment">
+     <body>
+      A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRelationshipLifecyclePhase" xmi:id="aab25f63-a4d7-e911-82a8-0667cb2841e8" xmi:type="uml:Class">
+    <generalization general="5bec4388-9dd7-e911-82a8-0667cb2841e8" xmi:id="gen52" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30467" xmi:type="uml:Comment">
+     <body>
+      A stage of a customer relationship, such as lead, prospect, and full-blown customer.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ProductSalesAgreement" xmi:id="3ff20cc9-4c7d-e911-823e-069ad1a2e64890550207" xmi:type="uml:Class">
+    <generalization general="67df07ad-1981-e911-823e-06e233b9c772" xmi:id="gen53" xmi:type="uml:Generalization"/>
+    <generalization general="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:id="gen54" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30468" xmi:type="uml:Comment">
+     <body>
+      An agreement between a bank and its customer for a sold product.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="Customer Relationship Management BOM SD" visibility="public" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc72" xmi:type="uml:Package">
+   <packagedElement name="CustomerContact" xmi:id="56af07d7-8575-e911-823e-064d1e9fbc7290628808" xmi:type="uml:Class">
+    <generalization general="904758f4-6180-e911-823e-066c44d66510" xmi:id="gen55" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30469" xmi:type="uml:Comment">
+     <body>
+      An (structured) interaction between a customer and a financial institution.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRelationshipManagementPlan" xmi:id="b26cfdf8-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <generalization general="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:id="gen56" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30470" xmi:type="uml:Comment">
+     <body>
+      The management plan for a specific customer relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="BankingRelationship" xmi:id="7ef3c45c-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30471" xmi:type="uml:Comment">
+     <body>
+      A specific Relationship (= an instance of a Relationship Class) between a specific party acting as the Bank and one or more other specific involved Parties.
+A Relationship is a logical unit of collaboration between two or more involved Parties.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerInsight" xmi:id="79b6536c-7675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30472" xmi:type="uml:Comment">
+     <body>
+      An interpretation/observation on the customer's behaviour.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRating" xmi:id="0a0b83c5-7f75-e911-823e-064d1e9fbc7290628808" xmi:type="uml:Class">
+    <generalization general="3bb93032-8580-e911-823e-066c44d66510" xmi:id="gen57" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30473" xmi:type="uml:Comment">
+     <body>
+      Rating of the Customer or Customer Relationship for value, credit, risk and etc.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="ManagementPlan" xmi:id="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <generalization general="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:id="gen58" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30474" xmi:type="uml:Comment">
+     <body>
+      The course of action to realize goals (of an operational unit of an enterprise).
+
+The management and oversight while running an operational unit of an enterprise. (Generic Artifact)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRelationshipDevelopment" xmi:id="d4e5f9d2-8675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30475" xmi:type="uml:Comment">
+     <body>
+      The action/task which is planned to develop the customer relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRelationship" xmi:id="1803596c-6675-e911-823e-064d1e9fbc7290628808" xmi:type="uml:Class">
+    <generalization general="7ef3c45c-6675-e911-823e-064d1e9fbc72" xmi:id="gen59" xmi:type="uml:Generalization"/>
+    <generalization general="fa6490a1-8957-e911-8237-0645314e65ac" xmi:id="gen60" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30476" xmi:type="uml:Comment">
+     <body>
+      A specific relationship between a specific Bank (= party acting as a supplier of banking services) and one or more other involved parties acting as (potential) consumers of banking services as agreed in one or more banking product or service offerings and/or agreements.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Duty" xmi:id="97698d8d-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30477" xmi:type="uml:Comment">
+     <body>
+      A responsibility of task (under management).
+
+Duties are a collection of one or more responsibilities or tasks under management. (Behavior Qualifier Type)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRelationshipInvolvement" xmi:id="bd51787a-6675-e911-823e-064d1e9fbc7290628808" xmi:type="uml:Class">
+    <generalization general="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:id="gen61" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30478" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific Customer Relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerRelationshipBudget" xmi:id="0926d59c-8375-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30479" xmi:type="uml:Comment">
+     <body>
+      The budget which is planned to spend for a specific customer relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRelationship" xmi:id="fa6490a1-8957-e911-8237-0645314e65ac" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30480" xmi:type="uml:Comment">
+     <body>
+      A relationship between two or more parties; the parties involved are specified in terms of the roles they play in the relationship.
+
+A Party Relationship is a connection between an instance of a Party and two or more instances of associated objects in the relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerIncident" xmi:id="eb9fe33f-9475-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30481" xmi:type="uml:Comment">
+     <body>
+      Unplanned interruption to a service, a reduction in the quality of a service or an event that has not yet impacted the service to the customer where this customer relationship is impacted.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="CustomerProductProfile" xmi:id="7d149499-2076-e911-823e-065f1d1f71b290628808" xmi:type="uml:Class">
+    <generalization general="af9552c0-6f92-e911-823e-06332a9c23ba" xmi:id="gen62" xmi:type="uml:Generalization"/>
+    <ownedComment xmi:id="comm30482" xmi:type="uml:Comment">
+     <body>
+      The product/service profile for a specific customer or customer relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="Party" xmi:id="6f53fd37-8257-e911-8237-0645314e65ac90628808" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30483" xmi:type="uml:Comment">
+     <body>
+      A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+     </body>
+    </ownedComment>
+   </packagedElement>
+   <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c6890628808" xmi:type="uml:Class">
+    <ownedComment xmi:id="comm30484" xmi:type="uml:Comment">
+     <body>
+      A specific role of a specific Party in the specific relationship.
+     </body>
+    </ownedComment>
+   </packagedElement>
+  </packagedElement>
+  <packagedElement name="CustomerPosition" xmi:id="1e1c74e0-efce-e911-8296-06bf764cb4bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30485" xmi:type="uml:Comment">
+    <body>
+     A consolidated financial position for a customer across all accounts products and services.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Profile" xmi:id="af9552c0-6f92-e911-823e-06332a9c23ba" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30486" xmi:type="uml:Comment">
+    <body>
+     A brief description of the characteristics of something or someone. (Business Dictionary)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BankingRelationship" xmi:id="7ef3c45c-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30487" xmi:type="uml:Comment">
+    <body>
+     A specific Relationship (= an instance of a Relationship Class) between a specific party acting as the Bank and one or more other specific involved Parties.
+A Relationship is a logical unit of collaboration between two or more involved Parties.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRelationship" xmi:id="fa6490a1-8957-e911-8237-0645314e65ac" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30488" xmi:type="uml:Comment">
+    <body>
+     A relationship between two or more parties; the parties involved are specified in terms of the roles they play in the relationship.
+
+A Party Relationship is a connection between an instance of a Party and two or more instances of associated objects in the relationship.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="BankingProductAgreement" xmi:id="67df07ad-1981-e911-823e-06e233b9c772" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30489" xmi:type="uml:Comment">
+    <body>
+     An agreement with subject matter banking services.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Agreement" xmi:id="b2f7829a-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30490" xmi:type="uml:Comment">
+    <body>
+     A formal or informal common understanding between two or more (legal competent) parties concerning one or more subject matters expressed in a set of arrangements, terms and conditions. (adapted from Legal System and FIBO)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="FinancialInstrument" xmi:id="2b91327b-b6a4-ea11-829f-0660fb1fa966" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30491" xmi:type="uml:Comment">
+    <body>
+     A contract that gives rise to a financial asset of one entity and a financial liability or equity instrument of another entity. (IFRS)
+https://www.iasplus.com/en/standards/ias/ias32#:~:text=Key%20definitions%20%5BIAS%2032.11%5D,equity%20instrument%20of%20another%20entity
+
+Financial instruments are financial contracts of different nature made between institutional units. These comprise the full range of financial claims and liabilities between institutional units, including contingent liabilities like guarantees, commitments, etc. (ISO 10962)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Assessment" xmi:id="ea36f45c-1656-e911-8237-060aad038e48" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30492" xmi:type="uml:Comment">
+    <body>
+     the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ProductFeature" xmi:id="823053bb-a486-e911-823e-062687e6a904" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30493" xmi:type="uml:Comment">
+    <body>
+     A detailed characteristic of a product expressed in offered services and the terms and conditions applicable to the delivery of the services.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRole" xmi:id="70959fdb-be56-e911-8237-06ecaacb4c68" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30494" xmi:type="uml:Comment">
+    <body>
+     A specific role of a specific Party in the specific relationship.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Arrangement" xmi:id="dd3cc0aa-0a68-e911-8237-06dd5e24f7bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30495" xmi:type="uml:Comment">
+    <body>
+     An agreed commitment to perform actions that meet obligations under an agreement
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="LoanArrangement" xmi:id="6dc9f3aa-ffa6-e911-8288-068d1795c1bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30496" xmi:type="uml:Comment">
+    <body>
+     An arrangement defining the applicable features for a loan account agreement.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Asset" xmi:id="30a4d16d-6080-e911-823e-061de61e9206" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30497" xmi:type="uml:Comment">
+    <body>
+     An object classified as something of value.
+It is some tangible or intangible thing that the bank has ownership and/or influence over and has one or more inherent uses or purposes that create commercial value
+Comment
+BIAN has defined the likely assets found in any bank and uses this approach to isolate the specific types of asset that are acted on by the ServiceDomains. The role or purpose of each and every ServiceDomain is to apply its specific functional pattern to instances of one type of asset.
+Is the tangible or intangible item that can have associated 'replacement' value/worth and purpose/use for which the bank has ownership or some level of control. It is exploited/leveraged in the execution of business through the application of some business behavior/control as effected by a ServiceDomain. Some asset types are obvious - for example a machine or building, some are intangible but easily identified such as knowhow, knowledge, relationships, reputation. Some are less obvious - most common is the 'capacity to perform' type which applies to many BIAN Service Domains. For example in the case of product fulfillment and support activities like party authentication the asset is the bank's possession of the capacity to perform these activities - the combination of the people/processes/systems to execute if you will...
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Instruction" xmi:id="7effad6e-9965-e911-8237-06eba4258fe0" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30498" xmi:type="uml:Comment">
+    <body>
+     A request to do something.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="FinancialInstruction" xmi:id="f0b986ab-7192-e911-823e-0616b0d596e4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30499" xmi:type="uml:Comment">
+    <body>
+     An instruction to do something expressed in an amount of money.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Allocation" xmi:id="1856b69e-cb80-e911-823e-065e8061d7e6" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30500" xmi:type="uml:Comment">
+    <body>
+     The act of assignment or the act of allocating.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Obligation" xmi:id="e5593d03-2694-e911-823e-069871e4ec9c" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30501" xmi:type="uml:Comment">
+    <body>
+     A duty that is specified in and imposed by an agreement. (FIBO)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CorrespondentBankingArrangement" xmi:id="3220c939-8e7d-eb11-8309-06f448ba7707" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30502" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Analysis" xmi:id="6aa1554b-7675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30503" xmi:type="uml:Comment">
+    <body>
+     Def.1 The insights derived from an analysis applied to an entity using specific models/evaluation methods
+
+Def.2 A detailed examination of anything complex
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Event" xmi:id="66bab5d1-0056-e911-8237-060aad038e48" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30504" xmi:type="uml:Comment">
+    <body>
+     Something that happens, has happened, can happen or is planned to happen.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Report" xmi:id="5314d145-3876-e911-823e-065f1d1f71b2" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30505" xmi:type="uml:Comment">
+    <body>
+     A unique and specific set of information containing the content for communications.
+
+The term Report is mostly used as communication about a particular subject matter, often in the form of an official document, after thorough investigation or consideration by an appointed person or body.
+
+A document containing information organized in a narrative, graphic, or tabular form, prepared on ad hoc, periodic, recurring, regular, or as required basis. Reports may refer to specific periods, events, occurrences, or subjects, and may be communicated or presented in oral or written form. (Business Dictionary)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CreditPositionMeasurement" xmi:id="3bb93032-8580-e911-823e-066c44d66510" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30506" xmi:type="uml:Comment">
+    <body/>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Measurement" xmi:id="f60da226-fe76-e911-823e-0663ff6583c4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30507" xmi:type="uml:Comment">
+    <body>
+     Measurement as Generic Artifact: A mechanism to track and report on the state or dynamic property of some item or activity.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Model" xmi:id="e48b3c8e-b4ae-e911-828c-06d72c197ec4" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30508" xmi:type="uml:Comment">
+    <body>
+     A simplified representation of reality.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerRelationshipLifecyclePhase" xmi:id="aab25f63-a4d7-e911-82a8-0667cb2841e8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30509" xmi:type="uml:Comment">
+    <body>
+     A stage of a customer relationship, such as lead, prospect, and full-blown customer.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Case" xmi:id="be9acfc4-7880-e911-823e-066c44d66510" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30510" xmi:type="uml:Comment">
+    <body>
+     A specific occurrence or matter requiring discussion, decision, or investigation, as by officials or law-enforcement authorities.
+
+Is not synonym of Dispute. Dispute means:
+1) A serious argument or disagreement
+2) Disagreement followed by opposition against something. (Business Dictionary)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Log" xmi:id="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30511" xmi:type="uml:Comment">
+    <body>
+     A record of events/entries.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="PartyRelationshipLifecyclePhase" xmi:id="5bec4388-9dd7-e911-82a8-0667cb2841e8" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30512" xmi:type="uml:Comment">
+    <body>
+     Specifies a series of stages that characterize the course of existence of a party relationship in a specific context.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="ManagementPlan" xmi:id="a03dec86-6675-e911-823e-064d1e9fbc72" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30513" xmi:type="uml:Comment">
+    <body>
+     The course of action to realize goals (of an operational unit of an enterprise).
+
+The management and oversight while running an operational unit of an enterprise. (Generic Artifact)
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Plan" xmi:id="6472836c-9c67-eb11-82f6-06f5e4900cbd" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30514" xmi:type="uml:Comment">
+    <body>
+     A method for doing or achieving something, usually involving a series of actions or stages, or something you have arranged to do. (Cambridge Dictionary)
+
+A plan is a set of intended actions, through which one intends to achieve a goal.
+
+"Course of action" is a synonym for Plan.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerEvent" xmi:id="904758f4-6180-e911-823e-066c44d6651090628808" xmi:type="uml:Class">
+   <generalization general="66bab5d1-0056-e911-8237-060aad038e48" xmi:id="gen63" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm30515" xmi:type="uml:Comment">
+    <body>
+     Event related to a specific Customer or Customer Relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CustomerEventType" type="Visibility=public" xmi:id="0315d4f8-169c-e911-827a-06f79ea5941290628808">
+    <ownedComment xmi:id="comm30516" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="ProductUsage" xmi:id="f9de363b-b986-e911-823e-062687e6a90490628808" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30517" xmi:type="uml:Comment">
+    <body>
+     The use of a product by a customer (in a specific customer relationship) over a specified time period.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="ProductUsageDateTime" type="Visibility=public" xmi:id="3da9f5cb-4a88-e911-823e-06b09c770f0c90628808">
+    <ownedComment xmi:id="comm30518" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductUsageVolume" type="Visibility=public" xmi:id="579f691c-728b-e911-823e-0680522666ec90628808">
+    <ownedComment xmi:id="comm30519" xmi:type="uml:Comment">
+     <body>
+      Usage volume/frequency for in-force product.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="ProductUsageIndicator" type="Visibility=public" xmi:id="e7aa715f-3550-ea11-8289-06b8c2aff48690628808">
+    <ownedComment xmi:id="comm30520" xmi:type="uml:Comment">
+     <body>
+      An indicator specifying if the whether the customer has bought  the banking product or not.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerProductProfileTypeValues" xmi:id="71ef5d25-4288-e911-823e-06b09c770f0c" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="CustomerProductEligibilityProfile" xmi:id="5e0ecc3a-4288-e911-823e-06b09c770f0c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A value of Customer Product Profile Type whereby customer product eligibility will be defined.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerProductUsageProfile" xmi:id="26080546-4288-e911-823e-06b09c770f0c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A value of Customer Product Profile Type whereby customer product usage will be measured.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerProductCoverageProfile" xmi:id="f4dee5f2-4688-e911-823e-06b09c770f0c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A value of Customer Product Profile Type whereby customer product coverage will be assessed.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerProductSaleProfile" xmi:id="1b859f7d-4788-e911-823e-06b09c770f0c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A value of Customer Product Profile Type whereby customer product sale will be assessed.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerProductProfile" xmi:id="7d149499-2076-e911-823e-065f1d1f71b290628808" xmi:type="uml:Class">
+   <generalization general="af9552c0-6f92-e911-823e-06332a9c23ba" xmi:id="gen64" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm30521" xmi:type="uml:Comment">
+    <body>
+     The product/service profile for a specific customer or customer relationship.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CustomerProductProfileType" type="Visibility=public" xmi:id="5a1d600a-4a76-e911-823e-065f1d1f71b290628808">
+    <ownedComment xmi:id="comm30522" xmi:type="uml:Comment">
+     <body>
+      A Functional Classification Hierarchy that distinguishes between Customer Product Profiles according to the aspect that is profiled.
+Example values are Product Eligibility, Product Usage, Product Coverage, Product Sale and etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerPositionState" xmi:id="6e23c00f-efce-e911-8296-06bf764cb4bc" xmi:type="uml:Class">
+   <generalization general="db6f99fb-eece-e911-8296-06bf764cb4bc" xmi:id="gen65" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm30523" xmi:type="uml:Comment">
+    <body>
+     A consolidated position state that is tracked for the customer - combines analysis from all measures.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CollateralAssetAllocation" xmi:id="b137e2c5-ca80-e911-823e-065e8061d7e690628808" xmi:type="uml:Class">
+   <generalization general="1856b69e-cb80-e911-823e-065e8061d7e6" xmi:id="gen66" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm30524" xmi:type="uml:Comment">
+    <body>
+     A reservation of part or whole of the asset value to secure the payment of repayment expressed in a payment obligation.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerRating" xmi:id="0a0b83c5-7f75-e911-823e-064d1e9fbc7290628808" xmi:type="uml:Class">
+   <generalization general="3bb93032-8580-e911-823e-066c44d66510" xmi:id="gen67" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm30525" xmi:type="uml:Comment">
+    <body>
+     Rating of the Customer or Customer Relationship for value, credit, risk and etc.
+    </body>
+   </ownedComment>
+   <ownedAttribute name="CustomerRatingType" type="Visibility=public" xmi:id="ae819b62-8075-e911-823e-064d1e9fbc7290628808">
+    <ownedComment xmi:id="comm30526" xmi:type="uml:Comment">
+     <body>
+      A Classification Hierarchy that distinguishes between Customer Ratings according to the aspect concerned with. 
+Example values are: Customer Credit Risk, Customer Profitability, Customer Loyalty etc.
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerRatingValue" type="Visibility=public" xmi:id="3da0490d-4b76-e911-823e-065f1d1f71b290628808">
+    <ownedComment xmi:id="comm30527" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerRatingDescription" type="Visibility=public" xmi:id="6cf55a98-907c-e911-823e-06546fdb754690628808">
+    <ownedComment xmi:id="comm30528" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerRatingValueDate" type="Visibility=public" xmi:id="e6d1bcb1-907c-e911-823e-06546fdb754690628808">
+    <ownedComment xmi:id="comm30529" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerRatingValidityPeriod" type="Visibility=public" xmi:id="c574812d-528c-e911-823e-061d8abd002690628808">
+    <ownedComment xmi:id="comm30530" xmi:type="uml:Comment">
+     <body/>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerCreditPositionAnalysis" xmi:id="b8baacd1-07cf-e911-8296-06bf764cb4bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30531" xmi:type="uml:Comment">
+    <body>
+     The customer credit position analysis - combines credit assessment with product/service available balance/utilized credit position analysis.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerCashflowPositionAnalysis" xmi:id="a5cc4839-fdce-e911-8296-06bf764cb4bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30532" xmi:type="uml:Comment">
+    <body>
+     The customer cashflow analysis - past, current position and projected cash flows as derived from all active product/service activity reports.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerEventLog" xmi:id="6e3aaae1-3476-e911-823e-065f1d1f71b290628808" xmi:type="uml:Class">
+   <generalization general="2d0e6218-3576-e911-823e-065f1d1f71b2" xmi:id="gen68" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm30533" xmi:type="uml:Comment">
+    <body>
+     A record of the customer's events.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerCollateralPositionMeasure" xmi:id="f7b467b5-0ccf-e911-8296-06bf764cb4bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30534" xmi:type="uml:Comment">
+    <body>
+     Measures the consolidated collateral position for the customer - combining the valuation of available and allocated collateral with product utilization.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="State" xmi:id="db6f99fb-eece-e911-8296-06bf764cb4bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30535" xmi:type="uml:Comment">
+    <body>
+     the particular condition that someone or something is in at a specific time.
+
+State (as Generic Artifact): A mechanism to track and report on the state or dynamic property of some item or activity.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerCashflowPositionMeasure" xmi:id="1b0972bb-fdce-e911-8296-06bf764cb4bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30536" xmi:type="uml:Comment">
+    <body>
+     Measures the customer's past and projected cashflow position based on product usage.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerCreditPositionMeasure" xmi:id="ec591b6b-07cf-e911-8296-06bf764cb4bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30537" xmi:type="uml:Comment">
+    <body>
+     The consolidated credit position of the customer - may combine the bank's current credit assessment with credit history and projected trends based on product/service activity.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="Measure" xmi:id="6f241ded-efce-e911-8296-06bf764cb4bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30538" xmi:type="uml:Comment">
+    <body>
+     Assess the value of something
+
+Measures (as Behavior Qualifier Type): A collection of information feeds/measures that can be used to track the status of one or more items/entities.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerRatingTypeValues" xmi:id="80a846ab-4e88-e911-823e-06b09c770f0c" xmi:type="uml:Enumeration">
+   <ownedComment xmi:id="commentid">
+    <body/>
+   </ownedComment>
+   <ownedAttribute name="CustomerProfitability" xmi:id="829facc7-4e88-e911-823e-06b09c770f0c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A value of Customer Rating Type whereby customer profitability is measured.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+   <ownedAttribute name="CustomerCreditRating" xmi:id="9b0f3fd9-4e88-e911-823e-06b09c770f0c">
+    <ownedComment xmi:id="commentid">
+     <body>
+      A value of Customer Rating Type whereby customer creditability is measured.
+     </body>
+    </ownedComment>
+    <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+   </ownedAttribute>
+  </packagedElement>
+  <packagedElement name="CustomerRelationship" xmi:id="1803596c-6675-e911-823e-064d1e9fbc7290628808" xmi:type="uml:Class">
+   <generalization general="7ef3c45c-6675-e911-823e-064d1e9fbc72" xmi:id="gen69" xmi:type="uml:Generalization"/>
+   <generalization general="fa6490a1-8957-e911-8237-0645314e65ac" xmi:id="gen70" xmi:type="uml:Generalization"/>
+   <ownedComment xmi:id="comm30539" xmi:type="uml:Comment">
+    <body>
+     A specific relationship between a specific Bank (= party acting as a supplier of banking services) and one or more other involved parties acting as (potential) consumers of banking services as agreed in one or more banking product or service offerings and/or agreements.
+    </body>
+   </ownedComment>
+  </packagedElement>
+  <packagedElement name="CustomerCollateralPositionAnalysis" xmi:id="fe1f2067-0ccf-e911-8296-06bf764cb4bc" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm30540" xmi:type="uml:Comment">
+    <body>
+     An analysis of customer collateral position - combines collateral valuation, allocation and associated product utilization.
+    </body>
+   </ownedComment>
+  </packagedElement>
+ </packagedElement>
+</uml:Model>
